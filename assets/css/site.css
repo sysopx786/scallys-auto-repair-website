@@ -393,3 +393,5 @@ dialog.pal::backdrop{background:rgba(8,14,28,.6);backdrop-filter:blur(4px)}
 @media (min-width:1061px) and (max-width:1560px){.hdr-status{display:none}}
 @media (min-width:1061px) and (max-width:1260px){.kbd-btn .lbl,.kbd-btn kbd{display:none}.nav>a,.nav>.has-mega>button{padding:.7rem .6rem}}
 @media (max-width:900px){.hero{padding-bottom:96px}.hero-card{padding-bottom:48px}.chip.c1{bottom:-18px}}
+@media (min-width:1061px){.mega{grid-template-columns:repeat(4,1fr);width:min(1080px,94vw);max-height:calc(100vh - var(--hdr) - 16px);overflow:auto}}
+.kbd-btn .lbl{white-space:nowrap}

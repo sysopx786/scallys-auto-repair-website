@@ -18,6 +18,7 @@ for c in CATS:
 ICON={c['url']:c['icon'] for c in CATS}
 SHORT={c['url']:c['name'] for c in CATS}
 NSV=sum(len(c['services']) for c in CATS)
+NUMW={5:'Five',6:'Six',7:'Seven',8:'Eight',9:'Nine'}
 SAFE=re.compile(r'\b(safe|unsafe|dangerous|pull over|stop driving|911|fire|fumes|overheat)',re.I)
 ADDR=f"{C['street']}, {C['city']}, {C['region']} {C['zip']}"
 MAPS_URL="https://www.google.com/maps/search/?api=1&amp;query="+quote_plus(C['mapsQuery'])
@@ -246,11 +247,11 @@ def page_home():
 <div class="bento">
 <a class="card tall w3 rv" href="{link('/diagnostics-electrical',d)}"><span class="ico">{ic('bolt')}</span><h3>Diagnostics and electrical repair</h3><p>Complete computer diagnostics and troubleshooting for electrical problems.</p><span class="more">Diagnostics &amp; electrical {ic('arrow')}</span></a>
 <a class="card tall w3 rv" href="{link('/inspections-emissions',d)}"><span class="ico">{ic('shield')}</span><h3>Pennsylvania state inspection and emissions testing</h3><p>Official inspection station, OIS #{C['ois']}. Cars, trailers and medium trucks.</p><span class="more">PA inspections {ic('arrow')}</span></a>
-<a class="card w3 rv" href="{link('/brakes-steering-suspension',d)}"><span class="ico">{ic('disc')}</span><h3>Brakes, rotors and exhaust</h3><p>Brake replacement, rotor resurfacing, mufflers and exhaust repairs.</p><span class="more">Brakes &amp; suspension {ic('arrow')}</span></a>
-<a class="card w3 rv" href="{link('/maintenance-tires',d)}"><span class="ico">{ic('drop')}</span><h3>Oil changes with AMSOIL</h3><p>Authorized AMSOIL retailer and installer. Tires and flat repair too.</p><span class="more">Maintenance &amp; tires {ic('arrow')}</span></a>
+<a class="card w3 rv" href="{link('/brakes-steering-suspension',d)}"><span class="ico">{ic('disc')}</span><h3>Brakes, suspension and alignment</h3><p>Brakes, rotors, ball joints, steering, suspension and front end alignment.</p><span class="more">Brakes &amp; suspension {ic('arrow')}</span></a>
+<a class="card w3 rv" href="{link('/maintenance',d)}"><span class="ico">{ic('drop')}</span><h3>Oil changes with AMSOIL</h3><p>Authorized AMSOIL retailer and installer. A/C and cooling systems too.</p><span class="more">Maintenance &amp; cooling {ic('arrow')}</span></a>
 </div></div></section>
 <div class="marquee"><div class="marquee-track" aria-hidden="true">{mq}{mq}</div></div>
-<section><div class="wrap"><div class="sec-head rv"><div><span class="eyebrow">Services</span><h2>Six categories. {NSV} services.</h2></div><p>Find your job by category, or press <b>/</b> to search the full list.</p></div>
+<section><div class="wrap"><div class="sec-head rv"><div><span class="eyebrow">Services</span><h2>{NUMW[len(CATS)]} categories. {NSV} services.</h2></div><p>Find your job by category, or press <b>/</b> to search the full list.</p></div>
 <div class="grid3">{cards}</div>
 <p style="margin-top:2rem" class="rv"><a class="btn btn-ghost" href="{link('/services',d)}">Browse all services {ic('arrow')}</a></p></div></section>
 <section class="band"><div class="wrap split">
@@ -269,7 +270,7 @@ def page_home():
 def page_services():
     d=1; url='/services'
     title=f'Auto Repair Services in Primos, PA | {NAME}'
-    desc=f'Diagnostics, electrical, brakes, exhaust, engine, transmission, oil changes, tires, A/C, body work and PA inspections in Primos. Call {PH}.'
+    desc=f'Diagnostics, check engine lights, electrical, brakes, alignment, engine, drivetrain, exhaust, oil changes, A/C, tires, body work, rust repair, glass, tinting and PA inspections in Primos. Call {PH}.'
     h=head('services',d,title,desc,url,[bc_ld([('Home','/'),('Services','/services')])])+header(d,'services')
     cards=''
     for c in CATS:

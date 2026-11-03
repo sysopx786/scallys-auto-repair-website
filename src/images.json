@@ -1,11 +1,46 @@
 {
-  "PA Safety Inspections": {"file": "inspection-seal", "alt": "Brass embossing seal and fountain pen on a sheet of cream paper"},
-  "Pre-Purchase Inspections": {"file": "pre-purchase-checklist", "alt": "Car with the hood open beside a blank inspection checklist and a flashlight"},
-  "Emissions Testing": {"file": "obd-emissions-testing", "alt": "Handheld OBD scan tool connected to an engine control module"},
-  "Computer Diagnostics": {"file": "obd-emissions-testing", "alt": "Handheld OBD scan tool connected to an engine control module"},
-  "Mufflers & Exhaust": {"file": "emissions-control", "alt": "Catalytic converter and oxygen sensor"},
-  "Engine Repair": {"file": "spark-plugs", "alt": "Four spark plugs standing in a row"},
-  "Fuel System Service": {"file": "fuel-system", "alt": "Fuel tank with a fuel pump and fuel filter"},
-  "Air Conditioning & Heating": {"file": "heating-system", "alt": "Heater core, blower motor and a coolant hose"},
-  "Auto Body Repair": {"file": "collision-repair", "alt": "Dented car door with a body filler spreader and sanding block"}
+  "PA Safety Inspections": {
+    "file": "inspection-seal",
+    "alt": "Brass embossing seal and fountain pen on a sheet of cream paper"
+  },
+  "Pre-Purchase Inspections": {
+    "file": "pre-purchase-checklist",
+    "alt": "Car with the hood open beside a blank inspection checklist and a flashlight"
+  },
+  "Emissions Testing": {
+    "file": "obd-emissions-testing",
+    "alt": "Handheld OBD scan tool connected to an engine control module"
+  },
+  "Computer Diagnostics": {
+    "file": "obd-emissions-testing",
+    "alt": "Handheld OBD scan tool connected to an engine control module"
+  },
+  "Mufflers & Exhaust": {
+    "file": "emissions-control",
+    "alt": "Catalytic converter and oxygen sensor"
+  },
+  "Air Conditioning & Heating": {
+    "file": "heating-system",
+    "alt": "Heater core, blower motor and a coolant hose"
+  },
+  "Auto Body Repair": {
+    "file": "collision-repair",
+    "alt": "Dented car door with a body filler spreader and sanding block"
+  },
+  "Spark Plugs": {
+    "file": "spark-plugs",
+    "alt": "Four spark plugs standing in a row"
+  },
+  "Rust Repair & Corrosion Control": {
+    "file": "corrosion-control",
+    "alt": "Rusted metal bracket and a wire brush"
+  },
+  "Emissions Control": {
+    "file": "emissions-control",
+    "alt": "Catalytic converter and oxygen sensor"
+  },
+  "Gas Tanks": {
+    "file": "fuel-system",
+    "alt": "Fuel tank with a fuel pump and fuel filter"
+  }
 }
