@@ -28,4 +28,4 @@ Allow: /
 User-agent: Applebot-Extended
 Allow: /
 
-Sitemap: https://REPLACE-WITH-DOMAIN/sitemap.xml
+Sitemap: https://sysopx786.github.io/scallys-auto-repair-website/sitemap.xml

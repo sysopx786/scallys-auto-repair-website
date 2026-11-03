@@ -1,298 +1,303 @@
 [
   {
-    "name": "Inspections & Emissions",
-    "short": "Inspections & Emissions",
-    "icon": "shield",
+    "id": "inspections-emissions",
     "url": "/inspections-emissions",
-    "title": "PA State Inspections & Emissions Testing in Primos, PA | Scally's Auto Repair",
-    "meta": "Official Pennsylvania inspection station in Primos, Delaware County. Safety inspections, emissions testing and pre-purchase checks. Call 610-626-4700.",
-    "intro": "Pennsylvania safety inspections, emissions testing, and a second opinion before you buy a used car.",
+    "icon": "shield",
+    "name": {"en": "Inspections & Emissions", "es": "Inspecciones y emisiones"},
+    "short": {"en": "Inspections & Emissions", "es": "Inspecciones y emisiones"},
+    "title": {"en": "PA State Inspections & Emissions Testing in Primos, PA | Scally's Auto Repair", "es": "Inspección estatal y emisiones en Primos, PA | Scally's Auto Repair"},
+    "meta": {"en": "Official Pennsylvania inspection station in Primos, Delaware County. Safety inspections, emissions testing and pre-purchase checks. Call 610-626-4700.", "es": "Estación oficial de inspección de Pensilvania en Primos, condado de Delaware. Inspección de seguridad, emisiones y revisión antes de comprar. 610-626-4700."},
+    "intro": {"en": "Pennsylvania safety inspections, emissions testing, and a second opinion before you buy a used car.", "es": "Inspecciones de seguridad de Pensilvania, pruebas de emisiones y una segunda opinión antes de comprar un auto usado."},
     "services": [
-      {
-        "name": "PA Safety Inspections",
-        "desc": "We are an official Pennsylvania vehicle safety inspection station. We inspect cars, trailers and medium trucks. If something fails, we show you what failed and what it takes to fix it. Call to confirm we can inspect your vehicle type.",
-        "faqs": [
-          {
-            "q": "What do I bring to my inspection?",
-            "a": "Bring your current registration card and proof of insurance."
-          },
-          {
-            "q": "Do I need an appointment?",
-            "a": "Call 610-626-4700 to set up a time."
-          }
-        ]
-      },
-      {
-        "name": "Emissions Testing",
-        "desc": "OBD and visual emissions testing. Most cars registered in Delaware County need an emissions test. The county where your car is registered decides it, not where the shop is.",
-        "faqs": []
-      },
-      {
-        "name": "Emissions Control",
-        "desc": "Repairs to emissions parts such as oxygen sensors and catalytic converters, including fixes needed to pass your emissions test.",
-        "faqs": []
-      },
-      {
-        "name": "Pre-Purchase Inspections",
-        "desc": "Thinking about buying a used car? Bring it in first. We check it over and tell you what we find and what it would cost to fix, so you know what you're buying.",
-        "faqs": []
-      }
+      {"id": "pa-safety-inspections", "name": {"en": "PA Safety Inspections", "es": "Inspecciones de seguridad de PA"},
+       "desc": {"en": "We are an official Pennsylvania vehicle safety inspection station. We inspect cars, trailers and medium trucks. If something fails, we show you what failed and what it takes to fix it. Call to confirm we can inspect your vehicle type.", "es": "Somos una estación oficial de inspección de seguridad de Pensilvania. Inspeccionamos autos, remolques y camiones medianos. Si algo no pasa, le mostramos qué falló y qué hace falta para repararlo. Llame para confirmar que podemos inspeccionar su tipo de vehículo."},
+       "faqs": [
+         {"q": {"en": "What do I bring to my inspection?", "es": "¿Qué debo traer a la inspección?"}, "a": {"en": "Bring your current registration card and proof of insurance.", "es": "Traiga su tarjeta de registro vigente y su comprobante de seguro."}},
+         {"q": {"en": "Do I need an appointment?", "es": "¿Necesito cita?"}, "a": {"en": "Call 610-626-4700 to set up a time.", "es": "Llame al 610-626-4700 para hacer una cita."}}
+       ], "page": "pa-state-inspection"},
+      {"id": "emissions-testing", "name": {"en": "Emissions Testing", "es": "Pruebas de emisiones"},
+       "desc": {"en": "OBD and visual emissions testing. Most cars registered in Delaware County need an emissions test. The county where your car is registered decides it, not where the shop is.", "es": "Pruebas de emisiones OBD y visuales. La mayoría de los autos registrados en el condado de Delaware necesitan la prueba de emisiones. Lo decide el condado donde está registrado su auto, no donde está el taller."},
+       "faqs": [], "page": "pa-state-inspection"},
+      {"id": "emissions-control", "name": {"en": "Emissions Control", "es": "Control de emisiones"},
+       "desc": {"en": "Repairs to emissions parts such as oxygen sensors and catalytic converters, including fixes needed to pass your emissions test.", "es": "Reparación de piezas de emisiones, como sensores de oxígeno y convertidores catalíticos, incluidas las reparaciones necesarias para pasar la prueba de emisiones."},
+       "faqs": [], "page": "emissions-repair"},
+      {"id": "pre-purchase-inspections", "name": {"en": "Pre-Purchase Inspections", "es": "Inspecciones antes de comprar"},
+       "desc": {"en": "Thinking about buying a used car? Bring it in first. We check it over and tell you what we find and what it would cost to fix, so you know what you're buying.", "es": "¿Piensa comprar un auto usado? Tráigalo primero. Lo revisamos y le decimos qué encontramos y cuánto costaría repararlo, para que sepa lo que está comprando."},
+       "faqs": [], "page": "pre-purchase-inspection"}
     ]
   },
   {
-    "name": "Diagnostics & Electrical",
-    "short": "Diagnostics & Electrical",
-    "icon": "bolt",
+    "id": "diagnostics-electrical",
     "url": "/diagnostics-electrical",
-    "title": "Car Diagnostics & Electrical Repair in Primos, PA | Scally's Auto Repair",
-    "meta": "Computer diagnostics and auto electrical repair in Primos, PA: check engine lights, charging and starting, batteries and lights. Call 610-626-4700.",
-    "intro": "Computer diagnostics and the electrical problems other shops don't want to chase.",
+    "icon": "bolt",
+    "name": {"en": "Diagnostics & Electrical", "es": "Diagnóstico y sistema eléctrico"},
+    "short": {"en": "Diagnostics & Electrical", "es": "Diagnóstico y eléctrico"},
+    "title": {"en": "Car Diagnostics & Electrical Repair in Primos, PA | Scally's Auto Repair", "es": "Diagnóstico y reparación eléctrica en Primos, PA | Scally's Auto Repair"},
+    "meta": {"en": "Computer diagnostics and auto electrical repair in Primos, PA: check engine lights, charging and starting, batteries, lights, power windows and locks. Call 610-626-4700.", "es": "Diagnóstico por computadora y reparación eléctrica en Primos, PA: luz de check engine, carga y arranque, baterías, luces, ventanas y seguros eléctricos."},
+    "intro": {"en": "Computer diagnostics and the electrical problems other shops don't want to chase.", "es": "Diagnóstico por computadora y las fallas eléctricas que otros talleres prefieren no buscar."},
     "services": [
-      {
-        "name": "Computer Diagnostics",
-        "desc": "Check engine light on? We run complete computer diagnostics to find the cause, then explain what's wrong before we fix anything.",
-        "faqs": []
-      },
-      {
-        "name": "Check Engine Light",
-        "desc": "Check engine light on? We read the codes, find the cause, and tell you what it takes to fix it.",
-        "faqs": []
-      },
-      {
-        "name": "Electrical Repair",
-        "desc": "Troubleshooting and repair for electrical problems, from wiring faults to systems that work one day and quit the next.",
-        "faqs": []
-      },
-      {
-        "name": "Charging & Starting Systems",
-        "desc": "Car won't start, or the battery keeps dying? We test the battery, alternator and starter to find the real problem.",
-        "faqs": []
-      },
-      {
-        "name": "Battery Service",
-        "desc": "Battery testing and replacement.",
-        "faqs": []
-      },
-      {
-        "name": "Auto Light Repair",
-        "desc": "Headlights, taillights and other exterior lights that are out, flickering or fogged with moisture.",
-        "faqs": []
-      }
+      {"id": "computer-diagnostics", "name": {"en": "Computer Diagnostics", "es": "Diagnóstico por computadora"},
+       "desc": {"en": "We connect to your car's onboard computer and run complete diagnostics to find the cause of a warning light or running problem, then explain what's wrong before we fix anything.", "es": "Nos conectamos a la computadora del auto y hacemos un diagnóstico completo para encontrar la causa de una luz de advertencia o de una falla, y le explicamos qué pasa antes de reparar nada."},
+       "faqs": [], "page": "check-engine-light"},
+      {"id": "check-engine-light", "name": {"en": "Check Engine Light", "es": "Luz de check engine"},
+       "desc": {"en": "Check engine light on? We read the codes, find the cause, and tell you what it takes to fix it.", "es": "¿Se encendió la luz de check engine? Leemos los códigos, encontramos la causa y le decimos qué hace falta para repararla."},
+       "faqs": [], "page": "check-engine-light"},
+      {"id": "electrical-repair", "name": {"en": "Electrical Repair & Wiring", "es": "Reparación eléctrica y cableado"},
+       "desc": {"en": "Troubleshooting and repair for electrical problems, from wiring faults and blown fuses to systems that work one day and quit the next.", "es": "Búsqueda y reparación de fallas eléctricas, desde cables dañados y fusibles quemados hasta sistemas que funcionan un día y al siguiente no."},
+       "faqs": [], "page": "electrical-repair"},
+      {"id": "charging-and-starting-systems", "name": {"en": "Charging & Starting Systems", "es": "Sistemas de carga y arranque"},
+       "desc": {"en": "Car won't start, or the battery keeps dying? We test the battery, alternator and starter to find the real problem, then repair or replace what failed.", "es": "¿El auto no arranca o la batería se descarga una y otra vez? Probamos la batería, el alternador y el motor de arranque para encontrar el problema real, y reparamos o cambiamos lo que falló."},
+       "faqs": [], "page": "battery-charging-starting"},
+      {"id": "battery-service", "name": {"en": "Battery Testing & Replacement", "es": "Prueba y cambio de batería"},
+       "desc": {"en": "Battery testing and replacement. We test the battery before replacing it, and check the charging system if a new battery keeps going dead.", "es": "Prueba y cambio de batería. Probamos la batería antes de cambiarla y revisamos el sistema de carga si una batería nueva se sigue descargando."},
+       "faqs": [], "page": "battery-charging-starting"},
+      {"id": "auto-light-repair", "name": {"en": "Auto Light Repair", "es": "Reparación de luces"},
+       "desc": {"en": "Headlights, taillights and other exterior lights that are out, flickering or fogged with moisture.", "es": "Faros, calaveras y otras luces exteriores que no prenden, parpadean o se empañan con humedad."},
+       "faqs": [], "page": "auto-light-repair"},
+      {"id": "power-window-repair", "new": true, "name": {"en": "Power Window Repair", "es": "Reparación de ventanas eléctricas"},
+       "desc": {"en": "Windows that won't go up or down, move slowly, or only work from one switch. We find whether the switch, motor, regulator or wiring is at fault before replacing parts.", "es": "Ventanas que no suben o no bajan, se mueven lento o solo funcionan desde un interruptor. Averiguamos si la falla está en el interruptor, el motor, el elevador o el cableado antes de cambiar piezas."},
+       "faqs": [], "page": "power-windows-locks"},
+      {"id": "power-door-lock-repair", "new": true, "name": {"en": "Power Door Lock Repair", "es": "Reparación de seguros eléctricos"},
+       "desc": {"en": "Door locks that won't lock or unlock from the switch or key fob, or that act on their own. We check the actuator, switch and wiring to find the cause.", "es": "Seguros que no cierran o no abren con el interruptor o el control remoto, o que se activan solos. Revisamos el actuador, el interruptor y el cableado para encontrar la causa."},
+       "faqs": [], "page": "power-windows-locks"}
     ]
   },
   {
-    "name": "Brakes, Steering & Suspension",
-    "short": "Brakes & Suspension",
-    "icon": "disc",
+    "id": "brakes-steering-suspension",
     "url": "/brakes-steering-suspension",
-    "title": "Brake, Steering & Suspension Repair in Primos, PA | Scally's Auto Repair",
-    "meta": "Brake pads, brake repair, rotor resurfacing, steering, suspension and front end alignment in Primos, PA. Call 610-626-4700.",
-    "intro": "Brakes, rotors, steering, suspension and alignment.",
+    "icon": "disc",
+    "name": {"en": "Brakes, Steering & Suspension", "es": "Frenos, dirección y suspensión"},
+    "short": {"en": "Brakes & Suspension", "es": "Frenos y suspensión"},
+    "title": {"en": "Brake, Steering & Suspension Repair in Primos, PA | Scally's Auto Repair", "es": "Frenos, dirección y suspensión en Primos, PA | Scally's Auto Repair"},
+    "meta": {"en": "Brake repair, rotors, brake fluid, power steering, ball joints, tie rods, shocks and struts, wheel bearings and alignment in Primos, PA. Call 610-626-4700.", "es": "Frenos, rotores, líquido de frenos, dirección asistida, rótulas, terminales, amortiguadores, rodamientos de rueda y alineación en Primos, PA."},
+    "intro": {"en": "Brakes, rotors, steering, suspension, wheel bearings and alignment.", "es": "Frenos, rotores, dirección, suspensión, rodamientos de rueda y alineación."},
     "services": [
-      {
-        "name": "Brake Repair",
-        "desc": "Brake pads, brake repairs and full brake system service. If your brakes squeal, grind or feel soft, call us.",
-        "faqs": []
-      },
-      {
-        "name": "Rotor Resurfacing",
-        "desc": "Rotor resurfacing and replacement. A shimmy in the steering wheel when you brake often points to the rotors.",
-        "faqs": []
-      },
-      {
-        "name": "Steering & Suspension",
-        "desc": "Repairs for steering and suspension parts that cause clunks, wandering or a rough ride.",
-        "faqs": []
-      },
-      {
-        "name": "Ball Joints",
-        "desc": "Ball joint inspection and replacement. Worn ball joints can cause clunking and uneven tire wear.",
-        "faqs": []
-      },
-      {
-        "name": "Front End Alignment",
-        "desc": "Front end alignment to stop pulling and uneven tire wear.",
-        "faqs": []
-      }
+      {"id": "brake-repair", "name": {"en": "Brake Repair", "es": "Reparación de frenos"},
+       "desc": {"en": "Brake pads, brake repairs and full brake system service. If your brakes squeal, grind or feel soft, call us.", "es": "Pastillas de freno, reparaciones y servicio completo del sistema de frenos. Si sus frenos chillan, rechinan o se sienten blandos, llámenos."},
+       "faqs": [], "page": "brake-repair"},
+      {"id": "rotor-resurfacing", "name": {"en": "Rotor Resurfacing", "es": "Rectificado de rotores"},
+       "desc": {"en": "Rotor resurfacing and replacement. A shimmy in the steering wheel when you brake often points to the rotors.", "es": "Rectificado y cambio de rotores. Si el volante vibra al frenar, muchas veces el problema está en los rotores."},
+       "faqs": [], "page": "brake-repair"},
+      {"id": "brake-fluid-flush", "new": true, "name": {"en": "Brake Fluid Flush", "es": "Cambio de líquido de frenos"},
+       "desc": {"en": "Replacing old brake fluid with the type your vehicle's manufacturer specifies. Your owner's manual lists the interval; we can also check the fluid when your car is in.", "es": "Cambio del líquido de frenos viejo por el tipo que indica el fabricante. El manual del propietario indica cada cuánto; también podemos revisar el líquido cuando traiga el auto."},
+       "faqs": [], "page": "brake-repair"},
+      {"id": "steering-and-suspension", "name": {"en": "Steering & Suspension", "es": "Dirección y suspensión"},
+       "desc": {"en": "Repairs for steering and suspension parts that cause clunks, wandering or a rough ride.", "es": "Reparación de piezas de dirección y suspensión que causan golpeteos, que el auto se desvíe o un manejo brusco."},
+       "faqs": [], "page": "suspension-repair"},
+      {"id": "power-steering-repair", "new": true, "name": {"en": "Power Steering Repair", "es": "Reparación de dirección asistida"},
+       "desc": {"en": "Heavy steering, a whine when you turn, or power steering fluid leaks. We find the cause and repair the power steering system.", "es": "Dirección dura, un zumbido al girar o fugas de líquido de dirección. Encontramos la causa y reparamos el sistema de dirección asistida."},
+       "faqs": [], "page": "steering-repair"},
+      {"id": "ball-joints", "name": {"en": "Ball Joints", "es": "Rótulas"},
+       "desc": {"en": "Ball joint inspection and replacement. Worn ball joints can cause clunking and uneven tire wear.", "es": "Revisión y cambio de rótulas. Las rótulas gastadas pueden causar golpeteos y desgaste disparejo de las llantas."},
+       "faqs": [], "page": "steering-repair"},
+      {"id": "control-arms", "new": true, "name": {"en": "Control Arms", "es": "Brazos de control"},
+       "desc": {"en": "Control arm and bushing replacement. Worn control arms can cause clunks over bumps, wandering and uneven tire wear.", "es": "Cambio de brazos de control y bujes. Los brazos gastados pueden causar golpes en los baches, que el auto se desvíe y desgaste disparejo de las llantas."},
+       "faqs": [], "page": "steering-repair"},
+      {"id": "tie-rods", "new": true, "name": {"en": "Tie Rods", "es": "Terminales de dirección"},
+       "desc": {"en": "Inner and outer tie rod replacement for loose steering and uneven tire wear. An alignment usually follows.", "es": "Cambio de terminales de dirección interiores y exteriores cuando la dirección se siente floja o las llantas se gastan disparejo. Por lo general se hace una alineación después."},
+       "faqs": [], "page": "steering-repair"},
+      {"id": "sway-bar-links", "new": true, "name": {"en": "Sway Bar Links", "es": "Bieletas de la barra estabilizadora"},
+       "desc": {"en": "Sway bar link and bushing replacement for clunks and rattles over bumps.", "es": "Cambio de bieletas y bujes de la barra estabilizadora cuando hay golpeteos o ruidos en los baches."},
+       "faqs": [], "page": "suspension-repair"},
+      {"id": "shocks-and-struts", "new": true, "name": {"en": "Shocks & Struts", "es": "Amortiguadores y struts"},
+       "desc": {"en": "Shock and strut replacement for a bouncy ride, nose-diving when you brake, or leaking shocks.", "es": "Cambio de amortiguadores y struts cuando el auto rebota, se clava de frente al frenar o los amortiguadores tienen fugas."},
+       "faqs": [], "page": "suspension-repair"},
+      {"id": "wheel-bearings", "new": true, "name": {"en": "Wheel Bearings", "es": "Rodamientos de rueda (baleros)"},
+       "desc": {"en": "Wheel bearing replacement. A hum or growl that changes with speed often points to a bearing, but tires can sound similar, so we check first.", "es": "Cambio de rodamientos de rueda. Un zumbido que cambia con la velocidad muchas veces viene de un rodamiento, pero las llantas pueden sonar parecido, así que primero revisamos."},
+       "faqs": [], "page": "wheel-bearings-hubs"},
+      {"id": "wheel-hubs", "new": true, "name": {"en": "Wheel Hubs", "es": "Mazas de rueda"},
+       "desc": {"en": "Wheel hub replacement, including hub-and-bearing assemblies.", "es": "Cambio de mazas de rueda, incluidos los conjuntos de maza y rodamiento."},
+       "faqs": [], "page": "wheel-bearings-hubs"},
+      {"id": "front-end-alignment", "name": {"en": "Front End Alignment", "es": "Alineación"},
+       "desc": {"en": "Front end alignment to stop pulling and uneven tire wear.", "es": "Alineación para que el auto no se jale hacia un lado y las llantas no se gasten disparejo."},
+       "faqs": [], "page": "wheel-alignment"}
     ]
   },
   {
-    "name": "Engine, Drivetrain & Exhaust",
-    "short": "Engine & Drivetrain",
-    "icon": "gear",
+    "id": "engine-exhaust",
     "url": "/engine-exhaust-transmission",
-    "title": "Engine, Drivetrain & Exhaust Repair in Primos, PA | Scally's Auto Repair",
-    "meta": "General auto repair, engine work, cylinder heads, differentials, axles, transmissions, fuel systems and exhaust in Primos, PA. Call 610-626-4700.",
-    "intro": "General repairs, engine work, drivetrain, transmissions, fuel systems and exhaust.",
+    "icon": "gear",
+    "legacyAnchors": ["transmission-repair", "differential-repair", "axles"],
+    "name": {"en": "Engine & Exhaust", "es": "Motor y escape"},
+    "short": {"en": "Engine & Exhaust", "es": "Motor y escape"},
+    "title": {"en": "Engine Repair, Tune-Ups & Exhaust in Primos, PA | Scally's Auto Repair", "es": "Motor, afinación y escape en Primos, PA | Scally's Auto Repair"},
+    "meta": {"en": "General auto repair, engine repair and rebuilding, tune-ups, timing belts and chains, oil leaks, fuel systems and exhaust in Primos, PA. Call 610-626-4700.", "es": "Mecánica general, reparación y reconstrucción de motor, afinación, distribución, fugas de aceite, combustible y escape en Primos, PA."},
+    "intro": {"en": "General repairs, engine work, tune-ups, timing, fuel systems and exhaust.", "es": "Mecánica general, motor, afinación, distribución, sistema de combustible y escape."},
     "services": [
-      {
-        "name": "General Auto Repair",
-        "desc": "Repairs big and small. If your car is making a noise, leaking or running rough, call and tell us what is going on.",
-        "faqs": []
-      },
-      {
-        "name": "Engine Repair",
-        "desc": "Engine repair services, from mechanical problems and overheating to performance engine work.",
-        "faqs": []
-      },
-      {
-        "name": "Engine Replacement",
-        "desc": "Full engine replacement when a repair no longer makes sense.",
-        "faqs": []
-      },
-      {
-        "name": "Cylinder Head & Block Repair",
-        "desc": "Cylinder head and engine block repair, including head gaskets.",
-        "faqs": []
-      },
-      {
-        "name": "Spark Plugs",
-        "desc": "Spark plug replacement to fix misfires and keep the engine running smoothly.",
-        "faqs": []
-      },
-      {
-        "name": "Mufflers & Exhaust",
-        "desc": "Muffler and exhaust system repair, including hangers, pipes and leaks.",
-        "faqs": []
-      },
-      {
-        "name": "Transmission Repair",
-        "desc": "Automatic and manual transmission repairs.",
-        "faqs": []
-      },
-      {
-        "name": "Differential Repair",
-        "desc": "Differential service and repair.",
-        "faqs": []
-      },
-      {
-        "name": "Axles",
-        "desc": "Axle and CV axle repair and replacement.",
-        "faqs": []
-      },
-      {
-        "name": "Fuel System Service",
-        "desc": "Fuel system cleaning and repair.",
-        "faqs": []
-      },
-      {
-        "name": "Gas Tanks",
-        "desc": "Gas tank repair and replacement.",
-        "faqs": []
-      }
+      {"id": "general-auto-repair", "name": {"en": "General Auto Repair", "es": "Mecánica general"},
+       "desc": {"en": "Repairs big and small. If your car is making a noise, leaking or running rough, call and tell us what is going on.", "es": "Reparaciones grandes y pequeñas. Si su auto hace un ruido, tiene una fuga o anda mal, llame y cuéntenos qué pasa."},
+       "faqs": [], "page": "home"},
+      {"id": "engine-repair", "name": {"en": "Engine Repair", "es": "Reparación de motor"},
+       "desc": {"en": "Engine repair services, from mechanical problems and overheating to performance engine work.", "es": "Reparación de motor, desde fallas mecánicas y sobrecalentamiento hasta trabajos de rendimiento."},
+       "faqs": [], "page": "engine-repair"},
+      {"id": "engine-tune-ups", "new": true, "name": {"en": "Engine Tune-Ups", "es": "Afinación de motor"},
+       "desc": {"en": "Tune-ups based on your engine's maintenance schedule, such as spark plugs, filters and an ignition check. What a tune-up includes depends on the vehicle.", "es": "Afinaciones según el programa de mantenimiento del motor, como bujías, filtros y revisión del encendido. Lo que incluye depende del vehículo."},
+       "faqs": [], "page": "engine-tune-up"},
+      {"id": "engine-rebuilding", "new": true, "name": {"en": "Engine Rebuilding", "es": "Reconstrucción de motor"},
+       "desc": {"en": "Rebuilding the existing engine when internal parts are worn or damaged. Whether a rebuild makes sense depends on what we find inside the engine.", "es": "Reconstrucción del motor actual cuando las piezas internas están gastadas o dañadas. Si conviene reconstruirlo depende de lo que encontremos adentro."},
+       "faqs": [], "page": "engine-repair"},
+      {"id": "engine-replacement", "name": {"en": "Engine Replacement", "es": "Cambio de motor"},
+       "desc": {"en": "Full engine replacement when a repair no longer makes sense.", "es": "Cambio completo de motor cuando ya no conviene repararlo."},
+       "faqs": [], "page": "engine-repair"},
+      {"id": "cylinder-head-and-block-repair", "name": {"en": "Cylinder Head & Block Repair", "es": "Reparación de cabeza y bloque"},
+       "desc": {"en": "Cylinder head and engine block repair, including head gaskets.", "es": "Reparación de la cabeza (culata) y el bloque del motor, incluido el empaque de cabeza."},
+       "faqs": [], "page": "engine-repair"},
+      {"id": "oil-leak-and-gasket-repair", "new": true, "name": {"en": "Oil Leak & Gasket Repair", "es": "Fugas de aceite y empaques"},
+       "desc": {"en": "Finding where oil is leaking and replacing the gasket or seal at fault, such as a valve cover or oil pan gasket.", "es": "Encontramos de dónde sale el aceite y cambiamos el empaque o sello que falla, como el de la tapa de punterías o el del cárter."},
+       "faqs": [], "page": "oil-leak-repair"},
+      {"id": "spark-plugs", "name": {"en": "Spark Plugs", "es": "Bujías"},
+       "desc": {"en": "Spark plug replacement to fix misfires and keep the engine running smoothly.", "es": "Cambio de bujías para corregir fallas de encendido y que el motor trabaje parejo."},
+       "faqs": [], "page": "engine-tune-up"},
+      {"id": "ignition-system-repair", "new": true, "name": {"en": "Ignition System Repair", "es": "Reparación del sistema de encendido"},
+       "desc": {"en": "Ignition coil and ignition wiring repair for misfires, hard starts and a flashing check engine light.", "es": "Reparación de bobinas y cableado de encendido cuando hay fallas, cuesta arrancar o parpadea la luz de check engine."},
+       "faqs": [], "page": "engine-tune-up"},
+      {"id": "timing-belt", "new": true, "name": {"en": "Timing Belt", "es": "Correa de distribución"},
+       "desc": {"en": "Timing belt replacement at the interval your manufacturer lists. On some engines a broken belt can cause major engine damage, so the interval matters.", "es": "Cambio de la correa de distribución en el intervalo que indica el fabricante. En algunos motores, si la correa se rompe puede dañar gravemente el motor, por eso importa el intervalo."},
+       "faqs": [], "page": "timing-belt-chain"},
+      {"id": "timing-chain", "new": true, "name": {"en": "Timing Chain", "es": "Cadena de distribución"},
+       "desc": {"en": "Timing chain, guide and tensioner repair. A rattle at startup or certain check engine codes can point to a worn chain.", "es": "Reparación de cadena de distribución, guías y tensores. Un traqueteo al arrancar o ciertos códigos de check engine pueden indicar una cadena gastada."},
+       "faqs": [], "page": "timing-belt-chain"},
+      {"id": "mufflers-and-exhaust", "name": {"en": "Mufflers & Exhaust", "es": "Mofles y escape"},
+       "desc": {"en": "Muffler and exhaust system repair, including hangers, pipes and leaks.", "es": "Reparación de mofles y del sistema de escape, incluidos soportes, tubos y fugas."},
+       "faqs": [], "page": "exhaust-muffler-repair"},
+      {"id": "fuel-system-service", "name": {"en": "Fuel System Service", "es": "Servicio del sistema de combustible"},
+       "desc": {"en": "Fuel injector cleaning, plus fuel pump and fuel line repair.", "es": "Limpieza de inyectores, además de reparación de la bomba y las líneas de combustible."},
+       "faqs": [], "page": "fuel-system-repair"},
+      {"id": "gas-tanks", "name": {"en": "Gas Tanks", "es": "Tanques de gasolina"},
+       "desc": {"en": "Gas tank repair and replacement.", "es": "Reparación y cambio de tanques de gasolina."},
+       "faqs": [], "page": "fuel-system-repair"}
     ]
   },
   {
-    "name": "Maintenance, A/C & Cooling",
-    "short": "Maintenance & Cooling",
-    "icon": "drop",
+    "id": "transmission-drivetrain",
+    "url": "/transmission-drivetrain",
+    "icon": "shift",
+    "name": {"en": "Transmission & Drivetrain", "es": "Transmisión y tren motriz"},
+    "short": {"en": "Transmission & Drivetrain", "es": "Transmisión y tren motriz"},
+    "title": {"en": "Transmission & Drivetrain Repair in Primos, PA | Scally's Auto Repair", "es": "Transmisión y tren motriz en Primos, PA | Scally's Auto Repair"},
+    "meta": {"en": "Transmission repair, rebuilding and replacement, fluid service, clutches, motor and transmission mounts, differentials and axles in Primos, PA. Call 610-626-4700.", "es": "Reparación, reconstrucción y cambio de transmisión, líquido, clutch, soportes, diferenciales y ejes en Primos, PA. 610-626-4700."},
+    "intro": {"en": "Transmissions, clutches, mounts, differentials and axles.", "es": "Transmisiones, clutch, soportes, diferenciales y ejes."},
+    "services": [
+      {"id": "transmission-repair", "name": {"en": "Transmission Repair", "es": "Reparación de transmisión"},
+       "desc": {"en": "Automatic and manual transmission diagnosis and repair.", "es": "Diagnóstico y reparación de transmisiones automáticas y manuales."},
+       "faqs": [], "page": "transmission-repair"},
+      {"id": "transmission-rebuilding", "new": true, "name": {"en": "Transmission Rebuilding", "es": "Reconstrucción de transmisión"},
+       "desc": {"en": "Rebuilding the existing transmission when internal parts are worn. Whether a rebuild fits depends on the transmission's condition.", "es": "Reconstrucción de la transmisión actual cuando las piezas internas están gastadas. Si conviene reconstruirla depende del estado de la transmisión."},
+       "faqs": [], "page": "transmission-repair"},
+      {"id": "transmission-replacement", "new": true, "name": {"en": "Transmission Replacement", "es": "Cambio de transmisión"},
+       "desc": {"en": "Installing a replacement transmission when rebuilding the original doesn't make sense.", "es": "Instalación de otra transmisión cuando no conviene reconstruir la original."},
+       "faqs": [], "page": "transmission-repair"},
+      {"id": "transmission-fluid-service", "new": true, "name": {"en": "Transmission Fluid Service", "es": "Servicio de líquido de transmisión"},
+       "desc": {"en": "Transmission fluid service with the fluid your manufacturer specifies, at the interval in your owner's manual.", "es": "Servicio del líquido de transmisión con el líquido que indica el fabricante, en el intervalo del manual del propietario."},
+       "faqs": [], "page": "transmission-repair"},
+      {"id": "clutch-repair", "new": true, "name": {"en": "Clutch Repair", "es": "Reparación de clutch (embrague)"},
+       "desc": {"en": "Clutch repair and replacement for manual transmissions: slipping, chatter, a soft or sticking pedal, or trouble getting into gear.", "es": "Reparación y cambio de clutch en transmisiones manuales: cuando patina, vibra, el pedal se siente suave o se pega, o cuesta meter los cambios."},
+       "faqs": [], "page": "clutch-repair"},
+      {"id": "motor-mounts", "new": true, "name": {"en": "Motor Mounts", "es": "Soportes de motor"},
+       "desc": {"en": "Motor mount replacement for extra engine movement, vibration, or a clunk when you shift or accelerate.", "es": "Cambio de soportes de motor cuando el motor se mueve de más, vibra o da un golpe al cambiar de marcha o acelerar."},
+       "faqs": [], "page": "engine-transmission-mounts"},
+      {"id": "transmission-mounts", "new": true, "name": {"en": "Transmission Mounts", "es": "Soportes de transmisión"},
+       "desc": {"en": "Transmission mount replacement. Worn mounts can cause vibration and clunks that feel like transmission trouble.", "es": "Cambio de soportes de transmisión. Los soportes gastados pueden causar vibraciones y golpes que parecen fallas de la transmisión."},
+       "faqs": [], "page": "engine-transmission-mounts"},
+      {"id": "differential-repair", "name": {"en": "Differential Repair", "es": "Reparación de diferencial"},
+       "desc": {"en": "Differential service and repair, including fluid service and noisy differentials.", "es": "Servicio y reparación de diferenciales, incluido el cambio de aceite y diferenciales ruidosos."},
+       "faqs": [], "page": "cv-axle-differential"},
+      {"id": "axles", "name": {"en": "CV Axles & Joints", "es": "Ejes y juntas homocinéticas"},
+       "desc": {"en": "CV axle and joint replacement. A clicking noise when you turn often points to a worn CV joint.", "es": "Cambio de ejes y juntas homocinéticas (CV). Un chasquido al dar vuelta muchas veces indica una junta CV gastada."},
+       "faqs": [], "page": "cv-axle-differential"},
+      {"id": "rear-axle-bearings-and-seals", "new": true, "name": {"en": "Rear Axle Bearings & Seals", "es": "Rodamientos y sellos del eje trasero"},
+       "desc": {"en": "Rear axle bearing and seal replacement for rear-end noise or gear oil leaking near a rear wheel.", "es": "Cambio de rodamientos y sellos del eje trasero cuando hay ruido atrás o fuga de aceite cerca de una rueda trasera."},
+       "faqs": [], "page": "cv-axle-differential"}
+    ]
+  },
+  {
+    "id": "maintenance",
     "url": "/maintenance",
-    "title": "Oil Changes, Car A/C & Cooling System Repair in Primos, PA | Scally's Auto Repair",
-    "meta": "Oil changes with AMSOIL, filter replacement, air conditioning, heating and cooling system repair in Primos, PA. Call 610-626-4700.",
-    "intro": "Oil changes, filters, air conditioning, heating and cooling systems.",
+    "icon": "drop",
+    "name": {"en": "Maintenance, A/C & Cooling", "es": "Mantenimiento, A/C y enfriamiento"},
+    "short": {"en": "Maintenance & Cooling", "es": "Mantenimiento y enfriamiento"},
+    "title": {"en": "Oil Changes, Car A/C & Cooling System Repair in Primos, PA | Scally's Auto Repair", "es": "Cambio de aceite, A/C y enfriamiento en Primos, PA | Scally's Auto Repair"},
+    "meta": {"en": "Oil changes with AMSOIL, filters, belts, air conditioning, heating, cooling system repair and basic hybrid service in Primos, PA. Call 610-626-4700.", "es": "Cambios de aceite con AMSOIL, filtros, bandas, aire acondicionado, calefacción, sistema de enfriamiento y servicio básico para híbridos en Primos, PA."},
+    "intro": {"en": "Oil changes, filters, belts, air conditioning, heating and cooling systems.", "es": "Cambios de aceite, filtros, bandas, aire acondicionado, calefacción y sistema de enfriamiento."},
     "services": [
-      {
-        "name": "Oil Changes",
-        "desc": "Oil changes. We are an authorized AMSOIL retailer and installer.",
-        "faqs": []
-      },
-      {
-        "name": "Filter Replacement",
-        "desc": "Air, cabin and other filter replacements.",
-        "faqs": []
-      },
-      {
-        "name": "Air Conditioning & Heating",
-        "desc": "Air conditioning repair for when your A/C blows warm, plus heating problems.",
-        "faqs": []
-      },
-      {
-        "name": "Cooling Systems",
-        "desc": "Radiator, hose, water pump and thermostat repair for engines that run hot or lose coolant.",
-        "faqs": []
-      }
+      {"id": "oil-changes", "name": {"en": "Oil Changes", "es": "Cambios de aceite"},
+       "desc": {"en": "Oil changes. We are an authorized AMSOIL retailer and installer.", "es": "Cambios de aceite. Somos distribuidor e instalador autorizado de AMSOIL."},
+       "faqs": [], "page": "oil-change"},
+      {"id": "filter-replacement", "name": {"en": "Filter Replacement", "es": "Cambio de filtros"},
+       "desc": {"en": "Air, cabin and fuel filter replacement.", "es": "Cambio de filtros de aire, de cabina y de combustible."},
+       "faqs": [], "page": "oil-change"},
+      {"id": "fan-and-accessory-belts", "new": true, "name": {"en": "Fan & Accessory Belts", "es": "Bandas de ventilador y accesorios"},
+       "desc": {"en": "Serpentine, fan and accessory belt replacement, plus worn tensioners and pulleys. A squeal at startup is a common sign.", "es": "Cambio de la banda serpentina, de ventilador y de accesorios, además de tensores y poleas gastados. Un chillido al arrancar es una señal común."},
+       "faqs": [], "page": "cooling-system"},
+      {"id": "air-conditioning-and-heating", "name": {"en": "Air Conditioning & Heating", "es": "Aire acondicionado y calefacción"},
+       "desc": {"en": "Air conditioning repair for when your A/C blows warm, plus heating problems.", "es": "Reparación del aire acondicionado cuando echa aire caliente, y fallas de la calefacción."},
+       "faqs": [], "page": "ac-heating"},
+      {"id": "cooling-systems", "name": {"en": "Cooling Systems", "es": "Sistema de enfriamiento"},
+       "desc": {"en": "Radiator, hose, water pump, thermostat and coolant service for engines that run hot or lose coolant.", "es": "Radiador, mangueras, bomba de agua, termostato y servicio de anticongelante para motores que se calientan o pierden anticongelante."},
+       "faqs": [], "page": "cooling-system"},
+      {"id": "basic-hybrid-service", "new": true, "name": {"en": "Basic Hybrid Service", "es": "Servicio básico para híbridos"},
+       "desc": {"en": "Routine maintenance on hybrid vehicles, such as oil changes, brakes, tires and inspections. We don't repair high-voltage batteries, inverters, electric drive units or manufacturer software.", "es": "Mantenimiento de rutina para vehículos híbridos, como cambios de aceite, frenos, llantas e inspecciones. No reparamos baterías de alto voltaje, inversores, motores eléctricos de tracción ni software del fabricante."},
+       "faqs": [], "page": "hybrid-service"}
     ]
   },
   {
-    "name": "Tires & Wheels",
-    "short": "Tires & Wheels",
-    "icon": "tire",
+    "id": "tires-wheels",
     "url": "/tires-wheels",
-    "title": "Tires, Tire Rotation & Wheel Repair in Primos, PA | Scally's Auto Repair",
-    "meta": "Tires, flat repair, tire rotation, retreads, wheels and wheel repair in Primos, PA. Call 610-626-4700.",
-    "intro": "Tires, flats, rotations and wheel repair.",
+    "icon": "tire",
+    "name": {"en": "Tires & Wheels", "es": "Llantas y rines"},
+    "short": {"en": "Tires & Wheels", "es": "Llantas y rines"},
+    "title": {"en": "Tires, Tire Rotation & Wheel Repair in Primos, PA | Scally's Auto Repair", "es": "Llantas, rotación y rines en Primos, PA | Scally's Auto Repair"},
+    "meta": {"en": "Tires, flat repair, tire rotation, wheel balancing, wheels and wheel repair in Primos, PA. Call 610-626-4700.", "es": "Llantas, ponchaduras, rotación, balanceo, rines y reparación de rines en Primos, PA. Llame al 610-626-4700."},
+    "intro": {"en": "Tires, flats, rotation, balancing and wheel repair.", "es": "Llantas, ponchaduras, rotación, balanceo y reparación de rines."},
     "services": [
-      {
-        "name": "Tires & Flat Repair",
-        "desc": "Tire service and flat repair.",
-        "faqs": []
-      },
-      {
-        "name": "Tire Rotation",
-        "desc": "Tire rotation to even out wear and get more life from your tires.",
-        "faqs": []
-      },
-      {
-        "name": "Retreads",
-        "desc": "Retread tires. Call to check whether they are available for your vehicle.",
-        "faqs": []
-      },
-      {
-        "name": "Wheels",
-        "desc": "Wheel installation and replacement.",
-        "faqs": []
-      },
-      {
-        "name": "Wheel Repair",
-        "desc": "Repair for bent or damaged wheels.",
-        "faqs": []
-      }
+      {"id": "tires-and-flat-repair", "name": {"en": "Tires & Flat Repair", "es": "Llantas y ponchaduras"},
+       "desc": {"en": "Tire service and flat repair.", "es": "Servicio de llantas y reparación de ponchaduras."},
+       "faqs": [], "page": "tires"},
+      {"id": "tire-rotation", "name": {"en": "Tire Rotation", "es": "Rotación de llantas"},
+       "desc": {"en": "Tire rotation to even out wear and get more life from your tires.", "es": "Rotación de llantas para emparejar el desgaste y que duren más."},
+       "faqs": [], "page": "tires"},
+      {"id": "wheel-balancing", "new": true, "name": {"en": "Wheel Balancing", "es": "Balanceo de llantas"},
+       "desc": {"en": "Wheel balancing to stop vibration in the steering wheel or seat at highway speeds.", "es": "Balanceo para quitar la vibración en el volante o el asiento a velocidad de carretera."},
+       "faqs": [], "page": "tires"},
+      {"id": "wheels", "name": {"en": "Wheels", "es": "Rines"},
+       "desc": {"en": "Wheel installation and replacement.", "es": "Instalación y cambio de rines."},
+       "faqs": [], "page": "wheel-repair"},
+      {"id": "wheel-repair", "name": {"en": "Wheel Repair", "es": "Reparación de rines"},
+       "desc": {"en": "Repair for bent or damaged wheels.", "es": "Reparación de rines doblados o dañados."},
+       "faqs": [], "page": "wheel-repair"}
     ]
   },
   {
-    "name": "Body, Glass & Imports",
-    "short": "Body, Glass & Imports",
-    "icon": "car",
+    "id": "body-glass-imports",
     "url": "/body-pickup",
-    "title": "Auto Body, Rust Repair, Auto Glass & Tinting in Primos, PA | Scally's Auto Repair",
-    "meta": "Auto body work, rust repair, auto glass, window tinting, import repair and pick-up and delivery in Primos, PA. Call 610-626-4700.",
-    "intro": "Body work, rust repair, glass, tinting and imports, plus pick-up and delivery.",
+    "icon": "car",
+    "name": {"en": "Body, Glass & Imports", "es": "Carrocería, cristales e importados"},
+    "short": {"en": "Body, Glass & Imports", "es": "Carrocería y cristales"},
+    "title": {"en": "Auto Body, Rust Repair, Auto Glass & Tinting in Primos, PA | Scally's Auto Repair", "es": "Carrocería, óxido, cristales y polarizado en Primos, PA | Scally's Auto Repair"},
+    "meta": {"en": "Auto body work, rust repair, auto glass, window tinting, wipers, import repair and pick-up and drop-off in Primos, PA. Call 610-626-4700.", "es": "Hojalatería, óxido, cristales, polarizado, limpiaparabrisas, autos importados y servicio de recogida y entrega en Primos, PA."},
+    "intro": {"en": "Body work, rust repair, glass, tinting and imports, plus pick-up and drop-off.", "es": "Hojalatería, óxido, cristales, polarizado e importados, además de recogida y entrega."},
     "services": [
-      {
-        "name": "Auto Body Repair",
-        "desc": "Auto body repair. Call to talk through the damage and what it will take.",
-        "faqs": []
-      },
-      {
-        "name": "Rust Repair & Corrosion Control",
-        "desc": "Rust repair and corrosion control to stop rust before it spreads.",
-        "faqs": []
-      },
-      {
-        "name": "Auto Glass Installation & Repair",
-        "desc": "Windshield and window glass repair and replacement.",
-        "faqs": []
-      },
-      {
-        "name": "Window Tinting",
-        "desc": "Window tinting. Call to talk through film options for your car.",
-        "faqs": []
-      },
-      {
-        "name": "Windshield Wiper Replacement",
-        "desc": "Wiper blade replacement.",
-        "faqs": []
-      },
-      {
-        "name": "Imports",
-        "desc": "Repair and maintenance for imported vehicles.",
-        "faqs": []
-      },
-      {
-        "name": "Pick-up & Delivery",
-        "desc": "We can pick up your car and bring it back when it's done. Call to ask whether your address is in range.",
-        "faqs": []
-      }
+      {"id": "auto-body-repair", "name": {"en": "Auto Body Repair", "es": "Hojalatería y carrocería"},
+       "desc": {"en": "Auto body repair. Call to talk through the damage and what it will take.", "es": "Reparación de carrocería. Llame para hablar del daño y de lo que hace falta."},
+       "faqs": [], "page": "auto-body-repair"},
+      {"id": "rust-repair-and-corrosion-control", "name": {"en": "Rust Repair & Corrosion Control", "es": "Óxido y control de corrosión"},
+       "desc": {"en": "Rust repair and corrosion control to stop rust before it spreads.", "es": "Reparación de óxido y control de corrosión para detenerlo antes de que avance."},
+       "faqs": [], "page": "rust-repair"},
+      {"id": "auto-glass-installation-and-repair", "name": {"en": "Auto Glass Installation & Repair", "es": "Instalación y reparación de cristales"},
+       "desc": {"en": "Windshield and window glass repair and replacement.", "es": "Reparación y cambio de parabrisas y cristales de ventanas."},
+       "faqs": [], "page": "auto-glass"},
+      {"id": "window-tinting", "name": {"en": "Window Tinting", "es": "Polarizado de ventanas"},
+       "desc": {"en": "Window tinting. Call to talk through film options for your car.", "es": "Polarizado de ventanas. Llame para hablar de las opciones de película para su auto."},
+       "faqs": [], "page": "window-tinting"},
+      {"id": "windshield-wiper-replacement", "name": {"en": "Windshield Wiper Replacement", "es": "Cambio de limpiaparabrisas"},
+       "desc": {"en": "Wiper blade replacement.", "es": "Cambio de plumas limpiaparabrisas."},
+       "faqs": [], "page": "auto-glass"},
+      {"id": "imports", "name": {"en": "Imports", "es": "Autos importados"},
+       "desc": {"en": "Repair and maintenance for imported vehicles.", "es": "Reparación y mantenimiento de vehículos importados."},
+       "faqs": [], "page": "import-car-repair"},
+      {"id": "pick-up-and-delivery", "name": {"en": "Pick-up, Drop-off & After-Hours Arrangements", "es": "Recogida, entrega y arreglos fuera de horario"},
+       "desc": {"en": "We can pick up your car and bring it back when it's done, and set up drop-off or pick-up outside shop hours. Call to arrange it and ask whether your address is in range.", "es": "Podemos recoger su auto y regresarlo cuando esté listo, y acordar que lo deje o lo recoja fuera del horario del taller. Llame para coordinarlo y preguntar si su dirección está dentro de nuestra zona."},
+       "faqs": [], "page": "contact"}
     ]
   }
 ]

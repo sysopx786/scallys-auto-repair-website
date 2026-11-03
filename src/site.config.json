@@ -1,6 +1,6 @@
 {
   "name": "Scally's Auto Repair",
-  "baseUrl": "https://REPLACE-WITH-DOMAIN",
+  "baseUrl": "https://sysopx786.github.io/scallys-auto-repair-website",
   "phoneDisplay": "610-626-4700",
   "phoneTel": "+16106264700",
   "street": "711 Secane Ave",
@@ -66,5 +66,9 @@
   "googleReviewUrl": "https://share.google/eqcR4vWHCasSYtGdd",
   "yelpUrl": "https://www.yelp.com/biz/scallys-auto-repair-primos",
   "showPhotoComingLabel": false,
-  "basePath": "/scallys-auto-repair-website/"
+  "basePath": "/scallys-auto-repair-website/",
+  "hoursVerified": false,
+  "hoursShortEs": "Lun–Vie 9–6 · Sáb 9–1",
+  "hoursLineEs": "Lun–Vie 9:00 AM–6:00 PM · Sáb 9:00 AM–1:00 PM",
+  "serviceAreaNote": "Only Primos, Secane and Clifton Heights are used in copy until Jerry confirms other towns."
 }

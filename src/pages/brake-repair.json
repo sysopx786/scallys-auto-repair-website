@@ -1,0 +1,67 @@
+{
+  "id": "brake-repair",
+  "slug": "brake-repair",
+  "category": "brakes-steering-suspension",
+  "covers": ["brake-repair", "rotor-resurfacing", "brake-fluid-flush"],
+  "adaptedFrom": "Diverse Autoworks svc_brakes (tools/service_pages_batch3.py), rewritten and expanded for Scally's",
+  "primary_kw": {"en": "brake repair Primos PA", "es": "reparación de frenos Primos PA"},
+  "secondary_kws": ["brake pads", "rotor resurfacing", "rotor replacement", "brake fluid flush", "squeaky brakes", "grinding brakes", "soft brake pedal", "brake pulsation", "brake inspection", "brakes PA inspection", "brake repair Delaware County", "brake shop near Clifton Heights"],
+  "title": {"en": "Brake Repair in Primos, PA | Scally's Auto Repair", "es": "Reparación de frenos en Primos, PA | Scally's Auto Repair"},
+  "desc": {"en": "Brake pads, rotor resurfacing and replacement, brake fluid flushes and full brake repair at Scally's Auto Repair in Primos, PA. Call 610-626-4700.", "es": "Pastillas, rectificado y cambio de rotores, cambio de líquido de frenos y reparación completa de frenos en Primos, PA. Llame al 610-626-4700."},
+  "h1": {"en": "Brake Repair in Primos, PA", "es": "Reparación de frenos en Primos, PA"},
+  "crumb": {"en": "Brake Repair", "es": "Reparación de frenos"},
+  "service_type": {"en": "Brake repair", "es": "Reparación de frenos"},
+  "lead": {"en": "Brake repair at {name} covers pads, rotors, calipers, brake lines and fluid. If your brakes squeal, grind, pulse or feel soft, we inspect the whole system, show you what's worn and tell you what it takes to fix it.", "es": "En {name} reparamos pastillas, rotores, calipers, líneas de freno y líquido. Si sus frenos chillan, rechinan, vibran o se sienten blandos, revisamos todo el sistema, le mostramos lo que está gastado y le decimos qué hace falta para repararlo."},
+  "blocks": [
+    ["h2", {"en": "How your brakes work", "es": "Cómo funcionan los frenos"}, "how-it-works"],
+    ["p", {"en": "When you press the pedal, brake fluid carries that force through the brake lines to the calipers or wheel cylinders. They press the pads against the rotors, or the shoes against the drums, and the friction slows the car. Pads, shoes and rotors wear down with use. Brake fluid also absorbs moisture over time, which lowers its boiling point and can make the pedal feel soft after hard braking.", "es": "Al pisar el pedal, el líquido de frenos lleva esa fuerza por las líneas hasta los calipers o los cilindros de rueda. Estos aprietan las pastillas contra los rotores, o las balatas contra los tambores, y la fricción frena el auto. Las pastillas, las balatas y los rotores se gastan con el uso. Además, el líquido de frenos absorbe humedad con el tiempo, lo que baja su punto de ebullición y puede hacer que el pedal se sienta blando después de frenar fuerte."}],
+    ["h2", {"en": "Signs you need brake repair", "es": "Señales de que necesita reparar los frenos"}, "signs"],
+    ["ul", [
+      {"en": "Squealing or squeaking when you brake.", "es": "Chillidos al frenar."},
+      {"en": "Grinding, or a metal-on-metal sound.", "es": "Rechinido o sonido de metal contra metal."},
+      {"en": "The pedal pulses, or the steering wheel shakes, when you brake.", "es": "El pedal vibra, o el volante tiembla, al frenar."},
+      {"en": "A soft, spongy or sinking pedal.", "es": "El pedal se siente blando, esponjoso o se va hasta abajo."},
+      {"en": "The car pulls to one side when you brake.", "es": "El auto se jala hacia un lado al frenar."},
+      {"en": "The brake or ABS warning light is on.", "es": "Se enciende la luz de frenos o del ABS."},
+      {"en": "It takes longer to stop than it used to.", "es": "Tarda más en detenerse que antes."}
+    ]],
+    ["p", {"en": "Each sign can have more than one cause, so we inspect before replacing parts. Grinding is often worn-through pads; a pulse is often the rotors; a soft pedal can be air, old fluid or a leak. If the pedal sinks toward the floor, or the brake warning light stays on with a soft pedal, it isn't safe to drive. Stop and call us, and we can talk about getting the car here.", "es": "Cada señal puede tener más de una causa, así que revisamos antes de cambiar piezas. Un rechinido muchas veces es una pastilla gastada hasta el metal; una vibración muchas veces son los rotores; un pedal blando puede ser aire, líquido viejo o una fuga. Si el pedal se va hacia el piso, o la luz de frenos se queda encendida con el pedal blando, no es seguro manejar. Deténgase y llámenos, y vemos cómo traer el auto."}],
+    ["h2", {"en": "Brake work we do", "es": "Trabajos de frenos que hacemos"}, "work"],
+    ["ul", [
+      {"en": "Brake inspection.", "es": "Revisión de frenos."},
+      {"en": "Brake pad and shoe replacement.", "es": "Cambio de pastillas y balatas."},
+      {"en": "Rotor resurfacing and replacement.", "es": "Rectificado y cambio de rotores."},
+      {"en": "Caliper, brake line and hose repair.", "es": "Reparación de calipers, líneas y mangueras de freno."},
+      {"en": "Brake fluid flush and bleeding.", "es": "Cambio de líquido de frenos y purga del sistema."}
+    ]],
+    ["h3", {"en": "Rotor resurfacing or replacement", "es": "Rectificar o cambiar los rotores"}, "rotor-resurfacing"],
+    ["p", {"en": "Rotors wear thinner with every stop and can develop uneven spots that cause a pulsing pedal. Resurfacing machines a fresh, flat surface, as long as the rotor stays above the minimum thickness stamped on it. If it's below that, cracked or badly grooved, it gets replaced. We measure before deciding, so you only pay for what the rotor actually needs.", "es": "Los rotores se adelgazan con cada frenada y pueden desarrollar zonas disparejas que hacen vibrar el pedal. El rectificado deja una superficie nueva y plana, siempre que el rotor quede por encima del grosor mínimo marcado en él. Si está por debajo, agrietado o muy rayado, se cambia. Medimos antes de decidir, para que solo pague lo que el rotor de verdad necesita."}],
+    ["h3", {"en": "Brake fluid flush", "es": "Cambio de líquido de frenos"}, "brake-fluid-flush"],
+    ["p", {"en": "A flush replaces old, moisture-laden brake fluid with fresh fluid of the type your manufacturer specifies, and bleeds any air out of the lines. Your owner's manual lists how often to do it. If a soft pedal comes from air in the system, bleeding the brakes is part of the fix.", "es": "El cambio de líquido reemplaza el líquido viejo, que ya absorbió humedad, por líquido nuevo del tipo que indica el fabricante, y saca el aire de las líneas. El manual del propietario indica cada cuánto hacerlo. Si el pedal está blando por aire en el sistema, purgar los frenos es parte de la reparación."}],
+    ["h2", {"en": "Brakes and your Pennsylvania inspection", "es": "Los frenos y la inspección de Pensilvania"}, "pa-inspection"],
+    ["p", {"en": "Brakes are part of Pennsylvania's safety inspection. Worn pads, damaged rotors or leaking lines can keep a car from passing. As an official inspection station, we can inspect the car, fix what failed and finish the inspection here. See [PA safety inspections](svc:pa-safety-inspections).", "es": "Los frenos son parte de la inspección de seguridad de Pensilvania. Pastillas gastadas, rotores dañados o líneas con fugas pueden hacer que el auto no pase. Como estación oficial de inspección, podemos inspeccionar el auto, reparar lo que falló y terminar la inspección aquí. Vea [inspecciones de seguridad de PA](svc:pa-safety-inspections)."}],
+    ["h2", {"en": "Brake repair near Primos and Clifton Heights", "es": "Reparación de frenos cerca de Primos y Clifton Heights"}, "local"],
+    ["p", {"en": "{name} has worked on Delaware County cars since {since}. You'll find us at {street} in {city}, close to Secane and Clifton Heights. We can also pick the car up and bring it back. Call to ask whether your address is in range.", "es": "{name} trabaja en autos del condado de Delaware desde {since}. Estamos en {street}, en {city}, cerca de Secane y Clifton Heights. También podemos recoger el auto y regresarlo. Llame para preguntar si su dirección está dentro de nuestra zona."}]
+  ],
+  "faq": [
+    {"q": {"en": "Why do my brakes squeal?", "es": "¿Por qué chillan mis frenos?"},
+     "a": {"en": "Many pads have a built-in wear indicator that squeals when the pad gets thin. Squeals can also come from glazed pads, brake dust or loose hardware. Checking the pad thickness tells us which.", "es": "Muchas pastillas tienen un indicador de desgaste que chilla cuando la pastilla ya está delgada. También pueden chillar por pastillas cristalizadas, polvo de freno o herrajes flojos. Al medir el grosor de la pastilla sabemos cuál es la causa."}},
+    {"q": {"en": "What does a grinding noise mean?", "es": "¿Qué significa un rechinido al frenar?"},
+     "a": {"en": "Usually the pad has worn down to its metal backing and is cutting into the rotor. Get it checked soon: it reduces braking and can turn a pad job into a rotor job.", "es": "Por lo general la pastilla se gastó hasta la base de metal y está rayando el rotor. Revíselo pronto: frena menos y puede convertir un cambio de pastillas en un cambio de rotores."}},
+    {"q": {"en": "Why does my steering wheel shake when I brake?", "es": "¿Por qué tiembla el volante al frenar?"},
+     "a": {"en": "Uneven rotor thickness is a common cause. Worn suspension parts or wheel bearings can cause a similar shake, so we check those too.", "es": "Una causa común es que el rotor tiene grosor disparejo. Piezas de suspensión o rodamientos gastados pueden causar un temblor parecido, así que también los revisamos."}},
+    {"q": {"en": "Do you resurface rotors or replace them?", "es": "¿Rectifican los rotores o los cambian?"},
+     "a": {"en": "Both. We measure the rotor against its minimum thickness. If there's enough material and no cracks, we resurface it. If not, we replace it.", "es": "Las dos cosas. Medimos el rotor y lo comparamos con su grosor mínimo. Si tiene suficiente material y no está agrietado, lo rectificamos. Si no, lo cambiamos."}},
+    {"q": {"en": "How often should brake fluid be changed?", "es": "¿Cada cuánto se cambia el líquido de frenos?"},
+     "a": {"en": "Follow the interval in your owner's manual; it varies by manufacturer. We can also check the fluid when your car is in for other work.", "es": "Siga el intervalo del manual del propietario; varía según el fabricante. También podemos revisar el líquido cuando traiga el auto por otro trabajo."}},
+    {"q": {"en": "Is it safe to drive with a soft brake pedal?", "es": "¿Es seguro manejar con el pedal de freno blando?"},
+     "a": {"en": "No. A soft or sinking pedal can mean a leak, air in the lines or a failing master cylinder. Stop driving the car and call us at 610-626-4700. We can talk about picking it up.", "es": "No. Un pedal blando o que se va hasta abajo puede indicar una fuga, aire en las líneas o una falla del cilindro maestro. Deje de manejar el auto y llámenos al 610-626-4700. Podemos hablar de recogerlo."}}
+  ],
+  "related": ["front-end-alignment", "steering-and-suspension", "wheel-bearings", "ball-joints", "tires-and-flat-repair", "pa-safety-inspections"],
+  "sources": [],
+  "verify": [
+    "Confirm caliper, brake line and hose work (page lists them under 'full brake system service').",
+    "Confirm drum brakes / shoes are serviced.",
+    "Add a PennDOT safety-inspection citation once the PennDOT page can be fetched and checked."
+  ]
+}

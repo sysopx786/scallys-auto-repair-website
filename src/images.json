@@ -1,46 +1,79 @@
 {
-  "PA Safety Inspections": {
+  "pa-safety-inspections": {
     "file": "inspection-seal",
-    "alt": "Brass embossing seal and fountain pen on a sheet of cream paper"
+    "alt": {
+      "en": "Brass embossing seal and fountain pen on a sheet of cream paper",
+      "es": "Sello de relieve de latón y pluma fuente sobre una hoja de papel color crema"
+    }
   },
-  "Pre-Purchase Inspections": {
+  "pre-purchase-inspections": {
     "file": "pre-purchase-checklist",
-    "alt": "Car with the hood open beside a blank inspection checklist and a flashlight"
+    "alt": {
+      "en": "Car with the hood open beside a blank inspection checklist and a flashlight",
+      "es": "Auto con el cofre abierto junto a una lista de revisión en blanco y una linterna"
+    }
   },
-  "Emissions Testing": {
+  "emissions-testing": {
     "file": "obd-emissions-testing",
-    "alt": "Handheld OBD scan tool connected to an engine control module"
+    "alt": {
+      "en": "Handheld OBD scan tool connected to an engine control module",
+      "es": "Escáner OBD portátil conectado a un módulo de control del motor"
+    }
   },
-  "Computer Diagnostics": {
+  "computer-diagnostics": {
     "file": "obd-emissions-testing",
-    "alt": "Handheld OBD scan tool connected to an engine control module"
+    "alt": {
+      "en": "Handheld OBD scan tool connected to an engine control module",
+      "es": "Escáner OBD portátil conectado a un módulo de control del motor"
+    }
   },
-  "Mufflers & Exhaust": {
+  "mufflers-and-exhaust": {
     "file": "emissions-control",
-    "alt": "Catalytic converter and oxygen sensor"
+    "alt": {
+      "en": "Catalytic converter and oxygen sensor",
+      "es": "Convertidor catalítico y sensor de oxígeno"
+    }
   },
-  "Air Conditioning & Heating": {
+  "air-conditioning-and-heating": {
     "file": "heating-system",
-    "alt": "Heater core, blower motor and a coolant hose"
+    "alt": {
+      "en": "Heater core, blower motor and a coolant hose",
+      "es": "Núcleo del calefactor, motor del ventilador y una manguera de anticongelante"
+    }
   },
-  "Auto Body Repair": {
+  "auto-body-repair": {
     "file": "collision-repair",
-    "alt": "Dented car door with a body filler spreader and sanding block"
+    "alt": {
+      "en": "Dented car door with a body filler spreader and sanding block",
+      "es": "Puerta de auto abollada con una espátula para masilla y un taco de lija"
+    }
   },
-  "Spark Plugs": {
+  "spark-plugs": {
     "file": "spark-plugs",
-    "alt": "Four spark plugs standing in a row"
+    "alt": {
+      "en": "Four spark plugs standing in a row",
+      "es": "Cuatro bujías en fila"
+    }
   },
-  "Rust Repair & Corrosion Control": {
+  "rust-repair-and-corrosion-control": {
     "file": "corrosion-control",
-    "alt": "Rusted metal bracket and a wire brush"
+    "alt": {
+      "en": "Rusted metal bracket and a wire brush",
+      "es": "Soporte de metal oxidado y un cepillo de alambre"
+    }
   },
-  "Emissions Control": {
+  "emissions-control": {
     "file": "emissions-control",
-    "alt": "Catalytic converter and oxygen sensor"
+    "alt": {
+      "en": "Catalytic converter and oxygen sensor",
+      "es": "Convertidor catalítico y sensor de oxígeno"
+    }
   },
-  "Gas Tanks": {
+  "gas-tanks": {
     "file": "fuel-system",
-    "alt": "Fuel tank with a fuel pump and fuel filter"
+    "alt": {
+      "en": "Fuel tank with a fuel pump and fuel filter",
+      "es": "Tanque de combustible con bomba y filtro de combustible"
+    }
   }
 }

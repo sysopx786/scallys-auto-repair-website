@@ -395,3 +395,31 @@ dialog.pal::backdrop{background:rgba(8,14,28,.6);backdrop-filter:blur(4px)}
 @media (max-width:900px){.hero{padding-bottom:96px}.hero-card{padding-bottom:48px}.chip.c1{bottom:-18px}}
 @media (min-width:1061px){.mega{grid-template-columns:repeat(4,1fr);width:min(1080px,94vw);max-height:calc(100vh - var(--hdr) - 16px);overflow:auto}}
 .kbd-btn .lbl{white-space:nowrap}
+
+/* ---- language switch, detailed service pages (service expansion, Nov 2026) ---- */
+.lang-sw{display:inline-flex;align-items:center;gap:.35rem;min-height:42px;padding:0 .7rem;border:1px solid var(--line);border-radius:12px;background:var(--surface);color:var(--ink);font:600 .85rem var(--f-text);text-decoration:none}
+.lang-sw:hover{border-color:var(--teal-2)}.lang-sw .icon{width:1.05em;height:1.05em;color:var(--teal)}
+.mega>a:not(.all) small{display:block;margin-top:.1rem}
+:lang(es) .acc .ans.safety::before{content:"Nota de seguridad"}
+.svc-more{margin:.6rem 0 0}
+.svc-body{min-width:0;max-width:72ch}
+.svc-body>h2{font-size:clamp(1.45rem,1.2vw + 1rem,2rem);margin:2.6rem 0 .7rem;scroll-margin-top:calc(var(--hdr) + 16px)}
+.svc-body>h3{font-size:1.2rem;margin:1.8rem 0 .5rem;scroll-margin-top:calc(var(--hdr) + 16px)}
+.svc-body>p{font-size:1.08rem}
+.svc-list{padding-left:1.2rem;margin:.4rem 0 1rem}.svc-list li{margin:.35rem 0;font-size:1.05rem}.svc-list li::marker{color:var(--teal)}
+.covers{border:1px solid var(--line);border-radius:var(--r-sm);background:var(--surface);padding:1rem 1.2rem}
+.covers h2.covers-h{font:600 .78rem var(--f-text);letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0 0 .5rem}
+.covers ul{display:flex;flex-wrap:wrap;gap:.4rem .5rem;list-style:none;margin:0;padding:0}
+.covers li a{display:inline-block;padding:.35rem .7rem;border:1px solid var(--line);border-radius:999px;text-decoration:none;color:var(--ink);font-size:.92rem}
+.covers li a:hover{border-color:var(--teal-2)}
+.svc-body>h2:first-of-type{margin-top:2rem}
+.svc-body .rel-h,.svc-body .src-h{font-size:1.25rem}
+.sources{padding-left:1.1rem;font-size:.92rem;color:var(--muted)}.sources li{margin:.3rem 0}
+@media (max-width:1060px){.lang-sw span{display:inline}}
+/* header fit: the open/closed pill never fits beside nav + language switch on desktop (it shows on phones and tablets) */
+@media (min-width:1061px){.hdr-status{display:none}}
+@media (min-width:1061px) and (max-width:1360px){.nav>a,.nav>.has-mega>button{padding:.7rem .55rem}}
+@media (min-width:1061px) and (max-width:1240px){.nav>a,.nav>.has-mega>button{padding:.6rem .4rem;font-size:.92rem}.lang-sw span{display:none}.lang-sw{padding:0 .6rem}}
+@media (max-width:420px){.lang-sw span{display:none}.lang-sw{padding:0 .55rem}.hdr .wrap{gap:.6rem}}
+@media (min-width:1061px){html[lang=es] .hdr-actions .btn-call .cl,html[lang=es] .kbd-btn .lbl,html[lang=es] .kbd-btn kbd{display:none}}
+@media (max-width:360px){.hdr-actions{gap:.3rem}.hdr .wrap{gap:.4rem}}
