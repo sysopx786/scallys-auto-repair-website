@@ -1,0 +1,64 @@
+{
+  "id": "wheel-alignment",
+  "slug": "wheel-alignment",
+  "category": "brakes-steering-suspension",
+  "covers": ["front-end-alignment"],
+  "adaptedFrom": "Diverse Autoworks svc_tires (alignment parts) and svc_steering (alignment notes), rewritten and expanded for Scally's",
+  "primary_kw": {"en": "wheel alignment Primos PA", "es": "alineación Primos PA"},
+  "secondary_kws": ["front end alignment", "car pulls to one side", "steering wheel off center", "uneven tire wear", "alignment after pothole", "alignment after new tires", "toe camber caster", "alignment near Clifton Heights", "alignment Delaware County"],
+  "title": {"en": "Front End Alignment in Primos, PA | Scally's Auto Repair", "es": "Alineación en Primos, PA | Scally's Auto Repair"},
+  "desc": {"en": "Front end alignment at Scally's Auto Repair in Primos, PA. Car pulling, steering wheel off center or tires wearing unevenly? Call 610-626-4700.", "es": "Alineación en Scally's Auto Repair, Primos, PA. ¿El auto se jala, el volante está chueco o las llantas se gastan disparejo? Llame al 610-626-4700."},
+  "h1": {"en": "Front End Alignment in Primos, PA", "es": "Alineación en Primos, PA"},
+  "crumb": {"en": "Wheel Alignment", "es": "Alineación"},
+  "service_type": {"en": "Wheel alignment", "es": "Alineación de ruedas"},
+  "lead": {"en": "{name} does front end alignments at our shop on {street} in {city}. If your car pulls to one side, the steering wheel sits crooked when you drive straight, or the front tires are wearing on one edge, an alignment may be the fix. We check for worn steering and suspension parts first, because an alignment can't correct a loose part.", "es": "En {name} hacemos alineaciones en nuestro taller de {street}, en {city}. Si su auto se jala hacia un lado, el volante queda chueco cuando va derecho o las llantas delanteras se gastan de un borde, una alineación puede ser la solución. Primero revisamos que no haya piezas de dirección o suspensión gastadas, porque una alineación no corrige una pieza floja."},
+  "blocks": [
+    ["h2", {"en": "What an alignment adjusts", "es": "Qué ajusta una alineación"}, "what-it-adjusts"],
+    ["p", {"en": "An alignment sets the angles of the wheels to the manufacturer's specifications. Toe is whether the front of the tires point in or out, seen from above. Camber is the inward or outward tilt of the tire, seen from the front. Caster is the angle of the steering axis, seen from the side, which helps the wheel return to center. Small changes in these angles can make the car pull and wear tires quickly.", "es": "Una alineación ajusta los ángulos de las ruedas a las especificaciones del fabricante. La convergencia (toe) indica si la parte delantera de las llantas apunta hacia adentro o hacia afuera, vista desde arriba. La caída (camber) es la inclinación de la llanta hacia adentro o hacia afuera, vista de frente. El avance (caster) es el ángulo del eje de dirección, visto de lado, que ayuda a que el volante regrese al centro. Cambios pequeños en estos ángulos pueden hacer que el auto se jale y gaste las llantas rápido."}],
+    ["h2", {"en": "Signs you need an alignment", "es": "Señales de que necesita una alineación"}, "signs"],
+    ["ul", [
+      {"en": "The car pulls or drifts to one side on a straight, level road.", "es": "El auto se jala o se va de lado en un camino recto y plano."},
+      {"en": "The steering wheel is off center when you drive straight.", "es": "El volante queda chueco cuando maneja derecho."},
+      {"en": "The front tires wear faster on the inside or outside edge.", "es": "Las llantas delanteras se gastan más rápido en el borde interior o exterior."},
+      {"en": "The tires squeal in normal turns.", "es": "Las llantas rechinan en vueltas normales."},
+      {"en": "You hit a big pothole or a curb, and the car feels different since.", "es": "Pegó en un bache grande o en una banqueta, y desde entonces el auto se siente distinto."}
+    ]],
+    ["p", {"en": "A pull isn't always alignment. Uneven tire pressure, a tire with an internal defect, a sticking brake caliper or a worn suspension part can make a car pull too. We check tire pressure and condition and look for loose parts before adjusting anything.", "es": "No todo jalón es de alineación. La presión dispareja de las llantas, una llanta con un defecto interno, un caliper de freno que se pega o una pieza de suspensión gastada también pueden hacer que el auto se jale. Revisamos la presión y el estado de las llantas y buscamos piezas flojas antes de ajustar nada."}],
+    ["h2", {"en": "How we do it", "es": "Cómo la hacemos"}, "how"],
+    ["ul", [
+      {"en": "Check tire pressure, tire wear and the steering and suspension parts for play.", "es": "Revisamos la presión y el desgaste de las llantas, y el juego en las piezas de dirección y suspensión."},
+      {"en": "Measure the wheel angles and compare them with the manufacturer's specifications.", "es": "Medimos los ángulos de las ruedas y los comparamos con las especificaciones del fabricante."},
+      {"en": "Adjust the angles that can be adjusted on your car and center the steering wheel.", "es": "Ajustamos los ángulos que su auto permite ajustar y centramos el volante."},
+      {"en": "Tell you about any worn part we find before replacing it.", "es": "Le avisamos de cualquier pieza gastada que encontremos antes de cambiarla."}
+    ]],
+    ["p", {"en": "If a tie rod, ball joint or control arm is worn, it gets replaced first; aligning around a loose part wastes your money because the angles won't hold. See [steering repair](svc:tie-rods) and [suspension repair](svc:steering-and-suspension).", "es": "Si un terminal, una rótula o un brazo de control está gastado, primero se cambia; alinear con una pieza floja es tirar el dinero, porque los ángulos no se mantienen. Vea [reparación de dirección](svc:tie-rods) y [reparación de suspensión](svc:steering-and-suspension)."}],
+    ["h2", {"en": "When to get an alignment", "es": "Cuándo hacer una alineación"}, "when"],
+    ["ul", [
+      {"en": "After replacing tie rods, struts, control arms or other steering and suspension parts.", "es": "Después de cambiar terminales, struts, brazos de control u otras piezas de dirección y suspensión."},
+      {"en": "When you put on new tires, to protect them from uneven wear.", "es": "Al poner llantas nuevas, para protegerlas del desgaste disparejo."},
+      {"en": "After a hard hit to a pothole or curb.", "es": "Después de un golpe fuerte contra un bache o una banqueta."},
+      {"en": "Whenever you notice a pull, an off-center wheel or uneven tire wear.", "es": "Cuando note un jalón, el volante chueco o desgaste disparejo de las llantas."}
+    ]],
+    ["h3", {"en": "Alignment vs. balancing", "es": "Alineación o balanceo"}, "alignment-vs-balancing"],
+    ["p", {"en": "These two get mixed up. An alignment fixes pulling and uneven wear by adjusting wheel angles. [Wheel balancing](svc:wheel-balancing) fixes vibration at speed by evening out the weight of each tire and wheel. A shaking steering wheel usually points to balance, not alignment.", "es": "Estas dos cosas se confunden. La alineación corrige jalones y desgaste disparejo ajustando los ángulos de las ruedas. El [balanceo](svc:wheel-balancing) corrige la vibración a velocidad emparejando el peso de cada llanta con su rin. Un volante que tiembla por lo general apunta al balanceo, no a la alineación."}],
+    ["h2", {"en": "Alignments near Primos and Clifton Heights", "es": "Alineación cerca de Primos y Clifton Heights"}, "local"],
+    ["p", {"en": "{name} is at {street} in {city}, close to Secane and Clifton Heights. Getting new tires? Ask about an alignment at the same visit.", "es": "{name} está en {street}, en {city}, cerca de Secane y Clifton Heights. ¿Va a poner llantas nuevas? Pregunte por una alineación en la misma visita."}]
+  ],
+  "faq": [
+    {"q": {"en": "How do I know if I need an alignment?", "es": "¿Cómo sé si necesito una alineación?"},
+     "a": {"en": "Common signs are the car pulling to one side, a steering wheel that's off center when driving straight, and front tires wearing on one edge.", "es": "Las señales comunes son que el auto se jale hacia un lado, que el volante quede chueco al ir derecho y que las llantas delanteras se gasten de un borde."}},
+    {"q": {"en": "How often should I get an alignment?", "es": "¿Cada cuánto debo alinear?"},
+     "a": {"en": "There's no single interval for every car. Check your owner's manual, and get one after new tires, steering or suspension work, a hard pothole hit, or when you notice a pull.", "es": "No hay un intervalo único para todos los autos. Revise el manual del propietario, y alinee después de poner llantas nuevas, de trabajos de dirección o suspensión, de un golpe fuerte en un bache o cuando note que se jala."}},
+    {"q": {"en": "Can a pothole knock my car out of alignment?", "es": "¿Un bache puede desalinear mi auto?"},
+     "a": {"en": "Yes. A hard hit can change the wheel angles or bend a part. If the car feels different afterward, have it checked.", "es": "Sí. Un golpe fuerte puede cambiar los ángulos de las ruedas o doblar una pieza. Si el auto se siente distinto después, hágalo revisar."}},
+    {"q": {"en": "Will an alignment stop my steering wheel from shaking?", "es": "¿La alineación quita la vibración del volante?"},
+     "a": {"en": "Usually not. Shaking at speed is more often wheel balance, a bent wheel or a worn part. An alignment fixes pulling and uneven wear.", "es": "Por lo general no. La vibración a velocidad suele venir del balanceo, un rin doblado o una pieza gastada. La alineación corrige jalones y desgaste disparejo."}},
+    {"q": {"en": "Do I need an alignment after new tires?", "es": "¿Necesito alinear después de poner llantas nuevas?"},
+     "a": {"en": "It's a good idea. If the old tires wore unevenly, the same alignment problem will wear out the new ones too.", "es": "Es buena idea. Si las llantas viejas se gastaron disparejo, el mismo problema de alineación también gastará las nuevas."}},
+    {"q": {"en": "Why does my car still pull after an alignment?", "es": "¿Por qué mi auto se sigue jalando después de alinearlo?"},
+     "a": {"en": "A tire defect, uneven tire pressure, a sticking brake or a worn part can cause a pull that an alignment won't fix. We check those when a pull doesn't go away.", "es": "Un defecto en una llanta, presión dispareja, un freno que se pega o una pieza gastada pueden causar un jalón que la alineación no corrige. Revisamos eso cuando el jalón no se quita."}}
+  ],
+  "related": ["tie-rods", "steering-and-suspension", "shocks-and-struts", "tires-and-flat-repair", "wheel-balancing", "brake-repair"],
+  "sources": [],
+  "verify": ["Confirm whether Scally's does front-only or four-wheel/thrust alignments (page only says front end alignment).", "Confirm alignment equipment type if you want to name it."]
+}

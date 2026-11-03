@@ -1,0 +1,62 @@
+{
+  "id": "ac-heating",
+  "slug": "ac-heating",
+  "category": "maintenance",
+  "covers": ["air-conditioning-and-heating"],
+  "adaptedFrom": "Diverse Autoworks svc_climate (tools/service_pages_batch4.py), rewritten and expanded for Scally's",
+  "primary_kw": {"en": "car AC repair Primos PA", "es": "reparación de aire acondicionado de auto Primos PA"},
+  "secondary_kws": ["car AC not cold", "AC blowing warm air", "AC recharge", "AC leak", "AC compressor", "car heater not working", "no heat in car", "heater core", "blower motor", "car AC repair Delaware County"],
+  "title": {"en": "Car A/C & Heating Repair in Primos, PA | Scally's Auto Repair", "es": "Aire acondicionado y calefacción en Primos, PA | Scally's"},
+  "desc": {"en": "A/C blowing warm or no heat? Scally's Auto Repair in Primos, PA diagnoses and repairs car air conditioning and heating systems. Call 610-626-4700.", "es": "¿El A/C echa aire caliente o no hay calefacción? En Scally's Auto Repair, Primos, PA, reparamos el aire acondicionado y la calefacción. 610-626-4700."},
+  "h1": {"en": "Car A/C & Heating Repair in Primos, PA", "es": "Reparación de aire acondicionado y calefacción en Primos, PA"},
+  "crumb": {"en": "A/C & Heating", "es": "A/C y calefacción"},
+  "service_type": {"en": "Automotive air conditioning and heating repair", "es": "Reparación de aire acondicionado y calefacción automotriz"},
+  "lead": {"en": "{name} repairs car air conditioning and heating at our shop on {street} in {city}. A/C that blows warm, heat that never comes, weak airflow or a strange smell from the vents each point somewhere different. We find the cause before we add refrigerant or replace parts.", "es": "En {name} reparamos el aire acondicionado y la calefacción del auto en nuestro taller de {street}, en {city}. Un A/C que echa aire caliente, una calefacción que nunca calienta, aire débil o un olor raro en las rejillas apuntan a lugares distintos. Encontramos la causa antes de agregar refrigerante o cambiar piezas."},
+  "blocks": [
+    ["h2", {"en": "How car A/C and heat work", "es": "Cómo funcionan el A/C y la calefacción"}, "how-it-works"],
+    ["p", {"en": "Your A/C is a sealed system. The compressor, driven by the engine belt, pressurizes refrigerant. The condenser in front of the radiator sheds heat, and the evaporator behind the dash absorbs heat from the cabin air, which also dries it out. The heater is separate: it sends hot engine coolant through a small radiator called the heater core. A blower motor pushes air through both, and blend doors behind the dash mix hot and cold air to the temperature you set.", "es": "El A/C es un sistema sellado. El compresor, movido por la banda del motor, pone el refrigerante a presión. El condensador, frente al radiador, saca el calor, y el evaporador, detrás del tablero, absorbe el calor del aire de la cabina, lo que además le quita la humedad. La calefacción es aparte: manda anticongelante caliente del motor por un radiador pequeño llamado núcleo del calefactor. Un motor soplador empuja el aire por los dos, y unas compuertas detrás del tablero mezclan aire frío y caliente a la temperatura que usted elige."}],
+    ["h2", {"en": "Signs you need A/C or heating repair", "es": "Señales de que necesita reparar el A/C o la calefacción"}, "signs"],
+    ["ul", [
+      {"en": "The A/C blows warm or only slightly cool air.", "es": "El A/C echa aire caliente o apenas fresco."},
+      {"en": "The A/C works on the highway but not at idle, or cuts in and out.", "es": "El A/C enfría en carretera pero no en ralentí, o se prende y se apaga."},
+      {"en": "Little or no heat once the engine is warm.", "es": "Poca o nada de calefacción aunque el motor ya esté caliente."},
+      {"en": "Weak airflow, or air only comes out of some vents.", "es": "El aire sale débil o solo por algunas rejillas."},
+      {"en": "A musty smell from the vents, or a sweet smell and a foggy windshield.", "es": "Olor a humedad en las rejillas, o un olor dulce con el parabrisas empañado."},
+      {"en": "A clicking or grinding noise when the A/C is on.", "es": "Un clic o un rechinido cuando el A/C está encendido."}
+    ]],
+    ["p", {"en": "A sweet smell inside the car with a greasy fog on the windshield can mean the heater core is leaking coolant into the cabin. Have that checked soon, since the fog can block your view.", "es": "Un olor dulce dentro del auto con una neblina grasosa en el parabrisas puede indicar que el núcleo del calefactor está tirando anticongelante dentro de la cabina. Hágalo revisar pronto, porque la neblina puede taparle la vista."}],
+    ["h2", {"en": "A/C and heating work we do", "es": "Trabajos de A/C y calefacción que hacemos"}, "work"],
+    ["ul", [
+      {"en": "A/C performance testing and leak diagnosis.", "es": "Prueba de rendimiento del A/C y diagnóstico de fugas."},
+      {"en": "Refrigerant service once the cause of a low charge is found.", "es": "Servicio de refrigerante una vez que encontramos por qué estaba bajo."},
+      {"en": "A/C component repair, such as compressors, condensers and hoses.", "es": "Reparación de piezas del A/C, como compresores, condensadores y mangueras."},
+      {"en": "Heating diagnosis and repair, including coolant flow and heater core problems.", "es": "Diagnóstico y reparación de la calefacción, incluidos problemas de flujo de anticongelante y del núcleo del calefactor."},
+      {"en": "Blower motor and airflow problems, plus [cabin air filter](svc:filter-replacement) replacement.", "es": "Fallas del motor soplador y del flujo de aire, además del cambio del [filtro de cabina](svc:filter-replacement)."}
+    ]],
+    ["h3", {"en": "Why we don't just recharge it", "es": "Por qué no solo lo recargamos"}, "why-not-recharge"],
+    ["p", {"en": "An A/C system doesn't use up refrigerant. If it's low, it's leaking. Adding refrigerant without finding the leak usually means the cold air fades again, and overcharging can damage the compressor. We check the pressures and look for the leak first, then repair it and charge the system with the type and amount your car calls for.", "es": "Un sistema de A/C no gasta refrigerante. Si está bajo, es que tiene una fuga. Agregar refrigerante sin encontrar la fuga por lo general hace que el aire frío se vuelva a ir, y cargarlo de más puede dañar el compresor. Primero revisamos las presiones y buscamos la fuga, la reparamos y luego cargamos el sistema con el tipo y la cantidad que pide su auto."}],
+    ["h3", {"en": "No heat", "es": "Sin calefacción"}, "no-heat"],
+    ["p", {"en": "Because the heater uses engine coolant, a heat problem is often a cooling system problem: low coolant, a thermostat stuck open, or a clogged heater core. A broken blend door can also leave you with cold air even when everything else works. If the temperature gauge stays low or the engine is losing coolant, see [cooling system repair](svc:cooling-systems).", "es": "Como la calefacción usa el anticongelante del motor, una falla de calefacción muchas veces es un problema del sistema de enfriamiento: poco anticongelante, un termostato pegado abierto o un núcleo del calefactor tapado. Una compuerta de mezcla rota también puede dejarlo con aire frío aunque todo lo demás funcione. Si la aguja de temperatura se queda baja o el motor pierde anticongelante, vea [reparación del sistema de enfriamiento](svc:cooling-systems)."}],
+    ["h2", {"en": "Seasonal tips", "es": "Consejos de temporada"}, "seasonal"],
+    ["p", {"en": "Run the A/C for a few minutes every couple of weeks, even in winter; the defrost setting does this on many cars. It keeps the seals lubricated and helps dry the windshield. If the A/C was weak at the end of last summer, have it checked before the first hot week, when shops get busy.", "es": "Prenda el A/C unos minutos cada par de semanas, aun en invierno; en muchos autos el desempañador lo hace solo. Eso mantiene lubricados los sellos y ayuda a secar el parabrisas. Si el A/C enfriaba poco al final del verano pasado, hágalo revisar antes de la primera semana de calor, cuando los talleres se llenan."}],
+    ["h2", {"en": "A/C and heating repair near Primos and Clifton Heights", "es": "A/C y calefacción cerca de Primos y Clifton Heights"}, "local"],
+    ["p", {"en": "{name} is at {street} in {city}, close to Secane and Clifton Heights. Call and tell us what the vents are doing; it helps us plan the diagnosis.", "es": "{name} está en {street}, en {city}, cerca de Secane y Clifton Heights. Llame y cuéntenos qué hacen las rejillas; eso nos ayuda a planear el diagnóstico."}]
+  ],
+  "faq": [
+    {"q": {"en": "Why is my car A/C blowing warm air?", "es": "¿Por qué el A/C de mi auto echa aire caliente?"},
+     "a": {"en": "Common causes are a refrigerant leak, a compressor that isn't engaging, an electrical fault, or a blend door stuck on heat. We test the system to find which one.", "es": "Las causas comunes son una fuga de refrigerante, un compresor que no engancha, una falla eléctrica o una compuerta de mezcla pegada en calor. Probamos el sistema para encontrar cuál es."}},
+    {"q": {"en": "Can you just recharge my A/C?", "es": "¿Solo pueden recargar mi A/C?"},
+     "a": {"en": "If it's low, it has a leak, so a recharge alone usually doesn't last. We find and fix the leak, then charge the system with the right type and amount of refrigerant.", "es": "Si está bajo, tiene una fuga, así que solo recargarlo por lo general no dura. Encontramos y reparamos la fuga, y luego cargamos el sistema con el tipo y la cantidad correctos de refrigerante."}},
+    {"q": {"en": "Why is there no heat in my car?", "es": "¿Por qué no calienta la calefacción de mi auto?"},
+     "a": {"en": "Low coolant, a thermostat stuck open, a clogged heater core or a blend door problem are the usual causes. We check the cooling system first.", "es": "Las causas usuales son poco anticongelante, un termostato pegado abierto, un núcleo del calefactor tapado o una falla de la compuerta de mezcla. Primero revisamos el sistema de enfriamiento."}},
+    {"q": {"en": "Why does air only come out of some vents?", "es": "¿Por qué el aire solo sale por algunas rejillas?"},
+     "a": {"en": "A mode door or its actuator behind the dash may be stuck. Weak airflow everywhere is more often a clogged cabin filter or a blower motor problem.", "es": "Puede estar pegada una compuerta de modo o su actuador detrás del tablero. Si el aire sale débil por todas, suele ser el filtro de cabina tapado o una falla del motor soplador."}},
+    {"q": {"en": "What causes a musty smell from the vents?", "es": "¿Qué causa el olor a humedad en las rejillas?"},
+     "a": {"en": "Moisture on the evaporator or a dirty cabin filter can grow mold and mildew. Replacing the cabin filter is the first step.", "es": "La humedad en el evaporador o un filtro de cabina sucio pueden generar moho. Cambiar el filtro de cabina es el primer paso."}},
+    {"q": {"en": "Is a sweet smell inside the car a problem?", "es": "¿Es un problema el olor dulce dentro del auto?"},
+     "a": {"en": "It can mean coolant is leaking from the heater core. If you also see a greasy fog on the windshield, have it checked soon, since it can block your view.", "es": "Puede indicar que el núcleo del calefactor tiene una fuga de anticongelante. Si además ve una neblina grasosa en el parabrisas, hágalo revisar pronto, porque puede taparle la vista."}}
+  ],
+  "related": ["cooling-systems", "filter-replacement", "fan-and-accessory-belts", "electrical-repair", "oil-changes", "basic-hybrid-service"],
+  "sources": [],
+  "verify": ["Confirm Scally's equipment handles R-1234yf as well as R-134a (page doesn't name refrigerants).", "Confirm heater core replacement is done (page says heater core problems)."]
+}

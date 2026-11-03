@@ -1,0 +1,62 @@
+{
+  "id": "exhaust-muffler-repair",
+  "slug": "exhaust-muffler-repair",
+  "category": "engine-exhaust",
+  "covers": ["mufflers-and-exhaust"],
+  "adaptedFrom": "Diverse Autoworks svc_exhaust (tools/service_pages_batch3.py), rewritten and expanded for Scally's; catalytic converter work left for the emissions page",
+  "primary_kw": {"en": "exhaust repair Primos PA", "es": "reparación de escape Primos PA"},
+  "secondary_kws": ["muffler repair", "muffler replacement", "exhaust leak", "loud exhaust", "exhaust pipe repair", "exhaust hanger", "rattling exhaust", "exhaust smell in car", "exhaust PA inspection", "muffler shop Delaware County"],
+  "title": {"en": "Muffler & Exhaust Repair in Primos, PA | Scally's Auto Repair", "es": "Mofles y escape en Primos, PA | Scally's Auto Repair"},
+  "desc": {"en": "Loud exhaust, rattles or exhaust smell? Scally's Auto Repair in Primos, PA repairs mufflers, pipes, hangers and exhaust leaks. Call 610-626-4700.", "es": "¿Escape ruidoso, traqueteos u olor a escape? En Scally's Auto Repair, Primos, PA, reparamos mofles, tubos, soportes y fugas. Llame al 610-626-4700."},
+  "h1": {"en": "Muffler & Exhaust Repair in Primos, PA", "es": "Reparación de mofles y escape en Primos, PA"},
+  "crumb": {"en": "Muffler & Exhaust", "es": "Mofles y escape"},
+  "service_type": {"en": "Exhaust system repair", "es": "Reparación del sistema de escape"},
+  "lead": {"en": "{name} repairs mufflers, exhaust pipes, hangers and exhaust leaks at our shop on {street} in {city}. A louder exhaust, a rattle underneath or an exhaust smell inside the car all deserve a look, and an exhaust smell in the cabin deserves one right away.", "es": "En {name} reparamos mofles, tubos de escape, soportes y fugas de escape en nuestro taller de {street}, en {city}. Un escape más ruidoso, un traqueteo debajo del auto o un olor a escape dentro del auto merecen una revisión, y el olor a escape dentro de la cabina, una revisión inmediata."},
+  "blocks": [
+    ["h2", {"en": "What the exhaust system does", "es": "Para qué sirve el sistema de escape"}, "what-it-does"],
+    ["p", {"en": "The exhaust carries combustion gases from the engine to the back of the car. Gases leave through the exhaust manifold, pass the oxygen sensors and the catalytic converter, then run through pipes and one or more mufflers to the tailpipe. Rubber hangers and clamps hold it all under the car. Pennsylvania road salt is hard on these parts, so rust is the most common reason they fail here.", "es": "El escape lleva los gases de la combustión desde el motor hasta la parte de atrás del auto. Los gases salen por el múltiple de escape, pasan por los sensores de oxígeno y el convertidor catalítico, y luego corren por los tubos y uno o más mofles hasta la salida. Soportes de hule y abrazaderas sostienen todo debajo del auto. La sal de las calles de Pensilvania es dura con estas piezas, así que el óxido es la razón más común por la que fallan aquí."}],
+    ["h2", {"en": "Signs you need exhaust repair", "es": "Señales de que necesita reparar el escape"}, "signs"],
+    ["ul", [
+      {"en": "The exhaust is louder than it used to be, or rumbles on acceleration.", "es": "El escape suena más fuerte que antes, o retumba al acelerar."},
+      {"en": "A ticking or hissing sound from the engine area, often worst on a cold start.", "es": "Un tic-tac o un siseo cerca del motor, muchas veces peor al arrancar en frío."},
+      {"en": "Rattling or banging underneath, or something hanging low.", "es": "Traqueteos o golpes debajo del auto, o algo colgando."},
+      {"en": "An exhaust smell inside the car.", "es": "Olor a escape dentro del auto."},
+      {"en": "Visible rust holes or broken hangers.", "es": "Agujeros de óxido visibles o soportes rotos."},
+      {"en": "A check engine light, which can come from an exhaust leak near an oxygen sensor.", "es": "La luz de check engine, que puede encenderse por una fuga de escape cerca de un sensor de oxígeno."}
+    ]],
+    ["p", {"en": "Exhaust gas contains carbon monoxide, which you can't see and may not smell. If you smell exhaust inside the car, or anyone feels headachy, dizzy or drowsy while driving, open the windows, stop somewhere safe and get out of the car. Don't drive it again until the leak is fixed. If anyone has symptoms, call 911.", "es": "Los gases del escape contienen monóxido de carbono, que no se ve y a veces no se huele. Si huele a escape dentro del auto, o alguien siente dolor de cabeza, mareo o sueño al manejar, abra las ventanas, deténgase en un lugar seguro y salgan del auto. No lo vuelva a manejar hasta reparar la fuga. Si alguien tiene síntomas, llame al 911."}],
+    ["h2", {"en": "Exhaust work we do", "es": "Trabajos de escape que hacemos"}, "work"],
+    ["ul", [
+      {"en": "Exhaust inspection and leak diagnosis.", "es": "Revisión del escape y diagnóstico de fugas."},
+      {"en": "Muffler repair and replacement.", "es": "Reparación y cambio de mofles."},
+      {"en": "Exhaust pipe, clamp and gasket repair.", "es": "Reparación de tubos, abrazaderas y empaques de escape."},
+      {"en": "Exhaust hanger replacement.", "es": "Cambio de soportes de escape."},
+      {"en": "Catalytic converters and oxygen sensors: see [emissions control](svc:emissions-control).", "es": "Convertidores catalíticos y sensores de oxígeno: vea [control de emisiones](svc:emissions-control)."}
+    ]],
+    ["h3", {"en": "Finding the leak", "es": "Cómo encontramos la fuga"}, "finding-leaks"],
+    ["p", {"en": "A loud exhaust isn't always the muffler. A cracked manifold, a leaking gasket at a joint, a rusted-through pipe or a loose clamp can all make noise. Leaks near the engine can also let outside air past an oxygen sensor and throw off its reading. We inspect the system from the manifold back and fix the part that's actually leaking.", "es": "Un escape ruidoso no siempre es el mofle. Un múltiple agrietado, un empaque con fuga en una unión, un tubo podrido por el óxido o una abrazadera floja también hacen ruido. Las fugas cerca del motor también pueden dejar entrar aire junto a un sensor de oxígeno y alterar su lectura. Revisamos el sistema desde el múltiple hacia atrás y reparamos la pieza que de verdad tiene la fuga."}],
+    ["h3", {"en": "Repair or replace", "es": "Reparar o cambiar"}, "repair-or-replace"],
+    ["p", {"en": "A broken hanger or a leaking clamp is a small fix. A muffler or pipe that's rusted through usually needs replacing, and nearby parts may be close behind. We'll show you the condition of the system so you can decide what to do now and what can wait.", "es": "Un soporte roto o una abrazadera con fuga son reparaciones pequeñas. Un mofle o un tubo podrido por el óxido por lo general hay que cambiarlo, y las piezas de al lado pueden estar cerca de fallar. Le mostramos el estado del sistema para que decida qué hacer ahora y qué puede esperar."}],
+    ["h2", {"en": "Exhaust and your Pennsylvania inspection", "es": "El escape y la inspección de Pensilvania"}, "pa-inspection"],
+    ["p", {"en": "The exhaust system is part of Pennsylvania's safety inspection. Leaks, holes and loose or missing parts can keep a car from passing. As an official inspection station, we can repair what fails and finish the inspection here. See [PA safety inspections](svc:pa-safety-inspections).", "es": "El sistema de escape es parte de la inspección de seguridad de Pensilvania. Las fugas, los agujeros y las piezas flojas o faltantes pueden hacer que el auto no pase. Como estación oficial de inspección, podemos reparar lo que falle y terminar la inspección aquí. Vea [inspecciones de seguridad de PA](svc:pa-safety-inspections)."}],
+    ["h2", {"en": "Exhaust repair near Primos and Clifton Heights", "es": "Reparación de escape cerca de Primos y Clifton Heights"}, "local"],
+    ["p", {"en": "{name} is at {street} in {city}, close to Secane and Clifton Heights. If part of the exhaust is dragging, call us before driving far. We can talk about picking the car up.", "es": "{name} está en {street}, en {city}, cerca de Secane y Clifton Heights. Si alguna parte del escape va arrastrando, llámenos antes de manejar lejos. Podemos hablar de recoger el auto."}]
+  ],
+  "faq": [
+    {"q": {"en": "What makes an exhaust loud?", "es": "¿Qué hace que el escape suene fuerte?"},
+     "a": {"en": "A hole in the muffler or a pipe, a leaking joint or gasket, a cracked manifold or a broken hanger. We find the source before replacing parts.", "es": "Un agujero en el mofle o en un tubo, una unión o empaque con fuga, un múltiple agrietado o un soporte roto. Encontramos el origen antes de cambiar piezas."}},
+    {"q": {"en": "Is it dangerous to drive with an exhaust leak?", "es": "¿Es peligroso manejar con una fuga de escape?"},
+     "a": {"en": "It can be. Exhaust contains carbon monoxide. If you smell exhaust in the car or feel headachy or drowsy, open the windows, stop and get out, and have it repaired before driving again.", "es": "Puede serlo. El escape contiene monóxido de carbono. Si huele a escape en el auto o siente dolor de cabeza o sueño, abra las ventanas, deténgase y salga del auto, y repárelo antes de volver a manejarlo."}},
+    {"q": {"en": "Why is my exhaust rattling?", "es": "¿Por qué traquetea mi escape?"},
+     "a": {"en": "Usually a loose or broken hanger, a loose heat shield or a muffler with broken internal baffles. Most are simple fixes once we find which one.", "es": "Por lo general es un soporte flojo o roto, un protector de calor flojo o un mofle con piezas internas rotas. La mayoría son reparaciones sencillas una vez que encontramos cuál es."}},
+    {"q": {"en": "Can an exhaust leak turn on the check engine light?", "es": "¿Una fuga de escape puede encender la luz de check engine?"},
+     "a": {"en": "Yes. A leak near an oxygen sensor can let in outside air and throw off its reading. Fixing the leak is part of fixing the code.", "es": "Sí. Una fuga cerca de un sensor de oxígeno puede dejar entrar aire de afuera y alterar su lectura. Reparar la fuga es parte de corregir el código."}},
+    {"q": {"en": "Will an exhaust leak fail a Pennsylvania inspection?", "es": "¿Una fuga de escape reprueba la inspección de Pensilvania?"},
+     "a": {"en": "It can. The exhaust system is checked for leaks, holes and loose parts during the safety inspection. We can repair it and finish the inspection here.", "es": "Puede pasar. En la inspección de seguridad se revisa que el escape no tenga fugas, agujeros ni piezas flojas. Podemos repararlo y terminar la inspección aquí."}},
+    {"q": {"en": "Do you replace catalytic converters?", "es": "¿Cambian convertidores catalíticos?"},
+     "a": {"en": "Yes. Catalytic converter and oxygen sensor work is covered under our emissions control service.", "es": "Sí. El trabajo de convertidores catalíticos y sensores de oxígeno está en nuestro servicio de control de emisiones."}}
+  ],
+  "related": ["emissions-control", "check-engine-light", "pa-safety-inspections", "rust-repair-and-corrosion-control", "engine-repair", "gas-tanks"],
+  "sources": [],
+  "verify": ["Confirm whether Scally's welds exhaust (custom pipe work) or only bolts on parts; page doesn't claim welding.", "Confirm exhaust manifold replacement is done."]
+}

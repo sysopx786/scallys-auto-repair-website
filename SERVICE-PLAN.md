@@ -12,7 +12,7 @@ Last updated: November 3, 2026.
 | Spanish versions: services hub, 8 category pages, detailed pages | Done for what is built |
 | Language switch, hreflang, self-canonicals, sitemap `lastmod` | Done |
 | Structured data: one `AutoRepair` entity (`/#business`), WebPage, Service, BreadcrumbList, FAQPage | Done |
-| Detailed service pages | 8 of 34 built: engine, transmission, brakes, check engine light, oil change, suspension, steering, tires |
+| Detailed service pages | 13 of 34 built: engine, transmission, brakes, check engine light, oil change, suspension, steering, tires, alignment, cooling, A/C and heating, battery/alternator/starter, exhaust |
 | Automated checks (`tests/check_site.py`) | Passing |
 
 ## Decisions that need your OK before merge
@@ -32,27 +32,27 @@ Last updated: November 3, 2026.
 | `/pre-purchase-inspection/` | Pre-Purchase Inspections | queued |
 | `/check-engine-light/` | Computer Diagnostics, Check Engine Light | built (EN+ES) |
 | `/electrical-repair/` | Electrical Repair & Wiring | queued |
-| `/battery-charging-starting/` | Charging & Starting Systems, Battery Testing & Replacement | queued |
+| `/battery-alternator-starter/` | Charging & Starting Systems, Battery Testing & Replacement | built (EN+ES) |
 | `/auto-light-repair/` | Auto Light Repair | queued |
 | `/power-windows-locks/` | Power Window Repair, Power Door Lock Repair | queued |
 | `/brake-repair/` | Brake Repair, Rotor Resurfacing, Brake Fluid Flush | built (EN+ES) |
 | `/suspension-repair/` | Steering & Suspension, Sway Bar Links, Shocks & Struts | built (EN+ES) |
 | `/steering-repair/` | Power Steering Repair, Ball Joints, Control Arms, Tie Rods | built (EN+ES) |
 | `/wheel-bearings-hubs/` | Wheel Bearings, Wheel Hubs | queued |
-| `/wheel-alignment/` | Front End Alignment | queued |
+| `/wheel-alignment/` | Front End Alignment | built (EN+ES) |
 | `/engine-repair/` | Engine Repair, Engine Rebuilding, Engine Replacement, Cylinder Head & Block Repair | built (EN+ES) |
 | `/engine-tune-up/` | Engine Tune-Ups, Spark Plugs, Ignition System Repair | queued |
 | `/oil-leak-repair/` | Oil Leak & Gasket Repair | queued |
 | `/timing-belt-chain/` | Timing Belt, Timing Chain | queued |
-| `/exhaust-muffler-repair/` | Mufflers & Exhaust | queued |
+| `/exhaust-muffler-repair/` | Mufflers & Exhaust | built (EN+ES) |
 | `/fuel-system-repair/` | Fuel System Service, Gas Tanks | queued |
 | `/transmission-repair/` | Transmission Repair, Transmission Rebuilding, Transmission Replacement, Transmission Fluid Service | built (EN+ES) |
 | `/clutch-repair/` | Clutch Repair | queued |
 | `/engine-transmission-mounts/` | Motor Mounts, Transmission Mounts | queued |
 | `/cv-axle-differential/` | Differential Repair, CV Axles & Joints, Rear Axle Bearings & Seals | queued |
 | `/oil-change/` | Oil Changes, Filter Replacement | built (EN+ES) |
-| `/cooling-system/` | Fan & Accessory Belts, Cooling Systems | queued |
-| `/ac-heating/` | Air Conditioning & Heating | queued |
+| `/cooling-system/` | Fan & Accessory Belts, Cooling Systems | built (EN+ES) |
+| `/ac-heating/` | Air Conditioning & Heating | built (EN+ES) |
 | `/hybrid-service/` | Basic Hybrid Service | queued |
 | `/tires/` | Tires & Flat Repair, Tire Rotation, Wheel Balancing | built (EN+ES) |
 | `/wheel-repair/` | Wheels, Wheel Repair | queued |
@@ -65,7 +65,7 @@ Last updated: November 3, 2026.
 34 detailed pages for 65 services. General Auto Repair stays on the home page; Pick-up/Drop-off stays on /contact/#pickup.
 
 
-Suggested build order for what is left (by search demand and how much Diverse content exists): wheel alignment, cooling, A/C and heating, battery/charging/starting, exhaust, timing belt/chain, PA state inspection, then the rest. Body, glass, tinting and imports have no Diverse source and need fresh research; window tinting also needs the Pennsylvania tint rules checked against PennDOT before publishing.
+Suggested build order for what is left (by search demand and how much Diverse content exists): timing belt/chain, PA state inspection, then the rest. Body, glass, tinting and imports have no Diverse source and need fresh research; window tinting also needs the Pennsylvania tint rules checked against PennDOT before publishing.
 
 ## 67-service matrix
 
@@ -81,8 +81,8 @@ Old anchors for moved services (`/engine-exhaust-transmission/#transmission-repa
 | 5 | Computer Diagnostics | Diagnostics & Electrical | existing | `/diagnostics-electrical/#computer-diagnostics` | `/check-engine-light/` | ✅ | svc_engine (CEL part) |
 | 6 | Check Engine Light | Diagnostics & Electrical | existing | `/diagnostics-electrical/#check-engine-light` | `/check-engine-light/` | ✅ | svc_engine (CEL part) |
 | 7 | Electrical Repair & Wiring | Diagnostics & Electrical | renamed | `/diagnostics-electrical/#electrical-repair` | `/electrical-repair/` | queued | svc_electrical |
-| 8 | Charging & Starting Systems | Diagnostics & Electrical | existing | `/diagnostics-electrical/#charging-and-starting-systems` | `/battery-charging-starting/` | queued | svc_battery + svc_electrical |
-| 9 | Battery Testing & Replacement | Diagnostics & Electrical | renamed | `/diagnostics-electrical/#battery-service` | `/battery-charging-starting/` | queued | svc_battery + svc_electrical |
+| 8 | Charging & Starting Systems | Diagnostics & Electrical | existing | `/diagnostics-electrical/#charging-and-starting-systems` | `/battery-alternator-starter/` | ✅ | svc_battery + svc_electrical |
+| 9 | Battery Testing & Replacement | Diagnostics & Electrical | renamed | `/diagnostics-electrical/#battery-service` | `/battery-alternator-starter/` | ✅ | svc_battery + svc_electrical |
 | 10 | Auto Light Repair | Diagnostics & Electrical | existing | `/diagnostics-electrical/#auto-light-repair` | `/auto-light-repair/` | queued | svc_lights |
 | 11 | Power Window Repair | Diagnostics & Electrical | NEW | `—` | `/power-windows-locks/` | queued | svc_windowlock |
 | 12 | Power Door Lock Repair | Diagnostics & Electrical | NEW | `—` | `/power-windows-locks/` | queued | svc_windowlock |
@@ -98,7 +98,7 @@ Old anchors for moved services (`/engine-exhaust-transmission/#transmission-repa
 | 22 | Shocks & Struts | Brakes, Steering & Suspension | NEW | `—` | `/suspension-repair/` | ✅ | svc_suspension |
 | 23 | Wheel Bearings | Brakes, Steering & Suspension | NEW | `—` | `/wheel-bearings-hubs/` | queued | svc_bearing |
 | 24 | Wheel Hubs | Brakes, Steering & Suspension | NEW | `—` | `/wheel-bearings-hubs/` | queued | svc_bearing |
-| 25 | Front End Alignment | Brakes, Steering & Suspension | existing | `/brakes-steering-suspension/#front-end-alignment` | `/wheel-alignment/` | queued | svc_tires (alignment) |
+| 25 | Front End Alignment | Brakes, Steering & Suspension | existing | `/brakes-steering-suspension/#front-end-alignment` | `/wheel-alignment/` | ✅ | svc_tires (alignment) |
 | 26 | General Auto Repair | Engine & Exhaust | existing | `/engine-exhaust-transmission/#general-auto-repair` | `/ (home page)` | n/a | n/a |
 | 27 | Engine Repair | Engine & Exhaust | existing | `/engine-exhaust-transmission/#engine-repair` | `/engine-repair/` | ✅ | svc_engine |
 | 28 | Engine Tune-Ups | Engine & Exhaust | NEW | `—` | `/engine-tune-up/` | queued | svc_engine (tune-up part) |
@@ -110,7 +110,7 @@ Old anchors for moved services (`/engine-exhaust-transmission/#transmission-repa
 | 34 | Ignition System Repair | Engine & Exhaust | NEW | `—` | `/engine-tune-up/` | queued | svc_engine (tune-up part) |
 | 35 | Timing Belt | Engine & Exhaust | NEW | `—` | `/timing-belt-chain/` | queued | svc_timing |
 | 36 | Timing Chain | Engine & Exhaust | NEW | `—` | `/timing-belt-chain/` | queued | svc_timing |
-| 37 | Mufflers & Exhaust | Engine & Exhaust | existing | `/engine-exhaust-transmission/#mufflers-and-exhaust` | `/exhaust-muffler-repair/` | queued | svc_exhaust |
+| 37 | Mufflers & Exhaust | Engine & Exhaust | existing | `/engine-exhaust-transmission/#mufflers-and-exhaust` | `/exhaust-muffler-repair/` | ✅ | svc_exhaust |
 | 38 | Fuel System Service | Engine & Exhaust | existing | `/engine-exhaust-transmission/#fuel-system-service` | `/fuel-system-repair/` | queued | svc_fuel |
 | 39 | Gas Tanks | Engine & Exhaust | existing | `/engine-exhaust-transmission/#gas-tanks` | `/fuel-system-repair/` | queued | svc_fuel |
 | 40 | Transmission Repair | Transmission & Drivetrain | moved | `/engine-exhaust-transmission/#transmission-repair` | `/transmission-repair/` | ✅ | svc_transmission |
@@ -125,9 +125,9 @@ Old anchors for moved services (`/engine-exhaust-transmission/#transmission-repa
 | 49 | Rear Axle Bearings & Seals | Transmission & Drivetrain | NEW | `—` | `/cv-axle-differential/` | queued | svc_axle + svc_transmission (rear axle) |
 | 50 | Oil Changes | Maintenance, A/C & Cooling | existing | `/maintenance/#oil-changes` | `/oil-change/` | ✅ | svc_oil |
 | 51 | Filter Replacement | Maintenance, A/C & Cooling | existing | `/maintenance/#filter-replacement` | `/oil-change/` | ✅ | svc_oil |
-| 52 | Fan & Accessory Belts | Maintenance, A/C & Cooling | NEW | `—` | `/cooling-system/` | queued | svc_cooling |
-| 53 | Air Conditioning & Heating | Maintenance, A/C & Cooling | existing | `/maintenance/#air-conditioning-and-heating` | `/ac-heating/` | queued | svc_climate |
-| 54 | Cooling Systems | Maintenance, A/C & Cooling | existing | `/maintenance/#cooling-systems` | `/cooling-system/` | queued | svc_cooling |
+| 52 | Fan & Accessory Belts | Maintenance, A/C & Cooling | NEW | `—` | `/cooling-system/` | ✅ | svc_cooling |
+| 53 | Air Conditioning & Heating | Maintenance, A/C & Cooling | existing | `/maintenance/#air-conditioning-and-heating` | `/ac-heating/` | ✅ | svc_climate |
+| 54 | Cooling Systems | Maintenance, A/C & Cooling | existing | `/maintenance/#cooling-systems` | `/cooling-system/` | ✅ | svc_cooling |
 | 55 | Basic Hybrid Service | Maintenance, A/C & Cooling | NEW | `—` | `/hybrid-service/` | queued | svc_hybrid (EV/HV claims stripped) |
 | 56 | Tires & Flat Repair | Tires & Wheels | existing | `/tires-wheels/#tires-and-flat-repair` | `/tires/` | ✅ | svc_tires |
 | 57 | Tire Rotation | Tires & Wheels | existing | `/tires-wheels/#tire-rotation` | `/tires/` | ✅ | svc_tires |

@@ -4,7 +4,7 @@
   "date": "2026-11-03"
  },
  "/services": {
-  "hash": "e722a71f162a",
+  "hash": "3e385383ccd6",
   "date": "2026-11-03"
  },
  "/about": {
@@ -20,7 +20,7 @@
   "date": "2026-11-03"
  },
  "/sitemap": {
-  "hash": "99a2d5379879",
+  "hash": "9701ea9ebd11",
   "date": "2026-11-03"
  },
  "/inspections-emissions": {
@@ -28,15 +28,15 @@
   "date": "2026-11-03"
  },
  "/diagnostics-electrical": {
-  "hash": "c73fd1bf4205",
+  "hash": "3005c637f448",
   "date": "2026-11-03"
  },
  "/brakes-steering-suspension": {
-  "hash": "a28d0f93f40b",
+  "hash": "1e9b0bbe31d4",
   "date": "2026-11-03"
  },
  "/engine-exhaust-transmission": {
-  "hash": "104e7935d51f",
+  "hash": "c37663fa952c",
   "date": "2026-11-03"
  },
  "/transmission-drivetrain": {
@@ -44,7 +44,7 @@
   "date": "2026-11-03"
  },
  "/maintenance": {
-  "hash": "10ab9c1c4f46",
+  "hash": "e9092e170f09",
   "date": "2026-11-03"
  },
  "/tires-wheels": {
@@ -55,40 +55,60 @@
   "hash": "d542f1931a3d",
   "date": "2026-11-03"
  },
+ "/ac-heating": {
+  "hash": "30015ce1622a",
+  "date": "2026-11-03"
+ },
+ "/battery-alternator-starter": {
+  "hash": "20eec85ac124",
+  "date": "2026-11-03"
+ },
  "/brake-repair": {
-  "hash": "0d74c93e7d3e",
+  "hash": "ba8a6af4266c",
   "date": "2026-11-03"
  },
  "/check-engine-light": {
   "hash": "e5984952decc",
   "date": "2026-11-03"
  },
+ "/cooling-system": {
+  "hash": "d80ba4c43fc6",
+  "date": "2026-11-03"
+ },
  "/engine-repair": {
-  "hash": "44763b4220d4",
+  "hash": "449a6c8c6df1",
+  "date": "2026-11-03"
+ },
+ "/exhaust-muffler-repair": {
+  "hash": "da1ef527aff0",
   "date": "2026-11-03"
  },
  "/oil-change": {
-  "hash": "881810170c0a",
+  "hash": "5ac18553e25c",
   "date": "2026-11-03"
  },
  "/steering-repair": {
-  "hash": "2dc3dcee46c8",
+  "hash": "e7dea8f3f9d1",
   "date": "2026-11-03"
  },
  "/suspension-repair": {
-  "hash": "8524b005be36",
+  "hash": "024f4b29b0e1",
   "date": "2026-11-03"
  },
  "/tires": {
-  "hash": "d21f13496fc2",
+  "hash": "c5f51753ef65",
   "date": "2026-11-03"
  },
  "/transmission-repair": {
   "hash": "719b27745ac1",
   "date": "2026-11-03"
  },
+ "/wheel-alignment": {
+  "hash": "c1f4b7b7af59",
+  "date": "2026-11-03"
+ },
  "/es/services": {
-  "hash": "134732fa4f06",
+  "hash": "6bacb532bdd9",
   "date": "2026-11-03"
  },
  "/es/inspections-emissions": {
@@ -96,15 +116,15 @@
   "date": "2026-11-03"
  },
  "/es/diagnostics-electrical": {
-  "hash": "6fdb7d577986",
+  "hash": "3a158321b7eb",
   "date": "2026-11-03"
  },
  "/es/brakes-steering-suspension": {
-  "hash": "ee4e735012c9",
+  "hash": "11c819bd4993",
   "date": "2026-11-03"
  },
  "/es/engine-exhaust-transmission": {
-  "hash": "9d27e08850e4",
+  "hash": "1916521fc1ef",
   "date": "2026-11-03"
  },
  "/es/transmission-drivetrain": {
@@ -112,7 +132,7 @@
   "date": "2026-11-03"
  },
  "/es/maintenance": {
-  "hash": "31aff98d7bf4",
+  "hash": "ad57914a0431",
   "date": "2026-11-03"
  },
  "/es/tires-wheels": {
@@ -123,36 +143,56 @@
   "hash": "dfc18a244aa5",
   "date": "2026-11-03"
  },
+ "/es/ac-heating": {
+  "hash": "ca07c78562d2",
+  "date": "2026-11-03"
+ },
+ "/es/battery-alternator-starter": {
+  "hash": "4d758fc9adf6",
+  "date": "2026-11-03"
+ },
  "/es/brake-repair": {
-  "hash": "224fa29d2974",
+  "hash": "fce38eed2616",
   "date": "2026-11-03"
  },
  "/es/check-engine-light": {
   "hash": "ea384827acf9",
   "date": "2026-11-03"
  },
+ "/es/cooling-system": {
+  "hash": "149114cdfbd6",
+  "date": "2026-11-03"
+ },
  "/es/engine-repair": {
-  "hash": "260b804be9c4",
+  "hash": "44cd4321523e",
+  "date": "2026-11-03"
+ },
+ "/es/exhaust-muffler-repair": {
+  "hash": "b36b8dfa89b8",
   "date": "2026-11-03"
  },
  "/es/oil-change": {
-  "hash": "c37ddaec044b",
+  "hash": "9572e28efd53",
   "date": "2026-11-03"
  },
  "/es/steering-repair": {
-  "hash": "b17472809ffe",
+  "hash": "c51b27653060",
   "date": "2026-11-03"
  },
  "/es/suspension-repair": {
-  "hash": "51fe18acb8be",
+  "hash": "e1c7eba0e75d",
   "date": "2026-11-03"
  },
  "/es/tires": {
-  "hash": "383475b4ed87",
+  "hash": "8d6c7bcbb5df",
   "date": "2026-11-03"
  },
  "/es/transmission-repair": {
   "hash": "776ae33a4018",
+  "date": "2026-11-03"
+ },
+ "/es/wheel-alignment": {
+  "hash": "dcd51e122f12",
   "date": "2026-11-03"
  }
 }

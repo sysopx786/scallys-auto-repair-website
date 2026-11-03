@@ -1,0 +1,63 @@
+{
+  "id": "battery-charging-starting",
+  "slug": "battery-alternator-starter",
+  "category": "diagnostics-electrical",
+  "covers": ["battery-service", "charging-and-starting-systems"],
+  "adaptedFrom": "Diverse Autoworks svc_battery (tools/service_pages_batch6.py) and svc_electrical (starter notes), rewritten for Scally's",
+  "primary_kw": {"en": "car battery replacement Primos PA", "es": "cambio de batería de auto Primos PA"},
+  "secondary_kws": ["battery test", "car won't start", "alternator repair", "alternator replacement", "starter replacement", "car clicks but won't start", "battery keeps dying", "battery warning light", "charging system test", "jump start", "battery replacement Delaware County"],
+  "title": {"en": "Battery, Alternator & Starter Repair in Primos, PA | Scally's", "es": "Batería, alternador y marcha en Primos, PA | Scally's"},
+  "desc": {"en": "Car won't start or battery keeps dying? Scally's Auto Repair in Primos, PA tests and replaces batteries, alternators and starters. Call 610-626-4700.", "es": "¿El auto no arranca o la batería se descarga? En Scally's Auto Repair, Primos, PA, probamos y cambiamos baterías, alternadores y marchas. 610-626-4700."},
+  "h1": {"en": "Battery, Alternator & Starter Repair in Primos, PA", "es": "Batería, alternador y marcha en Primos, PA"},
+  "crumb": {"en": "Battery, Alternator & Starter", "es": "Batería, alternador y marcha"},
+  "service_type": {"en": "Battery, charging and starting system repair", "es": "Reparación de batería, sistema de carga y arranque"},
+  "lead": {"en": "{name} tests and replaces batteries and repairs charging and starting systems, including alternators and starters. A car that won't start doesn't always need a new battery, and a new battery won't fix an alternator that isn't charging. We test all three before replacing anything.", "es": "En {name} probamos y cambiamos baterías, y reparamos los sistemas de carga y arranque, incluidos alternadores y motores de arranque (marchas). Un auto que no arranca no siempre necesita batería nueva, y una batería nueva no arregla un alternador que no carga. Probamos los tres antes de cambiar nada."},
+  "blocks": [
+    ["h2", {"en": "How the battery, starter and alternator work together", "es": "Cómo trabajan juntos la batería, la marcha y el alternador"}, "how-it-works"],
+    ["p", {"en": "The battery supplies the power to crank the engine through the starter motor. Once the engine runs, the alternator takes over: it powers the car's electrical systems and recharges the battery. Because each depends on the others, a fault in one can look like a fault in another. A weak alternator leaves the battery dead by morning; a failing starter can sound like a dead battery.", "es": "La batería da la energía para que el motor de arranque (marcha) haga girar el motor. Cuando el motor ya está encendido, el alternador toma el control: alimenta los sistemas eléctricos del auto y recarga la batería. Como cada uno depende de los otros, una falla en uno puede parecer falla en otro. Un alternador débil deja la batería descargada en la mañana; una marcha que falla puede sonar como una batería muerta."}],
+    ["h2", {"en": "Signs of battery, charging or starting trouble", "es": "Señales de problemas de batería, carga o arranque"}, "signs"],
+    ["ul", [
+      {"en": "The engine cranks slowly, especially on cold mornings.", "es": "El motor gira lento al arrancar, sobre todo en las mañanas frías."},
+      {"en": "A single click, or rapid clicking, when you turn the key or press start.", "es": "Un solo clic, o clics rápidos, al girar la llave o presionar el botón de encendido."},
+      {"en": "The battery keeps going dead, or you need jump starts.", "es": "La batería se descarga una y otra vez, o necesita que le pasen corriente."},
+      {"en": "The battery or charging warning light comes on while driving.", "es": "Se enciende la luz de batería o de carga mientras maneja."},
+      {"en": "Headlights dim at idle or flicker, or electronics act up.", "es": "Las luces bajan en ralentí o parpadean, o los aparatos eléctricos fallan."},
+      {"en": "A whining or grinding noise from the alternator or starter.", "es": "Un zumbido o rechinido del alternador o de la marcha."},
+      {"en": "Corrosion on the battery terminals, or a swollen battery case.", "es": "Sulfato en las terminales de la batería, o la caja de la batería inflada."}
+    ]],
+    ["p", {"en": "A battery warning light while driving usually points to the charging system, not the battery. If it comes on, the car is running on battery power alone and may stall when it runs out. Head for the shop or somewhere safe rather than starting a long trip.", "es": "Una luz de batería encendida mientras maneja por lo general apunta al sistema de carga, no a la batería. Si se enciende, el auto está funcionando solo con la batería y puede apagarse cuando se acabe. Venga al taller o vaya a un lugar seguro en vez de empezar un viaje largo."}],
+    ["h2", {"en": "What we do", "es": "Lo que hacemos"}, "work"],
+    ["ul", [
+      {"en": "Battery testing under load.", "es": "Prueba de batería con carga."},
+      {"en": "Battery replacement, plus cleaning or replacing corroded terminals.", "es": "Cambio de batería, además de limpieza o cambio de terminales sulfatadas."},
+      {"en": "Charging system testing and alternator repair or replacement.", "es": "Prueba del sistema de carga y reparación o cambio del alternador."},
+      {"en": "Starting system diagnosis and starter replacement.", "es": "Diagnóstico del sistema de arranque y cambio de marcha."},
+      {"en": "Parasitic drain testing when a battery goes dead overnight.", "es": "Prueba de consumo cuando la batería se descarga durante la noche."}
+    ]],
+    ["h3", {"en": "Battery testing and replacement", "es": "Prueba y cambio de batería"}, "battery-testing"],
+    ["p", {"en": "A battery can show normal voltage and still fail under load, which is why we test it the way the starter uses it. Heat and cold both shorten battery life, and a car that sits for weeks can drain a healthy battery. If it fails the test, we replace it with one that meets the size and rating your car calls for. Many newer cars with start-stop systems use special battery types that need the matching replacement.", "es": "Una batería puede marcar voltaje normal y aun así fallar con carga, por eso la probamos como la usa la marcha. El calor y el frío acortan la vida de la batería, y un auto que pasa semanas sin usarse puede descargar una batería sana. Si no pasa la prueba, la cambiamos por una del tamaño y la capacidad que pide su auto. Muchos autos nuevos con sistema de apagado automático en altos usan baterías especiales que necesitan el reemplazo correcto."}],
+    ["h3", {"en": "Alternators and starters", "es": "Alternadores y marchas"}, "charging-and-starting-systems"],
+    ["p", {"en": "We test the alternator's output with the engine running and the electrical load on. Low output, a whine or a charging light points to the alternator or its belt. For no-start problems, the sound matters: slow cranking points to the battery or connections, a single click with no crank often points to the starter or its circuit, and normal cranking with no start points elsewhere, such as fuel or ignition. See [check engine light and diagnostics](svc:check-engine-light).", "es": "Probamos la salida del alternador con el motor encendido y con carga eléctrica. Una salida baja, un zumbido o la luz de carga apuntan al alternador o a su banda. Cuando el auto no arranca, el sonido importa: si gira lento, apunta a la batería o las conexiones; un solo clic sin girar muchas veces apunta a la marcha o su circuito; y si gira normal pero no prende, la causa está en otro lado, como el combustible o el encendido. Vea [luz de check engine y diagnóstico](svc:check-engine-light)."}],
+    ["h2", {"en": "Jump starts", "es": "Pasar corriente"}, "jump-starts"],
+    ["p", {"en": "A jump start gets the car running; it doesn't tell you why the battery was dead. If it needs another jump within a day or two, or the battery light stays on, have the system tested. Follow the jump-start steps in your owner's manual, and don't jump a battery that's cracked, leaking or swollen.", "es": "Pasar corriente hace que el auto arranque, pero no le dice por qué estaba muerta la batería. Si vuelve a necesitarlo en uno o dos días, o la luz de batería se queda encendida, haga probar el sistema. Siga los pasos del manual del propietario para pasar corriente, y no lo haga con una batería agrietada, con fugas o inflada."}],
+    ["h2", {"en": "Battery and starting repair near Primos and Clifton Heights", "es": "Batería y arranque cerca de Primos y Clifton Heights"}, "local"],
+    ["p", {"en": "{name} is at {street} in {city}, close to Secane and Clifton Heights. If the car won't start, call us. We can talk about picking it up. For other electrical problems, see [electrical repair](svc:electrical-repair).", "es": "{name} está en {street}, en {city}, cerca de Secane y Clifton Heights. Si el auto no arranca, llámenos. Podemos hablar de recogerlo. Para otras fallas eléctricas, vea [reparación eléctrica](svc:electrical-repair)."}]
+  ],
+  "faq": [
+    {"q": {"en": "How do I know if I need a new battery?", "es": "¿Cómo sé si necesito una batería nueva?"},
+     "a": {"en": "Slow cranking, repeated jump starts and dim lights at startup are reasons to test it. A load test tells us whether the battery or the charging system is the problem.", "es": "Si gira lento, necesita que le pasen corriente seguido o las luces bajan al arrancar, conviene probarla. Una prueba con carga nos dice si el problema es la batería o el sistema de carga."}},
+    {"q": {"en": "Can a bad alternator look like a dead battery?", "es": "¿Un alternador malo puede parecer una batería muerta?"},
+     "a": {"en": "Yes. If the alternator isn't charging, the battery runs down and the car won't start. A new battery would go dead again, so we test the charging system too.", "es": "Sí. Si el alternador no carga, la batería se descarga y el auto no arranca. Una batería nueva se volvería a descargar, así que también probamos el sistema de carga."}},
+    {"q": {"en": "Why does my car click but not start?", "es": "¿Por qué mi auto hace clic pero no arranca?"},
+     "a": {"en": "Rapid clicking often means the battery is too weak to crank. A single click can point to the starter, its connections or a bad battery cable. We test before replacing anything.", "es": "Los clics rápidos muchas veces indican que la batería está muy débil para arrancar. Un solo clic puede apuntar a la marcha, sus conexiones o un cable de batería dañado. Probamos antes de cambiar nada."}},
+    {"q": {"en": "Does a battery light mean I need a new battery?", "es": "¿La luz de batería significa que necesito batería nueva?"},
+     "a": {"en": "Usually not. It means the car isn't charging the battery, which points to the alternator, its belt or wiring. Get it checked before the battery runs out.", "es": "Por lo general no. Significa que el auto no está cargando la batería, lo que apunta al alternador, su banda o el cableado. Hágalo revisar antes de que se acabe la batería."}},
+    {"q": {"en": "Why does my battery die overnight?", "es": "¿Por qué se descarga mi batería durante la noche?"},
+     "a": {"en": "A battery near the end of its life, an alternator that isn't fully charging, or something drawing power with the car off. We can test for that drain.", "es": "Puede ser una batería al final de su vida, un alternador que no carga por completo o algo que consume energía con el auto apagado. Podemos hacer la prueba de ese consumo."}},
+    {"q": {"en": "Can I keep driving after a jump start?", "es": "¿Puedo seguir manejando después de pasar corriente?"},
+     "a": {"en": "To get home or to the shop, usually yes. If the battery light stays on, the car may stall when the battery runs down, so avoid long trips and have it tested.", "es": "Para llegar a casa o al taller, por lo general sí. Si la luz de batería se queda encendida, el auto puede apagarse cuando se acabe la batería, así que evite viajes largos y hágalo probar."}}
+  ],
+  "related": ["electrical-repair", "check-engine-light", "fan-and-accessory-belts", "auto-light-repair", "computer-diagnostics", "basic-hybrid-service"],
+  "sources": [],
+  "verify": ["Confirm parasitic drain testing is done (listed under 'What we do').", "Confirm AGM/EFB start-stop batteries are stocked or ordered, and whether battery registration/coding is done."]
+}
