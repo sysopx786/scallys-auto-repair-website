@@ -4,7 +4,7 @@
   "date": "2026-11-03"
  },
  "/services": {
-  "hash": "c0ca3bf7f34e",
+  "hash": "e722a71f162a",
   "date": "2026-11-03"
  },
  "/about": {
@@ -20,7 +20,7 @@
   "date": "2026-11-03"
  },
  "/sitemap": {
-  "hash": "9ef3d4921b69",
+  "hash": "99a2d5379879",
   "date": "2026-11-03"
  },
  "/inspections-emissions": {
@@ -28,11 +28,11 @@
   "date": "2026-11-03"
  },
  "/diagnostics-electrical": {
-  "hash": "33cd09992d23",
+  "hash": "c73fd1bf4205",
   "date": "2026-11-03"
  },
  "/brakes-steering-suspension": {
-  "hash": "95da6df9abd7",
+  "hash": "a28d0f93f40b",
   "date": "2026-11-03"
  },
  "/engine-exhaust-transmission": {
@@ -44,11 +44,11 @@
   "date": "2026-11-03"
  },
  "/maintenance": {
-  "hash": "4f108de54568",
+  "hash": "10ab9c1c4f46",
   "date": "2026-11-03"
  },
  "/tires-wheels": {
-  "hash": "321314ecd695",
+  "hash": "ed26bd8fa443",
   "date": "2026-11-03"
  },
  "/body-pickup": {
@@ -56,11 +56,31 @@
   "date": "2026-11-03"
  },
  "/brake-repair": {
-  "hash": "60f217c25bab",
+  "hash": "0d74c93e7d3e",
+  "date": "2026-11-03"
+ },
+ "/check-engine-light": {
+  "hash": "e5984952decc",
   "date": "2026-11-03"
  },
  "/engine-repair": {
-  "hash": "5ae133763157",
+  "hash": "44763b4220d4",
+  "date": "2026-11-03"
+ },
+ "/oil-change": {
+  "hash": "881810170c0a",
+  "date": "2026-11-03"
+ },
+ "/steering-repair": {
+  "hash": "2dc3dcee46c8",
+  "date": "2026-11-03"
+ },
+ "/suspension-repair": {
+  "hash": "8524b005be36",
+  "date": "2026-11-03"
+ },
+ "/tires": {
+  "hash": "d21f13496fc2",
   "date": "2026-11-03"
  },
  "/transmission-repair": {
@@ -68,7 +88,7 @@
   "date": "2026-11-03"
  },
  "/es/services": {
-  "hash": "0b688c5b530f",
+  "hash": "134732fa4f06",
   "date": "2026-11-03"
  },
  "/es/inspections-emissions": {
@@ -76,11 +96,11 @@
   "date": "2026-11-03"
  },
  "/es/diagnostics-electrical": {
-  "hash": "25bc5e197e75",
+  "hash": "6fdb7d577986",
   "date": "2026-11-03"
  },
  "/es/brakes-steering-suspension": {
-  "hash": "10b7b2eee2b8",
+  "hash": "ee4e735012c9",
   "date": "2026-11-03"
  },
  "/es/engine-exhaust-transmission": {
@@ -92,11 +112,11 @@
   "date": "2026-11-03"
  },
  "/es/maintenance": {
-  "hash": "b981df13a024",
+  "hash": "31aff98d7bf4",
   "date": "2026-11-03"
  },
  "/es/tires-wheels": {
-  "hash": "e2ada426b605",
+  "hash": "3f855b812ce3",
   "date": "2026-11-03"
  },
  "/es/body-pickup": {
@@ -104,11 +124,31 @@
   "date": "2026-11-03"
  },
  "/es/brake-repair": {
-  "hash": "a237d4012e58",
+  "hash": "224fa29d2974",
+  "date": "2026-11-03"
+ },
+ "/es/check-engine-light": {
+  "hash": "ea384827acf9",
   "date": "2026-11-03"
  },
  "/es/engine-repair": {
-  "hash": "24436ed71dd2",
+  "hash": "260b804be9c4",
+  "date": "2026-11-03"
+ },
+ "/es/oil-change": {
+  "hash": "c37ddaec044b",
+  "date": "2026-11-03"
+ },
+ "/es/steering-repair": {
+  "hash": "b17472809ffe",
+  "date": "2026-11-03"
+ },
+ "/es/suspension-repair": {
+  "hash": "51fe18acb8be",
+  "date": "2026-11-03"
+ },
+ "/es/tires": {
+  "hash": "383475b4ed87",
   "date": "2026-11-03"
  },
  "/es/transmission-repair": {

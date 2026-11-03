@@ -1,0 +1,61 @@
+{
+  "id": "suspension-repair",
+  "slug": "suspension-repair",
+  "category": "brakes-steering-suspension",
+  "covers": ["steering-and-suspension", "shocks-and-struts", "sway-bar-links"],
+  "adaptedFrom": "Diverse Autoworks svc_suspension (tools/service_pages_batch4.py), expanded for Scally's",
+  "primary_kw": {"en": "suspension repair Primos PA", "es": "reparación de suspensión Primos PA"},
+  "secondary_kws": ["shocks and struts replacement", "strut replacement", "sway bar links", "clunking over bumps", "bouncy ride", "suspension inspection", "suspension PA inspection", "car suspension repair Delaware County", "strut mount", "suspension repair near Clifton Heights"],
+  "title": {"en": "Suspension, Shocks & Struts in Primos, PA | Scally's Auto Repair", "es": "Suspensión y amortiguadores en Primos, PA | Scally's Auto Repair"},
+  "desc": {"en": "Suspension repair, shock and strut replacement and sway bar links at Scally's Auto Repair in Primos, PA. Clunks, bounce or uneven tire wear? Call 610-626-4700.", "es": "Reparación de suspensión, cambio de amortiguadores y struts y bieletas en Scally's Auto Repair, Primos, PA. ¿Golpeteos o rebote? Llame al 610-626-4700."},
+  "h1": {"en": "Suspension Repair, Shocks & Struts in Primos, PA", "es": "Reparación de suspensión, amortiguadores y struts en Primos, PA"},
+  "crumb": {"en": "Suspension Repair", "es": "Reparación de suspensión"},
+  "service_type": {"en": "Suspension repair", "es": "Reparación de suspensión"},
+  "lead": {"en": "{name} repairs suspension systems, replaces shocks and struts, and fixes the sway bar links that cause clunks over bumps. Primos roads and Pennsylvania potholes wear these parts out. We inspect the suspension and road-test the car to find which part is worn before replacing anything.", "es": "En {name} reparamos sistemas de suspensión, cambiamos amortiguadores y struts, y arreglamos las bieletas que causan golpeteos en los baches. Las calles de Primos y los baches de Pensilvania desgastan estas piezas. Revisamos la suspensión y probamos el auto en la calle para saber qué pieza está gastada antes de cambiar nada."},
+  "blocks": [
+    ["h2", {"en": "What your suspension does", "es": "Para qué sirve la suspensión"}, "what-it-does"],
+    ["p", {"en": "The suspension holds the tires against the road and soaks up bumps. Springs carry the weight of the car. Shocks and struts control how fast the springs move, so the car doesn't keep bouncing. Control arms, ball joints and bushings locate each wheel, and the sway bar and its links limit body lean in turns. When one part wears, the car can ride rough, handle loosely and wear its tires unevenly.", "es": "La suspensión mantiene las llantas pegadas al camino y absorbe los golpes. Los resortes cargan el peso del auto. Los amortiguadores y struts controlan qué tan rápido se mueven los resortes, para que el auto no siga rebotando. Los brazos de control, las rótulas y los bujes ubican cada rueda, y la barra estabilizadora con sus bieletas limita la inclinación en las curvas. Cuando una pieza se gasta, el auto puede andar brusco, sentirse flojo y gastar las llantas disparejo."}],
+    ["h2", {"en": "Signs you need suspension repair", "es": "Señales de que necesita reparar la suspensión"}, "signs"],
+    ["ul", [
+      {"en": "The car keeps bouncing after a bump or dip.", "es": "El auto sigue rebotando después de un bache o un desnivel."},
+      {"en": "Clunks or rattles over bumps.", "es": "Golpeteos o ruidos en los baches."},
+      {"en": "The nose dives when you brake, or the body leans hard in turns.", "es": "El frente se clava al frenar o la carrocería se inclina mucho en las curvas."},
+      {"en": "The car wanders or drifts on a straight road.", "es": "El auto se desvía o se va de lado en un camino recto."},
+      {"en": "Uneven or cupped tire wear.", "es": "Desgaste disparejo o en escalones en las llantas."},
+      {"en": "Oil leaking down the side of a shock or strut.", "es": "Aceite escurriendo por un costado de un amortiguador o strut."}
+    ]],
+    ["p", {"en": "A clunk can be a sway bar link, a strut mount, a ball joint or a control arm bushing, and they can sound alike from the driver's seat. We inspect the parts and road-test the car to find the one that's worn. If the steering suddenly feels loose or the car won't hold its lane, it isn't safe to keep driving. Stop and call us.", "es": "Un golpeteo puede venir de una bieleta, una base de strut, una rótula o un buje del brazo de control, y desde el asiento pueden sonar igual. Revisamos las piezas y probamos el auto en la calle para encontrar la que está gastada. Si de repente la dirección se siente floja o el auto no se mantiene en su carril, no es seguro seguir manejando. Deténgase y llámenos."}],
+    ["h2", {"en": "Suspension work we do", "es": "Trabajos de suspensión que hacemos"}, "work"],
+    ["ul", [
+      {"en": "Suspension inspection and diagnosis.", "es": "Revisión y diagnóstico de la suspensión."},
+      {"en": "Shock and strut replacement.", "es": "Cambio de amortiguadores y struts."},
+      {"en": "Sway bar link and bushing replacement.", "es": "Cambio de bieletas y bujes de la barra estabilizadora."},
+      {"en": "Related steering and suspension parts: [ball joints, control arms and tie rods](svc:ball-joints), [wheel bearings](svc:wheel-bearings) and [alignment](svc:front-end-alignment).", "es": "Piezas relacionadas de dirección y suspensión: [rótulas, brazos de control y terminales](svc:ball-joints), [rodamientos de rueda](svc:wheel-bearings) y [alineación](svc:front-end-alignment)."}
+    ]],
+    ["h3", {"en": "Shocks and struts", "es": "Amortiguadores y struts"}, "shocks-and-struts"],
+    ["p", {"en": "A shock absorber only damps motion. A strut does that and also forms part of the suspension's structure, usually with the spring mounted on it. Many cars have struts in front and shocks in back. They wear gradually, so drivers often don't notice until the car bounces, dives under braking or wears tires in a cupped pattern. Shocks and struts are usually replaced in pairs on the same axle so both sides behave the same. Replacing struts generally calls for an alignment afterward.", "es": "Un amortiguador solo controla el movimiento. Un strut hace eso y además forma parte de la estructura de la suspensión, por lo general con el resorte montado en él. Muchos autos tienen struts adelante y amortiguadores atrás. Se gastan poco a poco, así que muchas veces el conductor no lo nota hasta que el auto rebota, se clava al frenar o gasta las llantas en escalones. Por lo general se cambian en pares en el mismo eje, para que los dos lados trabajen igual. Cambiar los struts normalmente requiere una alineación después."}],
+    ["h3", {"en": "Sway bar links", "es": "Bieletas de la barra estabilizadora"}, "sway-bar-links"],
+    ["p", {"en": "Sway bar links connect the stabilizer bar to the suspension. When their joints or bushings wear, they knock or rattle over small bumps and uneven pavement, often at low speed. They're one of the most common sources of a front-end clunk, and one of the simpler fixes, but we confirm the link is loose before replacing it.", "es": "Las bieletas conectan la barra estabilizadora con la suspensión. Cuando sus juntas o bujes se gastan, golpean o hacen ruido en baches pequeños y pavimento disparejo, muchas veces a baja velocidad. Son una de las causas más comunes de un golpeteo en el frente, y una de las reparaciones más sencillas, pero confirmamos que la bieleta está floja antes de cambiarla."}],
+    ["h2", {"en": "Suspension and your Pennsylvania inspection", "es": "La suspensión y la inspección de Pensilvania"}, "pa-inspection"],
+    ["p", {"en": "Suspension and steering parts are part of Pennsylvania's safety inspection. Loose or badly worn parts can keep a car from passing. We are an official inspection station, so we can inspect the car, repair what's worn and finish the inspection here. See [PA safety inspections](svc:pa-safety-inspections).", "es": "Las piezas de suspensión y dirección son parte de la inspección de seguridad de Pensilvania. Las piezas flojas o muy gastadas pueden hacer que el auto no pase. Somos una estación oficial de inspección, así que podemos inspeccionar el auto, reparar lo que esté gastado y terminar la inspección aquí. Vea [inspecciones de seguridad de PA](svc:pa-safety-inspections)."}],
+    ["h2", {"en": "Suspension repair near Primos and Clifton Heights", "es": "Reparación de suspensión cerca de Primos y Clifton Heights"}, "local"],
+    ["p", {"en": "{name} is at {street} in {city}, close to Secane and Clifton Heights. Tell us when the noise happens: over bumps, in turns, when braking, or at certain speeds. That helps us find it faster.", "es": "{name} está en {street}, en {city}, cerca de Secane y Clifton Heights. Díganos cuándo se oye el ruido: en los baches, en las curvas, al frenar o a ciertas velocidades. Eso nos ayuda a encontrarlo más rápido."}]
+  ],
+  "faq": [
+    {"q": {"en": "What causes a clunk over bumps?", "es": "¿Qué causa un golpeteo en los baches?"},
+     "a": {"en": "Common causes are worn sway bar links, strut mounts, ball joints and control arm bushings. They can sound alike, so we inspect the parts before replacing any.", "es": "Las causas comunes son bieletas, bases de strut, rótulas y bujes del brazo de control gastados. Pueden sonar igual, así que revisamos las piezas antes de cambiar alguna."}},
+    {"q": {"en": "How do I know if my shocks or struts are worn?", "es": "¿Cómo sé si mis amortiguadores o struts están gastados?"},
+     "a": {"en": "Signs include bouncing after bumps, the nose diving when you brake, cupped tire wear and oil leaking down the shock body. We check them during an inspection and road test.", "es": "Las señales son rebotes después de los baches, que el frente se clave al frenar, desgaste en escalones en las llantas y aceite escurriendo por el amortiguador. Los revisamos durante una inspección y una prueba en la calle."}},
+    {"q": {"en": "Should shocks and struts be replaced in pairs?", "es": "¿Los amortiguadores y struts se cambian en pares?"},
+     "a": {"en": "Usually, yes, on the same axle. A new one on one side and a worn one on the other can make the car handle unevenly.", "es": "Por lo general sí, en el mismo eje. Uno nuevo de un lado y uno gastado del otro pueden hacer que el auto se maneje disparejo."}},
+    {"q": {"en": "Do I need an alignment after suspension work?", "es": "¿Necesito alineación después de trabajos de suspensión?"},
+     "a": {"en": "Often. Replacing struts, tie rods or control arms can change the wheel angles. We'll tell you if the work you're having done calls for one.", "es": "Muchas veces sí. Cambiar struts, terminales o brazos de control puede cambiar los ángulos de las ruedas. Le diremos si el trabajo que le hacemos requiere una alineación."}},
+    {"q": {"en": "Can worn suspension cause uneven tire wear?", "es": "¿La suspensión gastada puede causar desgaste disparejo de las llantas?"},
+     "a": {"en": "Yes. Worn parts let the wheel angles shift and can cause cupped or uneven wear. An alignment alone won't fix it if a part is loose, so we check both.", "es": "Sí. Las piezas gastadas dejan que cambien los ángulos de las ruedas y pueden causar desgaste en escalones o disparejo. Una alineación sola no lo corrige si hay una pieza floja, así que revisamos las dos cosas."}},
+    {"q": {"en": "Will worn suspension fail a Pennsylvania inspection?", "es": "¿La suspensión gastada puede reprobar la inspección de Pensilvania?"},
+     "a": {"en": "It can. Suspension and steering parts are checked during the safety inspection. We can repair what fails and complete the inspection here.", "es": "Puede pasar. Las piezas de suspensión y dirección se revisan en la inspección de seguridad. Podemos reparar lo que falle y terminar la inspección aquí."}}
+  ],
+  "related": ["ball-joints", "control-arms", "tie-rods", "front-end-alignment", "wheel-bearings", "pa-safety-inspections"],
+  "sources": [],
+  "verify": ["Confirm coil spring and leaf spring replacement are included under Steering & Suspension (page does not claim them)."]
+}

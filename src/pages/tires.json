@@ -1,0 +1,63 @@
+{
+  "id": "tires",
+  "slug": "tires",
+  "category": "tires-wheels",
+  "covers": ["tires-and-flat-repair", "tire-rotation", "wheel-balancing"],
+  "adaptedFrom": "Diverse Autoworks svc_tires (tools/service_pages_batch3.py), rewritten for Scally's; alignment left for its own page",
+  "primary_kw": {"en": "tires Primos PA", "es": "llantas Primos PA"},
+  "secondary_kws": ["flat tire repair", "tire repair near me", "tire rotation", "wheel balancing", "tire balance vibration", "new tires Delaware County", "tire patch", "tread depth PA inspection", "tire shop near Clifton Heights", "nail in tire"],
+  "title": {"en": "Tires, Flat Repair, Rotation & Balancing in Primos, PA | Scally's", "es": "Llantas, ponchaduras, rotación y balanceo en Primos, PA | Scally's"},
+  "desc": {"en": "Tire service, flat repair, tire rotation and wheel balancing at Scally's Auto Repair in Primos, PA. Call 610-626-4700.", "es": "Servicio de llantas, reparación de ponchaduras, rotación y balanceo en Scally's Auto Repair, Primos, PA. Llame al 610-626-4700."},
+  "h1": {"en": "Tires, Flat Repair, Rotation & Balancing in Primos, PA", "es": "Llantas, ponchaduras, rotación y balanceo en Primos, PA"},
+  "crumb": {"en": "Tires", "es": "Llantas"},
+  "service_type": {"en": "Tire service", "es": "Servicio de llantas"},
+  "lead": {"en": "{name} handles tire service, flat repair, tire rotation and wheel balancing at our shop on {street} in {city}. Got a nail in the tread, a slow leak or a shake at highway speed? Call and tell us what's going on.", "es": "En {name} damos servicio de llantas, reparamos ponchaduras, rotamos llantas y balanceamos ruedas en nuestro taller de {street}, en {city}. ¿Tiene un clavo en la llanta, una fuga lenta o una vibración en carretera? Llame y cuéntenos qué pasa."},
+  "blocks": [
+    ["h2", {"en": "Why tire care matters", "es": "Por qué importa cuidar las llantas"}, "why"],
+    ["p", {"en": "Your tires are the only part of the car touching the road. Their tread, pressure and condition decide how well the car stops, steers and handles wet roads. Regular rotation and balancing spread the wear evenly, which helps the tires last longer and keeps the ride smooth.", "es": "Las llantas son la única parte del auto que toca el camino. Su dibujo, su presión y su estado deciden qué tan bien frena, da vuelta y se maneja en piso mojado. La rotación y el balanceo regulares reparten el desgaste de forma pareja, lo que ayuda a que duren más y a que el manejo sea suave."}],
+    ["h2", {"en": "Signs your tires need attention", "es": "Señales de que sus llantas necesitan atención"}, "signs"],
+    ["ul", [
+      {"en": "The tire pressure warning light is on.", "es": "Se enciende la luz de presión de llantas."},
+      {"en": "A tire keeps losing air, or you see a nail or screw in the tread.", "es": "Una llanta pierde aire una y otra vez, o ve un clavo o un tornillo en el dibujo."},
+      {"en": "Vibration in the steering wheel or seat at highway speed.", "es": "Vibración en el volante o el asiento a velocidad de carretera."},
+      {"en": "The tread is low or wearing unevenly.", "es": "El dibujo está bajo o se gasta disparejo."},
+      {"en": "A bulge, cut or crack in the sidewall.", "es": "Un abultamiento, una cortada o una grieta en el costado."}
+    ]],
+    ["p", {"en": "A bulge in the sidewall means the tire's structure is damaged and it can fail suddenly. Don't drive on it farther than you have to; use the spare and bring it in. Uneven wear can come from low pressure, missed rotations, a bad alignment or worn suspension, so we look at the cause, not just the tire. See [front end alignment](svc:front-end-alignment) and [suspension repair](svc:steering-and-suspension).", "es": "Un abultamiento en el costado significa que la estructura de la llanta está dañada y puede reventar de repente. No maneje con ella más de lo necesario; ponga la de refacción y tráigala. El desgaste disparejo puede venir de presión baja, rotaciones atrasadas, mala alineación o suspensión gastada, así que revisamos la causa, no solo la llanta. Vea [alineación](svc:front-end-alignment) y [reparación de suspensión](svc:steering-and-suspension)."}],
+    ["h2", {"en": "Tire work we do", "es": "Trabajos de llantas que hacemos"}, "work"],
+    ["ul", [
+      {"en": "Tire service and replacement.", "es": "Servicio y cambio de llantas."},
+      {"en": "Flat tire repair.", "es": "Reparación de ponchaduras."},
+      {"en": "Tire rotation.", "es": "Rotación de llantas."},
+      {"en": "Wheel balancing.", "es": "Balanceo de ruedas."},
+      {"en": "Related: [wheels and wheel repair](svc:wheels) and [alignment](svc:front-end-alignment).", "es": "Relacionado: [rines y reparación de rines](svc:wheels) y [alineación](svc:front-end-alignment)."}
+    ]],
+    ["h3", {"en": "Flat repair", "es": "Reparación de ponchaduras"}, "flat-repair"],
+    ["p", {"en": "A puncture in the main tread area can often be repaired from the inside of the tire. Damage in or near the sidewall, large cuts, or a tire that was driven flat usually can't be repaired safely, and the tire needs replacing. We take the tire off the wheel to check the inside before deciding.", "es": "Una ponchadura en la zona del dibujo muchas veces se puede reparar por dentro de la llanta. Un daño en el costado o cerca de él, una cortada grande o una llanta que se manejó ponchada por lo general no se pueden reparar con seguridad, y hay que cambiar la llanta. Desmontamos la llanta del rin para revisarla por dentro antes de decidir."}],
+    ["h3", {"en": "Tire rotation", "es": "Rotación de llantas"}, "tire-rotation"],
+    ["p", {"en": "Front and rear tires wear at different rates, and front tires usually wear faster on front-wheel-drive cars. Rotation moves each tire to a new position so they wear evenly. Your owner's manual lists the interval and the rotation pattern for your car; many people have it done with every other oil change.", "es": "Las llantas delanteras y traseras se gastan a ritmos distintos, y en los autos de tracción delantera las de adelante por lo general se gastan más rápido. La rotación cambia cada llanta de posición para que se gasten parejo. El manual del propietario indica cada cuánto hacerlo y el patrón de rotación de su auto; mucha gente la hace en uno de cada dos cambios de aceite."}],
+    ["h3", {"en": "Wheel balancing", "es": "Balanceo de ruedas"}, "wheel-balancing"],
+    ["p", {"en": "No tire and wheel is perfectly even in weight. Balancing spins the wheel on a machine and adds small weights to even it out. An out-of-balance wheel usually shows up as a vibration at highway speed, in the steering wheel if it's a front wheel. New tires get balanced when they're mounted, and a wheel that loses a weight needs rebalancing. A vibration that balancing doesn't fix can be a bent wheel, a damaged tire or a worn part, which we then check.", "es": "Ninguna llanta con su rin pesa exactamente igual en todos lados. El balanceo gira la rueda en una máquina y le agrega pesas pequeñas para emparejarla. Una rueda desbalanceada por lo general se nota como una vibración en carretera, en el volante si es una rueda delantera. Las llantas nuevas se balancean al montarlas, y una rueda que pierde una pesa necesita balancearse de nuevo. Si la vibración no se quita con el balanceo, puede ser un rin doblado, una llanta dañada o una pieza gastada, y eso revisamos después."}],
+    ["h2", {"en": "Tires and your Pennsylvania inspection", "es": "Las llantas y la inspección de Pensilvania"}, "pa-inspection"],
+    ["p", {"en": "Tires are part of Pennsylvania's safety inspection. Tread worn below the state minimum, or damage like cuts and bulges, can keep a car from passing. As an official inspection station, we can check the tires, replace what's needed and finish the inspection here. See [PA safety inspections](svc:pa-safety-inspections).", "es": "Las llantas son parte de la inspección de seguridad de Pensilvania. Un dibujo gastado por debajo del mínimo estatal, o daños como cortadas y abultamientos, pueden hacer que el auto no pase. Como estación oficial de inspección, podemos revisar las llantas, cambiar lo necesario y terminar la inspección aquí. Vea [inspecciones de seguridad de PA](svc:pa-safety-inspections)."}],
+    ["h2", {"en": "Tire service near Primos and Clifton Heights", "es": "Servicio de llantas cerca de Primos y Clifton Heights"}, "local"],
+    ["p", {"en": "{name} is at {street} in {city}, close to Secane and Clifton Heights. For a flat, call first so we can tell you when we can get to it.", "es": "{name} está en {street}, en {city}, cerca de Secane y Clifton Heights. Si tiene una ponchadura, llame primero para decirle cuándo podemos atenderla."}]
+  ],
+  "faq": [
+    {"q": {"en": "Can my flat tire be repaired?", "es": "¿Se puede reparar mi llanta ponchada?"},
+     "a": {"en": "Often, if the puncture is in the main tread and the tire wasn't driven flat. Sidewall damage and large cuts usually mean the tire needs replacing. We check the inside of the tire before deciding.", "es": "Muchas veces sí, si la ponchadura está en el dibujo y la llanta no se manejó ponchada. Los daños en el costado y las cortadas grandes por lo general obligan a cambiarla. Revisamos la llanta por dentro antes de decidir."}},
+    {"q": {"en": "How often should tires be rotated?", "es": "¿Cada cuánto se deben rotar las llantas?"},
+     "a": {"en": "Follow the interval in your owner's manual. Many drivers have it done with every other oil change.", "es": "Siga el intervalo del manual del propietario. Muchos conductores la hacen en uno de cada dos cambios de aceite."}},
+    {"q": {"en": "Why does my car vibrate at highway speed?", "es": "¿Por qué vibra mi auto en carretera?"},
+     "a": {"en": "An out-of-balance wheel is a common cause. A bent wheel, a damaged tire or worn suspension parts can cause similar vibration, so if balancing doesn't fix it, we look further.", "es": "Una causa común es una rueda desbalanceada. Un rin doblado, una llanta dañada o piezas de suspensión gastadas pueden causar una vibración parecida, así que si el balanceo no la quita, seguimos buscando."}},
+    {"q": {"en": "What's the difference between balancing and alignment?", "es": "¿Qué diferencia hay entre balanceo y alineación?"},
+     "a": {"en": "Balancing evens out the weight of each tire and wheel to stop vibration. Alignment adjusts the angles of the wheels so the car tracks straight and the tires wear evenly.", "es": "El balanceo empareja el peso de cada llanta con su rin para quitar la vibración. La alineación ajusta los ángulos de las ruedas para que el auto vaya derecho y las llantas se gasten parejo."}},
+    {"q": {"en": "Will worn tires fail a Pennsylvania inspection?", "es": "¿Las llantas gastadas reprueban la inspección de Pensilvania?"},
+     "a": {"en": "They can. Tires are checked for tread depth and damage during the safety inspection. We can replace tires that fail and finish the inspection here.", "es": "Puede pasar. En la inspección de seguridad se revisa el dibujo y si hay daños en las llantas. Podemos cambiar las que no pasen y terminar la inspección aquí."}},
+    {"q": {"en": "Is it safe to drive on a tire with a bulge?", "es": "¿Es seguro manejar con una llanta abultada?"},
+     "a": {"en": "No. A bulge means the tire's internal structure is damaged and it can fail without warning. Put on the spare and have the tire replaced.", "es": "No. Un abultamiento significa que la estructura interna de la llanta está dañada y puede reventar sin aviso. Ponga la de refacción y cambie la llanta."}}
+  ],
+  "related": ["front-end-alignment", "wheels", "wheel-repair", "steering-and-suspension", "wheel-bearings", "pa-safety-inspections"],
+  "sources": [],
+  "verify": ["Confirm Scally's sells and mounts new tires (existing listing says 'tire service'), and which brands.", "Confirm TPMS sensor service; page does not claim it.", "PA minimum tread is referred to as 'the state minimum' without a number; add 2/32 in. with a PennDOT citation once verified."]
+}

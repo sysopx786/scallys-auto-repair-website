@@ -1,0 +1,64 @@
+{
+  "id": "oil-change",
+  "slug": "oil-change",
+  "category": "maintenance",
+  "covers": ["oil-changes", "filter-replacement"],
+  "adaptedFrom": "Diverse Autoworks svc_oil (tools/service_pages_batch1.py), rewritten for Scally's; AMSOIL wording from Scally's existing listing",
+  "primary_kw": {"en": "oil change Primos PA", "es": "cambio de aceite Primos PA"},
+  "secondary_kws": ["AMSOIL oil change", "synthetic oil change", "AMSOIL installer Delaware County", "oil change near Clifton Heights", "cabin air filter replacement", "engine air filter", "fuel filter replacement", "oil change interval", "oil change warranty"],
+  "title": {"en": "Oil Changes & Filters in Primos, PA | Scally's Auto Repair", "es": "Cambio de aceite y filtros en Primos, PA | Scally's Auto Repair"},
+  "desc": {"en": "Oil changes plus air, cabin and fuel filters at Scally's Auto Repair in Primos, PA, an authorized AMSOIL retailer and installer. Call 610-626-4700.", "es": "Cambio de aceite y filtros de aire, de cabina y de combustible en Scally's Auto Repair, Primos, PA, distribuidor e instalador autorizado de AMSOIL."},
+  "h1": {"en": "Oil Changes & Filter Replacement in Primos, PA", "es": "Cambio de aceite y filtros en Primos, PA"},
+  "crumb": {"en": "Oil Changes", "es": "Cambio de aceite"},
+  "service_type": {"en": "Oil change", "es": "Cambio de aceite"},
+  "lead": {"en": "{name} does oil changes and replaces air, cabin and fuel filters at our shop on {street} in {city}. We are an authorized AMSOIL retailer and installer, and we use the oil grade and specification your manufacturer calls for.", "es": "En {name} hacemos cambios de aceite y cambiamos filtros de aire, de cabina y de combustible en nuestro taller de {street}, en {city}. Somos distribuidor e instalador autorizado de AMSOIL, y usamos el grado y la especificación de aceite que indica el fabricante."},
+  "blocks": [
+    ["h2", {"en": "What engine oil does", "es": "Para qué sirve el aceite del motor"}, "what-oil-does"],
+    ["p", {"en": "Oil coats the bearings, pistons, camshafts and other moving parts so metal doesn't grind on metal. It also carries heat away and holds dirt and soot until the filter traps them. Over time and miles, the oil breaks down and the filter fills up. That's when both get replaced together.", "es": "El aceite cubre los cojinetes, los pistones, los árboles de levas y otras piezas móviles para que el metal no roce contra el metal. También se lleva el calor y retiene la suciedad y el hollín hasta que el filtro los atrapa. Con el tiempo y los kilómetros, el aceite se desgasta y el filtro se llena. Por eso se cambian los dos juntos."}],
+    ["h2", {"en": "Signs it's time for an oil change", "es": "Señales de que toca cambiar el aceite"}, "signs"],
+    ["ul", [
+      {"en": "The oil-life monitor or maintenance reminder comes on.", "es": "Se enciende el indicador de vida del aceite o el recordatorio de mantenimiento."},
+      {"en": "You've reached the mileage or time in your owner's manual.", "es": "Ya llegó al kilometraje o al tiempo que indica el manual del propietario."},
+      {"en": "The oil level is low on the dipstick between changes.", "es": "El nivel de aceite está bajo en la bayoneta entre un cambio y otro."},
+      {"en": "The oil pressure warning light comes on. Stop the engine and check the level before driving farther.", "es": "Se enciende la luz de presión de aceite. Apague el motor y revise el nivel antes de seguir manejando."}
+    ]],
+    ["p", {"en": "Oil color isn't a reliable guide on its own; fresh oil can darken quickly in some engines. Go by the oil-life monitor or the schedule in your manual. An engine that keeps running low on oil between changes may be burning or leaking it. See [oil leak and gasket repair](svc:oil-leak-and-gasket-repair).", "es": "El color del aceite por sí solo no es una buena guía; en algunos motores el aceite nuevo se oscurece rápido. Guíese por el indicador de vida del aceite o por el programa del manual. Si el motor sigue quedándose bajo de aceite entre cambios, puede estar quemándolo o tener una fuga. Vea [fugas de aceite y empaques](svc:oil-leak-and-gasket-repair)."}],
+    ["h2", {"en": "What we do", "es": "Lo que hacemos"}, "work"],
+    ["ul", [
+      {"en": "Oil and oil filter change with the grade and specification your manufacturer lists.", "es": "Cambio de aceite y filtro con el grado y la especificación que indica el fabricante."},
+      {"en": "AMSOIL synthetic oil, if you want it. We're an authorized AMSOIL retailer and installer.", "es": "Aceite sintético AMSOIL, si lo desea. Somos distribuidor e instalador autorizado de AMSOIL."},
+      {"en": "Engine air filter replacement.", "es": "Cambio del filtro de aire del motor."},
+      {"en": "Cabin air filter replacement.", "es": "Cambio del filtro de aire de la cabina."},
+      {"en": "Fuel filter replacement on vehicles with a serviceable filter.", "es": "Cambio del filtro de combustible en los vehículos que tienen un filtro reemplazable."}
+    ]],
+    ["h3", {"en": "Filter replacement", "es": "Cambio de filtros"}, "filter-replacement"],
+    ["p", {"en": "Each filter protects something different. The engine air filter keeps dust out of the engine. The cabin air filter cleans the air coming through your vents; a clogged one can cause weak airflow and a musty smell. The fuel filter keeps dirt away from the fuel pump and injectors. Many newer cars have the fuel filter built into the pump assembly, so it isn't a routine item on every car. We replace filters when they're due or dirty, not on every visit.", "es": "Cada filtro protege algo distinto. El filtro de aire del motor evita que entre polvo al motor. El filtro de cabina limpia el aire que sale por las rejillas; si está tapado, el aire sale débil y puede oler a humedad. El filtro de combustible aleja la suciedad de la bomba y los inyectores. En muchos autos nuevos el filtro de combustible viene dentro del conjunto de la bomba, así que no es un cambio de rutina en todos los autos. Cambiamos los filtros cuando les toca o están sucios, no en cada visita."}],
+    ["h2", {"en": "How often to change your oil", "es": "Cada cuánto cambiar el aceite"}, "interval"],
+    ["p", {"en": "Your owner's manual or oil-life monitor sets the interval for your engine, and it varies a lot between cars and oil types. Many manuals also call for a change at least once a year, even with low mileage. Short trips, pulling a trailer, stop-and-go traffic and extreme temperatures count as severe service on many schedules, with shorter intervals. If you're not sure which schedule fits how you drive, ask us.", "es": "El manual del propietario o el indicador de vida del aceite fija el intervalo para su motor, y varía mucho entre autos y tipos de aceite. Muchos manuales también piden un cambio al menos una vez al año, aunque maneje poco. Los viajes cortos, jalar un remolque, el tráfico de arranque y parada y las temperaturas extremas cuentan como servicio severo en muchos programas, con intervalos más cortos. Si no sabe qué programa le toca según cómo maneja, pregúntenos."}],
+    ["h2", {"en": "Oil changes and your warranty", "es": "El cambio de aceite y la garantía"}, "warranty"],
+    ["p", {"en": "Under federal law, a manufacturer can't void your warranty just because an independent shop did your routine maintenance. Use the oil the manual specifies and keep your receipts.", "es": "Según la ley federal, el fabricante no puede anular su garantía solo porque un taller independiente le hizo el mantenimiento de rutina. Use el aceite que indica el manual y guarde sus recibos."}],
+    ["h2", {"en": "Oil changes near Primos and Clifton Heights", "es": "Cambio de aceite cerca de Primos y Clifton Heights"}, "local"],
+    ["p", {"en": "{name} has kept Delaware County cars on schedule since {since}. We're at {street} in {city}, close to Secane and Clifton Heights. While the car is in, we can also look at the belts, wipers and tires. See [fan and accessory belts](svc:fan-and-accessory-belts) and [tire rotation](svc:tire-rotation).", "es": "{name} mantiene al día los autos del condado de Delaware desde {since}. Estamos en {street}, en {city}, cerca de Secane y Clifton Heights. Mientras el auto está aquí, también podemos revisar las bandas, los limpiaparabrisas y las llantas. Vea [bandas de accesorios](svc:fan-and-accessory-belts) y [rotación de llantas](svc:tire-rotation)."}]
+  ],
+  "faq": [
+    {"q": {"en": "How often should I change my oil?", "es": "¿Cada cuánto debo cambiar el aceite?"},
+     "a": {"en": "Follow your owner's manual or the oil-life monitor. Intervals vary by engine and oil type, and many manuals list a shorter interval for severe driving such as short trips and stop-and-go traffic.", "es": "Siga el manual del propietario o el indicador de vida del aceite. Los intervalos varían según el motor y el tipo de aceite, y muchos manuales indican un intervalo más corto para manejo severo, como viajes cortos y tráfico de arranque y parada."}},
+    {"q": {"en": "Do you use AMSOIL?", "es": "¿Usan AMSOIL?"},
+     "a": {"en": "Yes. We're an authorized AMSOIL retailer and installer. We use an oil that meets the specification your manufacturer lists.", "es": "Sí. Somos distribuidor e instalador autorizado de AMSOIL. Usamos un aceite que cumple la especificación que indica el fabricante."}},
+    {"q": {"en": "Does dark oil mean I need an oil change?", "es": "¿El aceite oscuro significa que toca cambiarlo?"},
+     "a": {"en": "Not by itself. Oil can darken quickly in some engines. Go by the oil-life monitor or the schedule in your manual.", "es": "No por sí solo. En algunos motores el aceite se oscurece rápido. Guíese por el indicador de vida del aceite o por el programa del manual."}},
+    {"q": {"en": "Will an oil change at an independent shop void my warranty?", "es": "¿Cambiar el aceite en un taller independiente anula la garantía?"},
+     "a": {"en": "No. Federal law says a manufacturer can't deny warranty coverage just because an independent shop did routine maintenance. Keep your receipts.", "es": "No. La ley federal dice que el fabricante no puede negar la garantía solo porque un taller independiente hizo el mantenimiento de rutina. Guarde sus recibos."}},
+    {"q": {"en": "When should I replace my cabin air filter?", "es": "¿Cuándo debo cambiar el filtro de cabina?"},
+     "a": {"en": "Check your owner's manual for the interval. Weak airflow from the vents or a musty smell can mean it's clogged sooner.", "es": "Revise el intervalo en el manual del propietario. Si el aire sale débil por las rejillas o huele a humedad, puede estar tapado antes de tiempo."}},
+    {"q": {"en": "My oil light came on while driving. What should I do?", "es": "Se encendió la luz de aceite mientras manejaba. ¿Qué hago?"},
+     "a": {"en": "Pull over somewhere safe and shut the engine off. Low oil pressure can damage an engine quickly. Check the oil level, and call us at 610-626-4700 before driving it farther.", "es": "Deténgase en un lugar seguro y apague el motor. La presión baja de aceite puede dañar el motor rápido. Revise el nivel de aceite y llámenos al 610-626-4700 antes de seguir manejando."}}
+  ],
+  "related": ["fan-and-accessory-belts", "tire-rotation", "oil-leak-and-gasket-repair", "engine-tune-ups", "windshield-wiper-replacement", "basic-hybrid-service"],
+  "sources": [],
+  "verify": [
+    "Reconfirm current AMSOIL authorized retailer/installer status.",
+    "Confirm Scally's also stocks non-AMSOIL oil (page implies a choice: 'AMSOIL, if you want it').",
+    "Warranty statement refers to the federal Magnuson-Moss Warranty Act; add an FTC citation when fetchable."
+  ]
+}

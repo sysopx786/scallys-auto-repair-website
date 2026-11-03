@@ -1,6 +1,6 @@
 # Scally's Auto Repair: service expansion plan and status
 
-Branch `service-expansion`. Nothing here is on the live site (`main`) until it is merged.
+Branch `service-expansion`. The first 3 pages were merged to `main` on Nov 3, 2026; later batches go live only when merged.
 Last updated: November 3, 2026.
 
 ## Status
@@ -12,7 +12,7 @@ Last updated: November 3, 2026.
 | Spanish versions: services hub, 8 category pages, detailed pages | Done for what is built |
 | Language switch, hreflang, self-canonicals, sitemap `lastmod` | Done |
 | Structured data: one `AutoRepair` entity (`/#business`), WebPage, Service, BreadcrumbList, FAQPage | Done |
-| Detailed service pages | 3 of 34 built: engine, transmission, brakes |
+| Detailed service pages | 8 of 34 built: engine, transmission, brakes, check engine light, oil change, suspension, steering, tires |
 | Automated checks (`tests/check_site.py`) | Passing |
 
 ## Decisions that need your OK before merge
@@ -30,14 +30,14 @@ Last updated: November 3, 2026.
 | `/pa-state-inspection/` | PA Safety Inspections, Emissions Testing | queued |
 | `/emissions-repair/` | Emissions Control | queued |
 | `/pre-purchase-inspection/` | Pre-Purchase Inspections | queued |
-| `/check-engine-light/` | Computer Diagnostics, Check Engine Light | queued |
+| `/check-engine-light/` | Computer Diagnostics, Check Engine Light | built (EN+ES) |
 | `/electrical-repair/` | Electrical Repair & Wiring | queued |
 | `/battery-charging-starting/` | Charging & Starting Systems, Battery Testing & Replacement | queued |
 | `/auto-light-repair/` | Auto Light Repair | queued |
 | `/power-windows-locks/` | Power Window Repair, Power Door Lock Repair | queued |
 | `/brake-repair/` | Brake Repair, Rotor Resurfacing, Brake Fluid Flush | built (EN+ES) |
-| `/suspension-repair/` | Steering & Suspension, Sway Bar Links, Shocks & Struts | queued |
-| `/steering-repair/` | Power Steering Repair, Ball Joints, Control Arms, Tie Rods | queued |
+| `/suspension-repair/` | Steering & Suspension, Sway Bar Links, Shocks & Struts | built (EN+ES) |
+| `/steering-repair/` | Power Steering Repair, Ball Joints, Control Arms, Tie Rods | built (EN+ES) |
 | `/wheel-bearings-hubs/` | Wheel Bearings, Wheel Hubs | queued |
 | `/wheel-alignment/` | Front End Alignment | queued |
 | `/engine-repair/` | Engine Repair, Engine Rebuilding, Engine Replacement, Cylinder Head & Block Repair | built (EN+ES) |
@@ -50,11 +50,11 @@ Last updated: November 3, 2026.
 | `/clutch-repair/` | Clutch Repair | queued |
 | `/engine-transmission-mounts/` | Motor Mounts, Transmission Mounts | queued |
 | `/cv-axle-differential/` | Differential Repair, CV Axles & Joints, Rear Axle Bearings & Seals | queued |
-| `/oil-change/` | Oil Changes, Filter Replacement | queued |
+| `/oil-change/` | Oil Changes, Filter Replacement | built (EN+ES) |
 | `/cooling-system/` | Fan & Accessory Belts, Cooling Systems | queued |
 | `/ac-heating/` | Air Conditioning & Heating | queued |
 | `/hybrid-service/` | Basic Hybrid Service | queued |
-| `/tires/` | Tires & Flat Repair, Tire Rotation, Wheel Balancing | queued |
+| `/tires/` | Tires & Flat Repair, Tire Rotation, Wheel Balancing | built (EN+ES) |
 | `/wheel-repair/` | Wheels, Wheel Repair | queued |
 | `/auto-body-repair/` | Auto Body Repair | queued |
 | `/rust-repair/` | Rust Repair & Corrosion Control | queued |
@@ -65,7 +65,7 @@ Last updated: November 3, 2026.
 34 detailed pages for 65 services. General Auto Repair stays on the home page; Pick-up/Drop-off stays on /contact/#pickup.
 
 
-Suggested build order (by search demand and how much Diverse content exists): check engine light, oil change, suspension, steering, tires, wheel alignment, cooling, A/C and heating, battery/charging/starting, exhaust, timing belt/chain, PA state inspection, then the rest. Body, glass, tinting and imports have no Diverse source and need fresh research; window tinting also needs the Pennsylvania tint rules checked against PennDOT before publishing.
+Suggested build order for what is left (by search demand and how much Diverse content exists): wheel alignment, cooling, A/C and heating, battery/charging/starting, exhaust, timing belt/chain, PA state inspection, then the rest. Body, glass, tinting and imports have no Diverse source and need fresh research; window tinting also needs the Pennsylvania tint rules checked against PennDOT before publishing.
 
 ## 67-service matrix
 
@@ -78,8 +78,8 @@ Old anchors for moved services (`/engine-exhaust-transmission/#transmission-repa
 | 2 | Emissions Testing | Inspections & Emissions | existing | `/inspections-emissions/#emissions-testing` | `/pa-state-inspection/` | queued | content.py inspections page |
 | 3 | Emissions Control | Inspections & Emissions | existing | `/inspections-emissions/#emissions-control` | `/emissions-repair/` | queued | svc_emissions |
 | 4 | Pre-Purchase Inspections | Inspections & Emissions | existing | `/inspections-emissions/#pre-purchase-inspections` | `/pre-purchase-inspection/` | queued | svc_prepurchase |
-| 5 | Computer Diagnostics | Diagnostics & Electrical | existing | `/diagnostics-electrical/#computer-diagnostics` | `/check-engine-light/` | queued | svc_engine (CEL part) |
-| 6 | Check Engine Light | Diagnostics & Electrical | existing | `/diagnostics-electrical/#check-engine-light` | `/check-engine-light/` | queued | svc_engine (CEL part) |
+| 5 | Computer Diagnostics | Diagnostics & Electrical | existing | `/diagnostics-electrical/#computer-diagnostics` | `/check-engine-light/` | ✅ | svc_engine (CEL part) |
+| 6 | Check Engine Light | Diagnostics & Electrical | existing | `/diagnostics-electrical/#check-engine-light` | `/check-engine-light/` | ✅ | svc_engine (CEL part) |
 | 7 | Electrical Repair & Wiring | Diagnostics & Electrical | renamed | `/diagnostics-electrical/#electrical-repair` | `/electrical-repair/` | queued | svc_electrical |
 | 8 | Charging & Starting Systems | Diagnostics & Electrical | existing | `/diagnostics-electrical/#charging-and-starting-systems` | `/battery-charging-starting/` | queued | svc_battery + svc_electrical |
 | 9 | Battery Testing & Replacement | Diagnostics & Electrical | renamed | `/diagnostics-electrical/#battery-service` | `/battery-charging-starting/` | queued | svc_battery + svc_electrical |
@@ -89,13 +89,13 @@ Old anchors for moved services (`/engine-exhaust-transmission/#transmission-repa
 | 13 | Brake Repair | Brakes, Steering & Suspension | existing | `/brakes-steering-suspension/#brake-repair` | `/brake-repair/` | ✅ | svc_brakes |
 | 14 | Rotor Resurfacing | Brakes, Steering & Suspension | existing | `/brakes-steering-suspension/#rotor-resurfacing` | `/brake-repair/#rotor-resurfacing` | ✅ | svc_brakes |
 | 15 | Brake Fluid Flush | Brakes, Steering & Suspension | NEW | `—` | `/brake-repair/#brake-fluid-flush` | ✅ | svc_brakes |
-| 16 | Steering & Suspension | Brakes, Steering & Suspension | existing | `/brakes-steering-suspension/#steering-and-suspension` | `/suspension-repair/` | queued | svc_suspension |
-| 17 | Power Steering Repair | Brakes, Steering & Suspension | NEW | `—` | `/steering-repair/` | queued | svc_steering |
-| 18 | Ball Joints | Brakes, Steering & Suspension | existing | `/brakes-steering-suspension/#ball-joints` | `/steering-repair/` | queued | svc_steering |
-| 19 | Control Arms | Brakes, Steering & Suspension | NEW | `—` | `/steering-repair/` | queued | svc_steering |
-| 20 | Tie Rods | Brakes, Steering & Suspension | NEW | `—` | `/steering-repair/` | queued | svc_steering |
-| 21 | Sway Bar Links | Brakes, Steering & Suspension | NEW | `—` | `/suspension-repair/` | queued | svc_suspension |
-| 22 | Shocks & Struts | Brakes, Steering & Suspension | NEW | `—` | `/suspension-repair/` | queued | svc_suspension |
+| 16 | Steering & Suspension | Brakes, Steering & Suspension | existing | `/brakes-steering-suspension/#steering-and-suspension` | `/suspension-repair/` | ✅ | svc_suspension |
+| 17 | Power Steering Repair | Brakes, Steering & Suspension | NEW | `—` | `/steering-repair/` | ✅ | svc_steering |
+| 18 | Ball Joints | Brakes, Steering & Suspension | existing | `/brakes-steering-suspension/#ball-joints` | `/steering-repair/` | ✅ | svc_steering |
+| 19 | Control Arms | Brakes, Steering & Suspension | NEW | `—` | `/steering-repair/` | ✅ | svc_steering |
+| 20 | Tie Rods | Brakes, Steering & Suspension | NEW | `—` | `/steering-repair/` | ✅ | svc_steering |
+| 21 | Sway Bar Links | Brakes, Steering & Suspension | NEW | `—` | `/suspension-repair/` | ✅ | svc_suspension |
+| 22 | Shocks & Struts | Brakes, Steering & Suspension | NEW | `—` | `/suspension-repair/` | ✅ | svc_suspension |
 | 23 | Wheel Bearings | Brakes, Steering & Suspension | NEW | `—` | `/wheel-bearings-hubs/` | queued | svc_bearing |
 | 24 | Wheel Hubs | Brakes, Steering & Suspension | NEW | `—` | `/wheel-bearings-hubs/` | queued | svc_bearing |
 | 25 | Front End Alignment | Brakes, Steering & Suspension | existing | `/brakes-steering-suspension/#front-end-alignment` | `/wheel-alignment/` | queued | svc_tires (alignment) |
@@ -123,15 +123,15 @@ Old anchors for moved services (`/engine-exhaust-transmission/#transmission-repa
 | 47 | Differential Repair | Transmission & Drivetrain | moved | `/engine-exhaust-transmission/#differential-repair` | `/cv-axle-differential/` | queued | svc_axle + svc_transmission (rear axle) |
 | 48 | CV Axles & Joints | Transmission & Drivetrain | moved | `/engine-exhaust-transmission/#axles` | `/cv-axle-differential/` | queued | svc_axle + svc_transmission (rear axle) |
 | 49 | Rear Axle Bearings & Seals | Transmission & Drivetrain | NEW | `—` | `/cv-axle-differential/` | queued | svc_axle + svc_transmission (rear axle) |
-| 50 | Oil Changes | Maintenance, A/C & Cooling | existing | `/maintenance/#oil-changes` | `/oil-change/` | queued | svc_oil |
-| 51 | Filter Replacement | Maintenance, A/C & Cooling | existing | `/maintenance/#filter-replacement` | `/oil-change/` | queued | svc_oil |
+| 50 | Oil Changes | Maintenance, A/C & Cooling | existing | `/maintenance/#oil-changes` | `/oil-change/` | ✅ | svc_oil |
+| 51 | Filter Replacement | Maintenance, A/C & Cooling | existing | `/maintenance/#filter-replacement` | `/oil-change/` | ✅ | svc_oil |
 | 52 | Fan & Accessory Belts | Maintenance, A/C & Cooling | NEW | `—` | `/cooling-system/` | queued | svc_cooling |
 | 53 | Air Conditioning & Heating | Maintenance, A/C & Cooling | existing | `/maintenance/#air-conditioning-and-heating` | `/ac-heating/` | queued | svc_climate |
 | 54 | Cooling Systems | Maintenance, A/C & Cooling | existing | `/maintenance/#cooling-systems` | `/cooling-system/` | queued | svc_cooling |
 | 55 | Basic Hybrid Service | Maintenance, A/C & Cooling | NEW | `—` | `/hybrid-service/` | queued | svc_hybrid (EV/HV claims stripped) |
-| 56 | Tires & Flat Repair | Tires & Wheels | existing | `/tires-wheels/#tires-and-flat-repair` | `/tires/` | queued | svc_tires |
-| 57 | Tire Rotation | Tires & Wheels | existing | `/tires-wheels/#tire-rotation` | `/tires/` | queued | svc_tires |
-| 58 | Wheel Balancing | Tires & Wheels | NEW | `—` | `/tires/` | queued | svc_tires |
+| 56 | Tires & Flat Repair | Tires & Wheels | existing | `/tires-wheels/#tires-and-flat-repair` | `/tires/` | ✅ | svc_tires |
+| 57 | Tire Rotation | Tires & Wheels | existing | `/tires-wheels/#tire-rotation` | `/tires/` | ✅ | svc_tires |
+| 58 | Wheel Balancing | Tires & Wheels | NEW | `—` | `/tires/` | ✅ | svc_tires |
 | 59 | Wheels | Tires & Wheels | existing | `/tires-wheels/#wheels` | `/wheel-repair/` | queued | svc_tires (wheels) |
 | 60 | Wheel Repair | Tires & Wheels | existing | `/tires-wheels/#wheel-repair` | `/wheel-repair/` | queued | svc_tires (wheels) |
 | 61 | Auto Body Repair | Body, Glass & Imports | existing | `/body-pickup/#auto-body-repair` | `/auto-body-repair/` | queued | none |
