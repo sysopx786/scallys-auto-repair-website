@@ -46,14 +46,18 @@ if(links.length&&'IntersectionObserver' in window){
 /* open-now */
 function etNow(){var p=new Intl.DateTimeFormat('en-US',{timeZone:'America/New_York',weekday:'short',hour:'numeric',minute:'numeric',hour12:false}).formatToParts(new Date()),o={};p.forEach(function(x){o[x.type]=x.value});return{wd:o.weekday,h:parseInt(o.hour,10)%24,m:parseInt(o.minute,10)}}
 try{
- var n=etNow(),wk=['Mon','Tue','Wed','Thu','Fri'].indexOf(n.wd)>-1,mins=n.h*60+n.m,open=wk&&mins>=480&&mins<1080;
+ var n=etNow(),mins=n.h*60+n.m,H=window.__HOURS||[],D=H.map(function(x){return x[0]});
+ function mm(x){var q=x.split(':');return +q[0]*60+ +q[1]}
+ function fmt(x){var h=+x.split(':')[0],m=+x.split(':')[1],s=h>=12?'PM':'AM';h=h%12||12;return h+(m?':'+(m<10?'0':'')+m:'')+' '+s}
+ var i=D.indexOf(n.wd),td=H[i]||[n.wd,null,null],open=!!(td[1]&&mins>=mm(td[1])&&mins<mm(td[2]));
  $$('[data-status]').forEach(function(el){var t=$('.t',el);el.classList.toggle('open',open);
-  if(open){t.textContent='Open now · closes 6 PM'}else{var nx=(n.wd==='Fri'&&mins>=1080)||n.wd==='Sat'||n.wd==='Sun'?'Mon':(wk&&mins>=1080?'tomorrow':'today');t.textContent='Closed · opens '+nx+' 8 AM'}});
+  if(open){t.textContent='Open now · closes '+fmt(td[2])}else{var lbl,nx=null;if(td[1]&&mins<mm(td[1])){lbl='today';nx=td}else{for(var k=1;k<8;k++){var c=H[(i+k)%7];if(c&&c[1]){nx=c;lbl=k===1?'tomorrow':c[0];break}}}
+   t.textContent=nx?'Closed · opens '+lbl+' '+fmt(nx[1]):'Closed'}});
  var row=$('.hours tr[data-d="'+n.wd+'"]');if(row)row.classList.add('today');
 }catch(e){}
 /* map facade */
 var mf=$('[data-map]');
-if(mf){var btn=$('button',mf);btn.addEventListener('click',function(){var f=d.createElement('iframe');f.src=mf.getAttribute('data-map');f.title='Map showing Dave Hoffman Auto Repair at 42 Ridge Rd, Phoenixville, PA';f.loading='lazy';f.referrerPolicy='no-referrer-when-downgrade';mf.appendChild(f);$('.inner',mf).remove()})}
+if(mf){var btn=$('button',mf);btn.addEventListener('click',function(){var f=d.createElement('iframe');f.src=mf.getAttribute('data-map');f.title=mf.getAttribute('data-title')||'Map';f.loading='lazy';f.referrerPolicy='no-referrer-when-downgrade';mf.appendChild(f);$('.inner',mf).remove()})}
 /* command palette */
 var pal=$('#pal'),idx=window.__SERVICES||[];
 if(pal&&idx.length&&typeof pal.showModal==='function'){

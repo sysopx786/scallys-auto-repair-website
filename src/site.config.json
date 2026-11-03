@@ -1,21 +1,70 @@
 {
-  "name": "Dave Hoffman Auto Repair",
+  "name": "Scally's Auto Repair",
   "baseUrl": "https://REPLACE-WITH-DOMAIN",
-  "phoneDisplay": "484-921-0715",
-  "phoneTel": "+14849210715",
-  "phoneSecondaryDisplay": "(610) 935-1103",
-  "phoneSecondaryTel": "+16109351103",
-  "street": "42 Ridge Rd",
-  "city": "Phoenixville",
+  "phoneDisplay": "610-626-4700",
+  "phoneTel": "+16106264700",
+  "street": "711 Secane Ave",
+  "city": "Primos",
   "region": "PA",
-  "zip": "19460",
-  "hoursLine": "Mon\u2013Fri 8:00 AM\u20136:00 PM",
-  "hoursShort": "Mon\u2013Fri 8 AM\u20136 PM",
-  "lat": 40.1481356,
-  "lng": -75.5533232,
-  "ois": "T480",
-  "googleReviewUrl": null,
+  "zip": "19018",
+  "mapsQuery": "Scally's Auto Repair, 711 Secane Ave, Primos, PA 19018",
+  "hours": [
+    [
+      "Mon",
+      "Monday",
+      "9:00 AM–6:00 PM",
+      "09:00",
+      "18:00"
+    ],
+    [
+      "Tue",
+      "Tuesday",
+      "9:00 AM–6:00 PM",
+      "09:00",
+      "18:00"
+    ],
+    [
+      "Wed",
+      "Wednesday",
+      "9:00 AM–6:00 PM",
+      "09:00",
+      "18:00"
+    ],
+    [
+      "Thu",
+      "Thursday",
+      "9:00 AM–6:00 PM",
+      "09:00",
+      "18:00"
+    ],
+    [
+      "Fri",
+      "Friday",
+      "9:00 AM–6:00 PM",
+      "09:00",
+      "18:00"
+    ],
+    [
+      "Sat",
+      "Saturday",
+      "9:00 AM–1:00 PM",
+      "09:00",
+      "13:00"
+    ],
+    [
+      "Sun",
+      "Sunday",
+      "Closed",
+      null,
+      null
+    ]
+  ],
+  "hoursLine": "Mon–Fri 9:00 AM–6:00 PM · Sat 9:00 AM–1:00 PM",
+  "hoursShort": "Mon–Fri 9–6 · Sat 9–1",
+  "ois": "M602",
+  "since": 1987,
+  "googleReviewUrl": "https://share.google/eqcR4vWHCasSYtGdd",
+  "yelpUrl": "https://www.yelp.com/biz/scallys-auto-repair-primos",
   "showPhotoComingLabel": false,
-  "showRatingBadge": false,
-  "basePath": "/hoffman-auto-repair-website/"
+  "basePath": "/scallys-auto-repair-website/"
 }
