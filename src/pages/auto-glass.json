@@ -1,0 +1,305 @@
+{
+  "id": "auto-glass",
+  "slug": "auto-glass",
+  "category": "body-glass-imports",
+  "covers": [
+    "auto-glass-installation-and-repair",
+    "windshield-wiper-replacement"
+  ],
+  "adaptedFrom": "Scally's catalog: windshield/window glass repair and replacement, wiper blade replacement. PennDOT passenger-vehicle inspection glass and wiper guidance. NHTSA-hosted technical bulletin notes model-specific camera calibration after replacement; no claim Scally's calibrates ADAS.",
+  "primary_kw": {
+    "en": "auto glass repair Primos PA",
+    "es": "reparación de cristales de auto en Primos PA"
+  },
+  "secondary_kws": [
+    "windshield repair Primos",
+    "windshield replacement",
+    "car window glass repair",
+    "auto glass installation",
+    "windshield chip repair",
+    "cracked windshield repair",
+    "windshield wiper replacement",
+    "wiper blades Primos",
+    "auto glass Secane",
+    "car glass Clifton Heights",
+    "windshield camera calibration",
+    "PA windshield inspection"
+  ],
+  "title": {
+    "en": "Auto Glass & Windshield Repair in Primos | Scally's",
+    "es": "Cristales y parabrisas en Primos, PA | Scally's"
+  },
+  "desc": {
+    "en": "Windshield cracked or wipers streaking? Scally's in Primos offers auto glass repair, replacement and wiper blade service. Call 610-626-4700.",
+    "es": "¿Parabrisas dañado o limpiaparabrisas que dejan rayas? Scally's en Primos ofrece reparación y cambio de cristales y plumas."
+  },
+  "h1": {
+    "en": "Auto Glass and Windshield Repair in Primos, PA",
+    "es": "Reparación de cristales y parabrisas en Primos, PA"
+  },
+  "crumb": {
+    "en": "Auto Glass & Wipers",
+    "es": "Cristales y limpiaparabrisas"
+  },
+  "service_type": {
+    "en": "Windshield and automotive window glass service; wiper blade replacement",
+    "es": "Servicio de parabrisas, cristales y cambio de plumas limpiaparabrisas"
+  },
+  "lead": {
+    "en": "A chip in the windshield, broken door glass or wipers that smear the view can make everyday driving harder. At {name}, on {street} in {city}, the service list includes windshield and window glass repair and replacement plus wiper blade replacement. We discuss the type and location of the damage before deciding if glass can be repaired or needs replacement. Some vehicles also need manufacturer-specific camera checks after windshield work.",
+    "es": "Una astilla en el parabrisas, el cristal de una puerta roto o limpiaparabrisas que dejan manchas pueden dificultar la conducción. En {name}, en {street}, {city}, ofrecemos reparación y cambio de parabrisas y cristales, además de cambio de plumas limpiaparabrisas. Revisamos el tipo y la ubicación del daño antes de decidir si se puede reparar o es necesario cambiar el cristal. Algunos vehículos también requieren revisar cámaras según el fabricante después de trabajar en el parabrisas."
+  },
+  "blocks": [
+    [
+      "h2",
+      {
+        "en": "How windshield and window glass differ",
+        "es": "Diferencias entre parabrisas y cristales de puertas"
+      },
+      "how-it-works"
+    ],
+    [
+      "p",
+      {
+        "en": "The windshield helps provide clear forward visibility and is part of the vehicle's designed body system. Door and other window glass may have different construction and operation. A small windshield chip is different from a crack that spreads across the viewing area, and shattered side glass is different from a window that simply will not move up or down. The correct service depends on which glass is affected and the damage found.",
+        "es": "El parabrisas permite una visión clara hacia adelante y forma parte del diseño del vehículo. Los cristales de las puertas y otras ventanas pueden tener otra construcción y funcionamiento. Una astilla pequeña es distinta de una grieta que atraviesa el campo de visión, y un cristal lateral roto no es lo mismo que una ventana que no sube o baja. El servicio correcto depende del cristal afectado y del daño."
+      }
+    ],
+    [
+      "p",
+      {
+        "en": "Modern windshields can also have mounting areas for cameras, sensors, rain detection or other driver-assistance equipment. Glass selection and installation may affect these features. A replacement must be appropriate for the vehicle's specifications. We do not claim every glass type, sensor-related operation or advanced calibration is handled at this shop without checking the exact car and requirements.",
+        "es": "Los parabrisas modernos pueden tener montajes para cámaras, sensores, detección de lluvia u otros equipos de asistencia. La elección e instalación del cristal puede afectar esas funciones. El reemplazo debe corresponder a las especificaciones del vehículo. No afirmamos que el taller atienda cualquier tipo de cristal, operación relacionada con sensores o calibración avanzada sin revisar el auto y sus requisitos."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "When glass or wipers need attention",
+        "es": "Cuándo atender cristales o limpiaparabrisas"
+      },
+      "signs"
+    ],
+    [
+      "ul",
+      [
+        {
+          "en": "A windshield chip or crack obstructs your view.",
+          "es": "Una astilla o grieta del parabrisas afecta la visión."
+        },
+        {
+          "en": "A crack has begun spreading across the glass.",
+          "es": "Una grieta se extiende por el cristal."
+        },
+        {
+          "en": "A side window is shattered, cracked or loose.",
+          "es": "Un cristal lateral está roto, agrietado o flojo."
+        },
+        {
+          "en": "Windshield wipers leave streaks or skip during rain.",
+          "es": "Los limpiaparabrisas dejan rayas o saltan bajo la lluvia."
+        },
+        {
+          "en": "A wiper blade is torn, hard or no longer clears water.",
+          "es": "La goma de una pluma está rota, dura o ya no limpia el agua."
+        },
+        {
+          "en": "You hear abnormal wind noise near damaged glazing.",
+          "es": "Escucha ruido de viento anormal cerca de un cristal dañado."
+        },
+        {
+          "en": "A driver-assistance warning appears after windshield work.",
+          "es": "Aparece una advertencia de asistencia al conductor después de trabajar en el parabrisas."
+        }
+      ]
+    ],
+    [
+      "p",
+      {
+        "en": "Visibility problems should not be ignored. A broken or badly cracked windshield can reduce the driver's view, while failed wipers create immediate difficulty during rain or snow. If damage affects your ability to see the road or the glass is unstable, avoid driving until it can be assessed. Do not assume that a chip is repairable simply because it looks small from inside the vehicle.",
+        "es": "Los problemas de visibilidad no deben ignorarse. Un parabrisas muy agrietado puede reducir la visión, y limpiaparabrisas defectuosos dificultan la conducción con lluvia o nieve. Si el daño impide ver la carretera o el cristal no está firme, evite conducir hasta que se revise. No suponga que una astilla se puede reparar solo porque parece pequeña desde el interior."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Auto glass repair and replacement",
+        "es": "Reparación y cambio de cristales"
+      },
+      "auto-glass-installation-and-repair"
+    ],
+    [
+      "p",
+      {
+        "en": "Scally's lists automotive glass installation, repair and replacement for windshields and windows. Whether repair is appropriate depends on the type, location, size and depth of damage, as well as the glass construction and vehicle guidance. A chip may be different from a long crack or extensive impact damage. We discuss the condition first rather than advertising one universal glass repair rule.",
+        "es": "Scally's ofrece instalación, reparación y cambio de cristales de vehículos, incluidos parabrisas y ventanas. La posibilidad de reparar depende del tipo, ubicación, tamaño y profundidad del daño, así como de la construcción del cristal y las indicaciones del fabricante. Una astilla puede ser distinta de una grieta larga o daño por impacto. Primero revisamos el estado en lugar de anunciar una regla universal."
+      }
+    ],
+    [
+      "p",
+      {
+        "en": "A cracked side window or glass that has come loose may need work involving related guides, seals or mechanisms. If the issue is that an intact window will not move, its motor or regulator may be the cause rather than the glass. Our [power window repair](svc:power-window-repair) page explains those electrical and mechanical concerns. Describe whether the glass is actually damaged, partly open or misaligned.",
+        "es": "Un cristal lateral agrietado o flojo puede requerir revisar guías, sellos o mecanismos relacionados. Si una ventana intacta no se mueve, la falla podría ser del motor o elevador y no del cristal. Nuestra página de [reparación de ventanas eléctricas](svc:power-window-repair) explica esos problemas eléctricos y mecánicos. Indique si el vidrio está roto, parcialmente abierto o desalineado."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Windshield cameras and calibration questions",
+        "es": "Cámaras del parabrisas y calibración"
+      },
+      "cameras"
+    ],
+    [
+      "p",
+      {
+        "en": "Some vehicles use a forward-facing camera behind the windshield for lane assistance or other driver-aid systems. On certain models, glass replacement or changes to camera mounting can require a manufacturer-specified check or calibration. A [NHTSA-hosted technical bulletin](url:https://static.nhtsa.gov/odi/tsbs/2022/MC-10225997-9999.pdf) documents camera-related warning messages following windshield replacement on an applicable model. This does not mean every vehicle needs the same procedure.",
+        "es": "Algunos vehículos usan una cámara detrás del parabrisas para asistencia de carril u otras funciones. En ciertos modelos, cambiar el cristal o modificar el montaje de la cámara puede requerir revisión o calibración según el fabricante. Un [boletín técnico publicado por NHTSA](url:https://static.nhtsa.gov/odi/tsbs/2022/MC-10225997-9999.pdf) documenta advertencias de cámara después del cambio de parabrisas en un modelo aplicable. Eso no significa que todos requieran el mismo procedimiento."
+      }
+    ],
+    [
+      "p",
+      {
+        "en": "Before authorizing windshield work, identify whether the vehicle has such systems and ask how the manufacturer-required steps will be addressed. We do not advertise on-site camera calibration, dealer programming or universal compatibility. If specialized checks are necessary, ask the shop about the appropriate qualified provider. A windshield repair should not be treated as complete for those systems based only on the glass looking clear.",
+        "es": "Antes de autorizar el trabajo, identifique si el auto tiene esos sistemas y pregunte cómo se cumplirán los pasos del fabricante. No anunciamos calibración de cámaras en el taller, programación de agencia ni compatibilidad universal. Si hacen falta revisiones especializadas, consulte por un proveedor calificado. La apariencia clara del cristal por sí sola no confirma que todos los sistemas de asistencia funcionen correctamente."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Windshield wiper blade replacement",
+        "es": "Cambio de plumas limpiaparabrisas"
+      },
+      "windshield-wiper-replacement"
+    ],
+    [
+      "p",
+      {
+        "en": "Scally's also lists wiper blade replacement. Wipers that streak, chatter or leave areas uncleared may have worn rubber or need attention to the arm or glass condition. A replacement blade must fit the model and the correct position on the vehicle. Some cars use different lengths or attachment types on the driver's and passenger's sides. Check the owner's manual instead of assuming one blade fits both.",
+        "es": "Scally's también ofrece cambio de plumas limpiaparabrisas. Si dejan rayas, hacen ruido o no limpian bien, puede haber goma desgastada o problemas con el brazo o cristal. La pluma debe corresponder al modelo y a su posición. Algunos autos usan distintos largos y conectores en el lado del conductor y del pasajero. Consulte el manual en lugar de suponer que una sola pieza sirve para ambos lados."
+      }
+    ],
+    [
+      "p",
+      {
+        "en": "Keep the windshield clean, check the washer fluid and remove ice carefully before operating the wipers. Do not run blades across heavy ice or dry debris if they are stuck. If the whole wiper arm fails to move, the problem may involve a fuse, switch, motor or linkage rather than blade rubber. Our [electrical repair](svc:electrical-repair) page covers related diagnosis.",
+        "es": "Mantenga limpio el parabrisas, revise el líquido lavaparabrisas y retire el hielo con cuidado antes de activar las plumas. No las haga funcionar sobre hielo grueso o suciedad seca si están pegadas. Si el brazo completo no se mueve, puede existir un problema de fusible, interruptor, motor o mecanismo en lugar de la goma. Nuestra página de [reparación eléctrica](svc:electrical-repair) explica el diagnóstico relacionado."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Glass and wipers in Pennsylvania inspections",
+        "es": "Cristales y limpiaparabrisas en inspecciones de PA"
+      },
+      "pa-inspection"
+    ],
+    [
+      "p",
+      {
+        "en": "PennDOT includes glazing, windshield washers and wipers among the systems checked at Pennsylvania safety inspections. Specific rejection criteria depend on the vehicle and the type and location of damage. A chip or worn wiper should be assessed rather than treated as automatically acceptable or automatically rejected. Read [PennDOT consumer inspection guidance](url:https://www.pa.gov/agencies/dmv/faqs/motor-vehicle-faqs/safety-inspection-consumers-faqs) and our [PA inspection page](svc:pa-safety-inspections) for related requirements.",
+        "es": "PennDOT incluye cristales, lavaparabrisas y limpiaparabrisas en las inspecciones de seguridad de Pensilvania. Los criterios de rechazo dependen del vehículo y del tipo y ubicación del daño. Una astilla o una pluma desgastada se deben evaluar, no considerar siempre aceptables ni siempre motivo de rechazo. Consulte [la guía de inspección de PennDOT](url:https://www.pa.gov/agencies/dmv/faqs/motor-vehicle-faqs/safety-inspection-consumers-faqs) y nuestra [página de inspección de PA](svc:pa-safety-inspections)."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Auto glass service near Primos and Secane",
+        "es": "Servicio de cristales cerca de Primos y Secane"
+      },
+      "local"
+    ],
+    [
+      "p",
+      {
+        "en": "Find {name} at {street}, {city}, near Secane and Clifton Heights. Call {phone} with the year, make, model and the affected glass or wiper. Explain whether the damage is a chip, crack, shattered window or a wiper that does not clear water, and mention any windshield camera. We can discuss a suitable evaluation and which services are available for that specific vehicle.",
+        "es": "Encuentre {name} en {street}, {city}, cerca de Secane y Clifton Heights. Llame al {phone} con año, marca, modelo y el cristal o limpiaparabrisas afectado. Explique si hay una astilla, grieta, ventana rota o pluma que no limpia el agua, y mencione cualquier cámara del parabrisas. Podemos hablar de una evaluación y del servicio disponible para ese vehículo."
+      }
+    ]
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can every windshield chip be repaired?",
+        "es": "¿Se puede reparar cualquier astilla del parabrisas?"
+      },
+      "a": {
+        "en": "No. Repair suitability depends on the damage's location and severity, glass type and applicable guidance.",
+        "es": "No. Depende de la ubicación y gravedad del daño, el tipo de cristal y las indicaciones aplicables."
+      }
+    },
+    {
+      "q": {
+        "en": "Do you replace auto window glass?",
+        "es": "¿Cambian los cristales de las ventanas?"
+      },
+      "a": {
+        "en": "Windshield and window glass replacement appear in Scally's service catalog. Call with the model and glass location.",
+        "es": "Scally's ofrece cambio de parabrisas y cristales. Llame con el modelo y la ubicación del vidrio."
+      }
+    },
+    {
+      "q": {
+        "en": "Will my vehicle need camera calibration after a windshield change?",
+        "es": "¿Mi auto necesita calibración de cámara tras cambiar el parabrisas?"
+      },
+      "a": {
+        "en": "Some models require a specific check or calibration. Follow manufacturer instructions and confirm a qualified provider.",
+        "es": "Algunos modelos requieren una revisión o calibración específica. Siga las indicaciones del fabricante y confirme un proveedor calificado."
+      }
+    },
+    {
+      "q": {
+        "en": "Do you change wiper blades?",
+        "es": "¿Cambian las plumas limpiaparabrisas?"
+      },
+      "a": {
+        "en": "Yes. Wiper blade replacement is a listed Scally's service.",
+        "es": "Sí. El cambio de plumas está incluido entre los servicios de Scally's."
+      }
+    },
+    {
+      "q": {
+        "en": "Can a crack affect my PA inspection?",
+        "es": "¿Una grieta afecta la inspección de PA?"
+      },
+      "a": {
+        "en": "Glass is among the safety-inspection items. The decision depends on the applicable criteria and exact condition.",
+        "es": "Los cristales forman parte de la inspección. La decisión depende de las normas y del estado real."
+      }
+    },
+    {
+      "q": {
+        "en": "Why do new wipers still leave streaks?",
+        "es": "¿Por qué las plumas nuevas dejan rayas?"
+      },
+      "a": {
+        "en": "The glass may be dirty, a blade may not fit, or the wiper arm can have another problem. Check before replacing parts again.",
+        "es": "El cristal puede estar sucio, la pluma no encajar o el brazo tener otra falla. Revise antes de cambiar piezas de nuevo."
+      }
+    }
+  ],
+  "related": [
+    "pa-safety-inspections",
+    "power-window-repair",
+    "auto-body-repair",
+    "electrical-repair",
+    "auto-light-repair"
+  ],
+  "sources": [
+    [
+      "PennDOT: Safety Inspection FAQ",
+      "https://www.pa.gov/agencies/dmv/faqs/motor-vehicle-faqs/safety-inspection-consumers-faqs"
+    ],
+    [
+      "NHTSA: Camera Calibration Bulletin",
+      "https://static.nhtsa.gov/odi/tsbs/2022/MC-10225997-9999.pdf"
+    ]
+  ],
+  "verify": [
+    "Confirm glass chip repair vs replacement scope, types and makes covered by Scally's.",
+    "Confirm who handles vehicle camera calibration and which windshield models require specialist referrals.",
+    "Confirm whether rear glass, quarter glass, door glass and resealing services are provided; do not assume them.",
+    "Confirm wiper-arm and motor services separately from blade replacement."
+  ]
+}
