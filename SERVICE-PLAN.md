@@ -1,7 +1,7 @@
 # Scally's Auto Repair: service expansion plan and status
 
-Development branch: `service-expansion`. Batches 1 and 2 are merged and deployed from `main`.
-Last updated: November 4, 2026 UTC (Batches 1–2 published; Batch 3 bilingual sources prepared, build/QA pending).
+Development branch: `service-expansion`. Batches 1–3 are merged and deployed from `main`.
+Last updated: November 4, 2026 UTC (Batch 3 successfully merged and deployed).
 
 ## Status
 
@@ -12,11 +12,11 @@ Last updated: November 4, 2026 UTC (Batches 1–2 published; Batch 3 bilingual s
 | Spanish versions: services hub, 8 category pages, detailed pages | Done for what is built |
 | Language switch, hreflang, self-canonicals, sitemap `lastmod` | Done |
 | Structured data: one `AutoRepair` entity (`/#business`), WebPage, Service, BreadcrumbList, FAQPage | Done |
-| Detailed service pages | 23 of 34 live on `main`; 5 Batch 3 bilingual sources ready for build/test on `service-expansion` (28 after passing); 6 pages remain after Batch 3 |
-| Automated checks (`tests/check_site.py`) | ALL CHECKS PASSED after 23-page rebuild on [GitHub Actions run 41771079049](https://github.com/sysopx786/scallys-auto-repair-website/actions/runs/41771079049) |
+| Detailed service pages | 28 of 34 detailed EN/ES pages published; 6 remain |
+| Automated checks (`tests/check_site.py`) | ALL CHECKS PASSED on 28-page build: run 41773440273 |
 | Batch 1 full build and responsive QA | ALL BROWSER CHECKS PASSED: 60 checks, 0 failures |
 | Batch 2 build and responsive QA | ALL CHECKS PASSED; ALL BROWSER CHECKS PASSED (120 checks, 0 failures) — [run 41771079049](https://github.com/sysopx786/scallys-auto-repair-website/actions/runs/41771079049) |
-| Batch 3 build and responsive QA | Pending CI build, full suite and 180 responsive browser checks |
+| Batch 3 build and responsive QA | ALL CHECKS PASSED; 180 browser checks, 0 failures; Pages deploy 41773732752 succeeded |
 
 ## Batch 1 (November 4, 2026 UTC) — merged and published
 
@@ -50,21 +50,21 @@ All new pages use Primos, Secane and Clifton Heights; avoid the unrelated Divers
 
 The browser test covered all ten pages from Batches 1 and 2 in both languages at 320, 390, 768, 1100, 1280 and 1600 px: **120 passing checks** and zero HTTP, JavaScript or overflow failures. The QA artifact contains 40 full-page screenshots and a machine-readable report. **Published:** PR #2 merged to `main` as commit `c4e23801297b2246a6bfcb016bb6368f1f0b4930`; [GitHub Pages deployment 41771387714](https://github.com/sysopx786/scallys-auto-repair-website/actions/runs/41771387714) succeeded.
 
-## Batch 3 (November 4, 2026 UTC) — source ready, build/QA pending
+## Batch 3 (November 4, 2026 UTC) — merged and published
 
-Five new bilingual source pages covering nine catalog services are drafted on `service-expansion`. Each contains one primary keyword, 12 secondary keywords, six FAQs in both languages, service-specific paragraphs, related internal links, and `verify` questions for Jerry. These files cannot be called live until generated HTML and the full tests pass and GitHub Pages publishes `main`.
+Five new bilingual pages covering nine catalog services were built, tested and published via PR #3. Generated 79 indexable pages (28 detailed page pairs).
 
-| New page | Covered catalog services | EN / ES draft words, including FAQs | Initial status |
+| New page | Covered catalog services | EN / ES rendered page words | Initial status |
 |---|---|---:|---|
-| `fuel-system-repair` | Fuel System Service; Gas Tanks | 795 / 783 | Source ready |
-| `clutch-repair` | Clutch Repair | 823 / 867 | Source ready |
-| `engine-transmission-mounts` | Motor Mounts; Transmission Mounts | 831 / 878 | Source ready |
-| `cv-axle-differential` | Differential Repair; CV Axles & Joints; Rear Axle Bearings & Seals | 937 / 945 | Source ready |
-| `hybrid-service` | Basic Hybrid Service | 860 / 890 | Source ready |
+| `fuel-system-repair` | Fuel System Service; Gas Tanks | 969 / 986 | Published (EN+ES) |
+| `clutch-repair` | Clutch Repair | 984 / 1,067 | Published (EN+ES) |
+| `engine-transmission-mounts` | Motor Mounts; Transmission Mounts | 990 / 1,067 | Published (EN+ES) |
+| `cv-axle-differential` | Differential Repair; CV Axles & Joints; Rear Axle Bearings & Seals | 1,113 / 1,150 | Published (EN+ES) |
+| `hybrid-service` | Basic Hybrid Service | 1,037 / 1,085 | Published (EN+ES) |
 
 For hybrid maintenance, **only oil changes, routine mechanical brakes, tires and inspections** are represented. High-voltage battery packs, inverters, electric drive units and manufacturer software are explicitly excluded. Technical safety information was checked against [NHTSA hybrid/electric safety guidance](https://www.nhtsa.gov/vehicle-safety/electric-and-hybrid-vehicles) and fuel leak precautions against [AAA](https://cluballiance.aaa.com/the-extra-mile/advice/car/identify-leaks-like-a-pro). No unrelated Diverse shop certifications, towns, towing claims or fixed maintenance intervals are adopted.
 
-The automated QA suite now targets Batches 1–3 (15 slugs × two languages × six viewport widths = **180 browser checks**) at 320, 390, 768, 1100, 1280 and 1600 px. The CI workflow will commit generated files only after the entire build and test suite and all browser checks pass. **Owner explicitly approved immediate Batch 3 merge and deployment after passing; no second approval request.**
+The CI run 41773440273 passed the complete build and site suite plus 180 responsive checks (0 failures), and committed generated HTML. PR #3 merged as `9985883077ed3eda334bdbffb991792b4550e859`. GitHub Pages run 41773732752 deployed successfully. The QA archive contains 60 screenshots and a JSON report.
 
 ## Open decisions and future launch items
 
@@ -96,15 +96,15 @@ The automated QA suite now targets Batches 1–3 (15 slugs × two languages × s
 | `/oil-leak-repair/` | Oil Leak & Gasket Repair | published (EN+ES); QA passed |
 | `/timing-belt-chain/` | Timing Belt, Timing Chain | built (EN+ES); full QA passed |
 | `/exhaust-muffler-repair/` | Mufflers & Exhaust | built (EN+ES) |
-| `/fuel-system-repair/` | Fuel System Service, Gas Tanks | Batch 3 source ready (EN+ES); QA pending |
+| `/fuel-system-repair/` | Fuel System Service, Gas Tanks | published (EN+ES); QA passed |
 | `/transmission-repair/` | Transmission Repair, Transmission Rebuilding, Transmission Replacement, Transmission Fluid Service | built (EN+ES) |
-| `/clutch-repair/` | Clutch Repair | Batch 3 source ready (EN+ES); QA pending |
-| `/engine-transmission-mounts/` | Motor Mounts, Transmission Mounts | Batch 3 source ready (EN+ES); QA pending |
-| `/cv-axle-differential/` | Differential Repair, CV Axles & Joints, Rear Axle Bearings & Seals | Batch 3 source ready (EN+ES); QA pending |
+| `/clutch-repair/` | Clutch Repair | published (EN+ES); QA passed |
+| `/engine-transmission-mounts/` | Motor Mounts, Transmission Mounts | published (EN+ES); QA passed |
+| `/cv-axle-differential/` | Differential Repair, CV Axles & Joints, Rear Axle Bearings & Seals | published (EN+ES); QA passed |
 | `/oil-change/` | Oil Changes, Filter Replacement | built (EN+ES) |
 | `/cooling-system/` | Fan & Accessory Belts, Cooling Systems | built (EN+ES) |
 | `/ac-heating/` | Air Conditioning & Heating | built (EN+ES) |
-| `/hybrid-service/` | Basic Hybrid Service | Batch 3 source ready (EN+ES); QA pending |
+| `/hybrid-service/` | Basic Hybrid Service | published (EN+ES); QA passed |
 | `/tires/` | Tires & Flat Repair, Tire Rotation, Wheel Balancing | built (EN+ES) |
 | `/wheel-repair/` | Wheels, Wheel Repair | queued |
 | `/auto-body-repair/` | Auto Body Repair | queued |
@@ -162,24 +162,24 @@ Old anchors for moved services (`/engine-exhaust-transmission/#transmission-repa
 | 35 | Timing Belt | Engine & Exhaust | NEW | `—` | `/timing-belt-chain/` | ✅ | svc_timing |
 | 36 | Timing Chain | Engine & Exhaust | NEW | `—` | `/timing-belt-chain/` | ✅ | svc_timing |
 | 37 | Mufflers & Exhaust | Engine & Exhaust | existing | `/engine-exhaust-transmission/#mufflers-and-exhaust` | `/exhaust-muffler-repair/` | ✅ | svc_exhaust |
-| 38 | Fuel System Service | Engine & Exhaust | existing | `/engine-exhaust-transmission/#fuel-system-service` | `/fuel-system-repair/` | Batch 3 source ready | svc_fuel |
-| 39 | Gas Tanks | Engine & Exhaust | existing | `/engine-exhaust-transmission/#gas-tanks` | `/fuel-system-repair/` | Batch 3 source ready | svc_fuel |
+| 38 | Fuel System Service | Engine & Exhaust | existing | `/engine-exhaust-transmission/#fuel-system-service` | `/fuel-system-repair/` | ✅ published | svc_fuel |
+| 39 | Gas Tanks | Engine & Exhaust | existing | `/engine-exhaust-transmission/#gas-tanks` | `/fuel-system-repair/` | ✅ published | svc_fuel |
 | 40 | Transmission Repair | Transmission & Drivetrain | moved | `/engine-exhaust-transmission/#transmission-repair` | `/transmission-repair/` | ✅ | svc_transmission |
 | 41 | Transmission Rebuilding | Transmission & Drivetrain | NEW | `—` | `/transmission-repair/#transmission-rebuilding` | ✅ | svc_transmission |
 | 42 | Transmission Replacement | Transmission & Drivetrain | NEW | `—` | `/transmission-repair/#transmission-replacement` | ✅ | svc_transmission |
 | 43 | Transmission Fluid Service | Transmission & Drivetrain | NEW | `—` | `/transmission-repair/#transmission-fluid-service` | ✅ | svc_transmission |
-| 44 | Clutch Repair | Transmission & Drivetrain | NEW | `—` | `/clutch-repair/` | Batch 3 source ready | svc_clutch |
-| 45 | Motor Mounts | Transmission & Drivetrain | NEW | `—` | `/engine-transmission-mounts/` | Batch 3 source ready | svc_transmission (mounts) |
-| 46 | Transmission Mounts | Transmission & Drivetrain | NEW | `—` | `/engine-transmission-mounts/` | Batch 3 source ready | svc_transmission (mounts) |
-| 47 | Differential Repair | Transmission & Drivetrain | moved | `/engine-exhaust-transmission/#differential-repair` | `/cv-axle-differential/` | Batch 3 source ready | svc_axle + svc_transmission (rear axle) |
-| 48 | CV Axles & Joints | Transmission & Drivetrain | moved | `/engine-exhaust-transmission/#axles` | `/cv-axle-differential/` | Batch 3 source ready | svc_axle + svc_transmission (rear axle) |
-| 49 | Rear Axle Bearings & Seals | Transmission & Drivetrain | NEW | `—` | `/cv-axle-differential/` | Batch 3 source ready | svc_axle + svc_transmission (rear axle) |
+| 44 | Clutch Repair | Transmission & Drivetrain | NEW | `—` | `/clutch-repair/` | ✅ published | svc_clutch |
+| 45 | Motor Mounts | Transmission & Drivetrain | NEW | `—` | `/engine-transmission-mounts/` | ✅ published | svc_transmission (mounts) |
+| 46 | Transmission Mounts | Transmission & Drivetrain | NEW | `—` | `/engine-transmission-mounts/` | ✅ published | svc_transmission (mounts) |
+| 47 | Differential Repair | Transmission & Drivetrain | moved | `/engine-exhaust-transmission/#differential-repair` | `/cv-axle-differential/` | ✅ published | svc_axle + svc_transmission (rear axle) |
+| 48 | CV Axles & Joints | Transmission & Drivetrain | moved | `/engine-exhaust-transmission/#axles` | `/cv-axle-differential/` | ✅ published | svc_axle + svc_transmission (rear axle) |
+| 49 | Rear Axle Bearings & Seals | Transmission & Drivetrain | NEW | `—` | `/cv-axle-differential/` | ✅ published | svc_axle + svc_transmission (rear axle) |
 | 50 | Oil Changes | Maintenance, A/C & Cooling | existing | `/maintenance/#oil-changes` | `/oil-change/` | ✅ | svc_oil |
 | 51 | Filter Replacement | Maintenance, A/C & Cooling | existing | `/maintenance/#filter-replacement` | `/oil-change/` | ✅ | svc_oil |
 | 52 | Fan & Accessory Belts | Maintenance, A/C & Cooling | NEW | `—` | `/cooling-system/` | ✅ | svc_cooling |
 | 53 | Air Conditioning & Heating | Maintenance, A/C & Cooling | existing | `/maintenance/#air-conditioning-and-heating` | `/ac-heating/` | ✅ | svc_climate |
 | 54 | Cooling Systems | Maintenance, A/C & Cooling | existing | `/maintenance/#cooling-systems` | `/cooling-system/` | ✅ | svc_cooling |
-| 55 | Basic Hybrid Service | Maintenance, A/C & Cooling | NEW | `—` | `/hybrid-service/` | Batch 3 source ready | svc_hybrid (EV/HV claims stripped) |
+| 55 | Basic Hybrid Service | Maintenance, A/C & Cooling | NEW | `—` | `/hybrid-service/` | ✅ published | svc_hybrid (EV/HV claims stripped) |
 | 56 | Tires & Flat Repair | Tires & Wheels | existing | `/tires-wheels/#tires-and-flat-repair` | `/tires/` | ✅ | svc_tires |
 | 57 | Tire Rotation | Tires & Wheels | existing | `/tires-wheels/#tire-rotation` | `/tires/` | ✅ | svc_tires |
 | 58 | Wheel Balancing | Tires & Wheels | NEW | `—` | `/tires/` | ✅ | svc_tires |
