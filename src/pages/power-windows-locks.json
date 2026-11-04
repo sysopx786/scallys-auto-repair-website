@@ -1,0 +1,305 @@
+{
+  "id": "power-windows-locks",
+  "slug": "power-windows-locks",
+  "category": "diagnostics-electrical",
+  "covers": [
+    "power-window-repair",
+    "power-door-lock-repair"
+  ],
+  "adaptedFrom": "Diverse Autoworks svc_windowlock (tools/service_pages_batch5.py) technical reference; rewritten for Scally's two confirmed services",
+  "primary_kw": {
+    "en": "power window repair Primos PA",
+    "es": "reparación de ventanas eléctricas en Primos PA"
+  },
+  "secondary_kws": [
+    "car window not rolling up",
+    "power window regulator",
+    "window switch diagnosis",
+    "electric window motor repair",
+    "car door lock actuator",
+    "power door lock repair",
+    "key fob lock not working",
+    "stuck power window Primos",
+    "car window repair Secane",
+    "power locks Clifton Heights",
+    "window motor noise",
+    "door lock wiring problem"
+  ],
+  "title": {
+    "en": "Power Windows & Locks Repair in Primos | Scally's",
+    "es": "Ventanas y seguros eléctricos en Primos | Scally's"
+  },
+  "desc": {
+    "en": "Window stuck or door locks failing? Scally's in Primos checks power-window switches, motors, regulators and lock actuators before repairs.",
+    "es": "¿Ventana atascada o seguros eléctricos fallando? Scally's en Primos revisa interruptores, motores, elevadores y actuadores antes de reparar."
+  },
+  "h1": {
+    "en": "Power Window and Door Lock Repair in Primos, PA",
+    "es": "Reparación de ventanas y seguros eléctricos en Primos, PA"
+  },
+  "crumb": {
+    "en": "Power Windows & Locks",
+    "es": "Ventanas y seguros eléctricos"
+  },
+  "service_type": {
+    "en": "Power window and power door lock repair",
+    "es": "Reparación de ventanas y seguros eléctricos"
+  },
+  "lead": {
+    "en": "A window that will not close or a door lock that quits responding can cause a practical problem right away. {name} repairs power windows and power door locks at {street} in {city}. The switch, regulator, motor, wiring and lock actuator can create similar symptoms. We check what is happening before choosing the part or repair.",
+    "es": "Una ventana que no cierra o un seguro de puerta que deja de funcionar puede causar un problema inmediato. {name} repara ventanas y seguros eléctricos en {street}, {city}. El interruptor, elevador, motor, cableado y actuador pueden producir síntomas parecidos. Revisamos qué sucede antes de escoger la pieza o reparación."
+  },
+  "blocks": [
+    [
+      "h2",
+      {
+        "en": "How powered windows and locks operate",
+        "es": "Cómo funcionan las ventanas y los seguros eléctricos"
+      },
+      "how-it-works"
+    ],
+    [
+      "p",
+      {
+        "en": "A typical power window uses an electric motor and regulator to raise or lower the glass. Switches send commands, and wiring supplies power. On some vehicles a control module monitors the windows or adds automatic open and close functions. A window can fail because the motor receives no power, the switch is faulty, a cable or regulator is damaged, or the glass is out of its guide.",
+        "es": "Una ventana eléctrica típica usa un motor y un elevador para subir o bajar el vidrio. Los interruptores envían órdenes y los cables suministran energía. En algunos vehículos, un módulo controla las ventanas o permite abrirlas y cerrarlas automáticamente. Una ventana puede fallar porque el motor no recibe corriente, el interruptor está dañado, el elevador presenta problemas o el vidrio se salió de su guía."
+      }
+    ],
+    [
+      "p",
+      {
+        "en": "A power door lock uses an actuator or integrated latch mechanism to lock or unlock the door. Door switches, the remote key fob, wiring and control modules can be involved. If every door stops responding, the cause may differ from a single door that will not lock. Diagnosing the scope of the problem helps avoid replacing a working actuator.",
+        "es": "Un seguro eléctrico usa un actuador o mecanismo integrado con el pestillo para bloquear o desbloquear la puerta. Pueden intervenir los interruptores, control remoto, cableado y módulos. Si ninguna puerta responde, la causa puede ser distinta a la de una sola puerta que no cierra. Identificar el alcance ayuda a evitar el cambio de un actuador que todavía funciona."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Signs that a window or lock needs repair",
+        "es": "Señales de fallas en ventanas o seguros"
+      },
+      "signs"
+    ],
+    [
+      "ul",
+      [
+        {
+          "en": "A window moves slowly, stops halfway or will not rise.",
+          "es": "Una ventana sube lentamente, se detiene a mitad de camino o no sube."
+        },
+        {
+          "en": "You hear the window motor but the glass does not move.",
+          "es": "Se escucha el motor de la ventana, pero el vidrio no se mueve."
+        },
+        {
+          "en": "The glass tilts or slips out of alignment.",
+          "es": "El vidrio se inclina o se sale de su posición."
+        },
+        {
+          "en": "The window works from one switch but not another.",
+          "es": "La ventana funciona desde un interruptor, pero no desde otro."
+        },
+        {
+          "en": "One door lock fails while the others still work.",
+          "es": "El seguro de una puerta falla mientras los otros funcionan."
+        },
+        {
+          "en": "The door locks cycle unexpectedly or fail to respond to the remote.",
+          "es": "Los seguros se activan solos o no responden al control remoto."
+        },
+        {
+          "en": "You hear a clicking or grinding sound from the door.",
+          "es": "Escucha clics o rechinidos dentro de la puerta."
+        }
+      ]
+    ],
+    [
+      "p",
+      {
+        "en": "These symptoms may involve the switch, regulator, motor, actuator, latch or wiring. They are clues, not proof that one particular part has failed. If the window glass is loose, avoid running it repeatedly because it may fall or break. If a door will not latch securely, do not drive the vehicle until the condition is assessed and corrected.",
+        "es": "Estos síntomas pueden relacionarse con interruptores, elevadores, motores, actuadores, pestillos o cables. Son pistas, no pruebas de que una pieza determinada falló. Si el vidrio está flojo, evite accionarlo repetidamente porque puede caer o romperse. Si una puerta no queda bien cerrada con el pestillo, no conduzca hasta revisar y corregir el problema."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Power window and lock work we do",
+        "es": "Trabajos de ventanas y seguros que realizamos"
+      },
+      "work"
+    ],
+    [
+      "ul",
+      [
+        {
+          "en": "Inspect a window that is stuck, slow or uneven.",
+          "es": "Revisar una ventana atascada, lenta o que sube de forma desigual."
+        },
+        {
+          "en": "Evaluate the window switch, motor, regulator and associated wiring.",
+          "es": "Evaluar interruptores, motores, elevadores y cableado."
+        },
+        {
+          "en": "Investigate power locks that fail from a switch or remote.",
+          "es": "Investigar seguros que fallan desde el interruptor o el control remoto."
+        },
+        {
+          "en": "Check possible door lock actuator and latch concerns.",
+          "es": "Revisar posibles problemas del actuador y pestillo."
+        },
+        {
+          "en": "Discuss the appropriate repair or replacement after inspection.",
+          "es": "Explicar la reparación o el cambio adecuado después de la revisión."
+        }
+      ]
+    ],
+    [
+      "h3",
+      {
+        "en": "Power window repair",
+        "es": "Reparación de ventanas eléctricas"
+      },
+      "window-repair"
+    ],
+    [
+      "p",
+      {
+        "en": "A regulator helps move and support the glass. On different cars it may use cables, gears or another mechanism. If the motor runs but the glass stays still, the regulator or mounting may be at fault, but we confirm the reason before deciding. If the motor is silent, the switch, wiring or power supply may need attention. The correct parts depend on the door and vehicle.",
+        "es": "El elevador sostiene y mueve el vidrio. Según el auto, puede usar cables, engranajes u otro mecanismo. Si se escucha el motor pero el vidrio no se mueve, el elevador o su soporte pueden fallar; primero confirmamos la causa. Si el motor no hace ruido, conviene revisar interruptor, cableado o alimentación. Las piezas correctas dependen de la puerta y del vehículo."
+      }
+    ],
+    [
+      "p",
+      {
+        "en": "A stuck-open window can expose the car to rain or theft. Avoid forcing the glass by hand or repeatedly pressing the switch if you hear parts straining. Call the shop to describe whether the glass is tilted, partly open or completely down. We can discuss the next step based on how the window failed.",
+        "es": "Una ventana que queda abierta deja entrar lluvia y facilita el robo. No fuerce el vidrio con la mano ni presione repetidamente el interruptor si escucha que el mecanismo hace esfuerzo. Llame y explique si el vidrio está inclinado, parcialmente abierto o completamente abajo. Podemos comentar cómo revisarlo según la falla."
+      }
+    ],
+    [
+      "h3",
+      {
+        "en": "Power door lock repair",
+        "es": "Reparación de seguros eléctricos"
+      },
+      "power-door-lock-repair"
+    ],
+    [
+      "p",
+      {
+        "en": "A door lock actuator moves the locking mechanism, but not every problem comes from the actuator. A defective switch, damaged wiring between the door and body, or a remote battery can affect operation. First note which doors respond to the inside switch, which respond to the key fob, and if the mechanical key still works. Those details help separate electrical and mechanical problems.",
+        "es": "El actuador mueve el mecanismo del seguro, pero no todas las fallas provienen de él. Un interruptor defectuoso, cables dañados entre la puerta y la carrocería o la pila del control remoto pueden afectar el funcionamiento. Observe qué puertas responden al interruptor interior, cuáles al control remoto y si la llave mecánica funciona. Esos detalles ayudan a distinguir problemas eléctricos y mecánicos."
+      }
+    ],
+    [
+      "p",
+      {
+        "en": "If the lock does not work, make sure the vehicle is secured whenever it is parked. If the door itself will not latch, that is a different safety issue from a lock that only fails to engage. Describe both symptoms accurately. Our [electrical repair](svc:electrical-repair) page explains how wiring problems can affect several features at once.",
+        "es": "Si un seguro no funciona, procure que el vehículo quede protegido al estacionarlo. Si la puerta no cierra con el pestillo, es un problema de seguridad distinto a un seguro que no se activa. Describa ambos síntomas con precisión. Nuestra página de [reparación eléctrica](svc:electrical-repair) explica cómo un problema de cableado puede afectar varias funciones."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Maintenance and avoiding extra damage",
+        "es": "Mantenimiento y prevención de daños adicionales"
+      },
+      "maintenance"
+    ],
+    [
+      "p",
+      {
+        "en": "Keep window tracks and door seals free of debris and address water entering a door. Do not slam a door to make a faulty lock work or hold a window switch against a jammed mechanism. Follow the owner's manual when a battery disconnect or repair requires resetting an automatic window function. Different cars use different procedures, so there is no universal reset instruction.",
+        "es": "Mantenga las guías de las ventanas y los sellos de las puertas libres de suciedad, y atienda la entrada de agua. No golpee la puerta para activar un seguro defectuoso ni mantenga presionado el interruptor cuando la ventana está atascada. Siga el manual del propietario si una desconexión de batería o reparación requiere restablecer una función automática. Los procedimientos varían según el auto."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Power window and lock repair near Primos",
+        "es": "Reparación de ventanas y seguros cerca de Primos"
+      },
+      "local"
+    ],
+    [
+      "p",
+      {
+        "en": "{name} is on {street}, {city}, near Secane and Clifton Heights. Call {phone} with the year, make, model and the affected door. Tell us if the issue involves the switch, remote or glass moving crookedly. We can discuss an inspection and the likely next step.",
+        "es": "{name} está en {street}, {city}, cerca de Secane y Clifton Heights. Llame al {phone} con año, marca, modelo y puerta afectada. Explique si falla el interruptor, control remoto o el vidrio sube torcido. Podemos hablar de una revisión y del siguiente paso."
+      }
+    ]
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Why does my power window go down but not up?",
+        "es": "¿Por qué la ventana baja pero no sube?"
+      },
+      "a": {
+        "en": "A switch, regulator, motor, wiring or control problem may be responsible. Testing determines which component needs attention.",
+        "es": "Puede fallar el interruptor, elevador, motor, cableado o sistema de control. Las pruebas identifican qué necesita atención."
+      }
+    },
+    {
+      "q": {
+        "en": "Can I drive with a stuck-open window?",
+        "es": "¿Puedo conducir con la ventana atascada y abierta?"
+      },
+      "a": {
+        "en": "Driving may expose the cabin to weather and security issues. If the glass is loose or could fall, get it assessed before driving.",
+        "es": "Puede entrar lluvia y haber problemas de seguridad. Si el vidrio está flojo o puede caer, solicite una revisión antes de conducir."
+      }
+    },
+    {
+      "q": {
+        "en": "Is a window motor always the cause when the glass stops moving?",
+        "es": "¿El motor siempre es la causa cuando el vidrio deja de moverse?"
+      },
+      "a": {
+        "en": "No. The regulator, switch, wiring or glass track can also fail. We check before recommending parts.",
+        "es": "No. También pueden fallar el elevador, interruptor, cableado o guía del vidrio. Revisamos antes de recomendar piezas."
+      }
+    },
+    {
+      "q": {
+        "en": "Why does only one door lock fail?",
+        "es": "¿Por qué falla el seguro de una sola puerta?"
+      },
+      "a": {
+        "en": "That door may have an actuator, latch, switch or wiring concern. Other doors working narrows the possibilities but does not confirm a part.",
+        "es": "Puede haber una falla del actuador, pestillo, interruptor o cableado de esa puerta. Que las otras funcionen ayuda a investigar, pero no confirma una pieza."
+      }
+    },
+    {
+      "q": {
+        "en": "Does a remote key fob problem mean the lock actuator is bad?",
+        "es": "¿Si falla el control remoto significa que el actuador está dañado?"
+      },
+      "a": {
+        "en": "Not necessarily. Check whether the inside switch operates the lock; the remote or its battery may be involved.",
+        "es": "No necesariamente. Revise si el interruptor interior funciona; el control remoto o su pila pueden estar relacionados."
+      }
+    },
+    {
+      "q": {
+        "en": "Do power windows need a reset after the battery is disconnected?",
+        "es": "¿Hay que restablecer las ventanas después de desconectar la batería?"
+      },
+      "a": {
+        "en": "Some vehicles do. Follow the procedure for the exact model in the owner's manual; do not assume every car uses the same steps.",
+        "es": "Algunos vehículos sí. Siga el procedimiento del manual de su modelo; no todos los autos usan los mismos pasos."
+      }
+    }
+  ],
+  "related": [
+    "electrical-repair",
+    "charging-and-starting-systems",
+    "auto-light-repair",
+    "pa-safety-inspections"
+  ],
+  "sources": [],
+  "verify": [
+    "Confirm with Jerry whether Scally's replaces glass regulators, tracks, motor assemblies and integrated door latches; no fixed replacement scope claimed.",
+    "Ask whether key fob programming is available before adding it to this page; this draft does not promise programming.",
+    "Confirm whether inoperative windows are temporarily secured or if such accommodation is offered."
+  ]
+}

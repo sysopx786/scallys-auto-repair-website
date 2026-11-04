@@ -1,7 +1,7 @@
 # Scally's Auto Repair: service expansion plan and status
 
 Branch `service-expansion`. The first 3 pages were merged to `main` on Nov 3, 2026; later batches go live only when merged.
-Last updated: November 4, 2026 UTC (Batch 1 built, tested and committed to `service-expansion`; not merged).
+Last updated: November 4, 2026 UTC (Batch 1 merged; Batch 2 source files drafted and awaiting generated-site QA).
 
 ## Status
 
@@ -12,9 +12,10 @@ Last updated: November 4, 2026 UTC (Batch 1 built, tested and committed to `serv
 | Spanish versions: services hub, 8 category pages, detailed pages | Done for what is built |
 | Language switch, hreflang, self-canonicals, sitemap `lastmod` | Done |
 | Structured data: one `AutoRepair` entity (`/#business`), WebPage, Service, BreadcrumbList, FAQPage | Done |
-| Detailed service pages | 18 of 34 built in English and Spanish on `service-expansion` (13 live on `main`); 16 detailed pages remaining |
+| Detailed service pages | 18 of 34 built on `main` after Batch 1 merge; 5 Batch 2 bilingual sources in `service-expansion` pending build and QA (23 after successful build); 11 detailed pages after Batch 2 |
 | Automated checks (`tests/check_site.py`) | ALL CHECKS PASSED after 18-page rebuild on GitHub Actions run 41765832517 |
-| Batch 1 full build and responsive QA | ALL BROWSER CHECKS PASSED: 60 checks, 0 failures at 320, 390, 768, 1100, 1280 and 1600 px |
+| Batch 1 full build and responsive QA | ALL BROWSER CHECKS PASSED: 60 checks, 0 failures |
+| Batch 2 build and responsive QA | Pending: generated website checks and expanded 120-check bilingual Chromium suite |
 
 ## Batch 1 (November 4, 2026 UTC) — built and tested on service-expansion
 
@@ -32,6 +33,22 @@ PennDOT safety/emissions and PA DEP OBD pages were read and cited where applicab
 
 **Batch 1 complete on the development branch:** Build, full tests, responsive browser tests and generated-file commit passed. Still to do: review Jerry's `verify` questions, synchronize this plan to the separate Claude project document `claude/scallys-service-expansion-plan.md` (not yet synced through this GitHub connection), obtain native-speaker Spanish review when possible, and await the explicit word `merge` before publishing.
 
+## Batch 2 (November 4, 2026 UTC) — bilingual source files prepared
+
+The following five bilingual JSON source files are prepared on `service-expansion`. **Do not merge until** the site build, `tests/check_site.py` and the expanded Chromium suite pass, and generated HTML, sitemap and `src/lastmod.json` have been committed.
+
+| Page | Services covered | Estimated EN / ES content words, including FAQs | Source status |
+|---|---|---:|---|
+| `electrical-repair` | Electrical Repair & Wiring | 778 / 821 | JSON prepared |
+| `auto-light-repair` | Auto Light Repair | 794 / 847 | JSON prepared |
+| `power-windows-locks` | Power Window Repair, Power Door Lock Repair | 876 / 855 | JSON prepared |
+| `wheel-bearings-hubs` | Wheel Bearings, Wheel Hubs | 868 / 911 | JSON prepared |
+| `oil-leak-repair` | Oil Leak & Gasket Repair | 939 / 945 | JSON prepared |
+
+All new pages use Primos, Secane and Clifton Heights; avoid the unrelated Diverse business claims, named diagnostic equipment, prices, guarantees and universal maintenance intervals. They contain full US Spanish copy, SEO fields, relevant related services, covered-service anchors and six FAQs each. Owner-confirmation notes remain in each JSON file's `verify` section. Pennsylvania inspection claims are supported by PennDOT consumer guidance; a NHTSA-hosted Audi service bulletin is cited only for the narrow point that tire and bearing noises can sound alike.
+
+The browser test now covers all ten new pages across Batches 1 and 2 in English and Spanish at 320, 390, 768, 1100, 1280 and 1600 px: **120 checks total**. Commit generated files only on a fully passing run. After passing, update this tracker to 23 of 34 detailed pages, create the pull request, merge into `main` and verify the successful GitHub Pages deployment. User has explicitly approved Batch 2 merge and deployment without another approval step.
+
 ## Decisions that need your OK before merge
 
 1. **Page consolidation: 34 detailed pages, not 67.** Diverse Auto Works covers its ~83 services with 26 detailed pages. One page per service would create near-duplicate pages competing for the same searches (wheel bearings vs wheel hubs, motor mounts vs transmission mounts, spark plugs vs ignition vs tune-ups). Every one of the 67 services still has its own anchor, its own entry on its category page, its own search entry, and a link to the page that covers it. Reverting a service to its own page is a one-field change (`page` in `src/services.json`) plus a new page file.
@@ -48,18 +65,18 @@ PennDOT safety/emissions and PA DEP OBD pages were read and cited where applicab
 | `/emissions-repair/` | Emissions Control | built (EN+ES); full QA passed |
 | `/pre-purchase-inspection/` | Pre-Purchase Inspections | built (EN+ES); full QA passed |
 | `/check-engine-light/` | Computer Diagnostics, Check Engine Light | built (EN+ES) |
-| `/electrical-repair/` | Electrical Repair & Wiring | queued |
+| `/electrical-repair/` | Electrical Repair & Wiring | Batch 2 source ready (EN+ES); build/test pending |
 | `/battery-alternator-starter/` | Charging & Starting Systems, Battery Testing & Replacement | built (EN+ES) |
-| `/auto-light-repair/` | Auto Light Repair | queued |
-| `/power-windows-locks/` | Power Window Repair, Power Door Lock Repair | queued |
+| `/auto-light-repair/` | Auto Light Repair | Batch 2 source ready (EN+ES); build/test pending |
+| `/power-windows-locks/` | Power Window Repair, Power Door Lock Repair | Batch 2 source ready (EN+ES); build/test pending |
 | `/brake-repair/` | Brake Repair, Rotor Resurfacing, Brake Fluid Flush | built (EN+ES) |
 | `/suspension-repair/` | Steering & Suspension, Sway Bar Links, Shocks & Struts | built (EN+ES) |
 | `/steering-repair/` | Power Steering Repair, Ball Joints, Control Arms, Tie Rods | built (EN+ES) |
-| `/wheel-bearings-hubs/` | Wheel Bearings, Wheel Hubs | queued |
+| `/wheel-bearings-hubs/` | Wheel Bearings, Wheel Hubs | Batch 2 source ready (EN+ES); build/test pending |
 | `/wheel-alignment/` | Front End Alignment | built (EN+ES) |
 | `/engine-repair/` | Engine Repair, Engine Rebuilding, Engine Replacement, Cylinder Head & Block Repair | built (EN+ES) |
 | `/engine-tune-up/` | Engine Tune-Ups, Spark Plugs, Ignition System Repair | built (EN+ES); full QA passed |
-| `/oil-leak-repair/` | Oil Leak & Gasket Repair | queued |
+| `/oil-leak-repair/` | Oil Leak & Gasket Repair | Batch 2 source ready (EN+ES); build/test pending |
 | `/timing-belt-chain/` | Timing Belt, Timing Chain | built (EN+ES); full QA passed |
 | `/exhaust-muffler-repair/` | Mufflers & Exhaust | built (EN+ES) |
 | `/fuel-system-repair/` | Fuel System Service, Gas Tanks | queued |
@@ -97,12 +114,12 @@ Old anchors for moved services (`/engine-exhaust-transmission/#transmission-repa
 | 4 | Pre-Purchase Inspections | Inspections & Emissions | existing | `/inspections-emissions/#pre-purchase-inspections` | `/pre-purchase-inspection/` | ✅ | svc_prepurchase |
 | 5 | Computer Diagnostics | Diagnostics & Electrical | existing | `/diagnostics-electrical/#computer-diagnostics` | `/check-engine-light/` | ✅ | svc_engine (CEL part) |
 | 6 | Check Engine Light | Diagnostics & Electrical | existing | `/diagnostics-electrical/#check-engine-light` | `/check-engine-light/` | ✅ | svc_engine (CEL part) |
-| 7 | Electrical Repair & Wiring | Diagnostics & Electrical | renamed | `/diagnostics-electrical/#electrical-repair` | `/electrical-repair/` | queued | svc_electrical |
+| 7 | Electrical Repair & Wiring | Diagnostics & Electrical | renamed | `/diagnostics-electrical/#electrical-repair` | `/electrical-repair/` | Batch 2 source ready | svc_electrical |
 | 8 | Charging & Starting Systems | Diagnostics & Electrical | existing | `/diagnostics-electrical/#charging-and-starting-systems` | `/battery-alternator-starter/` | ✅ | svc_battery + svc_electrical |
 | 9 | Battery Testing & Replacement | Diagnostics & Electrical | renamed | `/diagnostics-electrical/#battery-service` | `/battery-alternator-starter/` | ✅ | svc_battery + svc_electrical |
-| 10 | Auto Light Repair | Diagnostics & Electrical | existing | `/diagnostics-electrical/#auto-light-repair` | `/auto-light-repair/` | queued | svc_lights |
-| 11 | Power Window Repair | Diagnostics & Electrical | NEW | `—` | `/power-windows-locks/` | queued | svc_windowlock |
-| 12 | Power Door Lock Repair | Diagnostics & Electrical | NEW | `—` | `/power-windows-locks/` | queued | svc_windowlock |
+| 10 | Auto Light Repair | Diagnostics & Electrical | existing | `/diagnostics-electrical/#auto-light-repair` | `/auto-light-repair/` | Batch 2 source ready | svc_lights |
+| 11 | Power Window Repair | Diagnostics & Electrical | NEW | `—` | `/power-windows-locks/` | Batch 2 source ready | svc_windowlock |
+| 12 | Power Door Lock Repair | Diagnostics & Electrical | NEW | `—` | `/power-windows-locks/` | Batch 2 source ready | svc_windowlock |
 | 13 | Brake Repair | Brakes, Steering & Suspension | existing | `/brakes-steering-suspension/#brake-repair` | `/brake-repair/` | ✅ | svc_brakes |
 | 14 | Rotor Resurfacing | Brakes, Steering & Suspension | existing | `/brakes-steering-suspension/#rotor-resurfacing` | `/brake-repair/#rotor-resurfacing` | ✅ | svc_brakes |
 | 15 | Brake Fluid Flush | Brakes, Steering & Suspension | NEW | `—` | `/brake-repair/#brake-fluid-flush` | ✅ | svc_brakes |
@@ -113,8 +130,8 @@ Old anchors for moved services (`/engine-exhaust-transmission/#transmission-repa
 | 20 | Tie Rods | Brakes, Steering & Suspension | NEW | `—` | `/steering-repair/` | ✅ | svc_steering |
 | 21 | Sway Bar Links | Brakes, Steering & Suspension | NEW | `—` | `/suspension-repair/` | ✅ | svc_suspension |
 | 22 | Shocks & Struts | Brakes, Steering & Suspension | NEW | `—` | `/suspension-repair/` | ✅ | svc_suspension |
-| 23 | Wheel Bearings | Brakes, Steering & Suspension | NEW | `—` | `/wheel-bearings-hubs/` | queued | svc_bearing |
-| 24 | Wheel Hubs | Brakes, Steering & Suspension | NEW | `—` | `/wheel-bearings-hubs/` | queued | svc_bearing |
+| 23 | Wheel Bearings | Brakes, Steering & Suspension | NEW | `—` | `/wheel-bearings-hubs/` | Batch 2 source ready | svc_bearing |
+| 24 | Wheel Hubs | Brakes, Steering & Suspension | NEW | `—` | `/wheel-bearings-hubs/` | Batch 2 source ready | svc_bearing |
 | 25 | Front End Alignment | Brakes, Steering & Suspension | existing | `/brakes-steering-suspension/#front-end-alignment` | `/wheel-alignment/` | ✅ | svc_tires (alignment) |
 | 26 | General Auto Repair | Engine & Exhaust | existing | `/engine-exhaust-transmission/#general-auto-repair` | `/ (home page)` | n/a | n/a |
 | 27 | Engine Repair | Engine & Exhaust | existing | `/engine-exhaust-transmission/#engine-repair` | `/engine-repair/` | ✅ | svc_engine |
@@ -122,7 +139,7 @@ Old anchors for moved services (`/engine-exhaust-transmission/#transmission-repa
 | 29 | Engine Rebuilding | Engine & Exhaust | NEW | `—` | `/engine-repair/#engine-rebuilding` | ✅ | svc_engine |
 | 30 | Engine Replacement | Engine & Exhaust | existing | `/engine-exhaust-transmission/#engine-replacement` | `/engine-repair/#engine-replacement` | ✅ | svc_engine |
 | 31 | Cylinder Head & Block Repair | Engine & Exhaust | existing | `/engine-exhaust-transmission/#cylinder-head-and-block-repair` | `/engine-repair/#cylinder-head-and-block-repair` | ✅ | svc_engine |
-| 32 | Oil Leak & Gasket Repair | Engine & Exhaust | NEW | `—` | `/oil-leak-repair/` | queued | svc_oilleak |
+| 32 | Oil Leak & Gasket Repair | Engine & Exhaust | NEW | `—` | `/oil-leak-repair/` | Batch 2 source ready | svc_oilleak |
 | 33 | Spark Plugs | Engine & Exhaust | existing | `/engine-exhaust-transmission/#spark-plugs` | `/engine-tune-up/` | ✅ | svc_engine (tune-up part) |
 | 34 | Ignition System Repair | Engine & Exhaust | NEW | `—` | `/engine-tune-up/` | ✅ | svc_engine (tune-up part) |
 | 35 | Timing Belt | Engine & Exhaust | NEW | `—` | `/timing-belt-chain/` | ✅ | svc_timing |

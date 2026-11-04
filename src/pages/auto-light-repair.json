@@ -1,0 +1,309 @@
+{
+  "id": "auto-light-repair",
+  "slug": "auto-light-repair",
+  "category": "diagnostics-electrical",
+  "covers": [
+    "auto-light-repair"
+  ],
+  "adaptedFrom": "Diverse Autoworks svc_lights (tools/service_pages_batch5.py) technical reference, rewritten for Scally's; PennDOT inspection FAQ",
+  "primary_kw": {
+    "en": "car light repair Primos PA",
+    "es": "reparación de luces de auto en Primos PA"
+  },
+  "secondary_kws": [
+    "headlight repair Primos",
+    "headlight bulb replacement",
+    "taillight repair",
+    "brake light repair",
+    "turn signal not working",
+    "car lighting electrical fault",
+    "headlight fogging moisture",
+    "flickering headlights",
+    "auto lights near Secane",
+    "light replacement Clifton Heights",
+    "PA vehicle inspection lights",
+    "car headlights dim"
+  ],
+  "title": {
+    "en": "Car Light Repair in Primos, PA | Scally's Auto Repair",
+    "es": "Reparación de luces en Primos, PA | Scally's"
+  },
+  "desc": {
+    "en": "Headlights, brake lights, taillights and turn signals not working? Scally's in Primos checks bulbs, wiring and lighting faults before repairs.",
+    "es": "¿Fallan los faros, luces de freno, traseras o direccionales? Scally's en Primos revisa focos, cableado y conexiones antes de reparar."
+  },
+  "h1": {
+    "en": "Auto Light and Headlight Repair in Primos, PA",
+    "es": "Reparación de faros y luces de auto en Primos, PA"
+  },
+  "crumb": {
+    "en": "Auto Light Repair",
+    "es": "Reparación de luces"
+  },
+  "service_type": {
+    "en": "Headlight, taillight, brake light and turn signal repair",
+    "es": "Reparación de faros, calaveras, luces de freno y direccionales"
+  },
+  "lead": {
+    "en": "A burned-out brake light or dim headlight affects what you see and how other drivers see you. {name} handles auto light repair at {street} in {city}, including headlights, taillights and other exterior lighting concerns. We check the bulb, power supply, connector and other likely causes before saying what needs replacement. A light that stays out may not be a bulb problem.",
+    "es": "Una luz de freno apagada o un faro tenue afecta lo que usted ve y la forma en que otros conductores ven su auto. {name}, en {street}, {city}, atiende fallas de faros, calaveras y otras luces exteriores. Revisamos el foco, la alimentación eléctrica, el conector y otras causas posibles antes de decir qué se necesita cambiar. Una luz apagada no siempre significa que el foco esté dañado."
+  },
+  "blocks": [
+    [
+      "h2",
+      {
+        "en": "How exterior vehicle lighting works",
+        "es": "Cómo funciona el alumbrado exterior"
+      },
+      "how-it-works"
+    ],
+    [
+      "p",
+      {
+        "en": "Your car uses different lamps for low and high beams, parking lights, rear lights, brake lights, turn signals and hazard warnings. Depending on the vehicle, each function may use a replaceable bulb, a light-emitting diode (LED) assembly or another design. Switches, fuses, wiring, control units and connectors carry commands and power to the lamps. One failed component may affect only one light; an electrical supply problem may affect several.",
+        "es": "El vehículo tiene luces de cruce y carretera, estacionamiento, traseras, freno, direccionales e intermitentes de emergencia. Según el modelo, pueden usar focos reemplazables, módulos de diodos emisores de luz (LED) u otro diseño. Los interruptores, fusibles, cables, módulos y conectores llevan órdenes y energía a las luces. Una pieza dañada puede afectar una sola luz; un problema de alimentación puede afectar varias."
+      }
+    ],
+    [
+      "p",
+      {
+        "en": "Moisture inside a light housing may come from condensation, a damaged seal or a crack. A lens that looks cloudy from the outside may have surface wear instead. These problems need different remedies. Simply inserting a brighter bulb or a different lamp assembly may not match the vehicle's original design or legal requirements, so part choice matters.",
+        "es": "La humedad dentro de una lámpara puede venir de condensación, un sello dañado o una grieta. Un lente opaco por fuera puede presentar desgaste de su superficie. Cada problema requiere un remedio distinto. Instalar un foco más potente u otro conjunto no siempre corresponde al diseño original ni a las normas aplicables, por lo que importa usar la pieza adecuada."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Signs your lights need attention",
+        "es": "Señales de que las luces necesitan atención"
+      },
+      "signs"
+    ],
+    [
+      "ul",
+      [
+        {
+          "en": "One headlight, taillight or brake light stops illuminating.",
+          "es": "Un faro, luz trasera o luz de freno deja de encender."
+        },
+        {
+          "en": "The low beams look dim or noticeably uneven.",
+          "es": "Las luces de cruce se ven tenues o con diferente intensidad."
+        },
+        {
+          "en": "A turn signal flashes abnormally or does not work.",
+          "es": "Una direccional parpadea de forma anormal o no funciona."
+        },
+        {
+          "en": "Lights flicker when driving or when another accessory is switched on.",
+          "es": "Las luces parpadean al conducir o activar otro accesorio."
+        },
+        {
+          "en": "Water or fog remains inside the light assembly.",
+          "es": "Permanece agua o empañamiento dentro del conjunto de luces."
+        },
+        {
+          "en": "A dashboard warning reports a lighting fault.",
+          "es": "El tablero muestra una advertencia sobre alguna luz."
+        },
+        {
+          "en": "A bulb repeatedly fails soon after replacement.",
+          "es": "Un foco vuelve a fallar poco después de reemplazarlo."
+        }
+      ]
+    ],
+    [
+      "p",
+      {
+        "en": "These signs do not all mean the same repair. A failed bulb, corroded connector, voltage problem or broken housing can lead to similar symptoms. Have the cause checked before buying replacement lamps. If you cannot see the road properly after dark or other drivers cannot see your vehicle's required lights, avoid driving in those conditions until the problem is corrected.",
+        "es": "Estas señales no requieren todas la misma reparación. Un foco quemado, conector corroído, problema de voltaje o conjunto dañado pueden causar síntomas parecidos. Conviene comprobar la causa antes de comprar lámparas. Si no puede ver la vía de noche o los demás conductores no pueden ver las luces necesarias de su auto, no conduzca en esas condiciones hasta corregir la falla."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Lighting repairs we discuss",
+        "es": "Trabajos de luces que atendemos"
+      },
+      "work"
+    ],
+    [
+      "ul",
+      [
+        {
+          "en": "Headlight and exterior lamp concerns.",
+          "es": "Problemas de faros y luces exteriores."
+        },
+        {
+          "en": "Brake lights, taillights and turn signals.",
+          "es": "Luces de freno, calaveras y direccionales."
+        },
+        {
+          "en": "Bulb or lamp replacement where supported by the vehicle.",
+          "es": "Cambio de focos o conjuntos según el diseño del vehículo."
+        },
+        {
+          "en": "Diagnosis of lighting fuses, connectors and wiring faults.",
+          "es": "Diagnóstico de fusibles, conectores y fallas del cableado de luces."
+        },
+        {
+          "en": "Moisture, damaged housings or lenses that affect lighting operation.",
+          "es": "Humedad, conjuntos o lentes dañados que afectan el funcionamiento."
+        }
+      ]
+    ],
+    [
+      "h3",
+      {
+        "en": "Headlights: bulb, assembly or circuit?",
+        "es": "Faros: foco, conjunto o circuito"
+      },
+      "headlights"
+    ],
+    [
+      "p",
+      {
+        "en": "Some headlights have a separate replaceable bulb; others use a sealed assembly or integrated LED components. If one light is dark, checking the lamp is reasonable, but the fuse, socket and circuit may also matter. If both headlights fail together, an upstream circuit problem deserves attention. A new bulb will not fix a broken connector or missing power.",
+        "es": "Algunos faros usan focos que se pueden cambiar por separado; otros tienen un conjunto sellado o componentes LED integrados. Si un faro está apagado, conviene revisar la lámpara, pero también el fusible, portalámparas y circuito. Si ambos fallan al mismo tiempo, puede haber un problema eléctrico anterior a las lámparas. Un foco nuevo no repara un conector roto ni la falta de energía."
+      }
+    ],
+    [
+      "h3",
+      {
+        "en": "Brake lights, turn signals and rear lights",
+        "es": "Luces de freno, direccionales y traseras"
+      },
+      "rear-lights"
+    ],
+    [
+      "p",
+      {
+        "en": "Brake lights signal that you are slowing down; turn signals show your intentions to other road users. A faulty light can be especially hard to notice from the driver's seat. Ask someone to help you check the lights while parked safely, or have the shop inspect them. A switch, wiring fault or shared electrical component can sometimes explain why several lamps fail together.",
+        "es": "Las luces de freno avisan cuando reduce la velocidad; las direccionales muestran hacia dónde va a girar. Desde el asiento del conductor es difícil notar que una luz trasera no funciona. Pida a otra persona que le ayude a revisarlas con el auto estacionado de forma segura, o solicite una revisión en el taller. A veces un interruptor, cable o componente compartido explica la falla de varias lámparas."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Lighting maintenance and safe use",
+        "es": "Mantenimiento de luces y conducción segura"
+      },
+      "maintenance"
+    ],
+    [
+      "p",
+      {
+        "en": "Make it a habit to check exterior lamps, especially before a long trip or inspection. Clean dirt from lenses and report water that remains inside a housing. Follow the owner's manual for the correct replacement lamp and safe handling instructions. Do not assume aftermarket lamps fit every vehicle or meet applicable standards. For electrical faults, see our [car electrical repair](svc:electrical-repair) page.",
+        "es": "Acostúmbrese a revisar las luces exteriores, especialmente antes de un viaje largo o una inspección. Limpie la suciedad de los lentes e informe si queda agua dentro de una lámpara. Siga el manual del propietario para elegir la pieza correcta y manipularla de manera segura. No suponga que cualquier lámpara de repuesto sirve para todos los autos o cumple las normas. Para fallas de circuitos, consulte [reparación eléctrica](svc:electrical-repair)."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Auto lights and Pennsylvania safety inspections",
+        "es": "Luces e inspecciones de seguridad en Pensilvania"
+      },
+      "pa-inspection"
+    ],
+    [
+      "p",
+      {
+        "en": "PennDOT lists lighting and electrical systems among the items checked at Pennsylvania safety inspections. Rejection criteria depend on the vehicle and equipment rules; do not assume a particular lamp has the same requirement on every model. If an exterior light is not operating, arrange an evaluation before your [PA inspection](svc:pa-safety-inspections). The [PennDOT consumer guidance](url:https://www.pa.gov/agencies/dmv/faqs/motor-vehicle-faqs/safety-inspection-consumers-faqs) explains what inspectors review.",
+        "es": "PennDOT incluye alumbrado y sistemas eléctricos entre los puntos de la inspección de seguridad de Pensilvania. Los motivos de rechazo dependen del vehículo y las normas aplicables; no todas las luces tienen los mismos requisitos en todos los modelos. Si alguna luz exterior no funciona, solicite una revisión antes de su [inspección estatal](svc:pa-safety-inspections). La [guía de PennDOT](url:https://www.pa.gov/agencies/dmv/faqs/motor-vehicle-faqs/safety-inspection-consumers-faqs) explica los elementos que se revisan."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Car light repair near Primos and Secane",
+        "es": "Reparación de luces cerca de Primos y Secane"
+      },
+      "local"
+    ],
+    [
+      "p",
+      {
+        "en": "Our shop is at {street}, {city}, near Secane and Clifton Heights. Call {phone} with your year, make and model and tell us which light stopped working. Mention if it flickers, has moisture inside, or stopped after other electrical trouble. We can discuss the right inspection and repair approach.",
+        "es": "Nuestro taller está en {street}, {city}, cerca de Secane y Clifton Heights. Llame al {phone} con año, marca y modelo, e indique qué luz dejó de funcionar. Comente si parpadea, contiene humedad o falló después de otro problema eléctrico. Podemos hablar de la revisión y reparación adecuadas."
+      }
+    ]
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Do you replace headlights and taillights?",
+        "es": "¿Cambian faros y luces traseras?"
+      },
+      "a": {
+        "en": "Auto light repair is a listed Scally's service. Call with the vehicle details to discuss the lamp and repair needed.",
+        "es": "La reparación de luces figura entre los servicios de Scally's. Llame con los datos del vehículo para consultar la pieza y el trabajo."
+      }
+    },
+    {
+      "q": {
+        "en": "Why does my new headlight bulb not work?",
+        "es": "¿Por qué no funciona el foco nuevo del faro?"
+      },
+      "a": {
+        "en": "A fuse, socket, connector, ground or wiring fault may be involved. Confirm the correct bulb and test the circuit before buying more parts.",
+        "es": "Puede fallar un fusible, portalámparas, conector, conexión a tierra o cable. Compruebe el foco correcto y revise el circuito antes de comprar más piezas."
+      }
+    },
+    {
+      "q": {
+        "en": "What causes a fast-blinking turn signal?",
+        "es": "¿Qué causa que una direccional parpadee muy rápido?"
+      },
+      "a": {
+        "en": "It can signal a failed lamp or a circuit issue, depending on the vehicle. Testing identifies the cause.",
+        "es": "Puede indicar una lámpara dañada o un problema eléctrico, según el vehículo. Las pruebas permiten encontrar la causa."
+      }
+    },
+    {
+      "q": {
+        "en": "Can a broken brake light affect PA inspection?",
+        "es": "¿Una luz de freno dañada afecta la inspección de PA?"
+      },
+      "a": {
+        "en": "Required lights are among Pennsylvania's safety inspection items. The outcome depends on the vehicle and current equipment rules.",
+        "es": "Las luces obligatorias se revisan en la inspección de seguridad de PA. El resultado depende del vehículo y las normas vigentes."
+      }
+    },
+    {
+      "q": {
+        "en": "Does moisture mean I need a whole new headlight?",
+        "es": "¿La humedad significa que debo cambiar todo el faro?"
+      },
+      "a": {
+        "en": "Not always. It could involve condensation, a seal or a damaged housing. Examine the source and the lamp design first.",
+        "es": "No siempre. Puede tratarse de condensación, un sello o un conjunto dañado. Primero hay que revisar la causa y el diseño de la lámpara."
+      }
+    },
+    {
+      "q": {
+        "en": "Should I drive at night with one headlight out?",
+        "es": "¿Debo conducir de noche con un faro apagado?"
+      },
+      "a": {
+        "en": "No. Reduced visibility is dangerous and the lights may not meet road requirements. Repair the light before night driving.",
+        "es": "No. La visibilidad reducida es peligrosa y el alumbrado puede no cumplir los requisitos. Repare el faro antes de conducir de noche."
+      }
+    }
+  ],
+  "related": [
+    "electrical-repair",
+    "pa-safety-inspections",
+    "charging-and-starting-systems",
+    "check-engine-light"
+  ],
+  "sources": [
+    [
+      "PennDOT: Safety Inspection Consumer FAQs",
+      "https://www.pa.gov/agencies/dmv/faqs/motor-vehicle-faqs/safety-inspection-consumers-faqs"
+    ]
+  ],
+  "verify": [
+    "Ask Jerry whether Scally's services LED lamp modules, headlamp aim adjustments and lens restoration or only the assemblies/bulbs.",
+    "Confirm the exact range of lighting types; do not promise specialty retrofits or aftermarket conversions."
+  ]
+}

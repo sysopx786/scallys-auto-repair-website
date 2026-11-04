@@ -1,4 +1,4 @@
-name: Scallys Batch 1 - build, test, commit generated site
+name: Scallys service expansion - build, test, commit generated site
 
 on:
   push:
@@ -49,7 +49,7 @@ jobs:
           python3 -m pip install --disable-pip-version-check playwright==1.56.0
           python3 -m playwright install --with-deps chromium
 
-      - name: Test all 10 new pages at 6 widths
+      - name: Test all 20 bilingual pages at 6 widths
         run: |
           set -o pipefail
           python3 tests/check_batch1_browser.py | tee /tmp/scallys-browser-check.log
@@ -59,7 +59,7 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: scallys-batch1-browser-qa
+          name: scallys-batches-1-and-2-browser-qa
           path: /tmp/scallys-qa/
           if-no-files-found: ignore
           retention-days: 30
@@ -87,7 +87,7 @@ jobs:
           git fetch origin service-expansion
           test "$(git rev-parse HEAD)" = "$(git rev-parse origin/service-expansion)" || { echo 'Branch moved during testing; refusing push'; exit 1; }
           git add -A
-          git commit -m 'Generate and QA Batch 1 bilingual pages [skip ci]'
+          git commit -m 'Generate and QA bilingual service pages [skip ci]'
           git push origin HEAD:service-expansion
-          echo '### Batch 1 passed' >> "$GITHUB_STEP_SUMMARY"
-          echo 'Full site test passed, 60 browser checks passed, generated output committed only to service-expansion.' >> "$GITHUB_STEP_SUMMARY"
+          echo '### Batches 1 and 2 passed' >> "$GITHUB_STEP_SUMMARY"
+          echo 'Full site test passed, 120 browser checks passed, generated output committed only to service-expansion.' >> "$GITHUB_STEP_SUMMARY"
