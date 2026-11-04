@@ -49,7 +49,7 @@ jobs:
           python3 -m pip install --disable-pip-version-check playwright==1.56.0
           python3 -m playwright install --with-deps chromium
 
-      - name: Test all 20 bilingual pages at 6 widths
+      - name: Test all 30 bilingual pages at 6 widths
         run: |
           set -o pipefail
           python3 tests/check_batch1_browser.py | tee /tmp/scallys-browser-check.log
@@ -59,7 +59,7 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: scallys-batches-1-and-2-browser-qa
+          name: scallys-batches-1-2-and-3-browser-qa
           path: /tmp/scallys-qa/
           if-no-files-found: ignore
           retention-days: 30
@@ -90,4 +90,4 @@ jobs:
           git commit -m 'Generate and QA bilingual service pages [skip ci]'
           git push origin HEAD:service-expansion
           echo '### Batches 1 and 2 passed' >> "$GITHUB_STEP_SUMMARY"
-          echo 'Full site test passed, 120 browser checks passed, generated output committed only to service-expansion.' >> "$GITHUB_STEP_SUMMARY"
+          echo 'Full site test passed, 180 browser checks passed, generated output committed only to service-expansion.' >> "$GITHUB_STEP_SUMMARY"

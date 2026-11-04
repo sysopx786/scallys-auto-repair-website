@@ -1,0 +1,305 @@
+{
+  "id": "hybrid-service",
+  "slug": "hybrid-service",
+  "category": "maintenance",
+  "covers": [
+    "basic-hybrid-service"
+  ],
+  "adaptedFrom": "Diverse Autoworks svc_hybrid (tools/service_pages_batch7.py) simplified to Scally's stated basic hybrid maintenance only; high-voltage caution verified against NHTSA electric and hybrid vehicle safety page.",
+  "primary_kw": {
+    "en": "basic hybrid car service Primos PA",
+    "es": "mantenimiento básico de autos híbridos en Primos PA"
+  },
+  "secondary_kws": [
+    "hybrid oil change",
+    "hybrid brake service",
+    "hybrid tires",
+    "hybrid vehicle inspection",
+    "hybrid routine maintenance",
+    "hybrid tire rotation",
+    "hybrid mechanical service",
+    "regenerative braking maintenance",
+    "hybrid service near Secane",
+    "hybrid inspections Clifton Heights",
+    "hybrid oil service Primos",
+    "hybrid vehicle safety"
+  ],
+  "title": {
+    "en": "Basic Hybrid Car Service in Primos, PA | Scally's",
+    "es": "Servicio básico para híbridos en Primos | Scally's"
+  },
+  "desc": {
+    "en": "Hybrid oil changes, tire service, brakes and routine inspections at Scally's in Primos. High-voltage battery and electric-drive repairs are excluded.",
+    "es": "Cambios de aceite, llantas, frenos e inspecciones básicas para híbridos en Scally's, Primos. No hacemos reparaciones de alto voltaje."
+  },
+  "h1": {
+    "en": "Basic Hybrid Vehicle Maintenance in Primos, PA",
+    "es": "Mantenimiento básico de vehículos híbridos en Primos, PA"
+  },
+  "crumb": {
+    "en": "Basic Hybrid Service",
+    "es": "Servicio básico para híbridos"
+  },
+  "service_type": {
+    "en": "Routine hybrid vehicle maintenance excluding high-voltage repairs",
+    "es": "Mantenimiento de rutina de híbridos sin reparaciones de alto voltaje"
+  },
+  "lead": {
+    "en": "Hybrid cars still need tires, brakes, inspections and, when fitted with a gasoline engine, scheduled engine maintenance. {name}, at {street} in {city}, lists basic hybrid vehicle maintenance, including oil changes, brakes, tires and inspections. Our service scope is limited: we do not repair high-voltage battery packs, inverters, electric drive units or manufacturer software. Call with your exact vehicle details to discuss routine work before scheduling.",
+    "es": "Los autos híbridos siguen necesitando llantas, frenos, inspecciones y, si tienen motor de gasolina, mantenimiento programado del motor. {name}, en {street}, {city}, ofrece mantenimiento básico de híbridos, incluidos cambios de aceite, frenos, llantas e inspecciones. Nuestro servicio tiene límites claros: no reparamos baterías de alto voltaje, inversores, unidades de tracción eléctrica ni software del fabricante. Llame con los datos exactos del vehículo antes de programar trabajo."
+  },
+  "blocks": [
+    [
+      "h2",
+      {
+        "en": "What makes hybrid maintenance different",
+        "es": "Qué distingue el mantenimiento de un híbrido"
+      },
+      "how-it-works"
+    ],
+    [
+      "p",
+      {
+        "en": "A hybrid vehicle combines an internal-combustion engine with one or more electric motors. Depending on the model, the engine may stop and restart automatically, and braking energy may be recovered through regenerative braking. That does not eliminate normal wear in tires, brake hardware, steering, suspension or other vehicle components. The model and the manufacturer's schedule matter more than a blanket rule for every hybrid.",
+        "es": "Un vehículo híbrido combina un motor de combustión con uno o más motores eléctricos. Según el modelo, el motor de gasolina puede apagarse y encenderse automáticamente, y parte de la energía del frenado se recupera mediante frenado regenerativo. Esto no elimina el desgaste de llantas, frenos, dirección, suspensión u otros componentes. El modelo y el calendario del fabricante importan más que una regla general."
+      }
+    ],
+    [
+      "p",
+      {
+        "en": "Some hybrids have a 12-volt electrical system and a separate high-voltage traction system. The high-voltage parts are not equivalent to ordinary car batteries. NHTSA warns that high-voltage components must be serviced by properly trained technicians with specialist equipment. Our page describes only the non-high-voltage maintenance within Scally's listed scope; the existence of a hybrid service listing should not be taken as certification for high-voltage work.",
+        "es": "Algunos híbridos tienen un sistema eléctrico de 12 voltios y otro de tracción de alto voltaje. Sus componentes de alto voltaje no equivalen a baterías comunes. NHTSA advierte que esas piezas requieren técnicos con capacitación específica y equipo especial. Esta página describe solo el mantenimiento que no requiere intervenir en el sistema de alto voltaje; ofrecer mantenimiento para híbridos no significa contar con certificación para reparaciones de alto voltaje."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Basic hybrid services listed by Scally's",
+        "es": "Servicios básicos para híbridos en Scally's"
+      },
+      "services"
+    ],
+    [
+      "ul",
+      [
+        {
+          "en": "Scheduled engine oil changes where required for the model.",
+          "es": "Cambios de aceite del motor según lo requiera el modelo."
+        },
+        {
+          "en": "Tire inspection, tire service and related routine work.",
+          "es": "Revisión y servicio de llantas y trabajos de rutina relacionados."
+        },
+        {
+          "en": "Mechanical brake checks and service within the shop's scope.",
+          "es": "Revisión y servicio de frenos mecánicos dentro del alcance del taller."
+        },
+        {
+          "en": "Routine vehicle inspections and maintenance discussions.",
+          "es": "Inspecciones de rutina y orientación sobre mantenimiento."
+        },
+        {
+          "en": "Review of common wear concerns unrelated to high-voltage system repairs.",
+          "es": "Revisión de desgaste común sin realizar reparaciones del sistema de alto voltaje."
+        }
+      ]
+    ],
+    [
+      "p",
+      {
+        "en": "These services are not a promise that every operation is available for every hybrid. Some brake or other procedures can involve manufacturer-specific systems. We review the year, make, model and requested work before confirming suitability. If a job requires high-voltage access or specialized programming, it is outside the scope described here.",
+        "es": "Estos servicios no prometen que todo trabajo esté disponible para cualquier híbrido. Algunos procedimientos de frenos u otros sistemas pueden requerir equipos o indicaciones específicos del fabricante. Revisamos año, marca, modelo y trabajo solicitado antes de confirmar. Si se necesita intervenir en alto voltaje o programación especializada, queda fuera de este servicio."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Oil changes and engine-related maintenance",
+        "es": "Cambios de aceite y mantenimiento del motor"
+      },
+      "oil-change"
+    ],
+    [
+      "p",
+      {
+        "en": "Many hybrid vehicles have a gasoline engine that needs engine oil and filters according to the owner's manual. An electric motor assisting the car does not mean the engine can go without maintenance. Oil type and interval differ by model and driving conditions. Follow the manufacturer's guidance rather than assuming all hybrids need the same schedule. See [oil changes](svc:oil-changes) and [engine tune-ups](svc:engine-tune-ups) for related services.",
+        "es": "Muchos híbridos tienen un motor de gasolina que necesita aceite y filtros según el manual del propietario. El apoyo del motor eléctrico no significa que el motor de combustión pueda funcionar sin mantenimiento. El aceite y los intervalos cambian según modelo y uso. Siga la guía del fabricante en lugar de aplicar el mismo calendario a todos. Consulte [cambios de aceite](svc:oil-changes) y [afinación](svc:engine-tune-ups) para servicios relacionados."
+      }
+    ],
+    [
+      "p",
+      {
+        "en": "Some owners notice that the gasoline engine runs less frequently in certain conditions. That behavior may be normal, but unusual engine noises, warning messages or fluid leaks should still be reviewed. We do not use the hybrid label to claim expertise in traction-battery diagnosis or complex powertrain electronics. If a dashboard message relates to the hybrid drive system, ask for a qualified specialist.",
+        "es": "Algunos propietarios notan que el motor de gasolina trabaja menos tiempo bajo ciertas condiciones. Puede ser normal, pero los ruidos extraños, avisos del tablero o fugas merecen revisión. No usamos la palabra híbrido para atribuirnos experiencia con diagnóstico de batería de tracción o electrónica compleja. Si un mensaje se relaciona con la propulsión híbrida, consulte a un especialista calificado."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Tires, steering and suspension",
+        "es": "Llantas, dirección y suspensión"
+      },
+      "tires"
+    ],
+    [
+      "p",
+      {
+        "en": "A hybrid still depends on good tire condition and correct inflation. Uneven tread wear, vibration and steering complaints deserve attention just as they do on a gasoline-only vehicle. Tire choice, load rating and inflation requirements come from the vehicle specifications. Our [tire service](svc:tires-and-flat-repair) and [wheel alignment](svc:front-end-alignment) pages discuss related work. A tire concern should not be mistaken for a hybrid battery fault.",
+        "es": "Un híbrido sigue dependiendo de llantas en buen estado y con presión correcta. El desgaste desigual, vibraciones o problemas de dirección necesitan atención igual que en un auto de gasolina. La elección de llantas, capacidad de carga y presión vienen de las especificaciones del vehículo. Consulte [servicio de llantas](svc:tires-and-flat-repair) y [alineación](svc:front-end-alignment). Un problema de llanta no debe confundirse con una falla de batería híbrida."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Hybrid braking systems and maintenance",
+        "es": "Frenos híbridos y su mantenimiento"
+      },
+      "brakes"
+    ],
+    [
+      "p",
+      {
+        "en": "Regenerative braking helps capture some of the vehicle's energy during deceleration, but hybrids still use mechanical brakes. Pads, rotors and other brake parts can wear or corrode. Brake inspections and routine mechanical service remain important, although the exact procedure may be model-specific. We discuss work only within the shop's confirmed capability and avoid high-voltage or specialized brake-control procedures that require training beyond the stated service scope.",
+        "es": "El frenado regenerativo recupera parte de la energía al reducir la velocidad, pero los híbridos también usan frenos mecánicos. Las pastillas, rotores y otras piezas pueden desgastarse u oxidarse. Las revisiones y el mantenimiento siguen siendo importantes, aunque el procedimiento varía según modelo. Atendemos trabajos dentro de la capacidad confirmada del taller y no prometemos procedimientos de alto voltaje ni de control especializado de frenos."
+      }
+    ],
+    [
+      "p",
+      {
+        "en": "If you notice grinding, pulsation, a change in pedal response or a brake warning, have the vehicle assessed promptly. These symptoms may involve ordinary brake hardware or systems requiring manufacturer-specific service. Do not assume regenerative braking prevents wear or that the shop can service every electronic brake component. See [brake repair](svc:brake-repair) for basic mechanical brake concerns.",
+        "es": "Si nota rechinidos, pulsación, cambios en la sensación del pedal o una advertencia de frenos, solicite revisión pronto. Puede tratarse de piezas mecánicas o sistemas que requieren servicio específico del fabricante. No suponga que el frenado regenerativo elimina el desgaste ni que el taller atiende todo componente electrónico. Consulte [reparación de frenos](svc:brake-repair) para problemas mecánicos comunes."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "What we do not service",
+        "es": "Servicios que no ofrecemos"
+      },
+      "not-offered"
+    ],
+    [
+      "ul",
+      [
+        {
+          "en": "High-voltage traction battery diagnosis or replacement.",
+          "es": "Diagnóstico o cambio de baterías de tracción de alto voltaje."
+        },
+        {
+          "en": "High-voltage inverter repair.",
+          "es": "Reparación de inversores de alto voltaje."
+        },
+        {
+          "en": "Electric traction motor or drive unit repair.",
+          "es": "Reparación de motores eléctricos de tracción o unidades motrices."
+        },
+        {
+          "en": "Manufacturer software, updates or hybrid control programming.",
+          "es": "Software, actualizaciones o programación de controles híbridos del fabricante."
+        }
+      ]
+    ],
+    [
+      "p",
+      {
+        "en": "For these concerns, consult a qualified hybrid or manufacturer-authorized service provider. Never attempt to open or repair high-voltage components yourself. NHTSA explains the distinction between the 12-volt system and traction battery and the need for specialized training in its [electric and hybrid vehicle safety information](url:https://www.nhtsa.gov/vehicle-safety/electric-and-hybrid-vehicles). If a vehicle has accident damage or exposed electrical components, seek appropriate emergency guidance.",
+        "es": "Para estas fallas, consulte un proveedor especializado o autorizado por el fabricante. Nunca intente abrir ni reparar por su cuenta componentes de alto voltaje. NHTSA explica la diferencia entre el sistema de 12 voltios y la batería de tracción, así como la necesidad de capacitación especial, en su [guía de seguridad para híbridos y eléctricos](url:https://www.nhtsa.gov/vehicle-safety/electric-and-hybrid-vehicles). Si hay daños por un choque o componentes eléctricos expuestos, busque ayuda adecuada."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Hybrid maintenance near Primos, PA",
+        "es": "Mantenimiento de híbridos cerca de Primos, PA"
+      },
+      "local"
+    ],
+    [
+      "p",
+      {
+        "en": "{name} is at {street}, {city}, near Secane and Clifton Heights. Call {phone} with your hybrid's year, make, model and the exact routine service requested. We can discuss which work fits our stated scope. For high-voltage batteries, inverters, traction drive units or software, contact a qualified specialist rather than booking them as ordinary maintenance.",
+        "es": "{name} está en {street}, {city}, cerca de Secane y Clifton Heights. Llame al {phone} con año, marca, modelo y servicio de rutina que necesita. Podemos comentar qué trabajo corresponde a nuestro alcance. Para baterías de alto voltaje, inversores, unidades de tracción o software, consulte un especialista calificado."
+      }
+    ]
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Do hybrid cars need oil changes?",
+        "es": "¿Los híbridos necesitan cambios de aceite?"
+      },
+      "a": {
+        "en": "Many hybrids use a gasoline engine and require scheduled oil service. Follow the specific owner's manual.",
+        "es": "Muchos híbridos tienen motor de gasolina y requieren cambios de aceite programados. Siga el manual correspondiente."
+      }
+    },
+    {
+      "q": {
+        "en": "Do you repair hybrid high-voltage batteries?",
+        "es": "¿Reparan baterías híbridas de alto voltaje?"
+      },
+      "a": {
+        "en": "No. High-voltage traction battery work is outside Scally's stated basic hybrid service scope.",
+        "es": "No. El trabajo en baterías de tracción de alto voltaje está fuera del servicio básico indicado por Scally's."
+      }
+    },
+    {
+      "q": {
+        "en": "Can you check tires and routine brakes on a hybrid?",
+        "es": "¿Revisan llantas y frenos de rutina en híbridos?"
+      },
+      "a": {
+        "en": "These are listed basic hybrid services; call with the model to confirm the specific work.",
+        "es": "Son servicios básicos anunciados para híbridos; llame con el modelo para confirmar el trabajo específico."
+      }
+    },
+    {
+      "q": {
+        "en": "Does regenerative braking eliminate brake maintenance?",
+        "es": "¿El frenado regenerativo elimina el mantenimiento de frenos?"
+      },
+      "a": {
+        "en": "No. Mechanical brake components still require inspection and may wear or corrode.",
+        "es": "No. Los componentes mecánicos siguen necesitando revisión y pueden desgastarse u oxidarse."
+      }
+    },
+    {
+      "q": {
+        "en": "Can you repair a hybrid inverter or drive unit?",
+        "es": "¿Reparan el inversor o unidad motriz híbrida?"
+      },
+      "a": {
+        "en": "No. Inverters and electric drive units are outside the listed maintenance scope.",
+        "es": "No. Los inversores y las unidades de tracción eléctrica quedan fuera del servicio anunciado."
+      }
+    },
+    {
+      "q": {
+        "en": "Do all hybrid models use the same maintenance schedule?",
+        "es": "¿Todos los híbridos tienen el mismo calendario de mantenimiento?"
+      },
+      "a": {
+        "en": "No. Follow the owner's manual for your particular year, make and model.",
+        "es": "No. Siga el manual de su año, marca y modelo específicos."
+      }
+    }
+  ],
+  "related": [
+    "oil-changes",
+    "tires-and-flat-repair",
+    "brake-repair",
+    "front-end-alignment",
+    "pa-safety-inspections"
+  ],
+  "sources": [
+    [
+      "NHTSA: Electric and Hybrid Vehicles — Battery, Charging and Safety",
+      "https://www.nhtsa.gov/vehicle-safety/electric-and-hybrid-vehicles"
+    ]
+  ],
+  "verify": [
+    "Jerry: confirm routine hybrid maintenance only; do not infer high-voltage training, tools or certification.",
+    "Verify which hybrid makes/models and brake services are accepted before naming brands or detailed procedures.",
+    "Confirm if Pennsylvania hybrid emissions/safety inspections can be completed on all models; no blanket promise here."
+  ]
+}

@@ -1,0 +1,296 @@
+{
+  "id": "cv-axle-differential",
+  "slug": "cv-axle-differential",
+  "category": "transmission-drivetrain",
+  "covers": [
+    "differential-repair",
+    "axles",
+    "rear-axle-bearings-and-seals"
+  ],
+  "adaptedFrom": "Diverse Autoworks svc_axle (tools/service_pages_batch2.py); rewritten for Scally's three confirmed differential/CV/rear-axle services.",
+  "primary_kw": {
+    "en": "CV axle and differential repair Primos PA",
+    "es": "reparación ejes CV y diferencial Primos PA"
+  },
+  "secondary_kws": [
+    "CV axle replacement",
+    "CV joint clicking",
+    "torn CV boot",
+    "differential service",
+    "differential fluid change",
+    "rear axle seals",
+    "rear axle bearing replacement",
+    "drivetrain vibration",
+    "gear oil leak",
+    "differential whining noise",
+    "axle repair Secane",
+    "CV joint repair Clifton Heights"
+  ],
+  "title": {
+    "en": "CV Axles & Differential in Primos, PA | Scally's",
+    "es": "Ejes CV y diferencial en Primos, PA | Scally's"
+  },
+  "desc": {
+    "en": "Clicking turns, drivetrain vibration or rear-end noise? Scally's in Primos offers CV axle, differential and rear axle bearing and seal service.",
+    "es": "¿Chasquidos al girar, vibración o ruido atrás? Scally's en Primos atiende ejes CV, diferenciales y rodamientos y sellos traseros."
+  },
+  "h1": {
+    "en": "CV Axle and Differential Repair in Primos, PA",
+    "es": "Reparación de ejes CV y diferenciales en Primos, PA"
+  },
+  "crumb": {
+    "en": "CV Axles & Differential",
+    "es": "Ejes CV y diferencial"
+  },
+  "service_type": {
+    "en": "CV axle, differential, rear axle bearing and seal service",
+    "es": "Servicio de ejes CV, diferencial, rodamientos y sellos del eje trasero"
+  },
+  "lead": {
+    "en": "A clicking noise when turning, a hum from the rear or a vibration under acceleration can point to parts of the drivetrain, but the symptoms may have other causes. At {name}, on {street} in {city}, our listed services include differential repair and fluid service, CV axle and joint replacement, and rear axle bearing and seal work. We aim to identify which component is involved before recommending a repair.",
+    "es": "Los chasquidos al girar, un zumbido detrás o la vibración al acelerar pueden apuntar a piezas del tren motriz, pero también tener otras causas. En {name}, en {street}, {city}, ofrecemos reparación y servicio de diferencial, cambio de ejes y juntas CV, y trabajo de rodamientos y sellos del eje trasero. Buscamos identificar qué pieza está afectada antes de recomendar una reparación."
+  },
+  "blocks": [
+    [
+      "h2",
+      {
+        "en": "How the drivetrain transfers power",
+        "es": "Cómo transmite la fuerza el tren motriz"
+      },
+      "how-it-works"
+    ],
+    [
+      "p",
+      {
+        "en": "The transmission sends engine power through the drivetrain to the driving wheels. A differential allows wheels on the same axle to turn at different speeds, which matters when cornering. CV joints can transmit power while steering or suspension changes the angle of a drive axle. Some vehicles have rear axle assemblies with bearings and seals that support axle shafts and retain lubricating fluid. The exact layout varies by front-, rear- or all-wheel-drive design.",
+        "es": "La transmisión envía la fuerza del motor a las ruedas motrices. El diferencial permite que las ruedas del mismo eje giren a distintas velocidades, algo necesario en curvas. Las juntas homocinéticas transmiten fuerza mientras la dirección o suspensión cambia el ángulo del eje. Algunos vehículos tienen conjuntos traseros con rodamientos y sellos que sostienen los ejes y retienen lubricante. La disposición cambia en vehículos de tracción delantera, trasera o integral."
+      }
+    ],
+    [
+      "p",
+      {
+        "en": "Noise location and driving conditions help narrow a complaint, but sound travels through the body. A wheel bearing, tire, brake, axle or differential can sound similar from the driver's seat. A road-speed-related hum does not automatically call for differential work. A correct diagnosis considers which action produces the sound and the type of drivetrain fitted to the car.",
+        "es": "La ubicación del ruido y las condiciones de manejo ayudan a investigar, pero el sonido viaja por la carrocería. Un rodamiento de rueda, llanta, freno, eje o diferencial puede sonar parecido desde el asiento del conductor. Un zumbido que cambia con la velocidad no significa necesariamente una falla del diferencial. El diagnóstico considera qué acción provoca el ruido y qué tipo de tren motriz tiene el auto."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Signs of possible axle or differential trouble",
+        "es": "Señales de posibles fallas de ejes o diferencial"
+      },
+      "signs"
+    ],
+    [
+      "ul",
+      [
+        {
+          "en": "Clicking or popping on turns, especially while accelerating.",
+          "es": "Chasquidos al girar, especialmente al acelerar."
+        },
+        {
+          "en": "Vibration that becomes noticeable under power.",
+          "es": "Vibración que aumenta cuando se acelera."
+        },
+        {
+          "en": "A steady hum, growl or whine from a wheel or axle area.",
+          "es": "Zumbido, rugido o silbido cerca de una rueda o del eje."
+        },
+        {
+          "en": "Visible damage or lost grease near a CV-joint boot.",
+          "es": "Daño visible o grasa escapando cerca del guardapolvo de una junta CV."
+        },
+        {
+          "en": "Gear-oil stains near a differential housing or axle seal.",
+          "es": "Manchas de aceite de engranajes cerca del diferencial o sello de eje."
+        },
+        {
+          "en": "A clunk when accelerating, turning or changing gear.",
+          "es": "Golpe al acelerar, girar o cambiar de marcha."
+        },
+        {
+          "en": "A drivetrain warning or an unexpected change in vehicle handling.",
+          "es": "Advertencia del tren motriz o cambio inesperado en el manejo."
+        }
+      ]
+    ],
+    [
+      "p",
+      {
+        "en": "These symptoms are not enough to name a failed part. A torn CV boot may expose a joint to contamination, but it does not prove replacement is the only option. A growl near a rear wheel might come from the tire or wheel hub rather than the axle bearing. If steering, vehicle stability or wheel support feels unsafe, do not continue driving without assessment.",
+        "es": "Estas señales no permiten identificar una pieza dañada por sí solas. Un guardapolvo CV roto puede dejar entrar suciedad, pero no demuestra que cambiar la junta sea la única opción. Un ruido cerca de una rueda trasera puede venir de la llanta o maza y no del rodamiento del eje. Si la dirección, estabilidad o soporte de la rueda no se sienten seguros, no siga conduciendo sin revisión."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Differential service and repair",
+        "es": "Servicio y reparación de diferenciales"
+      },
+      "differential-service"
+    ],
+    [
+      "p",
+      {
+        "en": "Differentials contain gears and related bearings that need the proper lubricant. A differential may need fluid service at an interval specified by the vehicle maker, or repair if wear, damage or leakage is confirmed. A whining or rumbling noise can come from several sources, so a differential should not be replaced solely on the driver's impression of where the noise starts.",
+        "es": "El diferencial contiene engranajes y rodamientos que necesitan el lubricante correcto. Puede requerir cambio de aceite según el intervalo del fabricante o reparación si se confirma desgaste, daño o fuga. Un silbido o ruido de rodamiento puede venir de varias partes, así que no debe cambiarse el diferencial solo por la impresión del conductor sobre dónde empieza el sonido."
+      }
+    ],
+    [
+      "p",
+      {
+        "en": "The proper gear oil specification depends on the vehicle and differential design. Some units have special requirements, so using an unspecified fluid is not a good substitute for the owner's manual. If you notice a leak, tell us when it began and where it appears. The source of the fluid needs confirmation before choosing a gasket, seal or another repair.",
+        "es": "La especificación del aceite depende del vehículo y del diferencial. Algunas unidades tienen requisitos especiales, por eso no conviene usar un lubricante sin verificar el manual. Si nota una fuga, explique cuándo empezó y dónde aparece. Se debe confirmar de dónde sale el líquido antes de elegir un empaque, sello u otra reparación."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "CV axles and joints",
+        "es": "Ejes y juntas homocinéticas (CV)"
+      },
+      "axles"
+    ],
+    [
+      "p",
+      {
+        "en": "A CV axle uses joints that allow power transmission while the suspension moves and the steering turns. A worn joint may make a repeated clicking sound in a turn, but similar noises can come from other parts. A damaged protective boot can allow grease to escape and contamination to enter. Scally's lists CV axle and joint replacement; the correct scope depends on the joint, axle and vehicle.",
+        "es": "Un eje CV usa juntas que transmiten fuerza mientras se mueve la suspensión y gira la dirección. Una junta desgastada puede causar chasquidos repetidos al girar, pero otras piezas hacen ruidos parecidos. Un guardapolvo dañado deja escapar grasa y entrar suciedad. Scally's incluye cambio de ejes y juntas homocinéticas; el alcance depende de la junta, el eje y el modelo del auto."
+      }
+    ],
+    [
+      "p",
+      {
+        "en": "Vibration during acceleration may be related to an axle, mount, tire or other rotating part. We recommend checking the condition rather than assuming a CV axle is responsible. Related services include [motor and transmission mounts](svc:motor-mounts), [wheel bearings](svc:wheel-bearings) and [wheel alignment](svc:front-end-alignment).",
+        "es": "La vibración al acelerar puede relacionarse con un eje, soporte, llanta u otra pieza giratoria. Recomendamos revisar el estado en lugar de suponer que un eje CV es el responsable. Entre los servicios relacionados están [soportes de motor y transmisión](svc:motor-mounts), [rodamientos de rueda](svc:wheel-bearings) y [alineación](svc:front-end-alignment)."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Rear axle bearings and seals",
+        "es": "Rodamientos y sellos del eje trasero"
+      },
+      "rear-axle-bearings-and-seals"
+    ],
+    [
+      "p",
+      {
+        "en": "Some rear axle designs have bearings that support an axle shaft and seals that keep lubricant inside the assembly. Wear may create rear-end noise; a damaged seal may leave lubricant near a rear wheel. Not every rear-wheel noise or stain comes from an axle bearing or seal. An inspection helps distinguish these concerns from tire, brake and wheel hub problems.",
+        "es": "Algunos diseños de eje trasero tienen rodamientos que sostienen el semieje y sellos que retienen el lubricante. El desgaste puede generar ruido atrás; un sello dañado puede dejar aceite cerca de una rueda trasera. No todo ruido o mancha proviene de un rodamiento o sello de eje. Una revisión ayuda a distinguirlos de problemas de llanta, frenos o maza."
+      }
+    ],
+    [
+      "p",
+      {
+        "en": "Rear axle bearing and seal replacement are listed services, but the correct parts and procedure depend on the specific vehicle. Mention any rear-end vibration, fluid loss or recent impact when you call. An issue that affects wheel support or causes severe grinding needs prompt attention. Our [wheel bearings and hubs](svc:wheel-hubs) page explains a related, but distinct, service.",
+        "es": "Scally's ofrece cambio de rodamientos y sellos del eje trasero, pero las piezas y el procedimiento dependen del vehículo. Al llamar, mencione vibración trasera, pérdida de lubricante o golpes recientes. Una falla que afecta el soporte de la rueda o causa un rechinido fuerte necesita atención pronto. Nuestra página de [rodamientos y mazas](svc:wheel-hubs) explica un servicio relacionado, pero distinto."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Drivetrain maintenance and inspection",
+        "es": "Mantenimiento e inspección del tren motriz"
+      },
+      "maintenance"
+    ],
+    [
+      "p",
+      {
+        "en": "Follow the manufacturer's interval for differential lubricant and other drivetrain service. There is no one replacement mileage for every CV joint or axle bearing. Pay attention to new noises, torn boots or visible leaks, and have an issue checked before it becomes severe. Avoid driving if the vehicle has abnormal wheel movement, severe vibration or unstable handling. The [transmission repair](svc:transmission-repair) page covers other drivetrain systems.",
+        "es": "Siga el intervalo del fabricante para el lubricante del diferencial y otros servicios del tren motriz. No existe un kilometraje único para cambiar todas las juntas CV o rodamientos. Preste atención a ruidos nuevos, guardapolvos rotos o fugas, y solicite revisión. Evite conducir si hay movimiento anormal de una rueda, vibración fuerte o manejo inestable. La página de [reparación de transmisión](svc:transmission-repair) explica otros sistemas relacionados."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Axle and differential repair near Primos",
+        "es": "Reparación de ejes y diferencial cerca de Primos"
+      },
+      "local"
+    ],
+    [
+      "p",
+      {
+        "en": "Find {name} at {street}, {city}, near Secane and Clifton Heights. Call {phone} with the year, make, model and drivetrain type if you know it. Describe when the sound appears, which side you hear it from and any fluid loss. We can discuss an inspection before selecting parts.",
+        "es": "Encuentre {name} en {street}, {city}, cerca de Secane y Clifton Heights. Llame al {phone} con año, marca, modelo y tipo de tracción si lo conoce. Explique cuándo aparece el ruido, de qué lado se escucha y si hay fugas. Podemos hablar de una revisión antes de elegir piezas."
+      }
+    ]
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Why does my car click when turning?",
+        "es": "¿Por qué el auto hace clics al girar?"
+      },
+      "a": {
+        "en": "A worn CV joint is one possibility, but other steering or suspension parts can make noises. Have the source confirmed.",
+        "es": "Una junta CV gastada es una posibilidad, pero otras piezas de dirección o suspensión también hacen ruido. Se debe confirmar el origen."
+      }
+    },
+    {
+      "q": {
+        "en": "Is a CV joint the same as a differential?",
+        "es": "¿Una junta CV es lo mismo que el diferencial?"
+      },
+      "a": {
+        "en": "No. A CV joint transmits power through a changing angle. A differential distributes drive while allowing wheels to turn at different speeds.",
+        "es": "No. La junta CV transmite fuerza entre ángulos variables. El diferencial permite que las ruedas motrices giren a distintas velocidades."
+      }
+    },
+    {
+      "q": {
+        "en": "Do you service differential fluid?",
+        "es": "¿Hacen servicio de aceite del diferencial?"
+      },
+      "a": {
+        "en": "Yes. Differential fluid service is listed in Scally's catalog; the interval and specification depend on the vehicle.",
+        "es": "Sí. Scally's ofrece servicio de aceite del diferencial; el intervalo y tipo dependen del vehículo."
+      }
+    },
+    {
+      "q": {
+        "en": "Can a torn CV boot cause problems?",
+        "es": "¿Un guardapolvo CV roto puede causar problemas?"
+      },
+      "a": {
+        "en": "Yes. Grease can escape and contamination can enter, which may affect joint life. Inspect the condition before choosing repairs.",
+        "es": "Sí. Puede salir grasa y entrar suciedad, lo que afecta la duración. Hay que revisar el estado antes de decidir la reparación."
+      }
+    },
+    {
+      "q": {
+        "en": "What causes an oil stain near a rear wheel?",
+        "es": "¿Qué causa una mancha de aceite cerca de una rueda trasera?"
+      },
+      "a": {
+        "en": "An axle seal may be one possibility, but the fluid and source need to be identified first.",
+        "es": "Un sello de eje puede ser una causa, pero primero hay que identificar el líquido y su origen."
+      }
+    },
+    {
+      "q": {
+        "en": "Do you replace rear axle bearings?",
+        "es": "¿Cambian rodamientos del eje trasero?"
+      },
+      "a": {
+        "en": "Yes. Rear axle bearing and seal replacement are listed services; the vehicle design determines what work applies.",
+        "es": "Sí. El cambio de rodamientos y sellos del eje trasero figura entre los servicios; el diseño del auto determina el trabajo."
+      }
+    }
+  ],
+  "related": [
+    "transmission-repair",
+    "wheel-bearings",
+    "wheel-hubs",
+    "motor-mounts",
+    "front-end-alignment"
+  ],
+  "sources": [],
+  "verify": [
+    "Jerry: which differential types (open, limited slip, electronic) and AWD systems are serviced? Do not assume every model.",
+    "Confirm whether axle bearings and seals are serviced for all vehicle designs or referred out.",
+    "Do not promise differential rebuilding, fabrication, or proprietary high-voltage drivetrain work."
+  ]
+}

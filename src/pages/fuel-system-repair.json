@@ -1,0 +1,304 @@
+{
+  "id": "fuel-system-repair",
+  "slug": "fuel-system-repair",
+  "category": "engine-exhaust",
+  "covers": [
+    "fuel-system-service",
+    "gas-tanks"
+  ],
+  "adaptedFrom": "Diverse Autoworks svc_fuel technical context; rewritten for Scally's verified catalog service scope.",
+  "primary_kw": {
+    "en": "fuel system repair Primos PA",
+    "es": "reparación sistema de combustible Primos PA"
+  },
+  "secondary_kws": [
+    "fuel injector service",
+    "fuel pump repair",
+    "fuel line repair",
+    "gas tank service",
+    "gas tank replacement",
+    "fuel system inspection",
+    "car hesitates accelerating",
+    "hard starting car",
+    "fuel delivery issue",
+    "gasoline odor car",
+    "fuel service Secane",
+    "gas tank Clifton Heights"
+  ],
+  "title": {
+    "en": "Fuel System & Gas Tank Repair in Primos | Scally's",
+    "es": "Sistema de combustible en Primos, PA | Scally's"
+  },
+  "desc": {
+    "en": "Fuel delivery, fuel pump, injector and gas tank problems? Scally's in Primos diagnoses the cause before recommending repairs. Call 610-626-4700.",
+    "es": "¿Problemas de inyectores, bomba o tanque de combustible? Scally's en Primos revisa la causa antes de recomendar reparaciones. Llame al 610-626-4700."
+  },
+  "h1": {
+    "en": "Fuel System and Gas Tank Repair in Primos, PA",
+    "es": "Reparación de sistema de combustible y tanque en Primos, PA"
+  },
+  "crumb": {
+    "en": "Fuel System & Gas Tanks",
+    "es": "Sistema de combustible y tanques"
+  },
+  "service_type": {
+    "en": "Fuel system service and gas tank repair",
+    "es": "Servicio del sistema de combustible y tanques"
+  },
+  "lead": {
+    "en": "An engine that starts slowly, hesitates or runs roughly may have a fuel-delivery problem, but several other systems can produce the same symptoms. At {name}, on {street} in {city}, we offer fuel system service, injector cleaning, fuel pump and fuel line repair, and gas tank repair or replacement. We first look at the complaint and the vehicle before recommending any work. If there is a gasoline odor or a suspected fuel leak, avoid driving and arrange a professional assessment.",
+    "es": "Un motor que tarda en arrancar, titubea o trabaja de forma irregular puede presentar una falla de suministro de combustible, pero otros sistemas pueden causar síntomas iguales. En {name}, en {street}, {city}, ofrecemos servicio del sistema de combustible, limpieza de inyectores, reparación de bomba y líneas, y reparación o cambio del tanque. Primero revisamos el problema y el vehículo antes de recomendar trabajo. Si hay olor a gasolina o sospecha de una fuga, evite conducir y solicite una revisión profesional."
+  },
+  "blocks": [
+    [
+      "h2",
+      {
+        "en": "What the fuel system does",
+        "es": "Para qué sirve el sistema de combustible"
+      },
+      "how-it-works"
+    ],
+    [
+      "p",
+      {
+        "en": "The fuel tank stores gasoline, a pump supplies the engine and injectors meter the fuel used for combustion. The vehicle also monitors the system with sensors and engine controls. A problem in fuel delivery may affect starting, acceleration, idle quality or emissions. Those symptoms do not always mean that a pump or injector is defective. Ignition, air intake, engine and electrical issues may feel similar.",
+        "es": "El tanque almacena gasolina, una bomba la suministra al motor y los inyectores dosifican la cantidad necesaria para la combustión. El vehículo también vigila el sistema mediante sensores y controles. Una falla puede afectar arranque, aceleración, marcha mínima o emisiones. Eso no significa necesariamente que la bomba o un inyector estén dañados. Problemas de encendido, admisión, motor y electricidad pueden sentirse iguales."
+      }
+    ],
+    [
+      "p",
+      {
+        "en": "Fuel tanks, filler connections and vapor controls can also develop faults. Some affect the check engine light without any obvious fluid on the ground. Others can create a noticeable odor or a visible stain. The proper response depends on the source, the vehicle's design and how serious the problem appears. A description of when symptoms started helps guide the inspection.",
+        "es": "Los tanques, conexiones de llenado y controles de vapores también pueden fallar. Algunos problemas encienden la luz de check engine sin dejar líquidos visibles. Otros producen olor o una mancha. La respuesta adecuada depende del origen, del diseño del vehículo y de la gravedad. Explicar cuándo comenzó el problema ayuda a orientar la revisión."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Fuel system warning signs",
+        "es": "Señales de problemas de combustible"
+      },
+      "signs"
+    ],
+    [
+      "ul",
+      [
+        {
+          "en": "The engine needs repeated attempts to start.",
+          "es": "El motor necesita varios intentos para arrancar."
+        },
+        {
+          "en": "Acceleration feels weak or inconsistent.",
+          "es": "La aceleración se siente débil o irregular."
+        },
+        {
+          "en": "The engine stumbles or stalls unexpectedly.",
+          "es": "El motor titubea o se apaga inesperadamente."
+        },
+        {
+          "en": "A check engine warning appears.",
+          "es": "Se enciende la luz de check engine."
+        },
+        {
+          "en": "You notice an unusual gasoline smell near the car.",
+          "es": "Nota un olor extraño a gasolina cerca del vehículo."
+        },
+        {
+          "en": "You see a new stain near the fuel tank area.",
+          "es": "Aparece una mancha nueva cerca del tanque."
+        },
+        {
+          "en": "Fuel use changes without an obvious reason.",
+          "es": "El consumo de gasolina cambia sin razón evidente."
+        }
+      ]
+    ],
+    [
+      "p",
+      {
+        "en": "The warning signs overlap with other engine problems. A fault code is one clue rather than a final diagnosis. Do not assume that injector cleaning fixes every hesitation or that any slow start means the fuel pump must be replaced. If fuel is leaking, AAA advises against driving the vehicle. Keep away from the vehicle if conditions appear unsafe and seek professional assistance.",
+        "es": "Las señales pueden parecerse a otros problemas del motor. Un código de falla es una pista y no un diagnóstico definitivo. No suponga que la limpieza de inyectores corrige cualquier titubeo o que un arranque lento significa que debe cambiar la bomba. Si hay una fuga de gasolina, AAA recomienda no conducir el vehículo. Aléjese si la situación parece insegura y solicite ayuda profesional."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Fuel system services we offer",
+        "es": "Servicios de combustible que ofrecemos"
+      },
+      "services"
+    ],
+    [
+      "ul",
+      [
+        {
+          "en": "Review fuel delivery complaints and related symptoms.",
+          "es": "Revisar problemas de suministro de combustible y síntomas relacionados."
+        },
+        {
+          "en": "Discuss fuel injector cleaning where appropriate.",
+          "es": "Evaluar la limpieza de inyectores cuando corresponda."
+        },
+        {
+          "en": "Investigate and repair fuel pump concerns.",
+          "es": "Investigar y reparar problemas de la bomba."
+        },
+        {
+          "en": "Evaluate and repair confirmed fuel line problems.",
+          "es": "Evaluar y reparar problemas confirmados de las líneas."
+        },
+        {
+          "en": "Assess gas tank concerns and discuss repair or replacement.",
+          "es": "Revisar problemas del tanque y hablar de reparación o cambio."
+        }
+      ]
+    ],
+    [
+      "h2",
+      {
+        "en": "Fuel injectors, pumps and lines",
+        "es": "Inyectores, bombas y líneas de combustible"
+      },
+      "injectors-pumps-lines"
+    ],
+    [
+      "p",
+      {
+        "en": "Injectors meter fuel into the engine. Problems with the way the engine runs may point toward an injector, but spark plugs, airflow and mechanical conditions can cause similar issues. An inspection helps establish if cleaning or another service makes sense. We discuss a part or service based on the findings instead of promising a particular fix from a symptom alone.",
+        "es": "Los inyectores dosifican la gasolina hacia el motor. Algunos problemas de funcionamiento pueden apuntar a un inyector, pero bujías, entrada de aire y condiciones mecánicas causan síntomas parecidos. Una revisión ayuda a determinar si conviene una limpieza u otro servicio. Recomendamos trabajo según lo que se encuentre, sin prometer una solución específica solo por el síntoma."
+      }
+    ],
+    [
+      "p",
+      {
+        "en": "Fuel pumps and lines are responsible for moving gasoline through the system. Starting trouble, poor performance or a dashboard warning can have several explanations, so the cause needs to be confirmed. If a fuel-line issue is suspected, do not attempt to drive with a suspected leak. Call for advice on the appropriate next step. We do not advertise vehicle transport or emergency transport as a Scally's service.",
+        "es": "Las bombas y líneas transportan gasolina por el sistema. Los problemas de arranque, rendimiento o una advertencia del tablero pueden tener varias explicaciones. Por eso hay que confirmar la causa. Si sospecha una falla de una línea con fuga, no intente conducir. Llame para consultar el siguiente paso. No anunciamos remolque ni transporte de emergencia como servicio de Scally's."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Gas tank repair and replacement",
+        "es": "Reparación y cambio de tanques de gasolina"
+      },
+      "gas-tanks"
+    ],
+    [
+      "p",
+      {
+        "en": "Scally's service list includes gas tank repair and replacement. Tank complaints may involve damage, wear or connections around the tank and filler area. A gasoline smell after filling up is important to mention, but does not identify a particular part. The condition of the vehicle and the source of the issue determine which work should be discussed with the shop. Different models have different parts and access requirements.",
+        "es": "La lista de Scally's incluye reparación y cambio de tanques. Los problemas pueden relacionarse con daños, desgaste o conexiones del tanque y del área de llenado. Es importante informar si huele a gasolina después de cargar combustible, pero eso no identifica una pieza. El estado del vehículo y el origen de la falla determinan qué trabajo conviene consultar. Cada modelo tiene piezas y requisitos distintos."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Maintenance and Pennsylvania inspections",
+        "es": "Mantenimiento e inspecciones de Pensilvania"
+      },
+      "maintenance"
+    ],
+    [
+      "p",
+      {
+        "en": "Use the fuel grade and maintenance guidance in your owner's manual. There is no universal injector-cleaning interval that applies to every engine. A recurring check engine warning deserves diagnosis instead of a guess. Pennsylvania safety and emissions inspections may identify certain fuel or emissions concerns under the applicable requirements. Read [PA inspections](svc:pa-safety-inspections), [emissions repair](svc:emissions-control) and [check engine diagnosis](svc:check-engine-light) for related questions.",
+        "es": "Use el tipo de gasolina y las recomendaciones del manual del propietario. No existe un intervalo de limpieza de inyectores que sirva para todos los motores. Una luz de check engine recurrente merece diagnóstico y no suposiciones. Las inspecciones de seguridad y emisiones de Pensilvania pueden detectar ciertos problemas según las normas aplicables. Consulte [inspecciones de PA](svc:pa-safety-inspections), [reparación de emisiones](svc:emissions-control) y [diagnóstico de check engine](svc:check-engine-light)."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Fuel system service near Secane",
+        "es": "Servicio de combustible cerca de Secane"
+      },
+      "local"
+    ],
+    [
+      "p",
+      {
+        "en": "{name} is at {street}, {city}, near Secane and Clifton Heights. Call {phone} with the year, make and model, and tell us when the issue happens. If you suspect a leak, do not drive to the shop. We can explain how to ask for an assessment and what vehicle information to provide.",
+        "es": "{name} está en {street}, {city}, cerca de Secane y Clifton Heights. Llame al {phone} e indique año, marca, modelo y cuándo aparece la falla. Si sospecha una fuga, no conduzca hasta el taller. Podemos explicar cómo solicitar una revisión y qué información del vehículo debe proporcionar."
+      }
+    ]
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Do you work on fuel pumps and injectors?",
+        "es": "¿Atienden bombas e inyectores?"
+      },
+      "a": {
+        "en": "Fuel pump repair and injector cleaning are listed services. The right work depends on the vehicle and diagnosis.",
+        "es": "La reparación de bombas y limpieza de inyectores figuran entre los servicios. El trabajo depende del auto y del diagnóstico."
+      }
+    },
+    {
+      "q": {
+        "en": "Can I drive with a suspected gasoline leak?",
+        "es": "¿Puedo conducir si sospecho una fuga de gasolina?"
+      },
+      "a": {
+        "en": "No. Do not drive a vehicle with a suspected fuel leak; ask for professional assistance.",
+        "es": "No. No conduzca si sospecha una fuga de gasolina; solicite ayuda profesional."
+      }
+    },
+    {
+      "q": {
+        "en": "Why does the car hesitate when accelerating?",
+        "es": "¿Por qué el auto titubea al acelerar?"
+      },
+      "a": {
+        "en": "Fuel delivery is one possibility. Ignition, airflow and other engine systems may cause similar symptoms.",
+        "es": "El suministro de gasolina es una posibilidad. El encendido, el aire y otros sistemas pueden causar síntomas parecidos."
+      }
+    },
+    {
+      "q": {
+        "en": "Do you repair gas tanks?",
+        "es": "¿Reparan tanques de gasolina?"
+      },
+      "a": {
+        "en": "Gas tank repair and replacement are listed in our service catalog. Call with the car's details.",
+        "es": "La reparación y cambio de tanques aparecen en nuestra lista de servicios. Llame con los datos del auto."
+      }
+    },
+    {
+      "q": {
+        "en": "Will injector cleaning fix a check engine light?",
+        "es": "¿La limpieza de inyectores apaga la luz de check engine?"
+      },
+      "a": {
+        "en": "Not necessarily. The code and related tests should identify the cause first.",
+        "es": "No necesariamente. Los códigos y las pruebas deben identificar primero la causa."
+      }
+    },
+    {
+      "q": {
+        "en": "How often does a fuel system need service?",
+        "es": "¿Cada cuánto se revisa el sistema de combustible?"
+      },
+      "a": {
+        "en": "Follow the owner's manual and address symptoms as they appear; there is no one interval for all cars.",
+        "es": "Siga el manual del propietario y atienda los síntomas; no hay un solo intervalo para todos los autos."
+      }
+    }
+  ],
+  "related": [
+    "engine-tune-ups",
+    "check-engine-light",
+    "emissions-control",
+    "pa-safety-inspections",
+    "oil-changes"
+  ],
+  "sources": [
+    [
+      "AAA: Identifying car leaks",
+      "https://cluballiance.aaa.com/the-extra-mile/advice/car/identify-leaks-like-a-pro"
+    ]
+  ],
+  "verify": [
+    "Jerry: confirm gas tank repair versus replacement scope.",
+    "Jerry: confirm pump and fuel line repair scope and any outside specialist work.",
+    "Do not imply Scally's provides vehicle transport or guaranteed same-day service."
+  ]
+}
