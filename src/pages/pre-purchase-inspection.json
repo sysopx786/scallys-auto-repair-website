@@ -1,0 +1,330 @@
+{
+  "id": "pre-purchase-inspection",
+  "slug": "pre-purchase-inspection",
+  "category": "inspections-emissions",
+  "covers": [
+    "pre-purchase-inspections"
+  ],
+  "adaptedFrom": "Diverse Autoworks svc_prepurchase (tools/service_pages_batch7.py), rewritten for Scally's with conservative scope",
+  "primary_kw": {
+    "en": "pre purchase car inspection Primos PA",
+    "es": "inspección de auto antes de comprar en Primos"
+  },
+  "secondary_kws": [
+    "used car inspection Primos",
+    "pre-purchase vehicle inspection",
+    "used car mechanic inspection",
+    "used vehicle inspection Secane",
+    "buying a used car Pennsylvania",
+    "pre purchase inspection Clifton Heights",
+    "inspect used car before buying",
+    "used car warning signs",
+    "independent car inspection",
+    "secondhand car check",
+    "used vehicle condition review",
+    "used car inspection Delaware County"
+  ],
+  "title": {
+    "en": "Pre-Purchase Car Inspection in Primos | Scally's",
+    "es": "Inspección antes de comprar auto en Primos | Scally's"
+  },
+  "desc": {
+    "en": "Buying a used car? Ask Scally's Auto Repair in Primos about a pre-purchase inspection, what it covers, and concerns worth checking before you decide.",
+    "es": "¿Va a comprar un auto usado? Pregunte a Scally's en Primos qué cubre una inspección previa a la compra y qué problemas conviene revisar."
+  },
+  "h1": {
+    "en": "Pre-Purchase Car Inspection in Primos, PA",
+    "es": "Inspección de auto antes de comprar en Primos, PA"
+  },
+  "crumb": {
+    "en": "Pre-Purchase Inspection",
+    "es": "Inspección antes de comprar"
+  },
+  "service_type": {
+    "en": "Pre-purchase used-car inspection",
+    "es": "Inspección de auto usado antes de comprar"
+  },
+  "lead": {
+    "en": "Buying a used car can mean taking on repair problems you did not expect. A pre-purchase inspection at {name} gives you a mechanic's assessment before you make a decision. Our shop is on {street} in {city}. Call before arranging the visit to ask what the inspection includes for the car you're considering. No inspection can predict every future repair, but a careful discussion of current symptoms and findings can help you ask better questions.",
+    "es": "Comprar un auto usado puede significar gastos de reparación inesperados. Una inspección previa a la compra en {name} le permite conocer la evaluación de un mecánico antes de decidir. Estamos en {street}, {city}. Llame antes de organizar la visita y pregunte qué incluye la inspección para el vehículo que le interesa. Ninguna revisión puede predecir todas las reparaciones futuras, pero conocer los síntomas y hallazgos actuales le ayuda a tomar una decisión con más información."
+  },
+  "blocks": [
+    [
+      "h2",
+      {
+        "en": "Why inspect a used car before you buy?",
+        "es": "Por qué revisar un auto usado antes de comprarlo"
+      },
+      "why-inspect"
+    ],
+    [
+      "p",
+      {
+        "en": "A vehicle can look clean and drive normally during a short demonstration yet have maintenance that is overdue, a leak that is easy to miss, or a warning light that recently disappeared. The goal of an independent inspection is to evaluate observable condition and identify concerns worth discussing with the seller. It is not a warranty, an appraisal or a guarantee that the car will pass every future inspection.",
+        "es": "Un vehículo puede verse limpio y funcionar bien durante una prueba corta, pero tener mantenimiento atrasado, una fuga difícil de ver o una luz de advertencia que acaba de apagarse. La meta de una revisión independiente es evaluar el estado observable y señalar problemas que vale la pena comentar con el vendedor. No es una garantía, una tasación ni una promesa de que aprobará todas las inspecciones futuras."
+      }
+    ],
+    [
+      "p",
+      {
+        "en": "The same symptom can come from more than one cause. A steering vibration might involve tires, brakes, alignment or suspension, for example. An inspection can identify a concern, but some findings need further diagnosis or disassembly to confirm the source. Ask what was actually observed, what remains uncertain, and what additional testing would answer that question.",
+        "es": "Un mismo síntoma puede tener varias causas. Por ejemplo, una vibración en el volante puede relacionarse con llantas, frenos, alineación o suspensión. La inspección puede señalar el problema, pero algunos hallazgos necesitan más pruebas o desmontaje para confirmar el origen. Pregunte qué se observó, qué sigue sin estar claro y qué prueba adicional podría resolver la duda."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Warning signs when shopping for a used car",
+        "es": "Señales que deben llamar su atención al comprar un auto usado"
+      },
+      "signs"
+    ],
+    [
+      "ul",
+      [
+        {
+          "en": "A warning light stays on, or the seller says one was recently reset.",
+          "es": "Una luz de advertencia permanece encendida o el vendedor dice que acaba de borrarla."
+        },
+        {
+          "en": "The engine starts poorly, idles roughly or makes a new knocking sound.",
+          "es": "El motor cuesta arrancar, funciona de forma irregular o hace golpeteos."
+        },
+        {
+          "en": "There is smoke, a strong fuel smell or a noticeable fluid leak.",
+          "es": "Hay humo, olor fuerte a combustible o una fuga visible."
+        },
+        {
+          "en": "Braking feels uneven, steering is loose or the car pulls to one side.",
+          "es": "El auto frena de forma desigual, la dirección se siente floja o se desvía hacia un lado."
+        },
+        {
+          "en": "Tire wear looks uneven or the tires do not match.",
+          "es": "El desgaste de las llantas es desigual o las llantas son diferentes."
+        },
+        {
+          "en": "The transmission slips, hesitates or makes unusual noises.",
+          "es": "La transmisión patina, tarda en responder o hace ruidos extraños."
+        },
+        {
+          "en": "Service records are incomplete or the seller cannot explain prior repairs.",
+          "es": "Faltan registros de mantenimiento o el vendedor no puede explicar reparaciones anteriores."
+        }
+      ]
+    ],
+    [
+      "p",
+      {
+        "en": "A warning sign does not prove the seller is hiding something, nor does it identify the part that failed. It means the concern should be investigated before you agree to buy. If a test drive reveals unsafe brakes, steering problems, or a fuel leak, stop the drive and do not continue until the vehicle can be assessed safely.",
+        "es": "Una señal de advertencia no demuestra que el vendedor oculte algo ni identifica una pieza dañada. Significa que conviene investigar antes de comprar. Si durante la prueba los frenos responden mal, la dirección es inestable o hay una fuga de combustible, termine la prueba y no siga conduciendo hasta que se pueda evaluar el auto de manera segura."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "What to ask about our inspection",
+        "es": "Qué preguntar sobre nuestra inspección"
+      },
+      "work"
+    ],
+    [
+      "p",
+      {
+        "en": "The exact scope matters. Scally's offers pre-purchase inspections, but we have not published a fixed inspection package, list of items, inspection duration or price. Call {phone} with the year, make, model and mileage of the vehicle. We will explain what can be checked during your proposed visit and discuss any concerns you want evaluated. If the seller must bring the car, coordinate access and permission first.",
+        "es": "El alcance exacto importa. Scally's ofrece inspecciones antes de comprar, pero no publicamos un paquete fijo, una lista determinada de elementos, una duración ni un precio. Llame al {phone} con el año, marca, modelo y kilometraje. Le explicaremos qué se puede revisar durante la visita y qué problemas desea evaluar. Si el vendedor debe traer el auto, acuerde primero el acceso y el permiso."
+      }
+    ],
+    [
+      "ul",
+      [
+        {
+          "en": "Ask what observations and systems are included in the proposed inspection.",
+          "es": "Pregunte qué elementos y sistemas incluye la revisión propuesta."
+        },
+        {
+          "en": "Describe any warning lights, noises, leaks or driving issues already noticed.",
+          "es": "Describa las luces de advertencia, ruidos, fugas o fallas que ya haya notado."
+        },
+        {
+          "en": "Ask how findings are communicated and whether further diagnosis would be a separate step.",
+          "es": "Pregunte cómo se comunicarán los resultados y si un diagnóstico adicional sería otro paso."
+        },
+        {
+          "en": "Ask whether the vehicle's age, condition or modifications change what can be checked.",
+          "es": "Pregunte si la antigüedad, el estado o las modificaciones del vehículo afectan la revisión."
+        },
+        {
+          "en": "Discuss any time constraints with the seller before scheduling.",
+          "es": "Comente cualquier limitación de tiempo del vendedor antes de programar la cita."
+        }
+      ]
+    ],
+    [
+      "h3",
+      {
+        "en": "Engine, warning-light and fluid concerns",
+        "es": "Motor, luces de advertencia y líquidos"
+      },
+      "engine-concerns"
+    ],
+    [
+      "p",
+      {
+        "en": "An active warning light, unusual engine sound, overheating history or visible leak deserves a closer conversation. A scan code may provide a clue, but it is not a diagnosis on its own. Related information is on our [engine repair](svc:engine-repair), [check engine light](svc:check-engine-light) and [oil leak repair](svc:oil-leak-and-gasket-repair) pages. You can discuss those concerns when asking about inspection scope.",
+        "es": "Una luz encendida, un sonido extraño del motor, antecedentes de sobrecalentamiento o una fuga visible merecen una revisión más detallada. Un código puede orientar, pero no es un diagnóstico por sí solo. Consulte nuestras páginas de [reparación del motor](svc:engine-repair), [luz de check engine](svc:check-engine-light) y [fugas de aceite](svc:oil-leak-and-gasket-repair). Puede mencionar estos problemas al preguntar qué incluye la revisión."
+      }
+    ],
+    [
+      "h3",
+      {
+        "en": "Brakes, tires and steering concerns",
+        "es": "Frenos, llantas y dirección"
+      },
+      "safety-concerns"
+    ],
+    [
+      "p",
+      {
+        "en": "Ask about [brakes](svc:brake-repair), [tire condition](svc:tires-and-flat-repair), [alignment](svc:front-end-alignment) and [suspension](svc:steering-and-suspension) when a test drive reveals pulling, vibration, noise or uneven tire wear. These concerns may affect comfort, repair costs or safety. Each one can have several possible causes and should not be assigned to a failed part without checking.",
+        "es": "Pregunte por [frenos](svc:brake-repair), [estado de las llantas](svc:tires-and-flat-repair), [alineación](svc:front-end-alignment) y [suspensión](svc:steering-and-suspension) si nota desviación, vibración, ruido o desgaste desigual durante la prueba. Estas señales pueden afectar la comodidad, el costo de reparación o la seguridad. Cada una tiene varias causas posibles y no debe atribuirse a una pieza sin revisarla."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "What to prepare before the visit",
+        "es": "Qué preparar antes de la visita"
+      },
+      "prepare"
+    ],
+    [
+      "p",
+      {
+        "en": "Get the vehicle identification number (VIN), current mileage, year, make and model if available. Request maintenance and repair records from the seller. A vehicle history report can add context about reported events, but it cannot replace a mechanical inspection. Make a short list of questions: has the car overheated, had major repairs, been left unused, or shown intermittent lights? Bring whatever the seller can provide rather than relying on memory.",
+        "es": "Si puede, consiga el número de identificación del vehículo (VIN), kilometraje actual, año, marca y modelo. Pida al vendedor registros de mantenimiento y reparaciones. Un informe de historial puede aportar datos sobre eventos reportados, pero no sustituye una revisión mecánica. Prepare preguntas: ¿se ha sobrecalentado, tuvo reparaciones mayores, estuvo sin usarse o muestra luces intermitentes? Traiga los documentos disponibles."
+      }
+    ],
+    [
+      "p",
+      {
+        "en": "Plan the inspection before handing over the final payment when possible. Tell the seller that the purpose is to understand the condition, not to argue over every worn component. If a concern is found, you can decide to seek more diagnosis, ask the seller for records, negotiate or walk away. Scally's cannot decide what the vehicle is worth to you.",
+        "es": "Siempre que sea posible, organice la inspección antes de completar el pago. Explique al vendedor que quiere conocer el estado del auto, no discutir cada pieza usada. Si aparece un problema, puede pedir más pruebas, solicitar registros, negociar o no comprar. Scally's no puede decidir cuánto vale ese vehículo para usted."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "A pre-purchase check is not a PA state inspection",
+        "es": "La revisión antes de comprar no sustituye la inspección estatal de PA"
+      },
+      "pa-inspection"
+    ],
+    [
+      "p",
+      {
+        "en": "A Pennsylvania safety inspection follows state equipment rules and a separate emissions inspection may apply to vehicles registered in Delaware County. A pre-purchase inspection is a different service intended to help a buyer assess the car before purchase. Do not assume that one substitutes for the other. If you need a new state sticker, ask separately about [PA safety and emissions inspections](svc:pa-safety-inspections).",
+        "es": "La inspección estatal de seguridad de Pensilvania sigue las normas de equipo y algunos vehículos registrados en el condado de Delaware también necesitan una prueba de emisiones. La revisión antes de comprar es otro servicio para conocer el estado del auto. No suponga que uno sustituye al otro. Si necesita una calcomanía estatal, pregunte aparte por [inspecciones de seguridad y emisiones de PA](svc:pa-safety-inspections)."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Used-car inspections near Primos and Clifton Heights",
+        "es": "Inspecciones de autos usados cerca de Primos y Clifton Heights"
+      },
+      "local"
+    ],
+    [
+      "p",
+      {
+        "en": "{name} is at {street} in {city}, near Secane and Clifton Heights. Tell us whether the car is already nearby or needs to be brought in by the seller. Call {phone} to ask what the inspection covers for that specific vehicle and what information we need before scheduling.",
+        "es": "{name} está en {street}, {city}, cerca de Secane y Clifton Heights. Indique si el auto ya está cerca o si el vendedor tendrá que traerlo. Llame al {phone} para preguntar qué incluye la revisión de ese vehículo y qué información necesitamos antes de programarla."
+      }
+    ]
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "What does a pre-purchase inspection include at Scally's?",
+        "es": "¿Qué incluye la inspección antes de comprar en Scally's?"
+      },
+      "a": {
+        "en": "The scope depends on the vehicle and the visit arranged. Call with the year, make, model and your concerns to ask exactly what will be checked.",
+        "es": "El alcance depende del vehículo y de la visita acordada. Llame con el año, marca, modelo y sus dudas para preguntar exactamente qué se revisará."
+      }
+    },
+    {
+      "q": {
+        "en": "Should the seller bring the used car?",
+        "es": "¿Debe traer el vendedor el auto usado?"
+      },
+      "a": {
+        "en": "Coordinate with the seller before booking. The person bringing the car needs permission to present it for inspection.",
+        "es": "Coordine con el vendedor antes de programar la cita. Quien traiga el auto debe tener permiso para presentarlo a revisión."
+      }
+    },
+    {
+      "q": {
+        "en": "Is a vehicle history report enough?",
+        "es": "¿Basta con un informe de historial del vehículo?"
+      },
+      "a": {
+        "en": "No. It shows certain reported events, not a full assessment of current mechanical condition. An inspection adds another perspective.",
+        "es": "No. Muestra ciertos eventos reportados, pero no evalúa completamente el estado mecánico actual. Una inspección aporta otra evaluación."
+      }
+    },
+    {
+      "q": {
+        "en": "Can an inspection find every hidden defect?",
+        "es": "¿Puede la inspección encontrar todas las fallas ocultas?"
+      },
+      "a": {
+        "en": "No. Some problems are intermittent or internal and may require further testing or disassembly. Ask which limitations apply to your vehicle.",
+        "es": "No. Algunas fallas son intermitentes o internas y pueden necesitar más pruebas o desmontaje. Pregunte qué limitaciones aplican a su vehículo."
+      }
+    },
+    {
+      "q": {
+        "en": "Can I get the car inspected before agreeing on a price?",
+        "es": "¿Puedo revisar el auto antes de acordar el precio?"
+      },
+      "a": {
+        "en": "Yes, if the seller agrees to make it available. Discuss scheduling and scope with Scally's before making commitments.",
+        "es": "Sí, si el vendedor acepta ponerlo a disposición. Consulte la cita y el alcance con Scally's antes de comprometerse."
+      }
+    },
+    {
+      "q": {
+        "en": "Does a recent PA sticker replace a pre-purchase check?",
+        "es": "¿Una calcomanía de PA reciente sustituye esta revisión?"
+      },
+      "a": {
+        "en": "No. A state safety sticker reflects a regulated inspection at the time it was issued. It does not reveal every current or future mechanical concern.",
+        "es": "No. La calcomanía estatal refleja una inspección reglamentaria en el momento de su emisión. No revela todos los problemas mecánicos actuales o futuros."
+      }
+    },
+    {
+      "q": {
+        "en": "What should I tell the mechanic before the visit?",
+        "es": "¿Qué debo decir al mecánico antes de la visita?"
+      },
+      "a": {
+        "en": "Share the year, make, model, mileage, warning lights, unusual noises and any known repair history. Mention questions you especially want assessed.",
+        "es": "Indique año, marca, modelo, kilometraje, luces de advertencia, ruidos y reparaciones conocidas. Mencione los problemas que más le preocupan."
+      }
+    }
+  ],
+  "related": [
+    "pa-safety-inspections",
+    "check-engine-light",
+    "brake-repair",
+    "tires-and-flat-repair",
+    "front-end-alignment",
+    "engine-repair"
+  ],
+  "sources": [],
+  "verify": [
+    "Confirm with Jerry what systems are included in the pre-purchase inspection and how findings are given to the buyer; do not publish a fixed checklist until confirmed.",
+    "Confirm vehicle eligibility, scheduling, price and whether the owner/seller must attend."
+  ]
+}

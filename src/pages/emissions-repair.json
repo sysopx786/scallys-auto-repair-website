@@ -1,0 +1,328 @@
+{
+  "id": "emissions-repair",
+  "slug": "emissions-repair",
+  "category": "inspections-emissions",
+  "covers": [
+    "emissions-control"
+  ],
+  "adaptedFrom": "Diverse Autoworks svc_emissions (tools/service_pages_batch3.py), technical concepts rewritten for Scally's; regulatory information from PA DEP and PennDOT",
+  "primary_kw": {
+    "en": "emissions repair Primos PA",
+    "es": "reparación del sistema de emisiones en Primos"
+  },
+  "secondary_kws": [
+    "failed emissions test repair",
+    "emissions control repair",
+    "oxygen sensor diagnosis",
+    "catalytic converter problems",
+    "check engine light repair",
+    "Delaware County emissions",
+    "OBD readiness monitors",
+    "evaporative emissions system",
+    "gas cap warning light",
+    "exhaust emissions repair",
+    "emissions diagnosis Secane",
+    "emissions inspection Clifton Heights"
+  ],
+  "title": {
+    "en": "Emissions Repair in Primos, PA | Scally's Auto Repair",
+    "es": "Reparación de emisiones en Primos | Scally's Auto Repair"
+  },
+  "desc": {
+    "en": "Failed a PA emissions test? Scally's in Primos diagnoses emissions faults, oxygen sensor issues and converter concerns. Call to discuss the next step.",
+    "es": "¿Su auto no aprobó emisiones? Scally's en Primos revisa sensores de oxígeno, convertidores y fallas del sistema. Llame para consultar."
+  },
+  "h1": {
+    "en": "Emissions System Repair in Primos, PA",
+    "es": "Reparación del sistema de emisiones en Primos, PA"
+  },
+  "crumb": {
+    "en": "Emissions Repair",
+    "es": "Reparación de emisiones"
+  },
+  "service_type": {
+    "en": "Emissions control diagnosis and repair",
+    "es": "Diagnóstico y reparación del control de emisiones"
+  },
+  "lead": {
+    "en": "An emissions problem can cause a warning light, rough running, fuel smell or a failed Pennsylvania emissions test. At {name} on {street} in {city}, we work on emissions-control problems, including catalytic converter and oxygen sensor concerns. We diagnose the underlying cause before recommending any part. A trouble code alone is not proof that the named sensor or converter is bad.",
+    "es": "Un problema de emisiones puede encender una luz de advertencia, hacer que el motor funcione de forma irregular, producir olor a combustible o causar que el auto no apruebe la prueba de Pensilvania. En {name}, en {street}, {city}, atendemos fallas del control de emisiones, incluidas las relacionadas con convertidores catalíticos y sensores de oxígeno. Primero buscamos la causa. Un código por sí solo no demuestra que una pieza esté dañada."
+  },
+  "blocks": [
+    [
+      "h2",
+      {
+        "en": "What the emissions system does",
+        "es": "Para qué sirve el sistema de emisiones"
+      },
+      "how-it-works"
+    ],
+    [
+      "p",
+      {
+        "en": "An engine burns a controlled mixture of air and fuel. Its emissions equipment helps reduce harmful substances released through the exhaust and limit gasoline vapors escaping from the fuel system. The engine computer also monitors many of these systems. On vehicles with on-board diagnostics (OBD), a detected fault can turn on the check engine light and store a code. The code points to the system to investigate; it does not tell you which component must be replaced.",
+        "es": "El motor quema una mezcla controlada de aire y combustible. El equipo de emisiones ayuda a reducir las sustancias que salen por el escape y a limitar la salida de vapores de gasolina del sistema de combustible. La computadora del motor también vigila muchos de estos sistemas. En autos con diagnóstico a bordo (OBD), una falla puede encender la luz de check engine y guardar un código. Ese código señala qué sistema investigar, pero no indica por sí solo qué pieza hay que cambiar."
+      }
+    ],
+    [
+      "p",
+      {
+        "en": "An oxygen sensor reads oxygen in the exhaust stream so the computer can adjust the fuel mixture or monitor catalyst performance. A catalytic converter helps change certain pollutants into less harmful gases. The evaporative-emissions system is designed to contain fuel vapors. A fault in ignition, fuel delivery, air leaks or engine operation can affect these components without those parts being the original cause.",
+        "es": "Un sensor de oxígeno mide el oxígeno en los gases del escape para que la computadora ajuste la mezcla o controle el funcionamiento del catalizador. El convertidor catalítico ayuda a transformar ciertos contaminantes en gases menos perjudiciales. El sistema de control de vapores de combustible limita su salida al ambiente. Una falla de encendido, combustible, entrada de aire o funcionamiento del motor puede afectar estas piezas sin ser ellas la causa inicial."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Signs of an emissions problem",
+        "es": "Señales de un problema de emisiones"
+      },
+      "signs"
+    ],
+    [
+      "ul",
+      [
+        {
+          "en": "The check engine light stays on or returns after a reset.",
+          "es": "La luz de check engine permanece encendida o vuelve a encenderse después de borrar un código."
+        },
+        {
+          "en": "An emissions test report shows a fault or an incomplete OBD readiness check.",
+          "es": "El informe de emisiones muestra una falla o monitores OBD que todavía no están listos."
+        },
+        {
+          "en": "You notice a fuel smell or unusual exhaust odor.",
+          "es": "Nota olor a gasolina o un olor extraño en el escape."
+        },
+        {
+          "en": "The engine idles roughly, hesitates or uses more fuel than before.",
+          "es": "El motor funciona irregularmente, titubea o gasta más gasolina que antes."
+        },
+        {
+          "en": "You hear a new exhaust leak or the exhaust becomes unusually loud.",
+          "es": "Escucha una nueva fuga de escape o el ruido aumenta."
+        },
+        {
+          "en": "A dashboard message mentions an emissions or evaporative-system fault.",
+          "es": "El tablero muestra un mensaje sobre emisiones o vapores de combustible."
+        }
+      ]
+    ],
+    [
+      "p",
+      {
+        "en": "These symptoms can arise from several causes, including non-emissions problems. We test before recommending a converter, sensor or other part. If the check engine light flashes or the engine loses power suddenly, stop driving where it is safe; continuing can damage the catalytic converter. If you smell strong gasoline or exhaust gases inside the cabin, avoid driving and call for guidance.",
+        "es": "Estos síntomas pueden tener varias causas, incluso fuera del sistema de emisiones. Hacemos pruebas antes de recomendar un convertidor, sensor u otra pieza. Si la luz de check engine parpadea o el motor pierde mucha fuerza, deténgase donde sea seguro; seguir conduciendo puede dañar el catalizador. Si hay un olor fuerte a gasolina o entran gases del escape en la cabina, no conduzca y llame para recibir orientación."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Emissions work and diagnosis",
+        "es": "Diagnóstico y trabajos del sistema de emisiones"
+      },
+      "work"
+    ],
+    [
+      "ul",
+      [
+        {
+          "en": "Review the inspection report and any stored or pending trouble codes.",
+          "es": "Revisar el informe de inspección y los códigos de falla guardados o pendientes."
+        },
+        {
+          "en": "Check the symptoms and relevant components before deciding what to repair.",
+          "es": "Revisar los síntomas y las piezas relacionadas antes de decidir qué reparar."
+        },
+        {
+          "en": "Investigate oxygen sensor and catalytic converter concerns.",
+          "es": "Investigar problemas de sensores de oxígeno y convertidores catalíticos."
+        },
+        {
+          "en": "Discuss suspected evaporative-emissions faults, including cap and vapor-system issues.",
+          "es": "Evaluar posibles fallas del sistema de vapores, incluidas tapa de combustible y conexiones."
+        },
+        {
+          "en": "Consider engine, ignition, fuel and exhaust faults that can trigger emissions codes.",
+          "es": "Considerar fallas del motor, encendido, combustible y escape que pueden causar códigos de emisiones."
+        }
+      ]
+    ],
+    [
+      "h3",
+      {
+        "en": "Oxygen sensors and mixture problems",
+        "es": "Sensores de oxígeno y problemas de mezcla"
+      },
+      "oxygen-sensors"
+    ],
+    [
+      "p",
+      {
+        "en": "An oxygen sensor code can reflect the sensor itself, a wiring issue, an exhaust leak, or a fuel-mixture problem. Replacing the sensor without checking the surrounding system may leave the light on. We explain what the testing shows and which repair follows from the results. If a sensor needs replacement, the right part depends on your vehicle.",
+        "es": "Un código de sensor de oxígeno puede deberse al propio sensor, al cableado, a una fuga del escape o a una mezcla incorrecta. Cambiar el sensor sin revisar el sistema puede dejar la luz encendida. Explicamos los resultados de las pruebas y la reparación que corresponde. Si hay que cambiar el sensor, la pieza correcta depende del vehículo."
+      }
+    ],
+    [
+      "h3",
+      {
+        "en": "Catalytic converters and exhaust problems",
+        "es": "Convertidores catalíticos y problemas de escape"
+      },
+      "catalytic-converters"
+    ],
+    [
+      "p",
+      {
+        "en": "A converter can be harmed by prolonged misfires, an excessively rich mixture or other engine faults. A converter-efficiency code is not a reason to order a converter immediately. The cause must be diagnosed first, because fitting a new one without correcting the underlying issue can lead to another failure. Our [muffler and exhaust repair](svc:mufflers-and-exhaust) page covers leaks, pipes and mufflers; this page addresses converter and emissions-control concerns.",
+        "es": "Un convertidor puede dañarse por fallas de encendido prolongadas, una mezcla demasiado rica u otros problemas del motor. Un código de eficiencia del catalizador no justifica cambiarlo de inmediato. Primero se identifica la causa, porque instalar uno nuevo sin corregir el problema puede producir otra falla. Nuestra página de [reparación de escape y silenciador](svc:mufflers-and-exhaust) trata fugas, tubos y silenciadores; esta página explica los problemas del catalizador y del control de emisiones."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Emissions testing and readiness in Pennsylvania",
+        "es": "Pruebas de emisiones y preparación OBD en Pensilvania"
+      },
+      "pa-inspection"
+    ],
+    [
+      "p",
+      {
+        "en": "Delaware County is part of Pennsylvania's emissions inspection program. Requirements depend on the registration, fuel type, model year and possible exemptions. For vehicles subject to an OBD inspection, a lit malfunction light or too many readiness monitors not completed can stop a vehicle from passing. PennDOT describes the state program, while the [Pennsylvania DEP explains OBD codes and warning lights](url:https://www.pa.gov/agencies/dep/programs-and-services/air/bureau-of-air-quality/automobiles/car-care). Ask about [PA inspections and emissions testing](svc:pa-safety-inspections) if you're due for a sticker.",
+        "es": "El condado de Delaware forma parte del programa de emisiones de Pensilvania. Los requisitos dependen del registro, combustible, año del modelo y posibles exenciones. En vehículos sujetos a la prueba OBD, una luz de falla encendida o demasiados monitores incompletos pueden impedir la aprobación. PennDOT explica el programa estatal y el [Departamento de Protección Ambiental de PA explica los códigos y luces de advertencia](url:https://www.pa.gov/agencies/dep/programs-and-services/air/bureau-of-air-quality/automobiles/car-care). Consulte [inspecciones estatales y pruebas de emisiones](svc:pa-safety-inspections) si necesita la calcomanía."
+      }
+    ],
+    [
+      "p",
+      {
+        "en": "Clearing codes or disconnecting the battery shortly before the test can reset readiness information without fixing the fault. Readiness may need a vehicle-specific drive cycle after a real repair. Follow your owner's manual or ask for guidance; there is no single drive distance that works for every car. We do not promise a pass before inspecting the vehicle.",
+        "es": "Borrar códigos o desconectar la batería poco antes de la prueba puede reiniciar los datos de preparación sin corregir la falla. Después de una reparación, los monitores pueden necesitar un ciclo de manejo específico del vehículo. Siga el manual del propietario o pida orientación; no existe una distancia igual para todos los autos. No prometemos una aprobación antes de revisar el vehículo."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Maintenance and prevention",
+        "es": "Mantenimiento y prevención"
+      },
+      "maintenance"
+    ],
+    [
+      "p",
+      {
+        "en": "Follow the manufacturer's schedule for engine maintenance, spark plugs, filters and other service. Address persistent misfires and fuel leaks promptly; they may affect the converter and other equipment. Keep records of previous repairs and the emissions test report if you have them. They give the technician useful starting information, but diagnosis still comes first.",
+        "es": "Siga el calendario del fabricante para el mantenimiento del motor, bujías, filtros y otros servicios. Atienda pronto fallas de encendido persistentes y fugas de combustible; pueden afectar al catalizador y otros componentes. Conserve los registros de reparaciones y el informe de emisiones si los tiene. Son datos útiles para empezar, pero el diagnóstico sigue siendo el primer paso."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Emissions repair near Primos and Secane",
+        "es": "Reparación de emisiones cerca de Primos y Secane"
+      },
+      "local"
+    ],
+    [
+      "p",
+      {
+        "en": "Visit {name} at {street} in {city}, near Secane and Clifton Heights. If your vehicle failed its emissions test, have the report ready when you call {phone}. Tell us when the light appeared, whether it flashes, and any change in how the car runs. We will discuss the next diagnostic step.",
+        "es": "Visite {name} en {street}, {city}, cerca de Secane y Clifton Heights. Si su auto no aprobó la prueba de emisiones, tenga el informe a mano cuando llame al {phone}. Indique cuándo apareció la luz, si parpadea y si el auto funciona diferente. Le explicaremos el siguiente paso del diagnóstico."
+      }
+    ]
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can a bad oxygen sensor cause an emissions failure?",
+        "es": "¿Un sensor de oxígeno dañado puede causar que el auto no apruebe emisiones?"
+      },
+      "a": {
+        "en": "Yes, but similar codes can come from leaks, wiring or mixture problems. Test the system before deciding the sensor needs replacement.",
+        "es": "Sí, pero códigos parecidos pueden deberse a fugas, cableado o problemas de mezcla. Hay que probar el sistema antes de cambiar el sensor."
+      }
+    },
+    {
+      "q": {
+        "en": "Does a catalytic converter code mean I need a new converter?",
+        "es": "¿Un código del catalizador significa que hay que cambiarlo?"
+      },
+      "a": {
+        "en": "No. Converter-efficiency codes can be related to the converter or to engine and exhaust faults. The cause must be checked before replacement.",
+        "es": "No. Los códigos de eficiencia pueden relacionarse con el catalizador o con fallas del motor y del escape. Se necesita un diagnóstico antes de cambiarlo."
+      }
+    },
+    {
+      "q": {
+        "en": "Why did the emissions light come back after a repair?",
+        "es": "¿Por qué volvió la luz de emisiones después de una reparación?"
+      },
+      "a": {
+        "en": "The original problem may remain, or a different fault may be present. Read current codes and test again rather than replacing more parts by guesswork.",
+        "es": "Puede persistir la falla original o existir otro problema. Conviene leer los códigos actuales y hacer pruebas antes de cambiar más piezas."
+      }
+    },
+    {
+      "q": {
+        "en": "What are OBD readiness monitors?",
+        "es": "¿Qué son los monitores de preparación OBD?"
+      },
+      "a": {
+        "en": "They are self-checks the vehicle computer runs on certain emissions systems. If the applicable checks are incomplete, an OBD test may not be valid yet.",
+        "es": "Son autopruebas que la computadora hace en ciertos sistemas de emisiones. Si las revisiones requeridas no terminan, es posible que todavía no se pueda aprobar la prueba OBD."
+      }
+    },
+    {
+      "q": {
+        "en": "Will clearing the check engine light let the car pass?",
+        "es": "¿Borrar la luz de check engine hace que el auto apruebe?"
+      },
+      "a": {
+        "en": "No. Clearing a code does not correct the cause and may reset readiness monitors. Find the fault and complete the needed checks first.",
+        "es": "No. Borrar un código no corrige la causa y puede reiniciar los monitores de preparación. Primero hay que reparar la falla y completar las revisiones."
+      }
+    },
+    {
+      "q": {
+        "en": "Is an exhaust leak the same as a converter problem?",
+        "es": "¿Una fuga de escape es lo mismo que un problema del catalizador?"
+      },
+      "a": {
+        "en": "No. An exhaust leak and a converter problem involve different components, although one can affect testing for the other. We inspect before recommending work.",
+        "es": "No. Una fuga de escape y una falla del catalizador afectan piezas distintas, aunque una puede influir en las pruebas de la otra. Primero revisamos el sistema."
+      }
+    },
+    {
+      "q": {
+        "en": "What should I bring after a failed test?",
+        "es": "¿Qué debo traer después de no aprobar la prueba?"
+      },
+      "a": {
+        "en": "Bring the emissions test report if you have it and describe the car's symptoms. Call {phone} to discuss the next step.",
+        "es": "Traiga el informe de emisiones, si lo tiene, y describa los síntomas del vehículo. Llame al {phone} para consultar el siguiente paso."
+      }
+    }
+  ],
+  "related": [
+    "pa-safety-inspections",
+    "check-engine-light",
+    "mufflers-and-exhaust",
+    "engine-repair",
+    "fuel-system-service"
+  ],
+  "sources": [
+    [
+      "PennDOT: Emissions Inspection Program",
+      "https://www.pa.gov/agencies/dmv/vehicle-services/inspection-and-safety-requirements/emission-inspections-program"
+    ],
+    [
+      "PA DEP: OBD",
+      "https://www.pa.gov/agencies/dep/programs-and-services/air/bureau-of-air-quality/automobiles/car-care"
+    ]
+  ],
+  "verify": [
+    "Confirm with Jerry the exact emissions-control diagnostic methods and equipment available before adding smoke-test or specialized analyzer claims.",
+    "Confirm catalytic converter and oxygen-sensor repair scope and parts availability for customer vehicles.",
+    "Confirm whether retests are handled in-house and whether any test/repair restrictions apply."
+  ]
+}
