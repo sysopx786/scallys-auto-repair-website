@@ -1,7 +1,7 @@
 # Scally's Auto Repair: service expansion plan and status
 
 Branch `service-expansion`. The first 3 pages were merged to `main` on Nov 3, 2026; later batches go live only when merged.
-Last updated: November 3, 2026 (Batch 1 bilingual JSON drafted; generated pages pending).
+Last updated: November 4, 2026 UTC (Batch 1 built, tested and committed to `service-expansion`; not merged).
 
 ## Status
 
@@ -12,25 +12,25 @@ Last updated: November 3, 2026 (Batch 1 bilingual JSON drafted; generated pages 
 | Spanish versions: services hub, 8 category pages, detailed pages | Done for what is built |
 | Language switch, hreflang, self-canonicals, sitemap `lastmod` | Done |
 | Structured data: one `AutoRepair` entity (`/#business`), WebPage, Service, BreadcrumbList, FAQPage | Done |
-| Detailed service pages | 13 of 34 built on main; five Batch 1 bilingual JSON sources ready on `service-expansion` (generated pages still pending) |
-| Automated checks (`tests/check_site.py`) | Passed previously for 13 pages; not yet rerun for Batch 1 |
-| Batch 1 full build and responsive QA | Pending: Python build, test suite and six-width Chrome checks before marking built |
+| Detailed service pages | 18 of 34 built in English and Spanish on `service-expansion` (13 live on `main`); 16 detailed pages remaining |
+| Automated checks (`tests/check_site.py`) | ALL CHECKS PASSED after 18-page rebuild on GitHub Actions run 41765832517 |
+| Batch 1 full build and responsive QA | ALL BROWSER CHECKS PASSED: 60 checks, 0 failures at 320, 390, 768, 1100, 1280 and 1600 px |
 
-## Batch 1 (November 3, 2026) — source ready, integration pending
+## Batch 1 (November 4, 2026 UTC) — built and tested on service-expansion
 
-Five bilingual JSON records have been prepared for `service-expansion`. The Python static-site build, generated HTML, full automated checks, and six-width Chrome validation have **not** been executed for this batch. Do not merge or call these pages live until all checks pass.
+Five bilingual JSON records and their generated English/Spanish pages are committed on `service-expansion`. GitHub Actions ran `python3 src/build.py` (59 indexable pages, 18 detailed page pairs), `python3 tests/check_site.py` (`ALL CHECKS PASSED`), and Chromium checks of ten new pages at six widths (`ALL BROWSER CHECKS PASSED`, zero failures). The QA artifact includes a detailed browser report and 20 full-page screenshots. `main` has not been changed; these five pages are not live.
 
-| Page | Covers | EN / ES draft words including FAQs | Status |
+| Page | Covers | EN / ES rendered page words | Status |
 |---|---|---:|---|
-| `pa-state-inspection` | `pa-safety-inspections`, `emissions-testing` | 873 / 894 | JSON ready |
-| `emissions-repair` | `emissions-control` | 959 / 1,046 | JSON ready |
-| `pre-purchase-inspection` | `pre-purchase-inspections` | 1,008 / 996 | JSON ready |
-| `timing-belt-chain` | `timing-belt`, `timing-chain` | 1,068 / 1,087 | JSON ready |
-| `engine-tune-up` | `engine-tune-ups`, `spark-plugs`, `ignition-system-repair` | 1,000 / 1,065 | JSON ready |
+| `pa-state-inspection` | `pa-safety-inspections`, `emissions-testing` | 1,054 / 1,104 | Built and browser-tested on branch |
+| `emissions-repair` | `emissions-control` | 1,130 / 1,256 | Built and browser-tested on branch |
+| `pre-purchase-inspection` | `pre-purchase-inspections` | 1,206 / 1,224 | Built and browser-tested on branch |
+| `timing-belt-chain` | `timing-belt`, `timing-chain` | 1,235 / 1,269 | Built and browser-tested on branch |
+| `engine-tune-up` | `engine-tune-ups`, `spark-plugs`, `ignition-system-repair` | 1,188 / 1,282 | Built and browser-tested on branch |
 
-PennDOT safety/emissions and PA DEP OBD pages were read and cited where applicable. No universal timing-belt or spark-plug interval, inspection price, guarantee, or fixed pre-purchase checklist was invented. Service-specific `verify` questions remain for Jerry. JSON catalog, anchors, languages, titles, descriptions and FAQ counts received static checks only, **not** the required build and responsive tests.
+PennDOT safety/emissions and PA DEP OBD pages were read and cited where applicable. No universal timing-belt or spark-plug interval, inspection price, guarantee, or fixed pre-purchase checklist was invented. Service-specific `verify` questions remain for Jerry. JSON catalog, anchors, languages, titles, descriptions, FAQ counts, full generated-site tests and 60 Chromium viewport checks passed. See [GitHub Actions run 41765832517](https://github.com/sysopx786/scallys-auto-repair-website/actions/runs/41765832517) and generated-file commit `7290a3cb797a8308e17e5a64b36d57d5d3ce3f41`.
 
-**To finish this batch:** Run `python3 src/build.py`, then `python3 tests/check_site.py` and require `ALL CHECKS PASSED`. Load each new English/Spanish page in headless Chrome at widths 320, 390, 768, 1100, 1280 and 1600 px; check HTTP 200, browser errors and overflow. Commit generated HTML to `service-expansion` after passing. Sync this plan into the separate Claude project document `claude/scallys-service-expansion-plan.md` (not yet synced). Await the explicit word `merge`.
+**Batch 1 complete on the development branch:** Build, full tests, responsive browser tests and generated-file commit passed. Still to do: review Jerry's `verify` questions, synchronize this plan to the separate Claude project document `claude/scallys-service-expansion-plan.md` (not yet synced through this GitHub connection), obtain native-speaker Spanish review when possible, and await the explicit word `merge` before publishing.
 
 ## Decisions that need your OK before merge
 
@@ -44,9 +44,9 @@ PennDOT safety/emissions and PA DEP OBD pages were read and cited where applicab
 
 | Page | Covers | Status |
 |---|---|---|
-| `/pa-state-inspection/` | PA Safety Inspections, Emissions Testing | source ready (EN+ES), build/test pending |
-| `/emissions-repair/` | Emissions Control | source ready (EN+ES), build/test pending |
-| `/pre-purchase-inspection/` | Pre-Purchase Inspections | source ready (EN+ES), build/test pending |
+| `/pa-state-inspection/` | PA Safety Inspections, Emissions Testing | built (EN+ES); full QA passed |
+| `/emissions-repair/` | Emissions Control | built (EN+ES); full QA passed |
+| `/pre-purchase-inspection/` | Pre-Purchase Inspections | built (EN+ES); full QA passed |
 | `/check-engine-light/` | Computer Diagnostics, Check Engine Light | built (EN+ES) |
 | `/electrical-repair/` | Electrical Repair & Wiring | queued |
 | `/battery-alternator-starter/` | Charging & Starting Systems, Battery Testing & Replacement | built (EN+ES) |
@@ -58,9 +58,9 @@ PennDOT safety/emissions and PA DEP OBD pages were read and cited where applicab
 | `/wheel-bearings-hubs/` | Wheel Bearings, Wheel Hubs | queued |
 | `/wheel-alignment/` | Front End Alignment | built (EN+ES) |
 | `/engine-repair/` | Engine Repair, Engine Rebuilding, Engine Replacement, Cylinder Head & Block Repair | built (EN+ES) |
-| `/engine-tune-up/` | Engine Tune-Ups, Spark Plugs, Ignition System Repair | source ready (EN+ES), build/test pending |
+| `/engine-tune-up/` | Engine Tune-Ups, Spark Plugs, Ignition System Repair | built (EN+ES); full QA passed |
 | `/oil-leak-repair/` | Oil Leak & Gasket Repair | queued |
-| `/timing-belt-chain/` | Timing Belt, Timing Chain | source ready (EN+ES), build/test pending |
+| `/timing-belt-chain/` | Timing Belt, Timing Chain | built (EN+ES); full QA passed |
 | `/exhaust-muffler-repair/` | Mufflers & Exhaust | built (EN+ES) |
 | `/fuel-system-repair/` | Fuel System Service, Gas Tanks | queued |
 | `/transmission-repair/` | Transmission Repair, Transmission Rebuilding, Transmission Replacement, Transmission Fluid Service | built (EN+ES) |
@@ -82,7 +82,7 @@ PennDOT safety/emissions and PA DEP OBD pages were read and cited where applicab
 34 detailed pages for 65 services. General Auto Repair stays on the home page; Pick-up/Drop-off stays on /contact/#pickup.
 
 
-Suggested build order for what is left (by search demand and how much Diverse content exists): timing belt/chain, PA state inspection, then the rest. Body, glass, tinting and imports have no Diverse source and need fresh research; window tinting also needs the Pennsylvania tint rules checked against PennDOT before publishing.
+Next recommended batch: electrical repair, auto light repair, power windows and locks, wheel bearings and hubs, and oil leak repair. Then follow the remaining batch order in the completion prompt. Body, glass, tinting and imports need additional research; Pennsylvania tint rules must be checked before the tint page is written.
 
 ## 67-service matrix
 
@@ -91,10 +91,10 @@ Old anchors for moved services (`/engine-exhaust-transmission/#transmission-repa
 
 | # | Service | Category | Status | Old URL | Destination | Built | Diverse source |
 |---|---|---|---|---|---|---|---|
-| 1 | PA Safety Inspections | Inspections & Emissions | existing | `/inspections-emissions/#pa-safety-inspections` | `/pa-state-inspection/` | source ready; build pending | content.py inspections page |
-| 2 | Emissions Testing | Inspections & Emissions | existing | `/inspections-emissions/#emissions-testing` | `/pa-state-inspection/` | source ready; build pending | content.py inspections page |
-| 3 | Emissions Control | Inspections & Emissions | existing | `/inspections-emissions/#emissions-control` | `/emissions-repair/` | source ready; build pending | svc_emissions |
-| 4 | Pre-Purchase Inspections | Inspections & Emissions | existing | `/inspections-emissions/#pre-purchase-inspections` | `/pre-purchase-inspection/` | source ready; build pending | svc_prepurchase |
+| 1 | PA Safety Inspections | Inspections & Emissions | existing | `/inspections-emissions/#pa-safety-inspections` | `/pa-state-inspection/` | ✅ | content.py inspections page |
+| 2 | Emissions Testing | Inspections & Emissions | existing | `/inspections-emissions/#emissions-testing` | `/pa-state-inspection/` | ✅ | content.py inspections page |
+| 3 | Emissions Control | Inspections & Emissions | existing | `/inspections-emissions/#emissions-control` | `/emissions-repair/` | ✅ | svc_emissions |
+| 4 | Pre-Purchase Inspections | Inspections & Emissions | existing | `/inspections-emissions/#pre-purchase-inspections` | `/pre-purchase-inspection/` | ✅ | svc_prepurchase |
 | 5 | Computer Diagnostics | Diagnostics & Electrical | existing | `/diagnostics-electrical/#computer-diagnostics` | `/check-engine-light/` | ✅ | svc_engine (CEL part) |
 | 6 | Check Engine Light | Diagnostics & Electrical | existing | `/diagnostics-electrical/#check-engine-light` | `/check-engine-light/` | ✅ | svc_engine (CEL part) |
 | 7 | Electrical Repair & Wiring | Diagnostics & Electrical | renamed | `/diagnostics-electrical/#electrical-repair` | `/electrical-repair/` | queued | svc_electrical |
@@ -118,15 +118,15 @@ Old anchors for moved services (`/engine-exhaust-transmission/#transmission-repa
 | 25 | Front End Alignment | Brakes, Steering & Suspension | existing | `/brakes-steering-suspension/#front-end-alignment` | `/wheel-alignment/` | ✅ | svc_tires (alignment) |
 | 26 | General Auto Repair | Engine & Exhaust | existing | `/engine-exhaust-transmission/#general-auto-repair` | `/ (home page)` | n/a | n/a |
 | 27 | Engine Repair | Engine & Exhaust | existing | `/engine-exhaust-transmission/#engine-repair` | `/engine-repair/` | ✅ | svc_engine |
-| 28 | Engine Tune-Ups | Engine & Exhaust | NEW | `—` | `/engine-tune-up/` | source ready; build pending | svc_engine (tune-up part) |
+| 28 | Engine Tune-Ups | Engine & Exhaust | NEW | `—` | `/engine-tune-up/` | ✅ | svc_engine (tune-up part) |
 | 29 | Engine Rebuilding | Engine & Exhaust | NEW | `—` | `/engine-repair/#engine-rebuilding` | ✅ | svc_engine |
 | 30 | Engine Replacement | Engine & Exhaust | existing | `/engine-exhaust-transmission/#engine-replacement` | `/engine-repair/#engine-replacement` | ✅ | svc_engine |
 | 31 | Cylinder Head & Block Repair | Engine & Exhaust | existing | `/engine-exhaust-transmission/#cylinder-head-and-block-repair` | `/engine-repair/#cylinder-head-and-block-repair` | ✅ | svc_engine |
 | 32 | Oil Leak & Gasket Repair | Engine & Exhaust | NEW | `—` | `/oil-leak-repair/` | queued | svc_oilleak |
-| 33 | Spark Plugs | Engine & Exhaust | existing | `/engine-exhaust-transmission/#spark-plugs` | `/engine-tune-up/` | source ready; build pending | svc_engine (tune-up part) |
-| 34 | Ignition System Repair | Engine & Exhaust | NEW | `—` | `/engine-tune-up/` | source ready; build pending | svc_engine (tune-up part) |
-| 35 | Timing Belt | Engine & Exhaust | NEW | `—` | `/timing-belt-chain/` | source ready; build pending | svc_timing |
-| 36 | Timing Chain | Engine & Exhaust | NEW | `—` | `/timing-belt-chain/` | source ready; build pending | svc_timing |
+| 33 | Spark Plugs | Engine & Exhaust | existing | `/engine-exhaust-transmission/#spark-plugs` | `/engine-tune-up/` | ✅ | svc_engine (tune-up part) |
+| 34 | Ignition System Repair | Engine & Exhaust | NEW | `—` | `/engine-tune-up/` | ✅ | svc_engine (tune-up part) |
+| 35 | Timing Belt | Engine & Exhaust | NEW | `—` | `/timing-belt-chain/` | ✅ | svc_timing |
+| 36 | Timing Chain | Engine & Exhaust | NEW | `—` | `/timing-belt-chain/` | ✅ | svc_timing |
 | 37 | Mufflers & Exhaust | Engine & Exhaust | existing | `/engine-exhaust-transmission/#mufflers-and-exhaust` | `/exhaust-muffler-repair/` | ✅ | svc_exhaust |
 | 38 | Fuel System Service | Engine & Exhaust | existing | `/engine-exhaust-transmission/#fuel-system-service` | `/fuel-system-repair/` | queued | svc_fuel |
 | 39 | Gas Tanks | Engine & Exhaust | existing | `/engine-exhaust-transmission/#gas-tanks` | `/fuel-system-repair/` | queued | svc_fuel |
