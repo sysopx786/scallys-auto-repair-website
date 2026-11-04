@@ -1,0 +1,303 @@
+{
+  "id": "pa-state-inspection",
+  "slug": "pa-state-inspection",
+  "category": "inspections-emissions",
+  "covers": [
+    "pa-safety-inspections",
+    "emissions-testing"
+  ],
+  "adaptedFrom": "Scally's existing inspections category and Diverse inspections content (concepts only); Pennsylvania rules checked against PennDOT and PA DEP",
+  "primary_kw": {
+    "en": "PA state inspection Primos PA",
+    "es": "inspección estatal de PA en Primos"
+  },
+  "secondary_kws": [
+    "PA safety inspection Primos",
+    "Pennsylvania vehicle inspection",
+    "state inspection near Secane",
+    "inspection station Clifton Heights",
+    "annual vehicle safety inspection",
+    "Delaware County emissions testing",
+    "PA emissions inspection",
+    "OBD emissions inspection",
+    "inspection stickers Pennsylvania",
+    "inspection appointment Primos",
+    "failed PA safety inspection",
+    "check engine light emissions test"
+  ],
+  "title": {
+    "en": "PA State Inspection in Primos | Scally's Auto Repair",
+    "es": "Inspección estatal de PA en Primos | Scally's Auto Repair"
+  },
+  "desc": {
+    "en": "PA safety inspection and emissions testing at Scally's Auto Repair in Primos. Learn what is checked, what to bring, and how to book.",
+    "es": "Inspecciones de seguridad y emisiones de PA en Scally's Auto Repair, Primos. Conozca los requisitos, qué traer y cómo pedir una cita."
+  },
+  "h1": {
+    "en": "PA State Safety Inspection in Primos",
+    "es": "Inspección de seguridad de PA en Primos"
+  },
+  "crumb": {
+    "en": "PA State Inspection",
+    "es": "Inspección estatal de PA"
+  },
+  "service_type": {
+    "en": "Pennsylvania safety and emissions inspections",
+    "es": "Inspecciones de seguridad y emisiones de Pensilvania"
+  },
+  "lead": {
+    "en": "Need your Pennsylvania inspection? {name} handles PA safety inspections and emissions testing at our shop on {street} in {city}. A state inspection checks required safety equipment against Pennsylvania rules. An emissions inspection, when required for your vehicle, is a separate check of its emissions system. We explain any issue we find before recommending work.",
+    "es": "¿Necesita la inspección de Pensilvania? {name} realiza inspecciones de seguridad y pruebas de emisiones en nuestro taller de {street}, en {city}. La inspección de seguridad revisa los equipos exigidos por Pensilvania. La prueba de emisiones, cuando corresponde a su vehículo, es una revisión aparte de ese sistema. Explicamos cualquier problema antes de recomendar una reparación."
+  },
+  "blocks": [
+    [
+      "h2",
+      {
+        "en": "What the Pennsylvania safety inspection checks",
+        "es": "Qué revisa la inspección de seguridad de Pensilvania"
+      },
+      "what-is-checked"
+    ],
+    [
+      "p",
+      {
+        "en": "PennDOT lists brakes, steering, suspension, tires and wheels, lights, electrical equipment, glass, mirrors, wipers, defroster, fuel system, exhaust, body and chassis among the items checked on passenger cars and light trucks. The inspection looks at whether the vehicle meets the applicable safety requirements. A part that looks worn does not automatically fail: the inspector follows the specific rejection criteria for that component. See the [PennDOT consumer inspection FAQ](url:https://www.pa.gov/agencies/dmv/faqs/motor-vehicle-faqs/safety-inspection-consumers-faqs) for the official list.",
+        "es": "PennDOT incluye frenos, dirección, suspensión, llantas y rines, luces, equipo eléctrico, vidrios, espejos, limpiaparabrisas, desempañador, sistema de combustible, escape, carrocería y chasis entre los elementos que se revisan en autos y camionetas ligeras. La inspección determina si el vehículo cumple los requisitos aplicables. Una pieza con desgaste no necesariamente causa un rechazo: el inspector aplica los criterios específicos. Consulte la [guía oficial de PennDOT](url:https://www.pa.gov/agencies/dmv/faqs/motor-vehicle-faqs/safety-inspection-consumers-faqs)."
+      }
+    ],
+    [
+      "p",
+      {
+        "en": "The inspection is not a promise that no problem will ever develop. It is a check of the equipment at the time of inspection. If your vehicle already makes a noise or has a warning light, describe it when you call. A diagnosis may be appropriate even if the symptom does not, by itself, determine an inspection result.",
+        "es": "La inspección no promete que nunca aparezca una falla. Es una revisión del equipo en ese momento. Si su auto ya hace un ruido o muestra una luz de advertencia, coméntelo al llamar. Puede ser necesario un diagnóstico, aunque el síntoma por sí solo no determine el resultado de la inspección."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Signs to check before your appointment",
+        "es": "Señales que conviene revisar antes de la cita"
+      },
+      "signs"
+    ],
+    [
+      "ul",
+      [
+        {
+          "en": "A brake warning light, soft pedal, or grinding when you stop.",
+          "es": "Luz de frenos encendida, pedal blando o rechinido al detenerse."
+        },
+        {
+          "en": "A headlight, brake light or turn signal that does not work.",
+          "es": "Un faro, luz de freno o direccional que no funciona."
+        },
+        {
+          "en": "Tires with visibly low tread, bulges or exposed material.",
+          "es": "Llantas con dibujo muy gastado, abultamientos o material expuesto."
+        },
+        {
+          "en": "Loose-feeling steering, unusual wheel movement or a strong pull.",
+          "es": "Dirección floja, movimiento extraño de una rueda o desvío marcado."
+        },
+        {
+          "en": "Cracked glass that interferes with visibility, or wipers that do not clear the windshield.",
+          "es": "Vidrio agrietado que dificulta la visión o limpiaparabrisas que no despejan el parabrisas."
+        },
+        {
+          "en": "Exhaust fumes entering the cabin, fluid leaks or an unusually loud exhaust.",
+          "es": "Gases de escape dentro de la cabina, fugas de líquidos o escape demasiado ruidoso."
+        }
+      ]
+    ],
+    [
+      "p",
+      {
+        "en": "These signs may have several causes; they do not identify a failed part or guarantee an inspection failure. We look for the cause before recommending a repair. If you have weak brakes, unstable steering or exhaust gases inside the cabin, do not drive the car to the appointment. Call first to discuss a safe way to have it assessed.",
+        "es": "Estas señales pueden tener varias causas; no identifican una pieza dañada ni garantizan que el auto sea rechazado. Primero buscamos la causa. Si los frenos responden mal, la dirección es inestable o entran gases del escape a la cabina, no conduzca el auto hasta la cita. Llame primero para hablar de cómo revisarlo de forma segura."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "What happens during an inspection",
+        "es": "Cómo se realiza una inspección"
+      },
+      "work"
+    ],
+    [
+      "p",
+      {
+        "en": "Bring the car and its current registration and insurance information. Tell us about warning lights or equipment that stopped working. We complete the applicable inspection and tell you which items met the requirements and which did not. If anything needs repair, ask us to explain the finding and the next step before authorizing work. Inspection charges are separate from repairs; PennDOT says official stations post their inspection fees.",
+        "es": "Traiga el auto, el registro vigente y el comprobante del seguro. Avísenos si hay luces de advertencia o equipos que dejaron de funcionar. Hacemos la inspección correspondiente y le explicamos qué cumplió los requisitos y qué no. Si hace falta reparar algo, solicite una explicación antes de autorizar el trabajo. El costo de la inspección es distinto al de las reparaciones; PennDOT indica que las estaciones oficiales publican sus tarifas."
+      }
+    ],
+    [
+      "p",
+      {
+        "en": "Common concerns involve [brake repair](svc:brake-repair), [tires](svc:tires-and-flat-repair), [steering](svc:power-steering-repair), [lights](svc:auto-light-repair) and [exhaust parts](svc:mufflers-and-exhaust). Those links help explain repairs; they are not a substitute for the actual inspection result.",
+        "es": "Entre los problemas habituales están [frenos](svc:brake-repair), [llantas](svc:tires-and-flat-repair), [dirección](svc:power-steering-repair), [luces](svc:auto-light-repair) y [escape](svc:mufflers-and-exhaust). Estos enlaces explican las reparaciones, pero no sustituyen el resultado de la inspección."
+      }
+    ],
+    [
+      "h3",
+      {
+        "en": "Emissions testing in Delaware County",
+        "es": "Pruebas de emisiones en el condado de Delaware"
+      },
+      "emissions-testing"
+    ],
+    [
+      "p",
+      {
+        "en": "Delaware County is in Pennsylvania's emissions-inspection program. Many gasoline-powered vehicles registered in the county also need an emissions inspection, but the test or exemption depends on the vehicle. On vehicles subject to the on-board diagnostics (OBD) check, the system examines information such as the check engine light status and readiness monitors. A lit check engine light or monitors that are not ready can prevent a passing result. See [PennDOT's emissions program](url:https://www.pa.gov/agencies/dmv/vehicle-services/inspection-and-safety-requirements/emission-inspections-program) and the [PA Department of Environmental Protection's OBD explanation](url:https://www.pa.gov/agencies/dep/programs-and-services/air/bureau-of-air-quality/automobiles/car-care).",
+        "es": "El condado de Delaware participa en el programa de inspección de emisiones de Pensilvania. Muchos vehículos de gasolina registrados allí también necesitan esa prueba, pero el tipo de prueba o una exención dependen del vehículo. En los autos sujetos a la revisión de diagnóstico a bordo (OBD), se comprueban datos como el estado de la luz de check engine y los monitores de preparación. Una luz encendida o monitores que todavía no están listos pueden impedir que el auto apruebe. Consulte el [programa de PennDOT](url:https://www.pa.gov/agencies/dmv/vehicle-services/inspection-and-safety-requirements/emission-inspections-program) y la [explicación del Departamento de Protección Ambiental de PA](url:https://www.pa.gov/agencies/dep/programs-and-services/air/bureau-of-air-quality/automobiles/car-care)."
+      }
+    ],
+    [
+      "p",
+      {
+        "en": "Resetting a code or disconnecting the battery does not repair the underlying fault, and it may reset readiness monitors. If your vehicle does not pass, the first step is to identify why. We can discuss [check engine light diagnosis](svc:check-engine-light) and [emissions-related repair](svc:emissions-control) rather than guessing at parts.",
+        "es": "Borrar un código o desconectar la batería no repara la falla y puede reiniciar los monitores de preparación. Si su auto no aprueba, lo primero es identificar la razón. Podemos hablar del [diagnóstico de la luz de check engine](svc:check-engine-light) y de la [reparación del sistema de emisiones](svc:emissions-control) en vez de cambiar piezas sin pruebas."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "When should you schedule?",
+        "es": "Cuándo programar la inspección"
+      },
+      "timing"
+    ],
+    [
+      "p",
+      {
+        "en": "Check the expiration month on your current safety inspection sticker. PennDOT explains that most passenger vehicles receive an annual safety sticker, and the expiration rules depend on the current sticker and inspection date. Do not assume the registration renewal date is also your inspection deadline. Call if you are unsure when your vehicle is due, or if you recently registered it in Pennsylvania.",
+        "es": "Revise el mes de vencimiento de la calcomanía de inspección de seguridad. PennDOT explica que la mayoría de los autos reciben una calcomanía anual y que el vencimiento depende de la fecha de inspección y de la calcomanía anterior. No suponga que la fecha de renovación del registro es también la fecha límite de inspección. Llame si no sabe cuándo vence o si acaba de registrar el vehículo en Pensilvania."
+      }
+    ],
+    [
+      "p",
+      {
+        "en": "Between inspections, use your owner's manual for routine maintenance. Check tires, lights and wipers, and have unusual brake or steering symptoms inspected promptly. Passing last year does not rule out a new problem this year.",
+        "es": "Entre inspecciones, siga el manual del propietario para el mantenimiento. Revise llantas, luces y limpiaparabrisas, y atienda pronto cualquier síntoma extraño de frenos o dirección. Haber aprobado el año anterior no descarta una falla nueva."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "State inspections near Primos, Secane and Clifton Heights",
+        "es": "Inspecciones cerca de Primos, Secane y Clifton Heights"
+      },
+      "local"
+    ],
+    [
+      "p",
+      {
+        "en": "{name} is on {street} in {city}, convenient to drivers coming from Secane and Clifton Heights. Call {phone} to ask about an inspection appointment and describe your vehicle, including any warning lights. We can explain which visit makes sense for your situation.",
+        "es": "{name} está en {street}, en {city}, cerca de Secane y Clifton Heights. Llame al {phone} para preguntar por una cita e indicar qué vehículo tiene y si hay alguna luz de advertencia. Le explicaremos qué visita conviene en su caso."
+      }
+    ]
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "What do I bring to my inspection?",
+        "es": "¿Qué debo traer a la inspección?"
+      },
+      "a": {
+        "en": "Bring your current registration card and proof of insurance. Tell us about any current warning lights when you call.",
+        "es": "Traiga su tarjeta de registro vigente y su comprobante de seguro. Si hay luces de advertencia, díganoslo al llamar."
+      }
+    },
+    {
+      "q": {
+        "en": "Do I need an appointment?",
+        "es": "¿Necesito cita?"
+      },
+      "a": {
+        "en": "Call {phone} to set up a time. Mention if you also expect to need an emissions test.",
+        "es": "Llame al {phone} para hacer una cita. Indique si también necesita la prueba de emisiones."
+      }
+    },
+    {
+      "q": {
+        "en": "What does a PA safety inspection cover?",
+        "es": "¿Qué incluye la inspección de seguridad de PA?"
+      },
+      "a": {
+        "en": "PennDOT requires checks of systems including brakes, steering, suspension, tires, lights, glass and exhaust. The full criteria are in PennDOT's inspection regulations.",
+        "es": "PennDOT exige revisar sistemas como frenos, dirección, suspensión, llantas, luces, vidrios y escape. Los criterios completos están en las normas de inspección de PennDOT."
+      }
+    },
+    {
+      "q": {
+        "en": "Is an emissions test the same as a safety inspection?",
+        "es": "¿La prueba de emisiones es igual a la inspección de seguridad?"
+      },
+      "a": {
+        "en": "No. They check different things. Some vehicles in Delaware County need both; eligibility and exemptions depend on the vehicle.",
+        "es": "No. Revisan cosas distintas. Algunos vehículos del condado de Delaware necesitan ambas pruebas; los requisitos y exenciones dependen del vehículo."
+      }
+    },
+    {
+      "q": {
+        "en": "Will an illuminated check engine light affect emissions testing?",
+        "es": "¿Afecta una luz de check engine encendida la prueba de emisiones?"
+      },
+      "a": {
+        "en": "It can. For a vehicle subject to an OBD emissions check, an illuminated malfunction light can prevent a pass. Diagnosis should come before replacing parts.",
+        "es": "Puede afectar. En un vehículo sujeto a la prueba OBD, una luz de falla encendida puede impedir que apruebe. Debe hacerse un diagnóstico antes de cambiar piezas."
+      }
+    },
+    {
+      "q": {
+        "en": "What if my car fails inspection?",
+        "es": "¿Qué sucede si mi auto no aprueba la inspección?"
+      },
+      "a": {
+        "en": "Ask which specific requirement was not met. We can explain the finding and discuss repair options, without assuming a symptom identifies the cause.",
+        "es": "Pregunte qué requisito específico no se cumplió. Podemos explicar el resultado y comentar opciones de reparación sin suponer la causa por un síntoma."
+      }
+    },
+    {
+      "q": {
+        "en": "Can I clear a fault code to pass the emissions test?",
+        "es": "¿Puedo borrar un código para aprobar la prueba de emisiones?"
+      },
+      "a": {
+        "en": "Clearing a code does not fix the fault and can reset readiness monitors, delaying a valid OBD test. Find and repair the cause first.",
+        "es": "Borrar un código no corrige la falla y puede reiniciar los monitores de preparación, lo que retrasa una prueba OBD válida. Primero hay que encontrar y corregir la causa."
+      }
+    }
+  ],
+  "related": [
+    "emissions-control",
+    "check-engine-light",
+    "brake-repair",
+    "auto-light-repair",
+    "tires-and-flat-repair"
+  ],
+  "sources": [
+    [
+      "PennDOT: Safety Inspection FAQs",
+      "https://www.pa.gov/agencies/dmv/faqs/motor-vehicle-faqs/safety-inspection-consumers-faqs"
+    ],
+    [
+      "PennDOT: Safety Inspection Program",
+      "https://www.pa.gov/agencies/dmv/vehicle-services/inspection-and-safety-requirements/safety-inspection-program"
+    ],
+    [
+      "PennDOT: Emissions Inspection Program",
+      "https://www.pa.gov/agencies/dmv/vehicle-services/inspection-and-safety-requirements/emission-inspections-program"
+    ],
+    [
+      "PA DEP: OBD",
+      "https://www.pa.gov/agencies/dep/programs-and-services/air/bureau-of-air-quality/automobiles/car-care"
+    ]
+  ],
+  "verify": [
+    "Confirm with Jerry that OIS station number M602 in site.config.json is current; do not cite as a state-verified station ID.",
+    "Confirm Scally's current emissions testing eligibility/capability and any vehicle categories it does not test.",
+    "Ask Jerry how safety/emissions inspection appointments and retests are handled; avoid quoted prices or timelines until confirmed."
+  ]
+}

@@ -1,0 +1,338 @@
+{
+  "id": "engine-tune-up",
+  "slug": "engine-tune-up",
+  "category": "engine-exhaust",
+  "covers": [
+    "engine-tune-ups",
+    "spark-plugs",
+    "ignition-system-repair"
+  ],
+  "adaptedFrom": "Diverse Autoworks svc_engine tune-up concepts (tools/service_pages_batch6.py), rewritten for Scally's; PA emissions context checked against PA DEP",
+  "primary_kw": {
+    "en": "engine tune up Primos PA",
+    "es": "afinación de motor en Primos PA"
+  },
+  "secondary_kws": [
+    "car tune up Primos",
+    "spark plug replacement",
+    "ignition system repair",
+    "misfire diagnosis",
+    "ignition coil problems",
+    "rough idle repair",
+    "engine hesitation",
+    "hard starting car",
+    "engine tune up near Secane",
+    "spark plug service Clifton Heights",
+    "engine performance maintenance",
+    "spark plug interval owner's manual"
+  ],
+  "title": {
+    "en": "Engine Tune-Up in Primos, PA | Scally's Auto Repair",
+    "es": "Afinación de motor en Primos, PA | Scally's Auto Repair"
+  },
+  "desc": {
+    "en": "Engine tune-ups, spark plug service and ignition-system diagnosis at Scally's Auto Repair in Primos. Find the cause of rough running before replacing parts.",
+    "es": "Afinación, servicio de bujías y diagnóstico del encendido en Scally's, Primos. Primero identificamos la causa de las fallas del motor."
+  },
+  "h1": {
+    "en": "Engine Tune-Ups and Spark Plugs in Primos, PA",
+    "es": "Afinación de motor y bujías en Primos, PA"
+  },
+  "crumb": {
+    "en": "Engine Tune-Up",
+    "es": "Afinación de motor"
+  },
+  "service_type": {
+    "en": "Engine tune-ups, spark plugs and ignition repair",
+    "es": "Afinación del motor, bujías y reparación del encendido"
+  },
+  "lead": {
+    "en": "If your car hesitates, runs roughly or struggles to start, an engine tune-up may help—but only after we identify what it needs. {name} provides engine tune-ups, spark plug service and ignition-system repair at {street} in {city}. Modern cars do not share one universal tune-up package or schedule. We review the symptoms, the vehicle's maintenance requirements and the test results before deciding which work makes sense.",
+    "es": "Si su auto titubea, funciona de manera irregular o cuesta arrancarlo, una afinación puede ayudar, pero primero hay que identificar qué necesita. {name} ofrece afinación del motor, servicio de bujías y reparación del sistema de encendido en {street}, {city}. Los autos modernos no comparten un paquete ni un intervalo de afinación universal. Revisamos los síntomas, el mantenimiento indicado y los resultados de las pruebas antes de recomendar un trabajo."
+  },
+  "blocks": [
+    [
+      "h2",
+      {
+        "en": "What a tune-up means for a modern engine",
+        "es": "Qué significa una afinación en un motor moderno"
+      },
+      "how-it-works"
+    ],
+    [
+      "p",
+      {
+        "en": "Older cars sometimes needed regular ignition adjustments. On many modern vehicles, the engine computer controls timing and fuel delivery. A tune-up therefore focuses on the maintenance and faults that apply to your specific engine instead of replacing a standard set of parts. Spark plugs wear, ignition coils can fail, and electrical connections may develop problems. But a rough idle can also come from fuel delivery, an air leak or a mechanical issue.",
+        "es": "Los autos antiguos podían necesitar ajustes periódicos de encendido. En muchos vehículos modernos, la computadora controla la sincronización y el combustible. Por eso una afinación se centra en el mantenimiento y las fallas de su motor específico, en lugar de cambiar un conjunto fijo de piezas. Las bujías se desgastan, las bobinas pueden fallar y las conexiones eléctricas pueden presentar problemas. Pero un ralentí irregular también puede deberse al combustible, a una entrada de aire o a una falla mecánica."
+      }
+    ],
+    [
+      "p",
+      {
+        "en": "Start with the owner's manual. It specifies maintenance requirements for the particular engine, including applicable spark plug intervals and types. A car with an active warning light needs diagnosis, not simply a list of replacement parts. Reading a fault code is useful, but it does not replace checking the engine's behavior and the relevant components.",
+        "es": "Empiece por el manual del propietario. Allí se indican los requisitos de mantenimiento del motor, incluidos los intervalos y tipos de bujías correspondientes. Un auto con una luz de advertencia encendida necesita diagnóstico, no simplemente una lista de piezas nuevas. Leer un código sirve como pista, pero no sustituye revisar el funcionamiento del motor y los componentes relacionados."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Signs your engine may need attention",
+        "es": "Señales de que su motor necesita atención"
+      },
+      "signs"
+    ],
+    [
+      "ul",
+      [
+        {
+          "en": "A rough idle or repeated engine shaking at a stop.",
+          "es": "Ralentí irregular o vibraciones repetidas del motor al detenerse."
+        },
+        {
+          "en": "Hesitation when accelerating, especially when the engine is under load.",
+          "es": "Titubeos al acelerar, especialmente cuando el motor trabaja con carga."
+        },
+        {
+          "en": "Hard starts, uneven starting or occasional stalling.",
+          "es": "Dificultad para arrancar, arranque irregular o apagones ocasionales."
+        },
+        {
+          "en": "The check engine light is on or flashes.",
+          "es": "La luz de check engine está encendida o parpadea."
+        },
+        {
+          "en": "Fuel use has changed without an obvious reason.",
+          "es": "El consumo de gasolina cambió sin una razón evidente."
+        },
+        {
+          "en": "An ignition-related trouble code appears after a scan.",
+          "es": "Una lectura muestra un código relacionado con el encendido."
+        },
+        {
+          "en": "Spark plug replacement is due according to the vehicle's manual.",
+          "es": "El manual del vehículo indica que ya corresponde cambiar las bujías."
+        }
+      ]
+    ],
+    [
+      "p",
+      {
+        "en": "These symptoms do not prove your spark plugs are worn. Problems in the fuel system, sensors, wiring, air intake or engine itself may look similar. We diagnose the cause before replacing parts. If the check engine light is flashing, reduce speed and stop somewhere safe. Continued driving with a severe misfire can damage the catalytic converter; arrange an assessment rather than driving until the light goes away.",
+        "es": "Estas señales no prueban que las bujías estén gastadas. Fallas de combustible, sensores, cableado, admisión de aire o del propio motor pueden parecerse. Diagnosticamos la causa antes de cambiar piezas. Si la luz de check engine parpadea, reduzca la velocidad y deténgase en un lugar seguro. Seguir manejando con una falla de encendido fuerte puede dañar el catalizador; solicite una revisión en lugar de esperar a que la luz desaparezca."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Tune-up and ignition work we do",
+        "es": "Trabajos de afinación y encendido que hacemos"
+      },
+      "work"
+    ],
+    [
+      "ul",
+      [
+        {
+          "en": "Review scheduled engine maintenance for your vehicle.",
+          "es": "Revisar el mantenimiento programado para su vehículo."
+        },
+        {
+          "en": "Assess rough running, hesitation, hard starts and misfires.",
+          "es": "Evaluar funcionamiento irregular, titubeos, arranque difícil y fallas de encendido."
+        },
+        {
+          "en": "Inspect spark plug concerns and discuss replacement when due or when testing supports it.",
+          "es": "Revisar posibles problemas de bujías y cambiarlas cuando corresponda o las pruebas lo indiquen."
+        },
+        {
+          "en": "Investigate ignition coils, connections and other ignition-system components.",
+          "es": "Investigar bobinas, conexiones y otros componentes del sistema de encendido."
+        },
+        {
+          "en": "Explain when further fuel, computer or mechanical diagnosis is needed.",
+          "es": "Explicar cuándo se necesita un diagnóstico adicional del combustible, la computadora o la parte mecánica."
+        }
+      ]
+    ],
+    [
+      "h3",
+      {
+        "en": "Spark plug replacement",
+        "es": "Cambio de bujías"
+      },
+      "spark-plugs"
+    ],
+    [
+      "p",
+      {
+        "en": "A spark plug produces the spark that ignites the air-fuel mixture in a gasoline engine. Its electrode gap, condition and design matter. Worn plugs can contribute to misfires, poor starting or reduced performance, but the same symptoms can have other causes. The correct plug type, gap specifications and service interval come from the manufacturer for your exact engine. We do not recommend one fixed replacement distance for every vehicle.",
+        "es": "La bujía produce la chispa que enciende la mezcla de aire y combustible en un motor de gasolina. Importan la separación de sus electrodos, su estado y diseño. Las bujías gastadas pueden causar fallas de encendido, arranque difícil o pérdida de rendimiento, pero esos síntomas también tienen otras causas. El tipo correcto, las especificaciones y el intervalo de cambio dependen del fabricante y del motor exacto. No recomendamos una distancia fija para todos los vehículos."
+      }
+    ],
+    [
+      "p",
+      {
+        "en": "If a plug is oil-fouled, damaged or repeatedly misfiring, replacing it may not address the source. Oil entering a cylinder, an injector issue or a weak ignition coil may need separate attention. Ask what the old plug showed and which additional findings support the recommendation. Our [engine repair](svc:engine-repair) and [oil leak repair](svc:oil-leak-and-gasket-repair) pages explain related problems.",
+        "es": "Si una bujía aparece cubierta de aceite, dañada o con fallas repetidas, cambiarla quizá no resuelva la causa. Aceite que entra al cilindro, un problema de inyección o una bobina débil pueden necesitar atención adicional. Pregunte qué mostró la bujía y qué otras pruebas respaldan la recomendación. Nuestras páginas de [reparación de motor](svc:engine-repair) y [fugas de aceite](svc:oil-leak-and-gasket-repair) explican problemas relacionados."
+      }
+    ],
+    [
+      "h3",
+      {
+        "en": "Ignition-system repair",
+        "es": "Reparación del sistema de encendido"
+      },
+      "ignition-system-repair"
+    ],
+    [
+      "p",
+      {
+        "en": "The ignition system includes parts that deliver a high-voltage spark at the correct time. On many cars, individual coils serve one or more cylinders, under control of the engine computer. A misfire code may involve a plug or coil, but also wiring, power supply, compression or fuel. We follow the evidence before selecting a replacement. The aim is to correct the cause, not simply clear the light.",
+        "es": "El sistema de encendido incluye las piezas que producen la chispa de alta tensión en el momento correcto. En muchos autos, una bobina atiende uno o más cilindros bajo el control de la computadora. Un código de falla de encendido puede deberse a una bujía o bobina, pero también al cableado, suministro eléctrico, compresión o combustible. Seguimos los resultados antes de escoger una pieza. La meta es corregir la causa, no solo apagar la luz."
+      }
+    ],
+    [
+      "p",
+      {
+        "en": "Intermittent faults need a clear description of when they happen: cold starts, heavy acceleration, rain or after the engine warms up. We may need to compare what the car does under different conditions. Do not keep replacing coils or plugs in hopes that one will fix a recurring problem. Ask us what has been tested and what remains uncertain.",
+        "es": "Las fallas intermitentes necesitan una descripción clara de cuándo aparecen: arranque en frío, aceleración fuerte, lluvia o después de calentar el motor. Puede ser necesario comparar el comportamiento del auto en distintas condiciones. No siga cambiando bobinas o bujías esperando acertar por casualidad. Pregunte qué se ha probado y qué sigue sin estar claro."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "When should you schedule maintenance?",
+        "es": "Cuándo programar el mantenimiento"
+      },
+      "maintenance"
+    ],
+    [
+      "p",
+      {
+        "en": "Use the owner's manual schedule for spark plugs, air filters and other engine service. Some manufacturers also list different schedules for severe driving conditions. A tune-up is not a substitute for fixing an active misfire, and a recent tune-up does not guarantee that the engine cannot develop a new problem. Bring records if you have them so we can avoid guessing about previous maintenance.",
+        "es": "Siga el calendario del manual para las bujías, filtros de aire y otros servicios del motor. Algunos fabricantes indican condiciones de uso severo con un calendario distinto. Una afinación no sustituye reparar una falla de encendido activa, y una afinación reciente no garantiza que el motor no presente una falla nueva. Traiga los registros de mantenimiento para no suponer qué trabajos se hicieron antes."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "How tune-ups relate to PA emissions testing",
+        "es": "Relación entre la afinación y la prueba de emisiones de PA"
+      },
+      "pa-inspection"
+    ],
+    [
+      "p",
+      {
+        "en": "A misfire or emissions-related engine fault can turn on the check engine light. On a vehicle subject to Pennsylvania's OBD emissions check, that may affect the inspection result. The Pennsylvania Department of Environmental Protection explains that OBD systems monitor faults that can affect emissions. Repairing the actual problem matters more than clearing codes. See [emissions repair](svc:emissions-control) and [PA inspection information](svc:pa-safety-inspections).",
+        "es": "Una falla de encendido o del motor relacionada con emisiones puede activar la luz de check engine. En un vehículo sujeto a la prueba OBD de Pensilvania, eso puede afectar el resultado. El Departamento de Protección Ambiental de PA explica que los sistemas OBD vigilan fallas que pueden afectar las emisiones. Corregir la causa importa más que borrar códigos. Consulte [reparación de emisiones](svc:emissions-control) e [inspecciones de PA](svc:pa-safety-inspections)."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Engine tune-ups near Primos and Clifton Heights",
+        "es": "Afinación del motor cerca de Primos y Clifton Heights"
+      },
+      "local"
+    ],
+    [
+      "p",
+      {
+        "en": "{name} is on {street} in {city}, near Secane and Clifton Heights. Call {phone} with your car's year, make, model, mileage and any symptoms. If you're asking about spark plugs, tell us when they were last replaced, if known. We can discuss the appropriate inspection and maintenance before deciding on parts.",
+        "es": "{name} está en {street}, {city}, cerca de Secane y Clifton Heights. Llame al {phone} con año, marca, modelo, kilometraje y síntomas del auto. Si pregunta por bujías, indique cuándo se cambiaron por última vez, si lo sabe. Podemos hablar de la revisión y el mantenimiento adecuados antes de decidir qué piezas usar."
+      }
+    ]
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "What is included in an engine tune-up?",
+        "es": "¿Qué incluye una afinación de motor?"
+      },
+      "a": {
+        "en": "It depends on the engine and its needs. We review symptoms and the owner's manual before discussing spark plugs, ignition work or other maintenance.",
+        "es": "Depende del motor y de sus necesidades. Revisamos los síntomas y el manual antes de recomendar bujías, trabajos de encendido u otro mantenimiento."
+      }
+    },
+    {
+      "q": {
+        "en": "How often should spark plugs be replaced?",
+        "es": "¿Cada cuánto se deben cambiar las bujías?"
+      },
+      "a": {
+        "en": "Follow the specific interval and plug specification in the owner's manual. The correct schedule differs by engine and plug type.",
+        "es": "Siga el intervalo y la especificación de bujías del manual del propietario. El calendario cambia según el motor y el tipo de bujía."
+      }
+    },
+    {
+      "q": {
+        "en": "Can worn spark plugs make a car shake?",
+        "es": "¿Las bujías gastadas pueden hacer vibrar el auto?"
+      },
+      "a": {
+        "en": "Yes, worn plugs can cause misfires, but coils, fuel problems, air leaks and engine issues can cause similar shaking. Diagnosis identifies the cause.",
+        "es": "Sí, las bujías gastadas pueden causar fallas de encendido, pero las bobinas, combustible, entradas de aire y fallas del motor producen vibraciones parecidas. El diagnóstico identifica la causa."
+      }
+    },
+    {
+      "q": {
+        "en": "Should I replace every ignition coil when one misfires?",
+        "es": "¿Debo cambiar todas las bobinas si falla una?"
+      },
+      "a": {
+        "en": "Not automatically. The cause and repair scope depend on test results and the vehicle. Ask which components actually failed.",
+        "es": "No necesariamente. La causa y el alcance de la reparación dependen de las pruebas y del vehículo. Pregunte qué componentes fallaron realmente."
+      }
+    },
+    {
+      "q": {
+        "en": "Will a tune-up switch off my check engine light?",
+        "es": "¿Una afinación apagará la luz de check engine?"
+      },
+      "a": {
+        "en": "Only if the service corrects the fault that turned it on. Reading codes and diagnosing the problem come before selecting parts.",
+        "es": "Solo si el servicio corrige la falla que encendió la luz. Primero se leen los códigos y se diagnostica el problema."
+      }
+    },
+    {
+      "q": {
+        "en": "Do modern cars still need tune-ups?",
+        "es": "¿Los autos modernos todavía necesitan afinación?"
+      },
+      "a": {
+        "en": "Yes, they still need engine maintenance, but the work is vehicle-specific rather than a fixed set of old-style adjustments.",
+        "es": "Sí, todavía necesitan mantenimiento de motor, pero el trabajo depende del vehículo y no de un conjunto fijo de ajustes antiguos."
+      }
+    },
+    {
+      "q": {
+        "en": "Is it safe to drive while the check engine light is flashing?",
+        "es": "¿Es seguro manejar con la luz de check engine parpadeando?"
+      },
+      "a": {
+        "en": "A flashing light can indicate a severe misfire that risks converter damage. Stop safely and contact a repair shop rather than continuing the trip.",
+        "es": "Una luz que parpadea puede indicar una falla grave de encendido que amenaza al catalizador. Deténgase en un lugar seguro y comuníquese con un taller en lugar de continuar."
+      }
+    }
+  ],
+  "related": [
+    "spark-plugs",
+    "ignition-system-repair",
+    "engine-repair",
+    "oil-changes",
+    "check-engine-light",
+    "emissions-control"
+  ],
+  "sources": [
+    [
+      "PA DEP: OBD",
+      "https://www.pa.gov/agencies/dep/programs-and-services/air/bureau-of-air-quality/automobiles/car-care"
+    ]
+  ],
+  "verify": [
+    "Confirm with Jerry the exact components included in a typical Scally's tune-up before publishing a fixed tune-up package.",
+    "Confirm ignition testing methods and whether coil, boot and related wiring repairs are handled in house.",
+    "Keep spark plug intervals vehicle-specific; no generic mileage number."
+  ]
+}

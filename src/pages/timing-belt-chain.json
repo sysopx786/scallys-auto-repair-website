@@ -1,0 +1,320 @@
+{
+  "id": "timing-belt-chain",
+  "slug": "timing-belt-chain",
+  "category": "engine-exhaust",
+  "covers": [
+    "timing-belt",
+    "timing-chain"
+  ],
+  "adaptedFrom": "Diverse Autoworks svc_timing (tools/service_pages_batch2.py), rewritten to omit all generic mileage and age intervals",
+  "primary_kw": {
+    "en": "timing belt replacement Primos PA",
+    "es": "cambio de correa de distribución en Primos"
+  },
+  "secondary_kws": [
+    "timing belt service Primos",
+    "timing chain repair",
+    "timing belt inspection",
+    "timing chain noise",
+    "timing system diagnosis",
+    "camshaft crankshaft timing",
+    "timing belt replacement near Secane",
+    "timing chain tensioner",
+    "engine timing symptoms",
+    "timing belt interval owners manual",
+    "timing chain replacement Clifton Heights",
+    "timing belt water pump"
+  ],
+  "title": {
+    "en": "Timing Belt & Chain Repair in Primos | Scally's",
+    "es": "Correa y cadena de distribución en Primos | Scally's"
+  },
+  "desc": {
+    "en": "Timing belt replacement and timing chain diagnosis in Primos, PA. Scally's checks symptoms and follows the schedule for your specific engine.",
+    "es": "Cambio de correa y diagnóstico de cadena de distribución en Primos, PA. Scally's revisa síntomas y sigue el manual de su vehículo."
+  },
+  "h1": {
+    "en": "Timing Belt & Timing Chain Service in Primos, PA",
+    "es": "Servicio de correa y cadena de distribución en Primos, PA"
+  },
+  "crumb": {
+    "en": "Timing Belts & Chains",
+    "es": "Correas y cadenas de distribución"
+  },
+  "service_type": {
+    "en": "Engine timing belt and timing chain service",
+    "es": "Servicio de correa y cadena de distribución del motor"
+  },
+  "lead": {
+    "en": "A timing belt or timing chain keeps critical engine parts moving in the right order. When timing is off, the engine may run badly or suffer major damage. At {name}, on {street} in {city}, we handle timing belt and timing chain service. We identify which system your engine uses, review its maintenance history and diagnose warning signs before recommending work. The correct service interval comes from the instructions for your specific vehicle.",
+    "es": "La correa o cadena de distribución mantiene sincronizadas las partes principales del motor. Si pierde la sincronización, el motor puede funcionar mal o sufrir daños graves. En {name}, en {street}, {city}, atendemos correas y cadenas de distribución. Primero identificamos qué sistema usa su motor, revisamos el historial de mantenimiento y diagnosticamos los síntomas antes de recomendar un trabajo. El intervalo correcto proviene de las instrucciones específicas de su vehículo."
+  },
+  "blocks": [
+    [
+      "h2",
+      {
+        "en": "How engine timing works",
+        "es": "Cómo funciona la distribución del motor"
+      },
+      "how-it-works"
+    ],
+    [
+      "p",
+      {
+        "en": "The crankshaft moves the pistons, while one or more camshafts control when the valves open and close. A timing belt or chain synchronizes those movements. If that relationship changes, the engine can misfire, lose power or stop running. A belt and a chain do the same basic job but use different materials and service approaches. Some engines also use timing-related tensioners and guides that affect the system's operation.",
+        "es": "El cigüeñal mueve los pistones y uno o más árboles de levas controlan cuándo abren y cierran las válvulas. La correa o cadena de distribución sincroniza esos movimientos. Si la relación cambia, el motor puede fallar, perder fuerza o apagarse. Ambos sistemas cumplen una función similar, pero utilizan materiales y procedimientos de servicio distintos. Algunos motores también tienen tensores y guías que influyen en el funcionamiento del conjunto."
+      }
+    ],
+    [
+      "p",
+      {
+        "en": "In an interference-engine design, pistons and valves can occupy overlapping spaces at different times. If the timing mechanism fails and synchronization is lost, they may collide and cause internal engine damage. Not every engine uses this design. Do not assume a belt failure always destroys the engine or that an engine is safe to restart after a suspected failure. The first step is to identify the engine and what actually happened.",
+        "es": "En un diseño de motor de interferencia, los pistones y las válvulas pueden ocupar el mismo espacio en momentos distintos. Si falla la distribución y se pierde la sincronización, pueden chocar y causar daños internos. No todos los motores tienen ese diseño. No suponga que una correa rota siempre destruye el motor ni que es seguro volver a arrancarlo después de una posible falla. Primero hay que identificar el motor y lo que ocurrió."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Signs your timing system needs attention",
+        "es": "Señales de que la distribución necesita atención"
+      },
+      "signs"
+    ],
+    [
+      "ul",
+      [
+        {
+          "en": "A rattling sound near the front or top of the engine, especially during startup.",
+          "es": "Traqueteo cerca de la parte delantera o superior del motor, especialmente al arrancar."
+        },
+        {
+          "en": "The engine turns over but does not start.",
+          "es": "El motor gira al intentar arrancar, pero no enciende."
+        },
+        {
+          "en": "Rough idle, a misfire or loss of power that appeared unexpectedly.",
+          "es": "Ralentí irregular, fallas de encendido o pérdida de fuerza inesperada."
+        },
+        {
+          "en": "A camshaft or crankshaft timing-related trouble code.",
+          "es": "Un código relacionado con la sincronización del árbol de levas o cigüeñal."
+        },
+        {
+          "en": "An oil or coolant leak near the timing cover or related components.",
+          "es": "Una fuga de aceite o anticongelante cerca de la tapa de distribución o piezas relacionadas."
+        },
+        {
+          "en": "Missing maintenance records for a belt that may be due by age or distance.",
+          "es": "Falta de registros de una correa que podría necesitar cambio por tiempo o kilometraje."
+        }
+      ]
+    ],
+    [
+      "p",
+      {
+        "en": "None of these symptoms alone proves the timing belt or chain has failed. Noise can come from accessory belts or other engine parts, while rough running can have ignition or fuel causes. We inspect and test before replacing parts. If a belt is suspected of breaking or the engine suddenly stopped with mechanical noise, do not keep trying to restart it. Call first and describe the circumstances.",
+        "es": "Ningún síntoma por sí solo demuestra que la correa o cadena falló. El ruido puede provenir de correas de accesorios u otras piezas; un funcionamiento irregular puede deberse al encendido o al combustible. Revisamos y hacemos pruebas antes de cambiar piezas. Si sospecha que la correa se rompió o el motor se apagó con ruido mecánico, no siga intentando encenderlo. Llame y describa lo ocurrido."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Timing work we do",
+        "es": "Trabajos de distribución que hacemos"
+      },
+      "work"
+    ],
+    [
+      "ul",
+      [
+        {
+          "en": "Identify the belt or chain system and its maintenance requirements.",
+          "es": "Identificar el sistema de correa o cadena y sus necesidades de mantenimiento."
+        },
+        {
+          "en": "Check symptoms and relevant engine timing information before recommending repair.",
+          "es": "Revisar síntomas y datos de sincronización antes de recomendar una reparación."
+        },
+        {
+          "en": "Discuss timing belt replacement according to the vehicle's service instructions.",
+          "es": "Realizar el cambio de correa según las instrucciones de mantenimiento del vehículo."
+        },
+        {
+          "en": "Diagnose timing chain and related tensioner or guide concerns.",
+          "es": "Diagnosticar problemas de cadena, tensor y guías relacionadas."
+        },
+        {
+          "en": "Review related leaks or engine faults that may change the repair plan.",
+          "es": "Revisar fugas o fallas del motor que puedan cambiar el plan de reparación."
+        }
+      ]
+    ],
+    [
+      "h3",
+      {
+        "en": "Timing belt replacement",
+        "es": "Cambio de correa de distribución"
+      },
+      "belt-service"
+    ],
+    [
+      "p",
+      {
+        "en": "A timing belt is a reinforced belt that transfers motion between timing components. Unlike an external accessory belt, it often sits behind covers, where its condition may not be visible in a quick under-hood check. Some vehicles call for replacement at a mileage interval, some at an age limit, and some at whichever comes first. The correct schedule depends on the particular engine, not a number quoted for every car.",
+        "es": "La correa de distribución es una banda reforzada que transmite movimiento entre los componentes del sistema. A diferencia de una correa externa de accesorios, suele estar detrás de tapas y su estado puede no verse en una revisión rápida. Algunos vehículos requieren cambio por kilometraje, otros por tiempo y otros al cumplirse primero uno de los límites. El programa correcto depende del motor, no de una cifra general para todos los autos."
+      }
+    ],
+    [
+      "p",
+      {
+        "en": "When the belt service is due, ask what related components the manufacturer says to inspect or replace at the same time. Depending on the engine, the job may involve tensioners, idlers, seals or the water pump. Their inclusion is not automatic on every vehicle, and we should explain the proposed parts before work begins. If the history is unknown, we can discuss how to assess the risk and what information to obtain.",
+        "es": "Cuando llegue el momento del servicio, pregunte qué piezas relacionadas indica el fabricante que se revisen o cambien a la vez. Según el motor, puede incluir tensores, poleas, sellos o bomba de agua. No se cambian automáticamente en todos los autos, y debemos explicar las piezas propuestas antes de empezar. Si no hay historial, podemos hablar de cómo evaluar el riesgo y qué información conviene conseguir."
+      }
+    ],
+    [
+      "h3",
+      {
+        "en": "Timing chain diagnosis and repair",
+        "es": "Diagnóstico y reparación de cadena de distribución"
+      },
+      "timing-chain"
+    ],
+    [
+      "p",
+      {
+        "en": "A timing chain is made of metal and normally runs with engine lubrication. Although it is often designed for long service, chains and their tensioners or guides can wear or develop problems. A rattle at startup can be one clue, but it can also have other causes. Oil level, oil condition, maintenance history and measured timing information may matter when diagnosing the concern. We do not recommend chain replacement from noise alone.",
+        "es": "La cadena de distribución es metálica y normalmente funciona lubricada con aceite de motor. Aunque suele diseñarse para un servicio prolongado, la cadena, sus tensores y sus guías pueden desgastarse o presentar fallas. Un traqueteo al arrancar puede ser una señal, pero también tiene otras causas. El nivel y estado del aceite, el historial de mantenimiento y los datos de sincronización pueden ayudar al diagnóstico. No recomendamos cambiar la cadena solamente por un ruido."
+      }
+    ],
+    [
+      "p",
+      {
+        "en": "If timing has already shifted, the next step may be to check for internal damage before quoting a complete repair. An engine that will not start may need mechanical checks as well as electronic diagnosis. Our [engine repair](svc:engine-repair) page explains when larger repairs are considered; [oil leak repair](svc:oil-leak-and-gasket-repair) addresses related leaks. We will distinguish confirmed findings from possible causes.",
+        "es": "Si la sincronización ya cambió, puede ser necesario revisar posibles daños internos antes de calcular la reparación completa. Un motor que no arranca puede requerir pruebas mecánicas además de diagnóstico electrónico. Nuestra página de [reparación de motor](svc:engine-repair) explica cuándo se consideran trabajos mayores; la de [fugas de aceite](svc:oil-leak-and-gasket-repair) trata fugas relacionadas. Distinguimos los hallazgos confirmados de las posibles causas."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "When is the timing belt or chain due?",
+        "es": "Cuándo corresponde el servicio de distribución"
+      },
+      "maintenance"
+    ],
+    [
+      "p",
+      {
+        "en": "Look in the maintenance schedule for your exact year, make, model and engine. A generic belt interval can be wrong for your vehicle. Chains may have no routine replacement interval in the manual, but that does not rule out inspection or repair when a fault is present. Time, distance, driving conditions and the previous maintenance history matter. If you bought a used car with missing records, tell us before choosing a replacement plan.",
+        "es": "Consulte el calendario de mantenimiento del año, marca, modelo y motor exactos. Un intervalo general de correa puede ser incorrecto para su vehículo. Algunas cadenas no tienen un intervalo de cambio de rutina en el manual, pero eso no descarta una revisión o reparación cuando hay una falla. Importan el tiempo, el kilometraje, las condiciones de manejo y los trabajos anteriores. Si compró un auto usado sin registros, coméntelo antes de decidir el servicio."
+      }
+    ],
+    [
+      "p",
+      {
+        "en": "Keep up with the specified engine oil and filter changes, especially where oil operates chain tensioners. Use the oil grade and service schedule in the owner's manual. A neglected oil change can affect many parts of the engine; it does not prove that a chain has failed. See our [oil change](svc:oil-changes) and [engine tune-up](svc:engine-tune-ups) information for related maintenance.",
+        "es": "Mantenga los cambios de aceite y filtro indicados, especialmente cuando el aceite acciona los tensores de cadena. Use el grado de aceite y los intervalos del manual del propietario. Descuidar el aceite puede afectar muchas piezas del motor, pero no demuestra que una cadena haya fallado. Consulte [cambios de aceite](svc:oil-changes) y [afinación](svc:engine-tune-ups) para otros cuidados."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Timing belt and chain service near Primos",
+        "es": "Servicio de distribución cerca de Primos"
+      },
+      "local"
+    ],
+    [
+      "p",
+      {
+        "en": "{name} serves drivers from Primos, Secane and Clifton Heights at {street} in {city}. Call {phone} with your year, make, model, engine if known, and the last recorded timing-belt service. Describe the noise or warning light you noticed. We can discuss the next inspection or repair step without guessing at a universal interval.",
+        "es": "{name} atiende a conductores de Primos, Secane y Clifton Heights en {street}, {city}. Llame al {phone} con año, marca, modelo, tipo de motor si lo conoce y la fecha del último cambio de correa registrado. Describa el ruido o la luz que notó. Podemos comentar la próxima revisión o reparación sin inventar un intervalo general."
+      }
+    ]
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does every car have a timing belt?",
+        "es": "¿Todos los autos tienen correa de distribución?"
+      },
+      "a": {
+        "en": "No. Engines may use a belt or a chain. The year, make, model and engine identify the system and its service instructions.",
+        "es": "No. Los motores pueden usar correa o cadena. El año, marca, modelo y motor permiten identificar el sistema y las instrucciones de mantenimiento."
+      }
+    },
+    {
+      "q": {
+        "en": "How often should my timing belt be replaced?",
+        "es": "¿Cada cuánto debo cambiar la correa de distribución?"
+      },
+      "a": {
+        "en": "Use the interval in the owner's manual for your exact engine, including any time limit. No single distance fits all cars.",
+        "es": "Siga el intervalo del manual del propietario para su motor exacto, incluido cualquier límite de tiempo. No hay una distancia válida para todos los autos."
+      }
+    },
+    {
+      "q": {
+        "en": "Can a timing belt fail without making noise?",
+        "es": "¿Puede fallar una correa sin hacer ruido?"
+      },
+      "a": {
+        "en": "Yes. A belt may deteriorate without an obvious warning. That is why the manufacturer schedule matters even if the car seems to run well.",
+        "es": "Sí. Una correa puede deteriorarse sin una señal evidente. Por eso importa el calendario del fabricante aunque el auto parezca funcionar bien."
+      }
+    },
+    {
+      "q": {
+        "en": "Is a rattling noise always the timing chain?",
+        "es": "¿Un traqueteo siempre significa que la cadena falla?"
+      },
+      "a": {
+        "en": "No. Other engine or accessory components can rattle. Inspection and testing help locate the source before ordering parts.",
+        "es": "No. Otras piezas del motor o de los accesorios también pueden hacer ese ruido. Una revisión y pruebas ayudan a identificar el origen."
+      }
+    },
+    {
+      "q": {
+        "en": "Does replacing a timing belt also mean replacing the water pump?",
+        "es": "¿Al cambiar la correa hay que cambiar también la bomba de agua?"
+      },
+      "a": {
+        "en": "Not always. It depends on the engine layout, the maintenance procedure and the pump's condition. Ask which parts are included in the proposed service.",
+        "es": "No siempre. Depende del diseño del motor, el procedimiento de mantenimiento y el estado de la bomba. Pregunte qué piezas incluye el servicio propuesto."
+      }
+    },
+    {
+      "q": {
+        "en": "What happens if timing slips on an interference engine?",
+        "es": "¿Qué pasa si se pierde la sincronización en un motor de interferencia?"
+      },
+      "a": {
+        "en": "Pistons and valves may collide and damage internal parts. The risk depends on the engine design and what happened; do not repeatedly try to restart it.",
+        "es": "Los pistones y las válvulas pueden chocar y dañar partes internas. El riesgo depende del diseño y de lo ocurrido; no intente encenderlo repetidamente."
+      }
+    },
+    {
+      "q": {
+        "en": "Should a timing chain be changed on a fixed schedule?",
+        "es": "¿La cadena debe cambiarse según un intervalo fijo?"
+      },
+      "a": {
+        "en": "Follow the owner's manual. Some chains have no routine replacement interval, but symptoms or test results can still call for service.",
+        "es": "Siga el manual del propietario. Algunas cadenas no tienen un intervalo de cambio periódico, pero los síntomas o resultados de pruebas pueden requerir servicio."
+      }
+    }
+  ],
+  "related": [
+    "engine-repair",
+    "engine-tune-ups",
+    "spark-plugs",
+    "oil-changes",
+    "oil-leak-and-gasket-repair",
+    "cooling-systems"
+  ],
+  "sources": [],
+  "verify": [
+    "Confirm with Jerry whether Scally's routinely replaces timing tensioners, guides, idlers or water pumps during timing-belt or timing-chain service; current wording makes no package promise.",
+    "Confirm engine-specific chain diagnosis capability and whether internal timing damage assessment is performed in house.",
+    "Do not insert generic belt mileage or age recommendations; use the actual owner's manual."
+  ]
+}
