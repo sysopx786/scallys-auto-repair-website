@@ -65,13 +65,6 @@
       }
     ],
     [
-      "p",
-      {
-        "en": "The right starting point is to identify exactly which vehicle is in front of the shop. A make and model name may cover more than one engine, transmission, trim or market version. Service and repair planning should rely on compatible parts and manufacturer information. We do not publish a list claiming every foreign brand or specialty import is accepted without confirming it with the shop.",
-        "es": "Lo primero es identificar exactamente qué vehículo llega al taller. Una marca y un modelo pueden tener diferentes motores, transmisiones, versiones y destinos comerciales. El mantenimiento y reparación deben considerar piezas compatibles e información del fabricante. No publicamos una lista que afirme que se acepta toda marca extranjera o importación especial sin confirmación del taller."
-      }
-    ],
-    [
       "h2",
       {
         "en": "Symptoms and information to bring",
@@ -113,13 +106,6 @@
       ]
     ],
     [
-      "p",
-      {
-        "en": "A warning light or unusual noise is a clue, not proof that a particular component has failed. A check engine code can relate to several systems and often needs further testing. If there is a fluid leak, severe overheating, failing brakes or unstable handling, ask for a safe assessment rather than continuing to drive. We recommend describing what happens, when it happens and whether any recent work changed the symptoms.",
-        "es": "Una advertencia o ruido extraño es una pista, no prueba de que una pieza determinada falló. Un código de check engine puede relacionarse con varios sistemas y suele requerir más pruebas. Si hay una fuga, sobrecalentamiento fuerte, frenos defectuosos o manejo inestable, solicite una evaluación segura en vez de seguir conduciendo. Explique qué pasa, cuándo ocurre y si algún trabajo reciente cambió el síntoma."
-      }
-    ],
-    [
       "h2",
       {
         "en": "Common maintenance for imported cars",
@@ -135,13 +121,6 @@
       }
     ],
     [
-      "p",
-      {
-        "en": "Follow the owner's manual for oil grade, service intervals, fluids and replacement parts. A foreign-brand name alone does not justify a single maintenance schedule for all versions. Our [oil change](svc:oil-changes), [brake repair](svc:brake-repair) and [tire service](svc:tires-and-flat-repair) pages describe related services. Ask if the correct supplies are available for your specific model instead of assuming a generic alternative is suitable.",
-        "es": "Siga el manual del propietario para tipo de aceite, intervalos, líquidos y piezas de reemplazo. Una marca extranjera no implica el mismo calendario para todas sus versiones. Nuestras páginas de [cambio de aceite](svc:oil-changes), [reparación de frenos](svc:brake-repair) y [servicio de llantas](svc:tires-and-flat-repair) explican trabajos relacionados. Pregunte si hay materiales correctos para su modelo en lugar de suponer que una alternativa genérica es adecuada."
-      }
-    ],
-    [
       "h2",
       {
         "en": "Diagnosis, warning lights and electrical faults",
@@ -154,13 +133,6 @@
       {
         "en": "Imported cars can develop check engine, starting, charging and electrical problems just like other vehicles. The model's diagnostic system, sensor layout and service information determine the approach. Some functions require manufacturer-specific tools or access to information not available at every independent shop. We do not claim factory-level programming, advanced module coding, special licensing or guaranteed support for every model. The shop should confirm the exact request before booking specialist work.",
         "es": "Los autos importados pueden tener luces de check engine y problemas de arranque, carga o electricidad como otros vehículos. El sistema de diagnóstico, distribución de sensores e información técnica del modelo determinan cómo revisar. Algunas funciones requieren herramientas específicas del fabricante o información que no todos los talleres independientes tienen. No anunciamos programación de fábrica, codificación avanzada, licencias especiales ni atención garantizada para todo modelo. El taller debe confirmar el trabajo antes de aceptar servicios especializados."
-      }
-    ],
-    [
-      "p",
-      {
-        "en": "If the car hesitates, loses power, shifts unusually or shows a warning, report the conditions and recent service history. That helps distinguish a basic maintenance issue from one that needs special parts or advanced diagnosis. Related services include [check engine diagnostics](svc:check-engine-light), [electrical repair](svc:electrical-repair) and [transmission repair](svc:transmission-repair). None of those links should be interpreted as a promise that a rare imported variant can receive every specialty procedure at this shop.",
-        "es": "Si el auto titubea, pierde fuerza, cambia de manera extraña o muestra una advertencia, indique las condiciones y el mantenimiento reciente. Eso ayuda a distinguir un problema básico de uno que requiere piezas especiales o diagnóstico avanzado. Entre los servicios relacionados están [diagnóstico de check engine](svc:check-engine-light), [reparación eléctrica](svc:electrical-repair) y [transmisiones](svc:transmission-repair). Esos enlaces no prometen que cualquier versión importada pueda recibir todo procedimiento especializado en este taller."
       }
     ],
     [
@@ -198,13 +170,6 @@
       {
         "en": "Pennsylvania safety and emissions requirements depend on the vehicle and applicable rules. Being an import does not by itself tell you which inspection process applies. A car manufactured for another market may have differences in equipment or documentation. If you need an inspection, give the shop the registration information and ask which procedures can be performed for your exact vehicle; do not assume an overseas-market vehicle is automatically eligible or automatically exempt.",
         "es": "Los requisitos de seguridad y emisiones de Pensilvania dependen del vehículo y las reglas aplicables. Ser importado no determina por sí solo qué inspección corresponde. Un vehículo de otro mercado puede tener diferencias de equipo o documentación. Si necesita una inspección, proporcione los datos de registro y consulte qué procedimientos se pueden realizar en su modelo; no suponga que queda automáticamente admitido o exento."
-      }
-    ],
-    [
-      "p",
-      {
-        "en": "A maintenance visit is also not the same as customs clearance, registration or vehicle certification. Federal and state authorities govern those matters. We do not advertise that Scally's obtains import approvals, changes legal compliance status or performs every emissions-system conversion. Our [PA inspections](svc:pa-safety-inspections) and [emissions repair](svc:emissions-control) pages cover the shop's existing vehicle service categories without making promises about import paperwork.",
-        "es": "Una visita de mantenimiento no equivale a despacho de aduana, registro o certificación del vehículo. Esos asuntos corresponden a autoridades federales y estatales. No anunciamos que Scally's consiga autorizaciones de importación, cambie el estado legal del vehículo o realice toda conversión de emisiones. Nuestras páginas de [inspecciones de PA](svc:pa-safety-inspections) y [reparación de emisiones](svc:emissions-control) describen servicios existentes sin prometer trámites de importación."
       }
     ],
     [

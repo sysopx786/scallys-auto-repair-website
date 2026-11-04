@@ -85,12 +85,12 @@ The wheel page does not claim all bent or cracked rims are repairable. The rust 
 
 ## Batch 5 (November 4, 2026 UTC) — final two page sources drafted
 
-The final two detailed pages are prepared in English and Spanish, based on Scally's confirmed catalog and independent official regulatory references. Their source includes SEO title and description per language, H1, overview, meaningful H2 sections, signs and work scope, related service links, FAQs and owner-verification notes.
+The final two detailed pages are prepared in English and Spanish, based on Scally's confirmed catalog and independent official regulatory references. The pages were edited to meet the targeted copy length before final release QA. Their source includes SEO title and description per language, H1, overview, meaningful H2 sections, signs and work scope, related service links, FAQs and owner-verification notes.
 
 | Page | Catalog service covered | EN / ES draft content words (including FAQs) | Status |
 |---|---|---:|---|
-| `window-tinting` | Window Tinting | 1,050 / 1,073 | Source ready |
-| `import-car-repair` | Imports (repair and maintenance of imported vehicles) | 1,189 / 1,173 | Source ready |
+| `window-tinting` | Window Tinting | 873 / 904 | Source ready |
+| `import-car-repair` | Imports (repair and maintenance of imported vehicles) | 867 / 866 | Source ready |
 
 **Tint accuracy:** [PennDOT's April 2025 fact sheet](https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bmv/bmv-fact-sheets/fs-sun.pdf) requires generally at least 70% total visible light transmission for post-1997 passenger car windows; different rules apply by vehicle type. Routine window-tint checks were removed from Pennsylvania safety inspections, but motorists may still be cited for unlawful tint. No unsupported claims about Scally's film brands, installer certification, measurement tools or warranties. Exemptions must be verified by PennDOT.
 
