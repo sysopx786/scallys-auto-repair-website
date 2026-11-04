@@ -1,7 +1,7 @@
 # Scally's Auto Repair: service expansion plan and status
 
-Branch `service-expansion`. The first 3 pages were merged to `main` on Nov 3, 2026; later batches go live only when merged.
-Last updated: November 4, 2026 UTC (Batch 2 generated and QA passed on service-expansion; merge and deployment next).
+Development branch: `service-expansion`. Batches 1 and 2 are merged and deployed from `main`.
+Last updated: November 4, 2026 UTC (Batch 2 merged and GitHub Pages deployment succeeded).
 
 ## Status
 
@@ -12,44 +12,44 @@ Last updated: November 4, 2026 UTC (Batch 2 generated and QA passed on service-e
 | Spanish versions: services hub, 8 category pages, detailed pages | Done for what is built |
 | Language switch, hreflang, self-canonicals, sitemap `lastmod` | Done |
 | Structured data: one `AutoRepair` entity (`/#business`), WebPage, Service, BreadcrumbList, FAQPage | Done |
-| Detailed service pages | 23 of 34 built and tested on `service-expansion` (18 already on `main`); 11 detailed pages remain after Batch 2 |
-| Automated checks (`tests/check_site.py`) | ALL CHECKS PASSED after 18-page rebuild on GitHub Actions run 41765832517 |
+| Detailed service pages | 23 of 34 built and published in English and Spanish on `main`; 11 detailed pages remaining |
+| Automated checks (`tests/check_site.py`) | ALL CHECKS PASSED after 23-page rebuild on [GitHub Actions run 41771079049](https://github.com/sysopx786/scallys-auto-repair-website/actions/runs/41771079049) |
 | Batch 1 full build and responsive QA | ALL BROWSER CHECKS PASSED: 60 checks, 0 failures |
 | Batch 2 build and responsive QA | ALL CHECKS PASSED; ALL BROWSER CHECKS PASSED (120 checks, 0 failures) — [run 41771079049](https://github.com/sysopx786/scallys-auto-repair-website/actions/runs/41771079049) |
 
-## Batch 1 (November 4, 2026 UTC) — built and tested on service-expansion
+## Batch 1 (November 4, 2026 UTC) — merged and published
 
-Five bilingual JSON records and their generated English/Spanish pages are committed on `service-expansion`. GitHub Actions ran `python3 src/build.py` (59 indexable pages, 18 detailed page pairs), `python3 tests/check_site.py` (`ALL CHECKS PASSED`), and Chromium checks of ten new pages at six widths (`ALL BROWSER CHECKS PASSED`, zero failures). The QA artifact includes a detailed browser report and 20 full-page screenshots. `main` has not been changed; these five pages are not live.
+Five bilingual JSON records and their generated English/Spanish pages are committed on `service-expansion`. GitHub Actions ran `python3 src/build.py` (59 indexable pages, 18 detailed page pairs), `python3 tests/check_site.py` (`ALL CHECKS PASSED`), and Chromium checks of ten new pages at six widths (`ALL BROWSER CHECKS PASSED`, zero failures). The QA artifact includes a detailed browser report and 20 full-page screenshots. Merged as PR #1, deployed successfully on `main`; the five bilingual pages are live.
 
 | Page | Covers | EN / ES rendered page words | Status |
 |---|---|---:|---|
-| `pa-state-inspection` | `pa-safety-inspections`, `emissions-testing` | 1,054 / 1,104 | Built and browser-tested on branch |
-| `emissions-repair` | `emissions-control` | 1,130 / 1,256 | Built and browser-tested on branch |
-| `pre-purchase-inspection` | `pre-purchase-inspections` | 1,206 / 1,224 | Built and browser-tested on branch |
-| `timing-belt-chain` | `timing-belt`, `timing-chain` | 1,235 / 1,269 | Built and browser-tested on branch |
-| `engine-tune-up` | `engine-tune-ups`, `spark-plugs`, `ignition-system-repair` | 1,188 / 1,282 | Built and browser-tested on branch |
+| `pa-state-inspection` | `pa-safety-inspections`, `emissions-testing` | 1,054 / 1,104 | Published (EN+ES) |
+| `emissions-repair` | `emissions-control` | 1,130 / 1,256 | Published (EN+ES) |
+| `pre-purchase-inspection` | `pre-purchase-inspections` | 1,206 / 1,224 | Published (EN+ES) |
+| `timing-belt-chain` | `timing-belt`, `timing-chain` | 1,235 / 1,269 | Published (EN+ES) |
+| `engine-tune-up` | `engine-tune-ups`, `spark-plugs`, `ignition-system-repair` | 1,188 / 1,282 | Published (EN+ES) |
 
 PennDOT safety/emissions and PA DEP OBD pages were read and cited where applicable. No universal timing-belt or spark-plug interval, inspection price, guarantee, or fixed pre-purchase checklist was invented. Service-specific `verify` questions remain for Jerry. JSON catalog, anchors, languages, titles, descriptions, FAQ counts, full generated-site tests and 60 Chromium viewport checks passed. See [GitHub Actions run 41765832517](https://github.com/sysopx786/scallys-auto-repair-website/actions/runs/41765832517) and generated-file commit `7290a3cb797a8308e17e5a64b36d57d5d3ce3f41`.
 
-**Batch 1 complete on the development branch:** Build, full tests, responsive browser tests and generated-file commit passed. Still to do: review Jerry's `verify` questions, synchronize this plan to the separate Claude project document `claude/scallys-service-expansion-plan.md` (not yet synced through this GitHub connection), obtain native-speaker Spanish review when possible, and await the explicit word `merge` before publishing.
+**Batch 1 published:** Merged through PR #1; successful Pages deployment. Remaining non-blocking work: review Jerry's `verify` questions, sync the separate Claude project document `claude/scallys-service-expansion-plan.md`, and get a native-speaker Spanish review.
 
-## Batch 2 (November 4, 2026 UTC) — built, tested, awaiting merge
+## Batch 2 (November 4, 2026 UTC) — merged and published
 
 The following five bilingual JSON source files and their generated HTML are committed on `service-expansion`. `python3 src/build.py` generated **69 indexable pages**, including **23 detailed pages in each language**. `python3 tests/check_site.py` printed `ALL CHECKS PASSED`. The expanded Chromium suite printed `ALL BROWSER CHECKS PASSED` after **120 checks with zero failures**. GitHub Actions committed the generated files (commit `bf5c5bc86c8fb50dda75627c9c310283c09638f3`).
 
 | Page | Services covered | EN / ES rendered page words | Source status |
 |---|---|---:|---|
-| `electrical-repair` | Electrical Repair & Wiring | 959 / 1,028 | Built; QA passed; merge pending |
-| `auto-light-repair` | Auto Light Repair | 973 / 1,048 | Built; QA passed; merge pending |
-| `power-windows-locks` | Power Window Repair, Power Door Lock Repair | 1,053 / 1,045 | Built; QA passed; merge pending |
-| `wheel-bearings-hubs` | Wheel Bearings, Wheel Hubs | 1,051 / 1,114 | Built; QA passed; merge pending |
-| `oil-leak-repair` | Oil Leak & Gasket Repair | 1,116 / 1,155 | Built; QA passed; merge pending |
+| `electrical-repair` | Electrical Repair & Wiring | 959 / 1,028 | Published (EN+ES) |
+| `auto-light-repair` | Auto Light Repair | 973 / 1,048 | Published (EN+ES) |
+| `power-windows-locks` | Power Window Repair, Power Door Lock Repair | 1,053 / 1,045 | Published (EN+ES) |
+| `wheel-bearings-hubs` | Wheel Bearings, Wheel Hubs | 1,051 / 1,114 | Published (EN+ES) |
+| `oil-leak-repair` | Oil Leak & Gasket Repair | 1,116 / 1,155 | Published (EN+ES) |
 
 All new pages use Primos, Secane and Clifton Heights; avoid the unrelated Diverse business claims, named diagnostic equipment, prices, guarantees and universal maintenance intervals. They contain full US Spanish copy, SEO fields, relevant related services, covered-service anchors and six FAQs each. Owner-confirmation notes remain in each JSON file's `verify` section. Pennsylvania inspection claims are supported by PennDOT consumer guidance; a NHTSA-hosted Audi service bulletin is cited only for the narrow point that tire and bearing noises can sound alike.
 
-The browser test covered all ten new pages across Batches 1 and 2 in English and Spanish at 320, 390, 768, 1100, 1280 and 1600 px, and passed all **120 checks** with no HTTP, browser-script, or horizontal-overflow failures. The QA artifact contains 40 full-page screenshots and a machine-readable report. Next: merge the passing branch into `main` and verify GitHub Pages deployment; the user already gave authorization.
+The browser test covered all ten pages from Batches 1 and 2 in both languages at 320, 390, 768, 1100, 1280 and 1600 px: **120 passing checks** and zero HTTP, JavaScript or overflow failures. The QA artifact contains 40 full-page screenshots and a machine-readable report. **Published:** PR #2 merged to `main` as commit `c4e23801297b2246a6bfcb016bb6368f1f0b4930`; [GitHub Pages deployment 41771387714](https://github.com/sysopx786/scallys-auto-repair-website/actions/runs/41771387714) succeeded.
 
-## Decisions that need your OK before merge
+## Open decisions and future launch items
 
 1. **Page consolidation: 34 detailed pages, not 67.** Diverse Auto Works covers its ~83 services with 26 detailed pages. One page per service would create near-duplicate pages competing for the same searches (wheel bearings vs wheel hubs, motor mounts vs transmission mounts, spark plugs vs ignition vs tune-ups). Every one of the 67 services still has its own anchor, its own entry on its category page, its own search entry, and a link to the page that covers it. Reverting a service to its own page is a one-field change (`page` in `src/services.json`) plus a new page file.
 2. **Canonical domain.** `baseUrl` is now the GitHub Pages preview (`https://sysopx786.github.io/scallys-auto-repair-website`). If this merges before a custom domain exists, Google indexes the github.io URLs, and you redo the move later. Alternatives: wait for the domain, or merge now and switch `baseUrl` + `basePath` when the domain is live.
@@ -65,18 +65,18 @@ The browser test covered all ten new pages across Batches 1 and 2 in English and
 | `/emissions-repair/` | Emissions Control | built (EN+ES); full QA passed |
 | `/pre-purchase-inspection/` | Pre-Purchase Inspections | built (EN+ES); full QA passed |
 | `/check-engine-light/` | Computer Diagnostics, Check Engine Light | built (EN+ES) |
-| `/electrical-repair/` | Electrical Repair & Wiring | built (EN+ES); QA passed; merge pending |
+| `/electrical-repair/` | Electrical Repair & Wiring | published (EN+ES); QA passed |
 | `/battery-alternator-starter/` | Charging & Starting Systems, Battery Testing & Replacement | built (EN+ES) |
-| `/auto-light-repair/` | Auto Light Repair | built (EN+ES); QA passed; merge pending |
-| `/power-windows-locks/` | Power Window Repair, Power Door Lock Repair | built (EN+ES); QA passed; merge pending |
+| `/auto-light-repair/` | Auto Light Repair | published (EN+ES); QA passed |
+| `/power-windows-locks/` | Power Window Repair, Power Door Lock Repair | published (EN+ES); QA passed |
 | `/brake-repair/` | Brake Repair, Rotor Resurfacing, Brake Fluid Flush | built (EN+ES) |
 | `/suspension-repair/` | Steering & Suspension, Sway Bar Links, Shocks & Struts | built (EN+ES) |
 | `/steering-repair/` | Power Steering Repair, Ball Joints, Control Arms, Tie Rods | built (EN+ES) |
-| `/wheel-bearings-hubs/` | Wheel Bearings, Wheel Hubs | built (EN+ES); QA passed; merge pending |
+| `/wheel-bearings-hubs/` | Wheel Bearings, Wheel Hubs | published (EN+ES); QA passed |
 | `/wheel-alignment/` | Front End Alignment | built (EN+ES) |
 | `/engine-repair/` | Engine Repair, Engine Rebuilding, Engine Replacement, Cylinder Head & Block Repair | built (EN+ES) |
 | `/engine-tune-up/` | Engine Tune-Ups, Spark Plugs, Ignition System Repair | built (EN+ES); full QA passed |
-| `/oil-leak-repair/` | Oil Leak & Gasket Repair | built (EN+ES); QA passed; merge pending |
+| `/oil-leak-repair/` | Oil Leak & Gasket Repair | published (EN+ES); QA passed |
 | `/timing-belt-chain/` | Timing Belt, Timing Chain | built (EN+ES); full QA passed |
 | `/exhaust-muffler-repair/` | Mufflers & Exhaust | built (EN+ES) |
 | `/fuel-system-repair/` | Fuel System Service, Gas Tanks | queued |
