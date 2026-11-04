@@ -1,0 +1,311 @@
+{
+  "id": "electrical-repair",
+  "slug": "electrical-repair",
+  "category": "diagnostics-electrical",
+  "covers": [
+    "electrical-repair"
+  ],
+  "adaptedFrom": "Diverse Autoworks svc_electrical (tools/service_pages_batch5.py) technical reference; rewritten and scoped to Scally's confirmed services",
+  "primary_kw": {
+    "en": "car electrical repair Primos PA",
+    "es": "reparación eléctrica de autos en Primos PA"
+  },
+  "secondary_kws": [
+    "auto electrical diagnostics",
+    "car wiring repair",
+    "intermittent electrical fault",
+    "car blown fuse diagnosis",
+    "electrical short car",
+    "battery draining overnight",
+    "electrical problem Secane",
+    "vehicle electrical repair Clifton Heights",
+    "car no power diagnosis",
+    "flickering dash lights",
+    "electric wiring fault",
+    "car electrical systems"
+  ],
+  "title": {
+    "en": "Car Electrical Repair in Primos, PA | Scally's",
+    "es": "Reparación eléctrica en Primos, PA | Scally's"
+  },
+  "desc": {
+    "en": "Electrical problems or damaged wiring? Scally's in Primos diagnoses fuses, circuits and intermittent faults before recommending a repair. Call the shop.",
+    "es": "¿Problemas eléctricos o cables dañados? Scally's en Primos revisa fusibles, circuitos y fallas intermitentes antes de recomendar reparaciones."
+  },
+  "h1": {
+    "en": "Car Electrical Repair in Primos, PA",
+    "es": "Reparación eléctrica de autos en Primos, PA"
+  },
+  "crumb": {
+    "en": "Electrical Repair",
+    "es": "Reparación eléctrica"
+  },
+  "service_type": {
+    "en": "Vehicle electrical diagnosis and wiring repair",
+    "es": "Diagnóstico y reparación eléctrica del vehículo"
+  },
+  "lead": {
+    "en": "A blown fuse, lights that flicker or a feature that works one day and quits the next can be frustrating. At {name}, on {street} in {city}, we diagnose automotive electrical problems and repair wiring faults. We look for the cause rather than replacing parts because a warning light or an electrical symptom alone cannot identify a failed component.",
+    "es": "Un fusible quemado, luces que parpadean o una función que un día trabaja y al siguiente no pueden causar molestias. En {name}, en {street}, {city}, diagnosticamos problemas eléctricos y reparamos fallas de cableado. Buscamos la causa antes de cambiar piezas porque una luz de advertencia o un síntoma eléctrico no identifica por sí solo el componente dañado."
+  },
+  "blocks": [
+    [
+      "h2",
+      {
+        "en": "How a car's electrical system works",
+        "es": "Cómo funciona el sistema eléctrico de un auto"
+      },
+      "how-it-works"
+    ],
+    [
+      "p",
+      {
+        "en": "The battery supplies power when the engine is off and helps start the vehicle. With the engine running, the charging system supports the electrical load. Fuses and relays protect or switch circuits, while wiring, grounds, sensors and control modules send power and information where they are needed. One loose ground, corroded connection or damaged wire can affect several features at once.",
+        "es": "La batería proporciona energía cuando el motor está apagado y ayuda a arrancarlo. Con el motor encendido, el sistema de carga alimenta los equipos eléctricos. Los fusibles y relevadores protegen o activan circuitos; los cables, conexiones a tierra, sensores y módulos llevan energía e información donde se necesitan. Una conexión a tierra floja, un contacto corroído o un cable dañado pueden afectar varias funciones a la vez."
+      }
+    ],
+    [
+      "p",
+      {
+        "en": "Modern vehicles have separate circuits for lights, windows, locks, instruments, charging and engine controls. A fuse that blows repeatedly is usually a sign that a fault remains in its circuit; fitting a larger fuse is unsafe and can damage wiring. An electrical repair starts by understanding which components share the problem and under what conditions it appears.",
+        "es": "Los vehículos modernos tienen circuitos para luces, ventanas, seguros, instrumentos, carga y control del motor. Un fusible que se quema repetidamente suele indicar que todavía existe una falla en el circuito; colocar uno de mayor capacidad es peligroso y puede dañar los cables. El diagnóstico empieza por identificar qué equipos presentan el problema y bajo qué condiciones aparece."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Signs of an electrical fault",
+        "es": "Señales de una falla eléctrica"
+      },
+      "signs"
+    ],
+    [
+      "ul",
+      [
+        {
+          "en": "The dashboard or exterior lights flicker, dim or stop working.",
+          "es": "Las luces del tablero o las exteriores parpadean, pierden intensidad o dejan de funcionar."
+        },
+        {
+          "en": "One or more accessories work only occasionally.",
+          "es": "Uno o varios accesorios funcionan de manera intermitente."
+        },
+        {
+          "en": "A fuse blows again soon after replacement.",
+          "es": "Un fusible vuelve a quemarse poco después de cambiarlo."
+        },
+        {
+          "en": "The battery loses charge while the car is parked.",
+          "es": "La batería se descarga mientras el auto está estacionado."
+        },
+        {
+          "en": "You notice intermittent warning lights or an unexpected loss of power.",
+          "es": "Aparecen luces de advertencia intermitentes o hay una pérdida inesperada de energía."
+        },
+        {
+          "en": "A switch, window or door lock stops responding.",
+          "es": "Un interruptor, una ventana o un seguro deja de responder."
+        },
+        {
+          "en": "A burning smell or visible damage appears near wiring or a fuse panel.",
+          "es": "Hay olor a quemado o daños visibles cerca del cableado o la caja de fusibles."
+        }
+      ]
+    ],
+    [
+      "p",
+      {
+        "en": "These signs overlap with battery, starter, alternator and mechanical problems, so a symptom is not proof of a short circuit. If wiring smokes or smells hot, stop using the affected system, turn the car off somewhere safe and contact a repair shop. Do not keep replacing blown fuses or bypass protective devices.",
+        "es": "Estos síntomas pueden parecerse a problemas de batería, motor de arranque, alternador o fallas mecánicas. Si el cableado echa humo o huele a quemado, deje de usar el sistema afectado, apague el auto en un lugar seguro y comuníquese con un taller. No siga cambiando fusibles quemados ni anule los dispositivos de protección."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Electrical work we do",
+        "es": "Trabajos eléctricos que hacemos"
+      },
+      "work"
+    ],
+    [
+      "ul",
+      [
+        {
+          "en": "Investigate failed or intermittent vehicle electrical systems.",
+          "es": "Investigar sistemas eléctricos que fallan o funcionan por momentos."
+        },
+        {
+          "en": "Check wiring, connectors, grounds and circuit protection where the symptom points.",
+          "es": "Revisar cables, conectores, conexiones a tierra y protecciones del circuito relacionadas con el síntoma."
+        },
+        {
+          "en": "Identify the likely reason a fuse or electrical component has stopped working.",
+          "es": "Identificar por qué un fusible o componente eléctrico dejó de funcionar."
+        },
+        {
+          "en": "Discuss repair of damaged wiring and relevant connections.",
+          "es": "Reparar cableado dañado y conexiones relacionadas."
+        },
+        {
+          "en": "Refer charging or starting complaints to the appropriate system diagnosis.",
+          "es": "Distinguir fallas de carga o arranque que requieren otro diagnóstico."
+        }
+      ]
+    ],
+    [
+      "h3",
+      {
+        "en": "Wiring faults and repeated blown fuses",
+        "es": "Cableado dañado y fusibles que se queman"
+      },
+      "wiring"
+    ],
+    [
+      "p",
+      {
+        "en": "Wires can be affected by movement, moisture, heat, corrosion or previous repairs. A bad ground may make multiple devices behave oddly; a damaged wire can cause an open circuit or a short. We trace the relevant problem rather than assuming the fuse itself caused it. A proper repair needs the correct circuit protection and secure connections.",
+        "es": "Los cables pueden dañarse por movimiento, humedad, calor, corrosión o reparaciones anteriores. Una mala conexión a tierra puede hacer que varios equipos funcionen de forma extraña; un cable dañado puede causar un circuito abierto o un cortocircuito. Revisamos el problema en lugar de suponer que el fusible es la causa. Una reparación adecuada necesita la protección correcta y conexiones firmes."
+      }
+    ],
+    [
+      "h3",
+      {
+        "en": "Intermittent faults and battery drain",
+        "es": "Fallas intermitentes y descarga de batería"
+      },
+      "intermittent"
+    ],
+    [
+      "p",
+      {
+        "en": "An intermittent failure may appear only in rain, on a rough road or after the car sits overnight. Describe when it happens and which features are affected. A drained battery can come from an old battery, charging trouble or a circuit drawing power while parked. Those are different possibilities. See our [battery and starting service](svc:charging-and-starting-systems) page for related concerns.",
+        "es": "Una falla intermitente puede aparecer con lluvia, en un camino irregular o después de dejar estacionado el auto toda la noche. Explique cuándo ocurre y qué funciones se afectan. Una batería descargada puede deberse a su antigüedad, al sistema de carga o a un circuito que consume energía con el vehículo apagado. Son causas distintas. Consulte [batería y arranque](svc:charging-and-starting-systems) para problemas relacionados."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Electrical maintenance and prevention",
+        "es": "Mantenimiento y prevención de fallas eléctricas"
+      },
+      "maintenance"
+    ],
+    [
+      "p",
+      {
+        "en": "Keep the battery and charging system serviced according to your owner's manual, and have water intrusion or persistent warning lights investigated. Never install a fuse with a rating higher than specified. If an aftermarket accessory was added before the problem began, mention it when you call. Tell us if the failure is linked to temperature, bumps or recent repairs; that history can make diagnosis more useful.",
+        "es": "Mantenga la batería y el sistema de carga según el manual del propietario, y solicite una revisión si entra agua o las luces de advertencia no desaparecen. Nunca instale un fusible de mayor capacidad que la indicada. Si se agregó un accesorio antes de que apareciera la falla, dígalo al llamar. Explique si el problema ocurre con cambios de temperatura, baches o después de una reparación."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Electrical faults and Pennsylvania inspections",
+        "es": "Fallas eléctricas e inspecciones de Pensilvania"
+      },
+      "pa-inspection"
+    ],
+    [
+      "p",
+      {
+        "en": "PennDOT includes lighting and electrical equipment among the systems checked during Pennsylvania safety inspections. A failed required lamp or related fault may affect the result, depending on the applicable rules. The inspection does not identify the cause of every electrical problem. See our [PA state inspection](svc:pa-safety-inspections) and [auto light repair](svc:auto-light-repair) pages, or read the [PennDOT consumer FAQ](url:https://www.pa.gov/agencies/dmv/faqs/motor-vehicle-faqs/safety-inspection-consumers-faqs).",
+        "es": "PennDOT incluye el alumbrado y el equipo eléctrico entre los sistemas revisados durante la inspección de seguridad de Pensilvania. Una luz obligatoria que no funciona u otra falla relacionada puede afectar el resultado según las normas aplicables. La inspección no identifica la causa de todos los problemas eléctricos. Vea [inspección estatal](svc:pa-safety-inspections) y [reparación de luces](svc:auto-light-repair), o consulte la [guía de PennDOT](url:https://www.pa.gov/agencies/dmv/faqs/motor-vehicle-faqs/safety-inspection-consumers-faqs)."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Electrical repair near Secane and Clifton Heights",
+        "es": "Reparación eléctrica cerca de Secane y Clifton Heights"
+      },
+      "local"
+    ],
+    [
+      "p",
+      {
+        "en": "{name} is at {street} in {city}, close to Secane and Clifton Heights. Call {phone} with the vehicle's year, make and model and describe which feature failed and when. We can discuss an inspection before anyone guesses at parts.",
+        "es": "{name} está en {street}, {city}, cerca de Secane y Clifton Heights. Llame al {phone} con el año, marca y modelo del vehículo; explique qué función falló y cuándo. Podemos hablar de una revisión antes de cambiar piezas por suposición."
+      }
+    ]
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Why does my car keep blowing the same fuse?",
+        "es": "¿Por qué se quema el mismo fusible repetidamente?"
+      },
+      "a": {
+        "en": "The circuit may have a short or another overload. Do not install a higher-rated fuse. The cause needs to be checked.",
+        "es": "Puede existir un cortocircuito u otra sobrecarga. No instale un fusible de mayor capacidad. Es necesario encontrar la causa."
+      }
+    },
+    {
+      "q": {
+        "en": "Can a bad ground cause several problems?",
+        "es": "¿Una mala conexión a tierra puede causar varias fallas?"
+      },
+      "a": {
+        "en": "Yes. Several systems may share a ground or power connection. Testing helps determine if that is the actual fault.",
+        "es": "Sí. Varios sistemas pueden compartir una conexión eléctrica o a tierra. Las pruebas ayudan a comprobar la causa."
+      }
+    },
+    {
+      "q": {
+        "en": "Why does my battery die overnight?",
+        "es": "¿Por qué se descarga la batería durante la noche?"
+      },
+      "a": {
+        "en": "A weak battery, charging fault or unwanted current draw while parked can all contribute. Diagnosis separates them.",
+        "es": "Una batería débil, un problema de carga o consumo eléctrico con el auto apagado pueden contribuir. El diagnóstico permite distinguirlos."
+      }
+    },
+    {
+      "q": {
+        "en": "Do you repair car wiring?",
+        "es": "¿Reparan el cableado del auto?"
+      },
+      "a": {
+        "en": "Yes. Electrical wiring faults are among Scally's listed services. Call with the vehicle and symptom so the shop can discuss the work.",
+        "es": "Sí. La reparación de fallas del cableado figura entre los servicios de Scally's. Llame con los datos del vehículo y el síntoma."
+      }
+    },
+    {
+      "q": {
+        "en": "Is a check engine light always an electrical problem?",
+        "es": "¿La luz de check engine siempre indica un problema eléctrico?"
+      },
+      "a": {
+        "en": "No. It can involve engine, emissions, sensor, fuel or wiring faults. A diagnostic code is a starting point, not a part diagnosis.",
+        "es": "No. Puede relacionarse con el motor, emisiones, sensores, combustible o cableado. El código es el punto de partida, no un diagnóstico de una pieza."
+      }
+    },
+    {
+      "q": {
+        "en": "Should I keep driving if wiring smells burned?",
+        "es": "¿Debo seguir manejando si el cableado huele a quemado?"
+      },
+      "a": {
+        "en": "No. Stop safely, switch off the car and seek professional guidance. Overheated wiring can be hazardous.",
+        "es": "No. Deténgase donde sea seguro, apague el vehículo y pida orientación profesional. Los cables sobrecalentados pueden ser peligrosos."
+      }
+    }
+  ],
+  "related": [
+    "charging-and-starting-systems",
+    "check-engine-light",
+    "auto-light-repair",
+    "power-window-repair",
+    "power-door-lock-repair",
+    "pa-safety-inspections"
+  ],
+  "sources": [
+    [
+      "PennDOT: Safety Inspection Consumer FAQs",
+      "https://www.pa.gov/agencies/dmv/faqs/motor-vehicle-faqs/safety-inspection-consumers-faqs"
+    ]
+  ],
+  "verify": [
+    "Confirm with Jerry which electrical diagnostic tools and wiring repair methods Scally's uses; no tool names or certifications claimed.",
+    "Confirm limits on accessory wiring and control module programming; current page makes no programming promise."
+  ]
+}

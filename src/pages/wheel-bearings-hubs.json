@@ -1,0 +1,311 @@
+{
+  "id": "wheel-bearings-hubs",
+  "slug": "wheel-bearings-hubs",
+  "category": "brakes-steering-suspension",
+  "covers": [
+    "wheel-bearings",
+    "wheel-hubs"
+  ],
+  "adaptedFrom": "Diverse Autoworks svc_bearing (tools/service_pages_batch4.py), concepts rewritten for Scally's service catalog; NHTSA-hosted technical bulletin used for bearing versus tire noise distinction",
+  "primary_kw": {
+    "en": "wheel bearing replacement Primos PA",
+    "es": "cambio de rodamientos de rueda en Primos PA"
+  },
+  "secondary_kws": [
+    "wheel bearing noise",
+    "wheel hub repair",
+    "wheel hub assembly replacement",
+    "humming noise while driving",
+    "growling sound at speed",
+    "bearing noise when turning",
+    "front wheel bearing Primos",
+    "rear wheel bearing repair",
+    "ABS wheel speed warning",
+    "wheel bearing inspection Secane",
+    "wheel hub replacement Clifton Heights",
+    "wheel vibration diagnosis"
+  ],
+  "title": {
+    "en": "Wheel Bearings & Hubs in Primos, PA | Scally's",
+    "es": "Rodamientos y mazas en Primos, PA | Scally's"
+  },
+  "desc": {
+    "en": "Humming or rumbling near a wheel? Scally's in Primos diagnoses wheel bearing and hub problems before replacement. Call with the vehicle symptoms.",
+    "es": "¿Zumbido o ruido cerca de una rueda? Scally's en Primos diagnostica problemas de rodamientos y mazas antes de cambiarlos."
+  },
+  "h1": {
+    "en": "Wheel Bearing and Hub Repair in Primos, PA",
+    "es": "Reparación de rodamientos y mazas en Primos, PA"
+  },
+  "crumb": {
+    "en": "Wheel Bearings & Hubs",
+    "es": "Rodamientos y mazas"
+  },
+  "service_type": {
+    "en": "Wheel bearing and hub inspection and replacement",
+    "es": "Inspección y cambio de rodamientos y mazas"
+  },
+  "lead": {
+    "en": "A steady hum or growl that rises with road speed can come from a wheel bearing, but tires and other parts can make similar noises. At {name}, on {street} in {city}, we diagnose wheel bearing and hub concerns, then discuss replacement when the findings support it. A noisy wheel is a reason to investigate—not proof of which component has failed.",
+    "es": "Un zumbido o gruñido que aumenta con la velocidad puede venir de un rodamiento de rueda, pero las llantas y otras piezas hacen ruidos parecidos. En {name}, en {street}, {city}, diagnosticamos problemas de rodamientos y mazas de rueda, y hablamos de cambiarlos cuando los resultados lo indiquen. Un ruido es motivo para revisar, no prueba de qué componente falló."
+  },
+  "blocks": [
+    [
+      "h2",
+      {
+        "en": "What wheel bearings and hubs do",
+        "es": "Para qué sirven los rodamientos y las mazas"
+      },
+      "how-it-works"
+    ],
+    [
+      "p",
+      {
+        "en": "A wheel bearing allows the wheel to rotate while supporting the vehicle's load. The wheel hub holds the wheel in position and connects it to related suspension or drive components. Some vehicles use a bearing that can be replaced separately, while others use a sealed hub-and-bearing assembly. The design determines which parts are serviced and how they are installed.",
+        "es": "El rodamiento permite que la rueda gire mientras soporta el peso del vehículo. La maza mantiene la rueda en su posición y la conecta con otros componentes de la suspensión o transmisión. Algunos vehículos tienen un rodamiento que puede cambiarse por separado; otros usan un conjunto sellado de maza y rodamiento. El diseño determina qué piezas se cambian y cómo se instalan."
+      }
+    ],
+    [
+      "p",
+      {
+        "en": "Bearing wear can create noise, looseness or rough rotation. A damaged hub can affect how the wheel is supported or mounted. Some hub assemblies also contain a wheel-speed sensor or a magnetic encoder used by the ABS system. That means an ABS warning might be connected to a hub issue, but the warning alone does not establish that the bearing needs replacement.",
+        "es": "El desgaste del rodamiento puede producir ruido, holgura o giro irregular. Una maza dañada puede afectar el soporte o la fijación de la rueda. Algunos conjuntos también tienen un sensor de velocidad o un anillo magnético usado por el sistema ABS. Por eso una luz de ABS podría estar relacionada con la maza, pero la luz por sí sola no demuestra que haya que cambiar el rodamiento."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Signs of a possible bearing or hub problem",
+        "es": "Señales de un posible problema de rodamiento o maza"
+      },
+      "signs"
+    ],
+    [
+      "ul",
+      [
+        {
+          "en": "A hum, roar or growl that changes with road speed.",
+          "es": "Zumbido, rugido o gruñido que cambia con la velocidad."
+        },
+        {
+          "en": "Noise that changes when you steer gently around a bend.",
+          "es": "Ruido que cambia al girar suavemente en una curva."
+        },
+        {
+          "en": "Roughness or vibration felt through a wheel or steering.",
+          "es": "Aspereza o vibración que se siente en una rueda o en la dirección."
+        },
+        {
+          "en": "A wheel that feels unusually loose or has abnormal movement.",
+          "es": "Una rueda que se siente floja o presenta movimiento anormal."
+        },
+        {
+          "en": "An ABS or wheel-speed warning light accompanies other symptoms.",
+          "es": "Una luz de ABS o de velocidad de rueda aparece junto con otros síntomas."
+        },
+        {
+          "en": "Uneven tire noise or cupping that might resemble bearing noise.",
+          "es": "Ruido desigual o desgaste irregular de llantas que puede parecerse al de un rodamiento."
+        }
+      ]
+    ],
+    [
+      "p",
+      {
+        "en": "A noise may be caused by tire tread, alignment, brakes, suspension components or road surface. A wheel-speed warning can also involve a sensor or wiring. We investigate the likely cause instead of replacing the hub from sound alone. If you notice wheel looseness, severe grinding or unstable handling, stop driving in a safe place and arrange an inspection. A severely worn bearing can become a safety issue.",
+        "es": "El ruido puede venir de las llantas, alineación, frenos, suspensión o superficie del camino. Una advertencia de velocidad de rueda también puede relacionarse con un sensor o cableado. Investigamos la causa antes de cambiar la maza solo por el sonido. Si nota holgura en una rueda, rechinido fuerte o inestabilidad al conducir, deténgase en un lugar seguro y solicite una revisión. Un rodamiento muy desgastado puede ser un riesgo."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Wheel bearing and hub work we do",
+        "es": "Trabajos de rodamientos y mazas que realizamos"
+      },
+      "work"
+    ],
+    [
+      "ul",
+      [
+        {
+          "en": "Inspect suspected wheel bearing noise or play.",
+          "es": "Revisar ruidos u holguras que podrían venir del rodamiento."
+        },
+        {
+          "en": "Check related wheel, tire and suspension concerns.",
+          "es": "Revisar problemas relacionados con rueda, llanta y suspensión."
+        },
+        {
+          "en": "Discuss wheel bearing replacement when wear is confirmed.",
+          "es": "Cambiar rodamientos cuando se confirme el desgaste."
+        },
+        {
+          "en": "Service wheel hubs or hub-and-bearing assemblies where appropriate.",
+          "es": "Atender mazas o conjuntos de maza y rodamiento según el vehículo."
+        },
+        {
+          "en": "Review related ABS warning symptoms rather than assuming the hub is at fault.",
+          "es": "Revisar síntomas de ABS sin suponer que la maza está dañada."
+        }
+      ]
+    ],
+    [
+      "h3",
+      {
+        "en": "Wheel bearing replacement",
+        "es": "Cambio de rodamiento de rueda"
+      },
+      "bearing-replacement"
+    ],
+    [
+      "p",
+      {
+        "en": "Depending on the vehicle, a worn bearing may be separate from the hub or supplied as part of a larger assembly. Correct installation matters because the bearing carries substantial loads. A proposed repair should identify which wheel is affected and what part design your vehicle uses. If the noise is from an unevenly worn tire, bearing replacement will not solve it.",
+        "es": "Según el vehículo, el rodamiento gastado puede estar separado de la maza o venir como parte de un conjunto. La instalación correcta importa porque el rodamiento soporta cargas grandes. La recomendación debe indicar qué rueda está afectada y qué diseño usa el vehículo. Si el ruido viene de una llanta con desgaste desigual, cambiar el rodamiento no lo resolverá."
+      }
+    ],
+    [
+      "p",
+      {
+        "en": "The sound heard from the driver's seat can be misleading. Noise can travel through the body and steering, making one side appear louder even when the source is elsewhere. An Audi technical bulletin published through NHTSA describes that bearing noise can resemble rolling tire noise. We use the symptom and appropriate checks together before recommending repair.",
+        "es": "El sonido que se escucha desde el asiento del conductor puede confundir. El ruido viaja por la carrocería y la dirección, y un lado puede parecer más fuerte aunque el origen esté en otro lugar. Un boletín técnico de Audi publicado por NHTSA explica que el ruido de rodamiento puede parecerse al de una llanta rodando. Se debe relacionar el síntoma con las revisiones correspondientes antes de recomendar el trabajo."
+      }
+    ],
+    [
+      "h3",
+      {
+        "en": "Wheel hub service",
+        "es": "Servicio de mazas de rueda"
+      },
+      "wheel-hubs"
+    ],
+    [
+      "p",
+      {
+        "en": "A wheel hub provides the mounting point for the wheel and, in many designs, works with the bearing as one assembly. Damage or wear may affect the way the wheel rotates or is supported. Some vehicles use integrated sensors; others keep those parts separate. We explain which components are involved before replacing an assembly, and check related concerns rather than assuming every ABS light is a hub failure.",
+        "es": "La maza es el punto de fijación de la rueda y, en muchos diseños, funciona con el rodamiento como un conjunto. El daño o desgaste puede afectar cómo gira o se sostiene la rueda. Algunos vehículos tienen sensores integrados y otros separados. Explicamos qué componentes intervienen antes de cambiar un conjunto y revisamos otras causas, en lugar de suponer que toda luz de ABS significa una maza dañada."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Maintenance and related inspections",
+        "es": "Mantenimiento y revisiones relacionadas"
+      },
+      "maintenance"
+    ],
+    [
+      "p",
+      {
+        "en": "Wheel bearings do not share one universal replacement interval. Many modern units are sealed and serviced when a fault is identified rather than during routine lubrication. Watch for developing noises, unusual wheel movement or vibrations, and have the car inspected after a hard impact if symptoms change. Correct tire pressure and the manufacturer's maintenance schedule also help reveal tire concerns that sound like bearings.",
+        "es": "Los rodamientos no comparten un intervalo de cambio universal. Muchos conjuntos modernos están sellados y se atienden cuando se detecta una falla, no con lubricación de rutina. Preste atención a ruidos nuevos, movimientos anormales o vibraciones, y solicite revisión después de un golpe fuerte si aparecen síntomas. La presión correcta de las llantas y el mantenimiento del fabricante ayudan a reconocer fallas que suenan como rodamientos."
+      }
+    ],
+    [
+      "p",
+      {
+        "en": "Pennsylvania inspections include the condition of tires, wheels, steering and suspension components. An actual inspection follows the state criteria; a hum alone is not the complete test. See [PA inspections](svc:pa-safety-inspections), [tires](svc:tires-and-flat-repair), [alignment](svc:front-end-alignment) and [suspension repair](svc:steering-and-suspension) to understand other related concerns.",
+        "es": "Las inspecciones de Pensilvania incluyen el estado de llantas, ruedas, dirección y componentes de suspensión. La revisión oficial sigue los criterios estatales; un zumbido por sí solo no es una prueba completa. Consulte [inspecciones de PA](svc:pa-safety-inspections), [llantas](svc:tires-and-flat-repair), [alineación](svc:front-end-alignment) y [suspensión](svc:steering-and-suspension) para conocer otros problemas relacionados."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Wheel bearing repair near Primos and Secane",
+        "es": "Reparación de rodamientos cerca de Primos y Secane"
+      },
+      "local"
+    ],
+    [
+      "p",
+      {
+        "en": "{name} is at {street} in {city}, near Secane and Clifton Heights. Call {phone} with your car's year, make and model, tell us which side you think the noise comes from and whether it changes with speed or turns. We can discuss the safest next step and assess the symptom before parts are ordered.",
+        "es": "{name} está en {street}, {city}, cerca de Secane y Clifton Heights. Llame al {phone} con año, marca y modelo del auto, indique de qué lado cree que viene el ruido y si cambia con velocidad o curvas. Podemos hablar del siguiente paso seguro y revisar el síntoma antes de pedir piezas."
+      }
+    ]
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "What does a bad wheel bearing sound like?",
+        "es": "¿Cómo suena un rodamiento de rueda dañado?"
+      },
+      "a": {
+        "en": "Often a hum, rumble or growl that changes with speed, but tire noise can sound similar. Diagnosis should come first.",
+        "es": "A menudo produce zumbido, rugido o gruñido que cambia con la velocidad, pero una llanta puede sonar igual. Primero se necesita diagnóstico."
+      }
+    },
+    {
+      "q": {
+        "en": "Can I drive with a noisy wheel bearing?",
+        "es": "¿Puedo conducir con un rodamiento que hace ruido?"
+      },
+      "a": {
+        "en": "A slight noise does not reveal the amount of wear. If you feel looseness, severe grinding or unstable steering, stop safely and seek an inspection.",
+        "es": "Un ruido leve no indica cuánto desgaste existe. Si siente holgura, rechinido fuerte o dirección inestable, deténgase de forma segura y solicite una revisión."
+      }
+    },
+    {
+      "q": {
+        "en": "Is a wheel bearing the same as a wheel hub?",
+        "es": "¿Rodamiento y maza de rueda son lo mismo?"
+      },
+      "a": {
+        "en": "No. The bearing lets the wheel rotate; the hub supports and mounts it. Some vehicles combine both in one assembly.",
+        "es": "No. El rodamiento permite el giro; la maza sostiene y fija la rueda. Algunos vehículos los unen en un conjunto."
+      }
+    },
+    {
+      "q": {
+        "en": "Why does the noise change when I turn?",
+        "es": "¿Por qué cambia el ruido al girar?"
+      },
+      "a": {
+        "en": "Turning can change the load on a bearing, but tires or suspension parts can also make changing sounds. Tests help identify the source.",
+        "es": "Al girar cambia la carga sobre los rodamientos, pero las llantas o suspensión también pueden producir ruidos variables. Las pruebas ayudan a identificar el origen."
+      }
+    },
+    {
+      "q": {
+        "en": "Can a hub problem turn on the ABS light?",
+        "es": "¿Un problema de maza puede encender la luz de ABS?"
+      },
+      "a": {
+        "en": "On some vehicles, hub assemblies include wheel-speed sensing components. Sensor and wiring faults can also light the warning, so testing is needed.",
+        "es": "En algunos autos la maza contiene piezas del sensor de velocidad. Las fallas del sensor o los cables también pueden encender la luz; se requieren pruebas."
+      }
+    },
+    {
+      "q": {
+        "en": "Do both wheel bearings need to be replaced together?",
+        "es": "¿Se deben cambiar ambos rodamientos a la vez?"
+      },
+      "a": {
+        "en": "Not automatically. The condition of each bearing and the vehicle design guide the repair recommendation.",
+        "es": "No necesariamente. La recomendación depende del estado de cada rodamiento y del diseño del vehículo."
+      }
+    }
+  ],
+  "related": [
+    "tires-and-flat-repair",
+    "front-end-alignment",
+    "steering-and-suspension",
+    "power-steering-repair",
+    "pa-safety-inspections"
+  ],
+  "sources": [
+    [
+      "PennDOT: Safety Inspection Consumer FAQs",
+      "https://www.pa.gov/agencies/dmv/faqs/motor-vehicle-faqs/safety-inspection-consumers-faqs"
+    ],
+    [
+      "NHTSA: TSB 2047920/9",
+      "https://static.nhtsa.gov/odi/tsbs/2024/MC-10251646-0001.pdf"
+    ]
+  ],
+  "verify": [
+    "Confirm whether Scally's supports press-in bearings, complete hub assemblies and the associated ABS sensor repairs.",
+    "Confirm if wheel bearing diagnostic road tests are part of normal intake; no specific test equipment claimed.",
+    "Vehicle-specific labor/prices must not be published until approved."
+  ]
+}

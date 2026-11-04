@@ -4,7 +4,7 @@
   "date": "2026-11-03"
  },
  "/services": {
-  "hash": "1027796f4481",
+  "hash": "29c6a709feb6",
   "date": "2026-11-04"
  },
  "/about": {
@@ -20,7 +20,7 @@
   "date": "2026-11-03"
  },
  "/sitemap": {
-  "hash": "f6bb81f680c3",
+  "hash": "2285d6bf12bb",
   "date": "2026-11-04"
  },
  "/inspections-emissions": {
@@ -28,15 +28,15 @@
   "date": "2026-11-04"
  },
  "/diagnostics-electrical": {
-  "hash": "3005c637f448",
-  "date": "2026-11-03"
+  "hash": "92b30d72c073",
+  "date": "2026-11-04"
  },
  "/brakes-steering-suspension": {
-  "hash": "1e9b0bbe31d4",
-  "date": "2026-11-03"
+  "hash": "1190b8fb0a3b",
+  "date": "2026-11-04"
  },
  "/engine-exhaust-transmission": {
-  "hash": "f5aaf2891380",
+  "hash": "1cf8aefbe723",
   "date": "2026-11-04"
  },
  "/transmission-drivetrain": {
@@ -56,23 +56,31 @@
   "date": "2026-11-03"
  },
  "/ac-heating": {
-  "hash": "30015ce1622a",
-  "date": "2026-11-03"
+  "hash": "5cdf65c11efd",
+  "date": "2026-11-04"
+ },
+ "/auto-light-repair": {
+  "hash": "935a4e16e469",
+  "date": "2026-11-04"
  },
  "/battery-alternator-starter": {
-  "hash": "20eec85ac124",
-  "date": "2026-11-03"
+  "hash": "3bf7f23da0aa",
+  "date": "2026-11-04"
  },
  "/brake-repair": {
-  "hash": "60470ea63214",
+  "hash": "995582a818b0",
   "date": "2026-11-04"
  },
  "/check-engine-light": {
-  "hash": "975399725ad7",
+  "hash": "64d9a5233af2",
   "date": "2026-11-04"
  },
  "/cooling-system": {
   "hash": "9c11078c0b46",
+  "date": "2026-11-04"
+ },
+ "/electrical-repair": {
+  "hash": "753b163de98e",
   "date": "2026-11-04"
  },
  "/emissions-repair": {
@@ -80,11 +88,11 @@
   "date": "2026-11-04"
  },
  "/engine-repair": {
-  "hash": "64c3e913a1af",
+  "hash": "d96d46c48787",
   "date": "2026-11-04"
  },
  "/engine-tune-up": {
-  "hash": "bc7d725e04a0",
+  "hash": "8fd100942438",
   "date": "2026-11-04"
  },
  "/exhaust-muffler-repair": {
@@ -92,31 +100,39 @@
   "date": "2026-11-04"
  },
  "/oil-change": {
-  "hash": "f083b8a4ae02",
+  "hash": "9a9e4e1179a3",
+  "date": "2026-11-04"
+ },
+ "/oil-leak-repair": {
+  "hash": "b9150a0d0bad",
   "date": "2026-11-04"
  },
  "/pa-state-inspection": {
-  "hash": "20c85f7dea17",
+  "hash": "d44f2ba4040a",
+  "date": "2026-11-04"
+ },
+ "/power-windows-locks": {
+  "hash": "1e8aa520db92",
   "date": "2026-11-04"
  },
  "/pre-purchase-inspection": {
-  "hash": "c367e5084a8d",
+  "hash": "f05644f069c5",
   "date": "2026-11-04"
  },
  "/steering-repair": {
-  "hash": "527191b039d5",
+  "hash": "369b5fb905ce",
   "date": "2026-11-04"
  },
  "/suspension-repair": {
-  "hash": "dd92c05d5a64",
+  "hash": "1ece8016a38d",
   "date": "2026-11-04"
  },
  "/timing-belt-chain": {
-  "hash": "b622a8af1561",
+  "hash": "528ac9e0c92c",
   "date": "2026-11-04"
  },
  "/tires": {
-  "hash": "03847cfc4d31",
+  "hash": "d593fd4cbe34",
   "date": "2026-11-04"
  },
  "/transmission-repair": {
@@ -127,8 +143,12 @@
   "hash": "c1f4b7b7af59",
   "date": "2026-11-03"
  },
+ "/wheel-bearings-hubs": {
+  "hash": "e0659c286ac2",
+  "date": "2026-11-04"
+ },
  "/es/services": {
-  "hash": "041e5bf38894",
+  "hash": "77f66a943d3a",
   "date": "2026-11-04"
  },
  "/es/inspections-emissions": {
@@ -136,15 +156,15 @@
   "date": "2026-11-04"
  },
  "/es/diagnostics-electrical": {
-  "hash": "3a158321b7eb",
-  "date": "2026-11-03"
+  "hash": "dc9d56fd8f19",
+  "date": "2026-11-04"
  },
  "/es/brakes-steering-suspension": {
-  "hash": "11c819bd4993",
-  "date": "2026-11-03"
+  "hash": "aae69ed31de8",
+  "date": "2026-11-04"
  },
  "/es/engine-exhaust-transmission": {
-  "hash": "138e5a416155",
+  "hash": "77968ab10fb6",
   "date": "2026-11-04"
  },
  "/es/transmission-drivetrain": {
@@ -164,23 +184,31 @@
   "date": "2026-11-03"
  },
  "/es/ac-heating": {
-  "hash": "ca07c78562d2",
-  "date": "2026-11-03"
+  "hash": "c9f32d5aa280",
+  "date": "2026-11-04"
+ },
+ "/es/auto-light-repair": {
+  "hash": "09e6b282223e",
+  "date": "2026-11-04"
  },
  "/es/battery-alternator-starter": {
-  "hash": "4d758fc9adf6",
-  "date": "2026-11-03"
+  "hash": "f09f4d094599",
+  "date": "2026-11-04"
  },
  "/es/brake-repair": {
-  "hash": "dac9561cd4a8",
+  "hash": "14ae87110f45",
   "date": "2026-11-04"
  },
  "/es/check-engine-light": {
-  "hash": "2d8ad34372dc",
+  "hash": "df907d9c262f",
   "date": "2026-11-04"
  },
  "/es/cooling-system": {
   "hash": "6c7b37248a76",
+  "date": "2026-11-04"
+ },
+ "/es/electrical-repair": {
+  "hash": "a0f8d8283884",
   "date": "2026-11-04"
  },
  "/es/emissions-repair": {
@@ -188,11 +216,11 @@
   "date": "2026-11-04"
  },
  "/es/engine-repair": {
-  "hash": "b5335c57c323",
+  "hash": "b9bc80f711b5",
   "date": "2026-11-04"
  },
  "/es/engine-tune-up": {
-  "hash": "229f2ec779fe",
+  "hash": "d1c189057d8b",
   "date": "2026-11-04"
  },
  "/es/exhaust-muffler-repair": {
@@ -200,31 +228,39 @@
   "date": "2026-11-04"
  },
  "/es/oil-change": {
-  "hash": "32d988faf3ff",
+  "hash": "2031ddf3be12",
+  "date": "2026-11-04"
+ },
+ "/es/oil-leak-repair": {
+  "hash": "dad19d4f39cd",
   "date": "2026-11-04"
  },
  "/es/pa-state-inspection": {
-  "hash": "b515b25f77b1",
+  "hash": "7700423952c0",
+  "date": "2026-11-04"
+ },
+ "/es/power-windows-locks": {
+  "hash": "a1c4e625dd94",
   "date": "2026-11-04"
  },
  "/es/pre-purchase-inspection": {
-  "hash": "db42a2eb837f",
+  "hash": "85515595bb4a",
   "date": "2026-11-04"
  },
  "/es/steering-repair": {
-  "hash": "aad19d1f126f",
+  "hash": "3ac8abc11097",
   "date": "2026-11-04"
  },
  "/es/suspension-repair": {
-  "hash": "75370f7cf775",
+  "hash": "ed968c967e3c",
   "date": "2026-11-04"
  },
  "/es/timing-belt-chain": {
-  "hash": "3fa93f712b26",
+  "hash": "86bd1df2398c",
   "date": "2026-11-04"
  },
  "/es/tires": {
-  "hash": "df59bf1a1d99",
+  "hash": "544d723a3932",
   "date": "2026-11-04"
  },
  "/es/transmission-repair": {
@@ -234,5 +270,9 @@
  "/es/wheel-alignment": {
   "hash": "dcd51e122f12",
   "date": "2026-11-03"
+ },
+ "/es/wheel-bearings-hubs": {
+  "hash": "3db694c45527",
+  "date": "2026-11-04"
  }
 }

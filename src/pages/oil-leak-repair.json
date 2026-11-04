@@ -1,0 +1,309 @@
+{
+  "id": "oil-leak-repair",
+  "slug": "oil-leak-repair",
+  "category": "engine-exhaust",
+  "covers": [
+    "oil-leak-and-gasket-repair"
+  ],
+  "adaptedFrom": "Diverse Autoworks svc_oilleak (tools/service_pages_batch2.py), technical concepts rewritten for Scally's confirmed oil leak and gasket service",
+  "primary_kw": {
+    "en": "oil leak repair Primos PA",
+    "es": "reparación de fugas de aceite en Primos PA"
+  },
+  "secondary_kws": [
+    "engine oil leak",
+    "valve cover gasket leak",
+    "oil pan gasket replacement",
+    "engine gasket repair",
+    "oil spots under car",
+    "burning oil smell",
+    "oil leak diagnosis Secane",
+    "oil leak repair Clifton Heights",
+    "engine oil seal leak",
+    "car oil leak near me",
+    "low oil warning light",
+    "oil level dropping"
+  ],
+  "title": {
+    "en": "Oil Leak & Gasket Repair in Primos | Scally's",
+    "es": "Fugas de aceite y empaques en Primos | Scally's"
+  },
+  "desc": {
+    "en": "Oil spots or a burning-oil smell? Scally's in Primos finds engine oil leaks and discusses gasket or seal repair based on the source.",
+    "es": "¿Manchas de aceite u olor a aceite quemado? Scally's en Primos identifica fugas del motor y repara empaques o sellos según la causa."
+  },
+  "h1": {
+    "en": "Oil Leak and Gasket Repair in Primos, PA",
+    "es": "Reparación de fugas de aceite y empaques en Primos, PA"
+  },
+  "crumb": {
+    "en": "Oil Leak Repair",
+    "es": "Reparación de fugas de aceite"
+  },
+  "service_type": {
+    "en": "Engine oil leak diagnosis, gasket and seal repair",
+    "es": "Diagnóstico de fugas de aceite y reparación de empaques y sellos"
+  },
+  "lead": {
+    "en": "A dark spot under your parked car or an oil smell after driving deserves attention, but it does not tell you exactly where the leak starts. At {name}, on {street} in {city}, we investigate engine oil leaks and repair the gasket or seal at fault when the source is confirmed. Replacing a visible gasket without locating the leak can leave the original problem untouched.",
+    "es": "Una mancha oscura debajo del auto estacionado o un olor a aceite después de conducir merece atención, pero no muestra exactamente de dónde sale la fuga. En {name}, en {street}, {city}, buscamos fugas de aceite del motor y reparamos el empaque o sello correspondiente cuando se confirma el origen. Cambiar un empaque visible sin localizar la fuga puede dejar el problema sin resolver."
+  },
+  "blocks": [
+    [
+      "h2",
+      {
+        "en": "Why engine oil leaks happen",
+        "es": "Por qué aparecen fugas de aceite del motor"
+      },
+      "how-it-works"
+    ],
+    [
+      "p",
+      {
+        "en": "Engine oil lubricates moving parts and helps manage heat. It stays inside the engine through gaskets, seals, housings and correctly tightened components. Over time, a gasket may harden, a seal can wear, or a part can become damaged. Oil can also spread across the engine, so a drip at the bottom may have started much higher up. Finding the actual source is the first part of the repair.",
+        "es": "El aceite lubrica las piezas móviles del motor y ayuda a controlar el calor. Los empaques, sellos, carcasas y componentes bien instalados lo mantienen dentro del motor. Con el tiempo, un empaque puede endurecerse, un sello desgastarse o una pieza dañarse. El aceite también puede escurrir por varias superficies, así que una gota en la parte baja puede venir desde arriba. Encontrar el origen real es el primer paso."
+      }
+    ],
+    [
+      "p",
+      {
+        "en": "Not every fluid beneath a vehicle is engine oil. Water from the air conditioner, coolant, transmission fluid and other liquids can leave spots of different appearances. Color alone does not always identify the fluid, especially on an older car or a dirty surface. If you are unsure, describe where and when the spot appears and whether the oil level changes.",
+        "es": "No todo líquido debajo del vehículo es aceite del motor. El agua del aire acondicionado, anticongelante, líquido de transmisión y otros productos pueden dejar manchas diferentes. El color por sí solo no identifica siempre el líquido, especialmente en autos antiguos o superficies sucias. Si tiene dudas, explique dónde aparece la mancha, cuándo ocurre y si cambia el nivel de aceite."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Signs of a possible oil leak",
+        "es": "Señales de una posible fuga de aceite"
+      },
+      "signs"
+    ],
+    [
+      "ul",
+      [
+        {
+          "en": "Fresh or recurring oily spots where you normally park.",
+          "es": "Manchas aceitosas nuevas o repetidas donde estaciona normalmente."
+        },
+        {
+          "en": "An engine oil level that drops between maintenance visits.",
+          "es": "El nivel de aceite del motor baja entre servicios."
+        },
+        {
+          "en": "A burning-oil smell, especially after the engine warms up.",
+          "es": "Olor a aceite quemado, especialmente después de calentar el motor."
+        },
+        {
+          "en": "Oil residue along a cover, joint or lower engine surface.",
+          "es": "Residuos de aceite alrededor de una tapa, unión o parte baja del motor."
+        },
+        {
+          "en": "Smoke or an unusual smell from oil reaching hot engine or exhaust parts.",
+          "es": "Humo u olor extraño por aceite que cae sobre piezas calientes del motor o escape."
+        },
+        {
+          "en": "An oil level or oil pressure warning on the dashboard.",
+          "es": "Una advertencia de nivel o presión de aceite en el tablero."
+        }
+      ]
+    ],
+    [
+      "p",
+      {
+        "en": "These signs can have different causes. An engine can use oil internally without leaking on the ground, and a wet area may come from a different fluid. If the oil-pressure warning appears, stop safely and shut off the engine; continuing can cause serious damage. If you see heavy oil loss, smoke from oil on hot parts or a strong burning smell, avoid driving and ask for a safe assessment.",
+        "es": "Estas señales pueden tener distintas causas. Un motor puede consumir aceite internamente sin dejar manchas, y una zona húmeda puede tener otro líquido. Si aparece la alerta de presión de aceite, deténgase de forma segura y apague el motor; seguir conduciendo puede causar daños graves. Si hay una pérdida grande, humo por aceite sobre piezas calientes u olor intenso a quemado, no conduzca y solicite una evaluación segura."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Oil leak and gasket work we do",
+        "es": "Trabajos de fugas y empaques que hacemos"
+      },
+      "work"
+    ],
+    [
+      "ul",
+      [
+        {
+          "en": "Look for the source of an engine oil leak before choosing parts.",
+          "es": "Buscar el origen de una fuga antes de escoger piezas."
+        },
+        {
+          "en": "Check common gasket or seal areas that match the symptoms.",
+          "es": "Revisar zonas de empaques y sellos relacionadas con los síntomas."
+        },
+        {
+          "en": "Discuss repair of leaking valve cover or oil pan gaskets when applicable.",
+          "es": "Reparar empaques con fuga en la tapa de válvulas o cárter cuando corresponda."
+        },
+        {
+          "en": "Evaluate other seals or housings that may be leaking.",
+          "es": "Evaluar otros sellos o carcasas que podrían tener fugas."
+        },
+        {
+          "en": "Review oil level concerns and related engine symptoms.",
+          "es": "Revisar el nivel de aceite y síntomas del motor relacionados."
+        }
+      ]
+    ],
+    [
+      "h3",
+      {
+        "en": "Valve cover and upper-engine gasket leaks",
+        "es": "Fugas del empaque de tapa de válvulas"
+      },
+      "valve-cover-gasket"
+    ],
+    [
+      "p",
+      {
+        "en": "A valve cover sits over the upper part of the engine and uses a gasket to keep oil in. A leak there may leave oil down the side of the engine or onto hot components, which can produce an odor. It can also be confused with oil leaking from another component above or nearby. Diagnosis should confirm the source before the cover gasket is replaced.",
+        "es": "La tapa de válvulas se encuentra en la parte alta del motor y utiliza un empaque para retener el aceite. Una fuga puede dejar aceite por el costado del motor o sobre piezas calientes, lo que produce olor. También puede confundirse con aceite que viene de otra pieza cercana. Se necesita confirmar el origen antes de cambiar el empaque de la tapa."
+      }
+    ],
+    [
+      "h3",
+      {
+        "en": "Oil pan and lower-engine leaks",
+        "es": "Fugas del cárter y parte baja del motor"
+      },
+      "oil-pan-gasket"
+    ],
+    [
+      "p",
+      {
+        "en": "The oil pan holds oil at the bottom of many engines. Its gasket or sealing surface can leak, but a drop on the pan may have traveled from another location. A damaged drain plug or other seal may also be involved. The correct repair depends on the source and the vehicle design. A clean inspection may be needed to distinguish a new leak from old residue.",
+        "es": "El cárter almacena el aceite en la parte baja de muchos motores. Su empaque o superficie de sellado puede tener fugas, pero una gota sobre el cárter puede venir de otro lugar. También puede intervenir un tapón de drenaje o un sello. La reparación correcta depende del origen y del diseño del vehículo. Puede ser necesario limpiar la zona para distinguir una fuga nueva de residuos antiguos."
+      }
+    ],
+    [
+      "h3",
+      {
+        "en": "Oil seals and other leak locations",
+        "es": "Retenes y otros puntos de fuga"
+      },
+      "seals"
+    ],
+    [
+      "p",
+      {
+        "en": "Oil can escape through other engine seals, including areas near the crankshaft or timing components. Some leaks are accessible, while others require more work to reach the failed part. We explain what can be confirmed and which repair is being proposed. Do not assume a named seal is responsible simply because oil is visible near it. Our [timing belt and chain](svc:timing-belt) page covers related engine components.",
+        "es": "El aceite también puede salir por otros retenes, incluso en zonas cercanas al cigüeñal o a componentes de distribución. Algunas fugas son accesibles y otras requieren más trabajo para llegar a la pieza. Explicamos qué se confirmó y qué reparación se propone. No suponga que un retén está dañado solo porque hay aceite cerca. Consulte nuestra página de [correa y cadena de distribución](svc:timing-belt) para conocer componentes relacionados."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Oil level checks and preventive maintenance",
+        "es": "Revisión del nivel de aceite y mantenimiento preventivo"
+      },
+      "maintenance"
+    ],
+    [
+      "p",
+      {
+        "en": "Use the oil grade, oil-level checking procedure and service interval in the owner's manual. Check the oil level under the conditions the manufacturer specifies, and never ignore a pressure warning because the engine still seems to run normally. A small leak can become larger, while low oil can damage bearings and other internal parts. Our [oil change](svc:oil-changes) and [engine repair](svc:engine-repair) pages explain related maintenance and symptoms.",
+        "es": "Use el tipo de aceite, procedimiento para medir el nivel y calendario del manual del propietario. Compruebe el nivel bajo las condiciones indicadas por el fabricante y nunca ignore una advertencia de presión porque el motor todavía parece funcionar. Una fuga pequeña puede empeorar y la falta de aceite puede dañar rodamientos y otras piezas internas. Consulte [cambios de aceite](svc:oil-changes) y [reparación de motor](svc:engine-repair) para más información."
+      }
+    ],
+    [
+      "p",
+      {
+        "en": "Keep a note of when you first saw the stain, whether the car was parked on a slope, and how quickly the oil level changes. Photos of the spot or the instrument warning can help explain the concern. Do not add sealants or overfill the engine in an attempt to hide a leak. The right response starts by identifying the liquid and where it escaped.",
+        "es": "Anote cuándo vio la primera mancha, si el auto estaba estacionado en pendiente y con qué rapidez baja el nivel. Las fotos de la mancha o alerta del tablero pueden ayudar a explicar el problema. No agregue selladores ni llene el motor en exceso para ocultar la fuga. Primero hay que identificar el líquido y de dónde sale."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Oil leak repair near Primos and Clifton Heights",
+        "es": "Reparación de fugas de aceite cerca de Primos y Clifton Heights"
+      },
+      "local"
+    ],
+    [
+      "p",
+      {
+        "en": "{name} is at {street} in {city}, near Secane and Clifton Heights. Call {phone} with the vehicle's year, make and model. Tell us where you see oil, whether the level is changing, and if the oil-pressure warning appeared. We can discuss the next safe step without guessing at gaskets.",
+        "es": "{name} está en {street}, {city}, cerca de Secane y Clifton Heights. Llame al {phone} con año, marca y modelo del vehículo. Explique dónde ve el aceite, si cambia el nivel y si apareció la alerta de presión. Podemos comentar el siguiente paso seguro sin adivinar qué empaque cambiar."
+      }
+    ]
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can I drive with an oil leak?",
+        "es": "¿Puedo conducir con una fuga de aceite?"
+      },
+      "a": {
+        "en": "It depends on the leak and oil level, which may be hard to judge. If the pressure light comes on, the leak is heavy or oil smokes on hot parts, stop safely and do not drive.",
+        "es": "Depende de la fuga y del nivel de aceite, lo cual puede ser difícil de evaluar. Si se enciende la alerta de presión, sale mucho aceite o hay humo, deténgase de forma segura y no conduzca."
+      }
+    },
+    {
+      "q": {
+        "en": "Why is there oil on the ground after parking?",
+        "es": "¿Por qué queda aceite en el suelo al estacionar?"
+      },
+      "a": {
+        "en": "Oil may be leaking from a gasket, seal, drain plug or another component. Confirm that the fluid is engine oil and locate its source.",
+        "es": "Puede haber una fuga de empaque, retén, tapón u otra pieza. Hay que confirmar que el líquido sea aceite del motor y localizar el origen."
+      }
+    },
+    {
+      "q": {
+        "en": "Does a valve cover leak always require a new gasket?",
+        "es": "¿Una fuga en la tapa de válvulas siempre requiere cambiar el empaque?"
+      },
+      "a": {
+        "en": "Not without checking. Oil can run down from another location. The source and condition determine the repair.",
+        "es": "No sin revisar. El aceite puede venir de otra zona. El origen y estado de las piezas determinan la reparación."
+      }
+    },
+    {
+      "q": {
+        "en": "Can an oil leak cause a burning smell?",
+        "es": "¿Una fuga de aceite puede causar olor a quemado?"
+      },
+      "a": {
+        "en": "Yes. Oil reaching a hot engine or exhaust surface may create an odor or smoke. Have it inspected, especially if the smell is strong.",
+        "es": "Sí. El aceite sobre superficies calientes del motor o escape puede producir olor o humo. Solicite revisión, especialmente si el olor es intenso."
+      }
+    },
+    {
+      "q": {
+        "en": "Is every wet spot under the engine an oil leak?",
+        "es": "¿Toda mancha húmeda debajo del motor es una fuga de aceite?"
+      },
+      "a": {
+        "en": "No. Water, coolant, transmission fluid and other liquids can look similar. Appearance alone does not confirm the fluid.",
+        "es": "No. Agua, anticongelante, líquido de transmisión y otros fluidos pueden verse parecidos. El aspecto no confirma cuál es."
+      }
+    },
+    {
+      "q": {
+        "en": "How often should I check the oil level?",
+        "es": "¿Cada cuánto debo revisar el nivel de aceite?"
+      },
+      "a": {
+        "en": "Use the procedure and recommendations in your owner's manual; check promptly if you suspect a leak or notice a warning.",
+        "es": "Siga el procedimiento y las recomendaciones del manual del propietario; revíselo pronto si sospecha una fuga o aparece una alerta."
+      }
+    }
+  ],
+  "related": [
+    "oil-changes",
+    "engine-repair",
+    "timing-belt",
+    "cooling-systems",
+    "check-engine-light"
+  ],
+  "sources": [],
+  "verify": [
+    "Confirm with Jerry the range of gasket and seal repairs Scally's handles, including difficult-to-access seals.",
+    "Confirm leak diagnostic equipment, availability of any dye tracing and work estimates; no special method or fixed fee promised.",
+    "Do not publish fixed repair timelines or claim repairs are always performed in-house."
+  ]
+}
