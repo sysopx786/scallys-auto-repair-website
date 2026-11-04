@@ -1,0 +1,276 @@
+{
+  "id": "engine-transmission-mounts",
+  "slug": "engine-transmission-mounts",
+  "category": "transmission-drivetrain",
+  "covers": [
+    "motor-mounts",
+    "transmission-mounts"
+  ],
+  "adaptedFrom": "Diverse Autoworks svc_transmission (tools/service_pages_batch6.py), mount-related concepts rewritten to match Scally's motor and transmission mount replacement catalog.",
+  "primary_kw": {
+    "en": "motor mount replacement Primos PA",
+    "es": "cambio de soportes de motor en Primos PA"
+  },
+  "secondary_kws": [
+    "engine mount replacement",
+    "transmission mount replacement",
+    "motor mount vibration",
+    "engine moves when accelerating",
+    "clunk when shifting gears",
+    "worn engine mount symptoms",
+    "transmission mount noise",
+    "car vibration at idle",
+    "engine mount service Secane",
+    "motor mount repair Clifton Heights",
+    "vehicle engine mounts",
+    "drivetrain mount inspection"
+  ],
+  "title": {
+    "en": "Motor & Transmission Mounts in Primos | Scally's",
+    "es": "Soportes de motor y transmisión en Primos | Scally's"
+  },
+  "desc": {
+    "en": "Engine vibration or clunk when shifting? Scally's in Primos evaluates motor and transmission mounts before replacement. Call 610-626-4700.",
+    "es": "¿Vibraciones o golpes al cambiar? Scally's en Primos revisa soportes de motor y transmisión antes de cambiarlos. Llame al 610-626-4700."
+  },
+  "h1": {
+    "en": "Motor and Transmission Mount Replacement in Primos, PA",
+    "es": "Cambio de soportes de motor y transmisión en Primos, PA"
+  },
+  "crumb": {
+    "en": "Motor & Transmission Mounts",
+    "es": "Soportes de motor y transmisión"
+  },
+  "service_type": {
+    "en": "Engine and transmission mount inspection and replacement",
+    "es": "Inspección y cambio de soportes de motor y transmisión"
+  },
+  "lead": {
+    "en": "A new vibration at idle or a clunk during acceleration can make a vehicle feel worn out. One possibility is a tired engine or transmission mount, but a similar symptom can come from the engine, exhaust, suspension or another drivetrain part. At {name}, {street}, {city}, we offer motor and transmission mount replacement. Before recommending parts, the complaint should be assessed to identify where the movement or noise starts.",
+    "es": "Una vibración nueva con el motor en marcha mínima o un golpe al acelerar puede hacer que el auto se sienta desgastado. Una posible causa es un soporte de motor o transmisión, pero un síntoma parecido puede venir del motor, escape, suspensión u otra parte del tren motriz. En {name}, {street}, {city}, ofrecemos cambio de soportes de motor y transmisión. Antes de recomendar piezas se debe revisar dónde comienza el movimiento o ruido."
+  },
+  "blocks": [
+    [
+      "h2",
+      {
+        "en": "What engine and transmission mounts do",
+        "es": "Qué hacen los soportes de motor y transmisión"
+      },
+      "how-it-works"
+    ],
+    [
+      "p",
+      {
+        "en": "The engine and transmission are heavy components that make torque and vibration. Their mounts attach them to the vehicle structure while helping control movement. Depending on the model, mounts may use rubber, metal, hydraulic designs or electronically controlled features. Their job is to maintain support and help prevent excess motion from reaching the cabin. Mount designs differ, so the correct replacement depends on the vehicle.",
+        "es": "El motor y la transmisión son componentes pesados que producen fuerza y vibración. Sus soportes los fijan a la estructura y ayudan a controlar el movimiento. Según el modelo, los soportes pueden tener caucho, metal, diseños hidráulicos o funciones electrónicas. Su labor es mantener las piezas en posición y limitar la vibración que llega al interior. Los diseños cambian según el auto, por lo que el reemplazo debe corresponder al vehículo."
+      }
+    ],
+    [
+      "p",
+      {
+        "en": "When a mount deteriorates, the powertrain may shift more than intended or transfer vibration to the body. A mount can fail through cracked rubber, fluid loss in certain designs or damaged hardware. Yet not every vibration points to a failed mount: rough engine operation, tires and exhaust contact can create similar experiences. It is worth separating those possibilities before committing to a replacement.",
+        "es": "Cuando un soporte se deteriora, el conjunto motor-transmisión puede moverse más de lo previsto o transmitir vibraciones a la carrocería. Puede fallar por caucho agrietado, pérdida de líquido en algunos diseños o herrajes dañados. Sin embargo, no toda vibración indica un soporte defectuoso: un motor que trabaja irregular, las llantas o el contacto del escape pueden producir algo parecido. Conviene distinguir estas posibilidades antes de reemplazar piezas."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Symptoms of possible worn mounts",
+        "es": "Síntomas de soportes posiblemente desgastados"
+      },
+      "signs"
+    ],
+    [
+      "ul",
+      [
+        {
+          "en": "Vibration at idle that is felt in the seat or steering wheel.",
+          "es": "Vibración en marcha mínima que se siente en el asiento o volante."
+        },
+        {
+          "en": "A thump when shifting into drive or reverse.",
+          "es": "Golpe al seleccionar avance o reversa."
+        },
+        {
+          "en": "A clunk during acceleration or deceleration.",
+          "es": "Golpe al acelerar o dejar de acelerar."
+        },
+        {
+          "en": "Noticeable engine movement when driving conditions change.",
+          "es": "Movimiento perceptible del motor cuando cambian las condiciones de conducción."
+        },
+        {
+          "en": "An unexpected rattle or contact noise from the engine area.",
+          "es": "Traqueteo o ruido de contacto inesperado cerca del motor."
+        },
+        {
+          "en": "Excessive cabin vibration after a known engine or transmission repair.",
+          "es": "Demasiada vibración en la cabina después de un trabajo en motor o transmisión."
+        }
+      ]
+    ],
+    [
+      "p",
+      {
+        "en": "None of these symptoms is a remote diagnosis. A transmission problem, worn axle component or misfiring engine can cause similar sensations. If the vehicle shifts unpredictably, parts appear loose or the handling feels unsafe, arrange an assessment before continuing to drive. Our [transmission repair](svc:transmission-repair) and [engine diagnosis](svc:check-engine-light) pages describe related complaints.",
+        "es": "Ninguna de estas señales equivale a un diagnóstico a distancia. Una transmisión con problemas, un eje desgastado o un motor con fallas de encendido pueden sentirse similares. Si el vehículo cambia de forma impredecible, hay piezas flojas o no se siente seguro al conducir, solicite revisión antes de seguir. Consulte [reparación de transmisión](svc:transmission-repair) y [diagnóstico del motor](svc:check-engine-light) para fallas relacionadas."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Motor mount replacement",
+        "es": "Cambio de soportes de motor"
+      },
+      "motor-mounts"
+    ],
+    [
+      "p",
+      {
+        "en": "Motor mounts help carry engine weight and restrict movement as torque changes. When a mount wears, the driver might feel more vibration or hear a thump. Repair planning depends on which support is affected and the vehicle design. Scally's lists motor mount replacement. We can discuss the vehicle's symptoms and the parts involved once the cause has been checked.",
+        "es": "Los soportes sostienen el peso del motor y restringen su movimiento cuando cambia la fuerza. Cuando se desgastan, el conductor puede sentir más vibración o escuchar un golpe. La reparación depende de qué soporte está afectado y del diseño del auto. Scally's incluye cambio de soportes de motor. Podemos hablar de los síntomas y piezas relacionadas una vez que se compruebe la causa."
+      }
+    ],
+    [
+      "p",
+      {
+        "en": "A vibration at a stop can also be caused by an engine that is not running smoothly. Replacing a mount without investigating rough idle can leave the issue unresolved. Likewise, a contact noise after another repair does not prove a mount failed. The goal is to match the repair to a finding, not merely the sound the customer describes.",
+        "es": "Una vibración al detenerse también puede venir de un motor que trabaja de manera irregular. Cambiar un soporte sin revisar la marcha mínima puede dejar el problema sin resolver. De igual forma, un ruido después de otra reparación no demuestra que falló un soporte. El objetivo es que la reparación corresponda a un hallazgo, no solamente a un sonido descrito."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Transmission mount replacement",
+        "es": "Cambio de soportes de transmisión"
+      },
+      "transmission-mounts"
+    ],
+    [
+      "p",
+      {
+        "en": "Transmission mounts keep the gearbox positioned as power moves through the drivetrain. Wear may contribute to clunks during changes in load, but transmission shifting behavior can have separate mechanical or control causes. If your car makes a noise when going into gear, note if the noise occurs with motion, during braking or only after the engine warms. That history makes the inspection more useful.",
+        "es": "Los soportes de transmisión mantienen la caja en su lugar mientras pasa la fuerza por el tren motriz. El desgaste puede causar golpes al cambiar la carga, pero los cambios de marcha también pueden tener causas mecánicas o de control. Si el auto hace ruido al meter una marcha, observe si sucede al moverse, al frenar o solo después de calentarse. Esa información ayuda a la revisión."
+      }
+    ],
+    [
+      "p",
+      {
+        "en": "Depending on the vehicle, mounts may be sold individually or as part of a larger arrangement. The shop needs the year, make, model and the specific symptom before discussing the correct component. Do not assume that every mount on the vehicle should be replaced at the same time; the condition of each matters.",
+        "es": "Según el auto, los soportes se venden por separado o forman parte de otro conjunto. El taller necesita año, marca, modelo y síntoma específico antes de comentar la pieza correcta. No suponga que todos los soportes deben cambiarse al mismo tiempo; importa el estado de cada uno."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Maintenance and related drivetrain checks",
+        "es": "Mantenimiento y revisión del tren motriz"
+      },
+      "maintenance"
+    ],
+    [
+      "p",
+      {
+        "en": "There is no single calendar or mileage interval for replacing engine and transmission mounts. Vehicle age, heat, road conditions and usage can influence wear, while an impact or another repair may reveal existing problems. During routine service, report new vibration or a knock that occurs under specific conditions. Follow the owner's manual for scheduled maintenance, and avoid driving if a component seems loose or the vehicle becomes difficult to control.",
+        "es": "No existe un intervalo universal de tiempo o kilometraje para cambiar soportes de motor y transmisión. La edad del auto, calor, estado de la carretera y uso pueden influir en el desgaste, y un golpe u otra reparación puede revelar fallas existentes. Durante el servicio regular, mencione nuevas vibraciones o golpes que aparecen en condiciones específicas. Siga el manual y evite conducir si una pieza parece floja o el auto se vuelve difícil de controlar."
+      }
+    ],
+    [
+      "p",
+      {
+        "en": "Some vibrations that feel like mount trouble involve a [CV axle](svc:axles), [clutch](svc:clutch-repair), [suspension](svc:steering-and-suspension) or exhaust component. Understanding when a noise occurs helps narrow the possibilities. We don't advertise a fixed mount replacement price or guarantee that one part will eliminate every vehicle vibration.",
+        "es": "Algunas vibraciones que parecen venir de un soporte se relacionan con un [eje CV](svc:axles), [clutch](svc:clutch-repair), [suspensión](svc:steering-and-suspension) o componente del escape. Saber cuándo ocurre el ruido ayuda a reducir las posibilidades. No anunciamos un precio fijo ni garantizamos que una pieza elimine todas las vibraciones."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Motor mounts near Primos and Clifton Heights",
+        "es": "Soportes de motor cerca de Primos y Clifton Heights"
+      },
+      "local"
+    ],
+    [
+      "p",
+      {
+        "en": "{name} is at {street} in {city}, close to Secane and Clifton Heights. Call {phone} with your car's year, make, model and the specific time the vibration appears. Tell us if the symptom occurs at idle, when selecting a gear or during acceleration. We'll discuss an appropriate inspection before part replacement.",
+        "es": "{name} está en {street}, {city}, cerca de Secane y Clifton Heights. Llame al {phone} con año, marca, modelo y cuándo se presenta la vibración. Indique si ocurre en marcha mínima, al seleccionar una velocidad o al acelerar. Hablaremos de una revisión antes de cambiar piezas."
+      }
+    ]
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can a bad motor mount cause vibration at idle?",
+        "es": "¿Un soporte de motor dañado causa vibración en marcha mínima?"
+      },
+      "a": {
+        "en": "Yes, worn mounts can transfer vibration, but rough engine operation may feel similar. Inspection can distinguish causes.",
+        "es": "Sí, un soporte desgastado puede transmitir vibración, pero un motor que trabaja irregular se siente parecido. La revisión ayuda a distinguir causas."
+      }
+    },
+    {
+      "q": {
+        "en": "What is the difference between motor and transmission mounts?",
+        "es": "¿Qué diferencia hay entre soportes de motor y transmisión?"
+      },
+      "a": {
+        "en": "They support different parts of the powertrain. Their location and design depend on the vehicle.",
+        "es": "Sostienen distintas partes del tren motriz. Su ubicación y diseño dependen del auto."
+      }
+    },
+    {
+      "q": {
+        "en": "Do you replace both types of mounts?",
+        "es": "¿Cambian los dos tipos de soportes?"
+      },
+      "a": {
+        "en": "Yes. Motor mount and transmission mount replacement are separate services in Scally's catalog.",
+        "es": "Sí. El cambio de soportes de motor y de transmisión son servicios incluidos en la lista de Scally's."
+      }
+    },
+    {
+      "q": {
+        "en": "Will replacing a mount fix all vibration?",
+        "es": "¿Cambiar un soporte elimina toda vibración?"
+      },
+      "a": {
+        "en": "No. Tires, engine operation and other components can also cause vibration. Diagnose the cause first.",
+        "es": "No. Las llantas, el funcionamiento del motor y otras piezas también pueden causar vibración. Primero hay que encontrar la causa."
+      }
+    },
+    {
+      "q": {
+        "en": "Does a clunk when shifting mean the transmission is damaged?",
+        "es": "¿Un golpe al cambiar significa que la transmisión está dañada?"
+      },
+      "a": {
+        "en": "Not necessarily. Mounts or other drivetrain parts can make similar sounds.",
+        "es": "No necesariamente. Los soportes y otras piezas del tren motriz pueden producir sonidos parecidos."
+      }
+    },
+    {
+      "q": {
+        "en": "When should mounts be replaced?",
+        "es": "¿Cuándo se deben cambiar los soportes?"
+      },
+      "a": {
+        "en": "When inspection confirms wear or damage that needs correction. There is no universal replacement mileage.",
+        "es": "Cuando una revisión confirma desgaste o daño que requiere reparación. No hay un kilometraje universal."
+      }
+    }
+  ],
+  "related": [
+    "transmission-repair",
+    "engine-repair",
+    "axles",
+    "clutch-repair",
+    "steering-and-suspension"
+  ],
+  "sources": [],
+  "verify": [
+    "Jerry: which electronic or hydraulic mount types are serviced? Do not promise specialized programming.",
+    "Confirm whether all engine/transmission mount replacements are performed in-house.",
+    "No fixed mileage, price, or time commitment."
+  ]
+}

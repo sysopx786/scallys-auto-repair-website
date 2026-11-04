@@ -1,0 +1,305 @@
+{
+  "id": "clutch-repair",
+  "slug": "clutch-repair",
+  "category": "transmission-drivetrain",
+  "covers": [
+    "clutch-repair"
+  ],
+  "adaptedFrom": "Diverse Autoworks svc_clutch (tools/service_pages_batch2.py) concepts adapted for Scally's stated manual transmission clutch repair and replacement, without other-shop claims.",
+  "primary_kw": {
+    "en": "clutch repair Primos PA",
+    "es": "reparación de clutch en Primos PA"
+  },
+  "secondary_kws": [
+    "manual transmission clutch",
+    "clutch replacement Primos",
+    "slipping clutch",
+    "clutch pedal not returning",
+    "hard to shift gears",
+    "clutch chatter",
+    "clutch hydraulic issue",
+    "manual gearbox noise",
+    "clutch inspection Secane",
+    "clutch replacement Clifton Heights",
+    "transmission clutch near me",
+    "clutch pedal vibration"
+  ],
+  "title": {
+    "en": "Clutch Repair in Primos, PA | Scally's Auto Repair",
+    "es": "Reparación de clutch en Primos, PA | Scally's"
+  },
+  "desc": {
+    "en": "Slipping clutch, shaking or difficult shifts? Scally's in Primos offers clutch diagnosis, repair and replacement for manual transmissions. Call 610-626-4700.",
+    "es": "¿Clutch que patina, vibra o dificulta los cambios? Scally's en Primos ofrece diagnóstico, reparación y cambio de embragues manuales."
+  },
+  "h1": {
+    "en": "Manual Transmission Clutch Repair in Primos, PA",
+    "es": "Reparación de clutch manual en Primos, PA"
+  },
+  "crumb": {
+    "en": "Clutch Repair",
+    "es": "Reparación de clutch"
+  },
+  "service_type": {
+    "en": "Manual transmission clutch repair and replacement",
+    "es": "Reparación y cambio de embrague de transmisión manual"
+  },
+  "lead": {
+    "en": "A clutch that slips, grabs unevenly or makes it difficult to select a gear deserves a proper inspection. {name} offers clutch repair and replacement for manual transmissions at {street} in {city}. We look at the driver's symptoms before recommending parts. A hard shift or vibration can involve the clutch, its controls, the transmission or another drivetrain component; the symptom alone does not identify the failed part.",
+    "es": "Un clutch que patina, se acopla de manera irregular o dificulta meter una marcha necesita una revisión. {name} ofrece reparación y cambio de embragues de transmisión manual en {street}, {city}. Revisamos lo que ocurre antes de recomendar piezas. Una marcha difícil o vibración puede provenir del clutch, sus controles, la transmisión u otra pieza del tren motriz; el síntoma por sí solo no señala la pieza dañada."
+  },
+  "blocks": [
+    [
+      "h2",
+      {
+        "en": "How a manual-transmission clutch works",
+        "es": "Cómo funciona el clutch de una transmisión manual"
+      },
+      "how-it-works"
+    ],
+    [
+      "p",
+      {
+        "en": "In a vehicle with a manual gearbox, the clutch connects and disconnects engine power from the transmission. Pressing the pedal lets the driver select a gear; releasing it allows power to flow again. Friction materials and related components wear with use. When engagement changes, the car may feel slow to accelerate, shudder from a stop or resist shifting. Different faults can look alike from behind the wheel.",
+        "es": "En un auto con transmisión manual, el clutch conecta y desconecta la fuerza del motor hacia la caja. Al presionar el pedal se puede elegir una marcha; al soltarlo vuelve a pasar la fuerza. El material de fricción y las piezas relacionadas se desgastan con el uso. Cuando cambia el acoplamiento, el auto puede acelerar poco, vibrar al arrancar o resistirse a entrar en una marcha. Distintas fallas se sienten parecidas."
+      }
+    ],
+    [
+      "p",
+      {
+        "en": "Some clutches use hydraulic components while others use cables or other linkages to operate the release mechanism. A low or sticking pedal can come from the actuation system without proving that the friction disc is worn out. A transmission issue can also resemble clutch trouble. We discuss the difference before recommending replacement of a clutch assembly.",
+        "es": "Algunos embragues usan componentes hidráulicos y otros cables o mecanismos para accionarse. Un pedal que queda abajo o se siente demasiado suave puede venir del sistema de accionamiento sin que el disco de fricción esté gastado. Una falla de transmisión también puede parecer problema de clutch. Conviene distinguir las causas antes de recomendar un conjunto nuevo."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Signs of possible clutch trouble",
+        "es": "Señales de posibles problemas del clutch"
+      },
+      "signs"
+    ],
+    [
+      "ul",
+      [
+        {
+          "en": "Engine speed rises without matching vehicle acceleration.",
+          "es": "Las revoluciones del motor suben sin que el vehículo acelere igual."
+        },
+        {
+          "en": "The clutch grabs unevenly or the car shudders when starting.",
+          "es": "El clutch se acopla de forma irregular o el auto tiembla al arrancar."
+        },
+        {
+          "en": "The pedal feels unusually soft, stiff or does not return normally.",
+          "es": "El pedal está demasiado suave, duro o no regresa normalmente."
+        },
+        {
+          "en": "Shifting into a gear becomes difficult or noisy.",
+          "es": "Meter una marcha se vuelve difícil o ruidoso."
+        },
+        {
+          "en": "You notice a new smell after repeated clutch operation.",
+          "es": "Nota un olor nuevo después de usar el clutch repetidamente."
+        },
+        {
+          "en": "A rattle or unusual sound appears when the pedal is pressed.",
+          "es": "Aparece un traqueteo o ruido extraño al pisar el pedal."
+        },
+        {
+          "en": "The engagement point has changed noticeably.",
+          "es": "El punto donde se acopla el clutch ha cambiado mucho."
+        }
+      ]
+    ],
+    [
+      "p",
+      {
+        "en": "These are reasons to have the vehicle checked, not proof that one component has failed. If the clutch stops transmitting power, the vehicle may become difficult to control in traffic. Avoid driving if the pedal does not operate reliably, the car cannot select gears safely or there is a strong burning smell. Arrange an assessment instead of forcing the shifter.",
+        "es": "Son motivos para revisar el auto, no pruebas de que una sola pieza haya fallado. Si el clutch deja de transmitir fuerza, puede resultar difícil controlar el vehículo en el tránsito. Evite conducir si el pedal no funciona de forma confiable, no puede seleccionar las marchas de manera segura o hay olor intenso a quemado. Solicite revisión en lugar de forzar la palanca."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Clutch repair and replacement services",
+        "es": "Servicios de reparación y cambio de clutch"
+      },
+      "services"
+    ],
+    [
+      "ul",
+      [
+        {
+          "en": "Assess clutch slipping, chatter and unusual engagement.",
+          "es": "Revisar clutch que patina, vibra o se acopla de forma anormal."
+        },
+        {
+          "en": "Inspect pedal response and possible actuation-system problems.",
+          "es": "Revisar la respuesta del pedal y posibles fallas de accionamiento."
+        },
+        {
+          "en": "Discuss clutch repair when the diagnosed condition allows it.",
+          "es": "Consultar una reparación cuando la condición confirmada lo permita."
+        },
+        {
+          "en": "Discuss clutch replacement for confirmed worn components.",
+          "es": "Consultar el cambio del clutch cuando se confirme el desgaste."
+        },
+        {
+          "en": "Evaluate related manual-transmission symptoms.",
+          "es": "Evaluar síntomas relacionados de la transmisión manual."
+        }
+      ]
+    ],
+    [
+      "h2",
+      {
+        "en": "Clutch slipping versus difficult shifts",
+        "es": "Clutch que patina frente a cambios difíciles"
+      },
+      "slipping-vs-shifting"
+    ],
+    [
+      "p",
+      {
+        "en": "A slipping clutch may allow engine revolutions to rise without delivering a matching increase in road speed. However, an engine performance problem may also feel like poor acceleration. Difficulty entering gear can involve clutch release, controls or transmission components. Ask the shop to identify the underlying issue, not simply to quote a clutch kit based on a description.",
+        "es": "Cuando el clutch patina, las revoluciones pueden aumentar sin que la velocidad del auto suba de forma correspondiente. Sin embargo, un problema del motor también puede sentirse como poca aceleración. La dificultad para meter cambios puede venir de la liberación del clutch, sus controles o piezas de la transmisión. Pida que se identifique la causa, en vez de presupuestar un kit solo por la descripción."
+      }
+    ],
+    [
+      "p",
+      {
+        "en": "If the car is jerky when you release the pedal, the cause can be a friction surface, engine movement or driving conditions. If you hear noise only with the pedal pressed, the release mechanism may deserve attention. These are possibilities, not remote diagnoses. We explain the inspection findings and what the repair would cover before parts are selected.",
+        "es": "Si el auto da tirones al soltar el pedal, la causa puede estar en una superficie de fricción, en el movimiento del motor o en las condiciones de manejo. Si hay ruido solo al pisar el pedal, puede ser necesario revisar el mecanismo de liberación. Son posibilidades, no diagnósticos a distancia. Explicamos el resultado y qué incluye el trabajo antes de elegir piezas."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Clutch replacement considerations",
+        "es": "Qué considerar al cambiar un clutch"
+      },
+      "replacement"
+    ],
+    [
+      "p",
+      {
+        "en": "A clutch service may involve a disc, pressure plate, release components or related parts, depending on the vehicle and what has actually failed. Replacement access and parts differ widely by model, so we do not publish a fixed labor time or price. Ask what components are included in a proposed estimate and whether other wear needs attention while the vehicle is apart. We do not promise a specific kit or machine-shop work without confirming the job.",
+        "es": "Un servicio puede incluir disco, plato de presión, piezas de liberación u otros componentes, según el vehículo y la falla confirmada. El acceso y las piezas varían mucho entre modelos, así que no publicamos un precio ni tiempo de trabajo fijo. Pregunte qué incluye el presupuesto y si hay otro desgaste que convenga atender durante la reparación. No prometemos un kit específico ni trabajo de maquinado sin confirmar el caso."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Maintenance and driving habits",
+        "es": "Mantenimiento y hábitos de conducción"
+      },
+      "maintenance"
+    ],
+    [
+      "p",
+      {
+        "en": "Follow the vehicle owner's manual for clutch-related service and the correct transmission fluid. Avoid holding the car on a hill using partial clutch engagement or resting your foot on the clutch pedal while driving. These habits may increase wear. The life of a clutch depends on the vehicle, use and conditions; no single mileage rule applies to every manual-transmission car.",
+        "es": "Siga el manual del propietario para el mantenimiento del clutch y el líquido correcto de la transmisión. Evite sostener el auto en una pendiente usando el clutch a medias o descansar el pie sobre el pedal al conducir. Estos hábitos pueden aumentar el desgaste. La duración depende del auto, uso y condiciones; no hay un kilometraje único para todas las transmisiones manuales."
+      }
+    ],
+    [
+      "p",
+      {
+        "en": "A clutch complaint can overlap with transmission issues. Our [transmission repair](svc:transmission-repair), [motor and transmission mounts](svc:motor-mounts) and [CV axle repair](svc:axles) pages cover other drivetrain symptoms. A repair discussion should separate those problems rather than lump every gear-shift complaint into a clutch replacement.",
+        "es": "Una queja del clutch puede parecer una falla de transmisión. Nuestras páginas de [reparación de transmisión](svc:transmission-repair), [soportes de motor y transmisión](svc:motor-mounts) y [ejes CV](svc:axles) explican otros síntomas del tren motriz. La revisión debe distinguir esos problemas en lugar de atribuir toda dificultad al clutch."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Clutch service near Primos and Secane",
+        "es": "Servicio de clutch cerca de Primos y Secane"
+      },
+      "local"
+    ],
+    [
+      "p",
+      {
+        "en": "Bring your questions to {name}, {street}, {city}, near Secane and Clifton Heights. Call {phone} with the vehicle year, make, model and transmission type. Explain if the clutch slips, the pedal feels different or the car has trouble entering gear. We can discuss the next inspection and what information is needed for an estimate.",
+        "es": "Consulte en {name}, {street}, {city}, cerca de Secane y Clifton Heights. Llame al {phone} con año, marca, modelo y tipo de transmisión. Explique si patina el clutch, cambió la sensación del pedal o cuesta meter una marcha. Podemos hablar de la revisión necesaria y los datos para preparar un presupuesto."
+      }
+    ]
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "How do I know my clutch is slipping?",
+        "es": "¿Cómo sé si mi clutch está patinando?"
+      },
+      "a": {
+        "en": "Engine revs may increase without the car speeding up normally, but that symptom alone does not prove a worn disc.",
+        "es": "Las revoluciones pueden subir sin que el auto acelere normalmente, pero eso por sí solo no prueba que el disco esté gastado."
+      }
+    },
+    {
+      "q": {
+        "en": "Can a soft pedal mean a clutch problem?",
+        "es": "¿Un pedal suave indica una falla del clutch?"
+      },
+      "a": {
+        "en": "Yes, but the hydraulic or linkage system might be responsible. The clutch disc is not the only possibility.",
+        "es": "Sí, pero también puede fallar el sistema hidráulico o de accionamiento. No siempre es el disco."
+      }
+    },
+    {
+      "q": {
+        "en": "Do you replace clutches in manual cars?",
+        "es": "¿Cambian clutches de autos manuales?"
+      },
+      "a": {
+        "en": "Manual-transmission clutch repair and replacement are listed services at Scally's.",
+        "es": "Scally's incluye reparación y cambio de clutch para transmisiones manuales."
+      }
+    },
+    {
+      "q": {
+        "en": "Can I keep driving with a slipping clutch?",
+        "es": "¿Puedo seguir manejando si el clutch patina?"
+      },
+      "a": {
+        "en": "Continuing may worsen the fault and the vehicle could lose drive. Arrange an assessment promptly.",
+        "es": "Seguir conduciendo puede empeorar la falla y el auto podría dejar de transmitir fuerza. Solicite revisión pronto."
+      }
+    },
+    {
+      "q": {
+        "en": "Is a hard shift always a bad clutch?",
+        "es": "¿Los cambios difíciles siempre significan clutch malo?"
+      },
+      "a": {
+        "en": "No. The linkage, transmission or clutch-release system may also be involved.",
+        "es": "No. También pueden intervenir los mecanismos de cambio, la transmisión o el sistema de liberación del clutch."
+      }
+    },
+    {
+      "q": {
+        "en": "How long does a clutch last?",
+        "es": "¿Cuánto dura un clutch?"
+      },
+      "a": {
+        "en": "There is no universal replacement mileage. Driving conditions, vehicle design and usage matter.",
+        "es": "No existe un kilometraje universal de reemplazo. Importan las condiciones, el diseño y el uso del vehículo."
+      }
+    }
+  ],
+  "related": [
+    "transmission-repair",
+    "motor-mounts",
+    "axles",
+    "transmission-fluid-service",
+    "engine-repair"
+  ],
+  "sources": [],
+  "verify": [
+    "Ask Jerry if hydraulic clutch master/slave cylinder and flywheel work are offered; no promise of those specific jobs.",
+    "Confirm whether all manual transmission types are accepted and whether clutch replacement is performed in-house.",
+    "Do not publish fixed labor or warranty claims."
+  ]
+}

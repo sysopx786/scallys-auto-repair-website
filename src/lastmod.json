@@ -4,7 +4,7 @@
   "date": "2026-11-03"
  },
  "/services": {
-  "hash": "29c6a709feb6",
+  "hash": "a49feac9179a",
   "date": "2026-11-04"
  },
  "/about": {
@@ -20,7 +20,7 @@
   "date": "2026-11-03"
  },
  "/sitemap": {
-  "hash": "2285d6bf12bb",
+  "hash": "896f487c0e0e",
   "date": "2026-11-04"
  },
  "/inspections-emissions": {
@@ -36,16 +36,16 @@
   "date": "2026-11-04"
  },
  "/engine-exhaust-transmission": {
-  "hash": "1cf8aefbe723",
+  "hash": "7e21532ac385",
   "date": "2026-11-04"
  },
  "/transmission-drivetrain": {
-  "hash": "ad9fc35e42eb",
-  "date": "2026-11-03"
+  "hash": "05cef99e3b82",
+  "date": "2026-11-04"
  },
  "/maintenance": {
-  "hash": "e9092e170f09",
-  "date": "2026-11-03"
+  "hash": "bc39b0b18eca",
+  "date": "2026-11-04"
  },
  "/tires-wheels": {
   "hash": "ed26bd8fa443",
@@ -56,7 +56,7 @@
   "date": "2026-11-03"
  },
  "/ac-heating": {
-  "hash": "5cdf65c11efd",
+  "hash": "e24da1a31a00",
   "date": "2026-11-04"
  },
  "/auto-light-repair": {
@@ -64,7 +64,7 @@
   "date": "2026-11-04"
  },
  "/battery-alternator-starter": {
-  "hash": "3bf7f23da0aa",
+  "hash": "6e77166c4ce2",
   "date": "2026-11-04"
  },
  "/brake-repair": {
@@ -72,11 +72,19 @@
   "date": "2026-11-04"
  },
  "/check-engine-light": {
-  "hash": "64d9a5233af2",
+  "hash": "52daf0aa6a8c",
+  "date": "2026-11-04"
+ },
+ "/clutch-repair": {
+  "hash": "bef5b266c227",
   "date": "2026-11-04"
  },
  "/cooling-system": {
   "hash": "9c11078c0b46",
+  "date": "2026-11-04"
+ },
+ "/cv-axle-differential": {
+  "hash": "aca2e3d99174",
   "date": "2026-11-04"
  },
  "/electrical-repair": {
@@ -84,11 +92,15 @@
   "date": "2026-11-04"
  },
  "/emissions-repair": {
-  "hash": "71238ce32c81",
+  "hash": "353dfbc74219",
   "date": "2026-11-04"
  },
  "/engine-repair": {
   "hash": "d96d46c48787",
+  "date": "2026-11-04"
+ },
+ "/engine-transmission-mounts": {
+  "hash": "1800192fa9ca",
   "date": "2026-11-04"
  },
  "/engine-tune-up": {
@@ -96,11 +108,19 @@
   "date": "2026-11-04"
  },
  "/exhaust-muffler-repair": {
-  "hash": "5be6b0ac2695",
+  "hash": "0d6694e86fdb",
+  "date": "2026-11-04"
+ },
+ "/fuel-system-repair": {
+  "hash": "6c1f5c680964",
+  "date": "2026-11-04"
+ },
+ "/hybrid-service": {
+  "hash": "bab620ccd706",
   "date": "2026-11-04"
  },
  "/oil-change": {
-  "hash": "9a9e4e1179a3",
+  "hash": "14277efc0699",
   "date": "2026-11-04"
  },
  "/oil-leak-repair": {
@@ -136,8 +156,8 @@
   "date": "2026-11-04"
  },
  "/transmission-repair": {
-  "hash": "719b27745ac1",
-  "date": "2026-11-03"
+  "hash": "77693525646e",
+  "date": "2026-11-04"
  },
  "/wheel-alignment": {
   "hash": "c1f4b7b7af59",
@@ -148,7 +168,7 @@
   "date": "2026-11-04"
  },
  "/es/services": {
-  "hash": "77f66a943d3a",
+  "hash": "fc931dede338",
   "date": "2026-11-04"
  },
  "/es/inspections-emissions": {
@@ -164,16 +184,16 @@
   "date": "2026-11-04"
  },
  "/es/engine-exhaust-transmission": {
-  "hash": "77968ab10fb6",
+  "hash": "8f2097fad8fb",
   "date": "2026-11-04"
  },
  "/es/transmission-drivetrain": {
-  "hash": "f2d90d8cf90c",
-  "date": "2026-11-03"
+  "hash": "5e854ed57899",
+  "date": "2026-11-04"
  },
  "/es/maintenance": {
-  "hash": "ad57914a0431",
-  "date": "2026-11-03"
+  "hash": "413e8b74debd",
+  "date": "2026-11-04"
  },
  "/es/tires-wheels": {
   "hash": "3f855b812ce3",
@@ -184,7 +204,7 @@
   "date": "2026-11-03"
  },
  "/es/ac-heating": {
-  "hash": "c9f32d5aa280",
+  "hash": "abc74e9d7834",
   "date": "2026-11-04"
  },
  "/es/auto-light-repair": {
@@ -192,7 +212,7 @@
   "date": "2026-11-04"
  },
  "/es/battery-alternator-starter": {
-  "hash": "f09f4d094599",
+  "hash": "e73966d841b5",
   "date": "2026-11-04"
  },
  "/es/brake-repair": {
@@ -200,11 +220,19 @@
   "date": "2026-11-04"
  },
  "/es/check-engine-light": {
-  "hash": "df907d9c262f",
+  "hash": "550c5121cf0b",
+  "date": "2026-11-04"
+ },
+ "/es/clutch-repair": {
+  "hash": "d09282ff2f32",
   "date": "2026-11-04"
  },
  "/es/cooling-system": {
   "hash": "6c7b37248a76",
+  "date": "2026-11-04"
+ },
+ "/es/cv-axle-differential": {
+  "hash": "f21b7adc0e80",
   "date": "2026-11-04"
  },
  "/es/electrical-repair": {
@@ -212,11 +240,15 @@
   "date": "2026-11-04"
  },
  "/es/emissions-repair": {
-  "hash": "f1b8768fb9de",
+  "hash": "03677b3368cf",
   "date": "2026-11-04"
  },
  "/es/engine-repair": {
   "hash": "b9bc80f711b5",
+  "date": "2026-11-04"
+ },
+ "/es/engine-transmission-mounts": {
+  "hash": "bcf98fec2a5f",
   "date": "2026-11-04"
  },
  "/es/engine-tune-up": {
@@ -224,11 +256,19 @@
   "date": "2026-11-04"
  },
  "/es/exhaust-muffler-repair": {
-  "hash": "64109f92fe9b",
+  "hash": "d272c94c81da",
+  "date": "2026-11-04"
+ },
+ "/es/fuel-system-repair": {
+  "hash": "9e2672f13c39",
+  "date": "2026-11-04"
+ },
+ "/es/hybrid-service": {
+  "hash": "d9911bfcf3e2",
   "date": "2026-11-04"
  },
  "/es/oil-change": {
-  "hash": "2031ddf3be12",
+  "hash": "6709b3d22878",
   "date": "2026-11-04"
  },
  "/es/oil-leak-repair": {
@@ -264,8 +304,8 @@
   "date": "2026-11-04"
  },
  "/es/transmission-repair": {
-  "hash": "776ae33a4018",
-  "date": "2026-11-03"
+  "hash": "ab8810a792bd",
+  "date": "2026-11-04"
  },
  "/es/wheel-alignment": {
   "hash": "dcd51e122f12",
