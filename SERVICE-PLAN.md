@@ -1,7 +1,7 @@
 # Scally's Auto Repair: service expansion plan and status
 
 Development branch: `service-expansion`. Batches 1–4 are merged and deployed from `main`.
-Last updated: November 4, 2026 UTC (Batch 4 merged, published and tested).
+Last updated: November 4, 2026 UTC (Batch 5 bilingual pages drafted; awaiting build/QA).
 
 ## Status
 
@@ -12,12 +12,13 @@ Last updated: November 4, 2026 UTC (Batch 4 merged, published and tested).
 | Spanish versions: services hub, 8 category pages, detailed pages | Done for what is built |
 | Language switch, hreflang, self-canonicals, sitemap `lastmod` | Done |
 | Structured data: one `AutoRepair` entity (`/#business`), WebPage, Service, BreadcrumbList, FAQPage | Done |
-| Detailed service pages | 32 of 34 detailed EN/ES pages published on `main`; 2 detailed pages remain for Batch 5 |
+| Detailed service pages | 32 of 34 bilingual pages published on `main`; Batch 5's final 2 pages drafted on `service-expansion` (34 once build and QA pass) |
 | Automated checks (`tests/check_site.py`) | ALL CHECKS PASSED on 32-page build: [run 41783192862](https://github.com/sysopx786/scallys-auto-repair-website/actions/runs/41783192862) |
 | Batch 1 full build and responsive QA | ALL BROWSER CHECKS PASSED: 60 checks, 0 failures |
 | Batch 2 build and responsive QA | ALL CHECKS PASSED; ALL BROWSER CHECKS PASSED (120 checks, 0 failures) — [run 41771079049](https://github.com/sysopx786/scallys-auto-repair-website/actions/runs/41771079049) |
 | Batch 3 build and responsive QA | ALL CHECKS PASSED; 180 browser checks, 0 failures; Pages deploy 41773732752 succeeded |
 | Batch 4 build and responsive QA | ALL CHECKS PASSED; 228 Chromium checks with 0 failures; Pages deployment [41783628655](https://github.com/sysopx786/scallys-auto-repair-website/actions/runs/41783628655) succeeded |
+| Batch 5 build and responsive QA | Pending CI full-site build, validation and 252 Chromium checks |
 
 ## Batch 1 (November 4, 2026 UTC) — merged and published
 
@@ -82,6 +83,21 @@ The wheel page does not claim all bent or cracked rims are repairable. The rust 
 
 **QA passed:** `python3 src/build.py` generated **87 indexable pages** (32 detailed service pages in each language). `python3 tests/check_site.py` printed `ALL CHECKS PASSED`. Headless Chromium completed 19 slugs × 2 languages × 6 widths = **228 checks** with zero HTTP, browser error or horizontal-overflow failures. The generated HTML was committed as `fae8c1610996f37bde2be7b37d6f9053cf7b0f7c`, PR #4 merged as `98f4b881fa66fdba19d438726ad3f56d0f691f01`, and [GitHub Pages deployment 41783628655](https://github.com/sysopx786/scallys-auto-repair-website/actions/runs/41783628655) succeeded. The QA artifact contains 76 full-page screenshots and a JSON report.
 
+## Batch 5 (November 4, 2026 UTC) — final two page sources drafted
+
+The final two detailed pages are prepared in English and Spanish, based on Scally's confirmed catalog and independent official regulatory references. The pages were edited to meet the targeted copy length before final release QA. Their source includes SEO title and description per language, H1, overview, meaningful H2 sections, signs and work scope, related service links, FAQs and owner-verification notes.
+
+| Page | Catalog service covered | EN / ES draft content words (including FAQs) | Status |
+|---|---|---:|---|
+| `window-tinting` | Window Tinting | 873 / 904 | Source ready |
+| `import-car-repair` | Imports (repair and maintenance of imported vehicles) | 867 / 866 | Source ready |
+
+**Tint accuracy:** [PennDOT's April 2025 fact sheet](https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bmv/bmv-fact-sheets/fs-sun.pdf) requires generally at least 70% total visible light transmission for post-1997 passenger car windows; different rules apply by vehicle type. Routine window-tint checks were removed from Pennsylvania safety inspections, but motorists may still be cited for unlawful tint. No unsupported claims about Scally's film brands, installer certification, measurement tools or warranties. Exemptions must be verified by PennDOT.
+
+**Import accuracy:** Foreign-brand vehicles sold for the U.S. market and privately imported overseas-market vehicles can differ in service data and compatible parts. The page does not claim every make/model, manufacturer programming, federal importation certification or paperwork support. Links to [NHTSA import guidance](https://www.nhtsa.gov/importing-vehicle/importation-and-certification-faqs) and [EPA import guidance](https://www.epa.gov/importing-vehicles-and-engines) are for external regulatory context only.
+
+**Release gate:** Build all pages, run `tests/check_site.py`, and Chromium-test all 21 newly expanded page slugs × 2 languages × 6 viewport widths = **252 checks**, with no failures. Generated HTML committed on the development branch only after passing. Then merge the passing branch to `main`, confirm successful Pages deployment, and mark **34 of 34** complete. Outstanding Jerry confirmations and native Spanish review remain documented separately.
+
 ## Open decisions and future launch items
 
 1. **Page consolidation: 34 detailed pages, not 67.** Diverse Auto Works covers its ~83 services with 26 detailed pages. One page per service would create near-duplicate pages competing for the same searches (wheel bearings vs wheel hubs, motor mounts vs transmission mounts, spark plugs vs ignition vs tune-ups). Every one of the 67 services still has its own anchor, its own entry on its category page, its own search entry, and a link to the page that covers it. Reverting a service to its own page is a one-field change (`page` in `src/services.json`) plus a new page file.
@@ -126,8 +142,8 @@ The wheel page does not claim all bent or cracked rims are repairable. The rust 
 | `/auto-body-repair/` | Auto Body Repair | Published (EN+ES); QA passed |
 | `/rust-repair/` | Rust Repair & Corrosion Control | Published (EN+ES); QA passed |
 | `/auto-glass/` | Auto Glass Installation & Repair, Windshield Wiper Replacement | Published (EN+ES); QA passed |
-| `/window-tinting/` | Window Tinting | queued |
-| `/import-car-repair/` | Imports | queued |
+| `/window-tinting/` | Window Tinting | Batch 5 source ready (EN+ES); build/test pending |
+| `/import-car-repair/` | Imports | Batch 5 source ready (EN+ES); build/test pending |
 
 34 detailed pages for 65 services. General Auto Repair stays on the home page; Pick-up/Drop-off stays on /contact/#pickup.
 
@@ -204,9 +220,9 @@ Old anchors for moved services (`/engine-exhaust-transmission/#transmission-repa
 | 61 | Auto Body Repair | Body, Glass & Imports | existing | `/body-pickup/#auto-body-repair` | `/auto-body-repair/` | ✅ published | none |
 | 62 | Rust Repair & Corrosion Control | Body, Glass & Imports | existing | `/body-pickup/#rust-repair-and-corrosion-control` | `/rust-repair/` | ✅ published | svc_rust |
 | 63 | Auto Glass Installation & Repair | Body, Glass & Imports | existing | `/body-pickup/#auto-glass-installation-and-repair` | `/auto-glass/` | ✅ published | none |
-| 64 | Window Tinting | Body, Glass & Imports | existing | `/body-pickup/#window-tinting` | `/window-tinting/` | queued | none |
+| 64 | Window Tinting | Body, Glass & Imports | existing | `/body-pickup/#window-tinting` | `/window-tinting/` | Batch 5 source ready | none |
 | 65 | Windshield Wiper Replacement | Body, Glass & Imports | existing | `/body-pickup/#windshield-wiper-replacement` | `/auto-glass/` | ✅ published | none |
-| 66 | Imports | Body, Glass & Imports | existing | `/body-pickup/#imports` | `/import-car-repair/` | queued | none |
+| 66 | Imports | Body, Glass & Imports | existing | `/body-pickup/#imports` | `/import-car-repair/` | Batch 5 source ready | none |
 | 67 | Pick-up, Drop-off & After-Hours Arrangements | Body, Glass & Imports | renamed | `/body-pickup/#pick-up-and-delivery` | `/contact/#pickup` | n/a | n/a |
 
 ## Facts for Jerry to confirm

@@ -4,7 +4,7 @@
   "date": "2026-11-03"
  },
  "/services": {
-  "hash": "28de5a7fe085",
+  "hash": "d46122d0951a",
   "date": "2026-11-04"
  },
  "/about": {
@@ -20,7 +20,7 @@
   "date": "2026-11-03"
  },
  "/sitemap": {
-  "hash": "25e5d0d942ab",
+  "hash": "5bab116af89e",
   "date": "2026-11-04"
  },
  "/inspections-emissions": {
@@ -52,7 +52,7 @@
   "date": "2026-11-04"
  },
  "/body-pickup": {
-  "hash": "2439155d684f",
+  "hash": "7e63ad116b04",
   "date": "2026-11-04"
  },
  "/ac-heating": {
@@ -127,6 +127,10 @@
   "hash": "bab620ccd706",
   "date": "2026-11-04"
  },
+ "/import-car-repair": {
+  "hash": "ae55476cd264",
+  "date": "2026-11-04"
+ },
  "/oil-change": {
   "hash": "e480bf5eb61f",
   "date": "2026-11-04"
@@ -183,8 +187,12 @@
   "hash": "0346b6225c90",
   "date": "2026-11-04"
  },
+ "/window-tinting": {
+  "hash": "31ea845fdd08",
+  "date": "2026-11-04"
+ },
  "/es/services": {
-  "hash": "f3df1bc72a3e",
+  "hash": "be78c09d2a23",
   "date": "2026-11-04"
  },
  "/es/inspections-emissions": {
@@ -216,7 +224,7 @@
   "date": "2026-11-04"
  },
  "/es/body-pickup": {
-  "hash": "acdd7a8b5b13",
+  "hash": "5b1d1b207fbc",
   "date": "2026-11-04"
  },
  "/es/ac-heating": {
@@ -291,6 +299,10 @@
   "hash": "d9911bfcf3e2",
   "date": "2026-11-04"
  },
+ "/es/import-car-repair": {
+  "hash": "6283ba8292f7",
+  "date": "2026-11-04"
+ },
  "/es/oil-change": {
   "hash": "4903365e78f4",
   "date": "2026-11-04"
@@ -345,6 +357,10 @@
  },
  "/es/wheel-repair": {
   "hash": "e0ade528afef",
+  "date": "2026-11-04"
+ },
+ "/es/window-tinting": {
+  "hash": "0a6d03dee7cb",
   "date": "2026-11-04"
  }
 }
