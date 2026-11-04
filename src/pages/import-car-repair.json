@@ -1,0 +1,337 @@
+{
+  "id": "import-car-repair",
+  "slug": "import-car-repair",
+  "category": "body-glass-imports",
+  "covers": [
+    "imports"
+  ],
+  "adaptedFrom": "Scally's confirmed Imports service: repair and maintenance for imported vehicles. Content distinguishes U.S.-market import-brand cars from privately imported non-U.S.-market vehicles. No unconfirmed European/Japanese brand specialties, proprietary tools, importation/legal paperwork or manufacturer certification claimed. NHTSA and EPA provide official context on direct imports.",
+  "primary_kw": {
+    "en": "import car repair Primos PA",
+    "es": "reparación de autos importados en Primos PA"
+  },
+  "secondary_kws": [
+    "foreign car repair Primos",
+    "imported vehicle maintenance",
+    "import auto service",
+    "import car diagnostics",
+    "import car oil changes",
+    "import car brake repair",
+    "foreign car check engine light",
+    "foreign brand vehicle service",
+    "import car shop Secane",
+    "import car maintenance Clifton Heights",
+    "non US market vehicle repair",
+    "import vehicle parts availability"
+  ],
+  "title": {
+    "en": "Import Car Repair in Primos, PA | Scally's",
+    "es": "Reparación de autos importados en Primos | Scally's"
+  },
+  "desc": {
+    "en": "Need repair or maintenance for an imported car? Scally's in Primos reviews your make, model, symptoms and parts requirements before work. Call 610-626-4700.",
+    "es": "¿Necesita reparar un auto importado? Scally's en Primos revisa marca, modelo, síntomas y disponibilidad de piezas antes de recomendar un servicio."
+  },
+  "h1": {
+    "en": "Import Car Repair and Maintenance in Primos, PA",
+    "es": "Reparación y mantenimiento de autos importados en Primos, PA"
+  },
+  "crumb": {
+    "en": "Import Car Repair",
+    "es": "Reparación de autos importados"
+  },
+  "service_type": {
+    "en": "Repair and maintenance for imported vehicles",
+    "es": "Reparación y mantenimiento de vehículos importados"
+  },
+  "lead": {
+    "en": "Owning a car from a foreign manufacturer does not mean every repair should be complicated, but the exact make, model and market version still matter. At {name}, on {street} in {city}, repair and maintenance for imported vehicles are listed services. We discuss the vehicle's needs, symptoms, parts and service information before agreeing to specific work. A model sold through U.S. dealers may differ from a vehicle privately brought into the country from another market.",
+    "es": "Tener un auto de un fabricante extranjero no significa que toda reparación deba ser complicada, pero importan la marca, el modelo y la versión del mercado. En {name}, en {street}, {city}, ofrecemos reparación y mantenimiento de vehículos importados. Hablamos de las necesidades, síntomas, piezas e información técnica antes de acordar un trabajo específico. Un modelo vendido por concesionarios de Estados Unidos puede diferir de uno traído directamente desde otro país."
+  },
+  "blocks": [
+    [
+      "h2",
+      {
+        "en": "What imported vehicle service can mean",
+        "es": "Qué significa dar servicio a un auto importado"
+      },
+      "overview"
+    ],
+    [
+      "p",
+      {
+        "en": "The word import may describe a foreign-brand car built for the U.S. market or a vehicle originally manufactured for sale overseas. Many foreign-brand cars sold in the United States use familiar maintenance items, such as filters, engine oil, tires, brakes and batteries, but specifications still vary. A privately imported overseas-market model may use different parts, diagnostic information or lighting and emissions equipment.",
+        "es": "La palabra importado puede referirse a un auto de marca extranjera fabricado para el mercado estadounidense o a un vehículo vendido originalmente en otro país. Muchos modelos extranjeros comercializados en Estados Unidos usan piezas comunes de mantenimiento, como filtros, aceite, llantas, frenos y baterías, pero las especificaciones cambian. Una versión traída directamente de otro país puede necesitar piezas, información de diagnóstico, luces o equipos de emisiones diferentes."
+      }
+    ],
+    [
+      "p",
+      {
+        "en": "The right starting point is to identify exactly which vehicle is in front of the shop. A make and model name may cover more than one engine, transmission, trim or market version. Service and repair planning should rely on compatible parts and manufacturer information. We do not publish a list claiming every foreign brand or specialty import is accepted without confirming it with the shop.",
+        "es": "Lo primero es identificar exactamente qué vehículo llega al taller. Una marca y un modelo pueden tener diferentes motores, transmisiones, versiones y destinos comerciales. El mantenimiento y reparación deben considerar piezas compatibles e información del fabricante. No publicamos una lista que afirme que se acepta toda marca extranjera o importación especial sin confirmación del taller."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Symptoms and information to bring",
+        "es": "Síntomas y datos que conviene traer"
+      },
+      "signs"
+    ],
+    [
+      "ul",
+      [
+        {
+          "en": "The year, make, model and the country or market for which the vehicle was built, if known.",
+          "es": "El año, marca, modelo y país o mercado de fabricación, si lo conoce."
+        },
+        {
+          "en": "The VIN or other vehicle identification information when available.",
+          "es": "El VIN u otro dato de identificación del vehículo, si lo tiene."
+        },
+        {
+          "en": "Warning lights, driving symptoms or new noises.",
+          "es": "Luces de advertencia, síntomas al conducir o ruidos nuevos."
+        },
+        {
+          "en": "Any maintenance records and the last known service date.",
+          "es": "Registros de mantenimiento y fecha del último servicio conocido."
+        },
+        {
+          "en": "Details of a replacement part that was previously fitted or ordered.",
+          "es": "Datos de una pieza de reemplazo instalada o pedida anteriormente."
+        },
+        {
+          "en": "Any known difference between the car and a common U.S.-market version.",
+          "es": "Diferencias conocidas entre el auto y una versión común en Estados Unidos."
+        },
+        {
+          "en": "Information about work that another shop has already attempted.",
+          "es": "Información sobre trabajos que otro taller haya intentado."
+        }
+      ]
+    ],
+    [
+      "p",
+      {
+        "en": "A warning light or unusual noise is a clue, not proof that a particular component has failed. A check engine code can relate to several systems and often needs further testing. If there is a fluid leak, severe overheating, failing brakes or unstable handling, ask for a safe assessment rather than continuing to drive. We recommend describing what happens, when it happens and whether any recent work changed the symptoms.",
+        "es": "Una advertencia o ruido extraño es una pista, no prueba de que una pieza determinada falló. Un código de check engine puede relacionarse con varios sistemas y suele requerir más pruebas. Si hay una fuga, sobrecalentamiento fuerte, frenos defectuosos o manejo inestable, solicite una evaluación segura en vez de seguir conduciendo. Explique qué pasa, cuándo ocurre y si algún trabajo reciente cambió el síntoma."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Common maintenance for imported cars",
+        "es": "Mantenimiento habitual de autos importados"
+      },
+      "maintenance"
+    ],
+    [
+      "p",
+      {
+        "en": "Imported vehicles still need scheduled checks and the correct fluids and parts for their specifications. Depending on the model, ordinary maintenance can include oil and filter changes, tire care, brakes, inspection items and checks of cooling or charging systems. Scally's offers several of these service categories, but that does not mean every operation is available for every imported vehicle. The shop can review the model and requested task before accepting the job.",
+        "es": "Los autos importados también necesitan revisiones programadas, líquidos y piezas correctas para sus especificaciones. Según el modelo, el mantenimiento habitual puede incluir cambios de aceite y filtros, llantas, frenos, inspecciones y revisiones de refrigeración o carga. Scally's ofrece varias de estas categorías, pero eso no significa que cada trabajo esté disponible para todo vehículo importado. El taller puede revisar el modelo y servicio solicitado antes de aceptar el trabajo."
+      }
+    ],
+    [
+      "p",
+      {
+        "en": "Follow the owner's manual for oil grade, service intervals, fluids and replacement parts. A foreign-brand name alone does not justify a single maintenance schedule for all versions. Our [oil change](svc:oil-changes), [brake repair](svc:brake-repair) and [tire service](svc:tires-and-flat-repair) pages describe related services. Ask if the correct supplies are available for your specific model instead of assuming a generic alternative is suitable.",
+        "es": "Siga el manual del propietario para tipo de aceite, intervalos, líquidos y piezas de reemplazo. Una marca extranjera no implica el mismo calendario para todas sus versiones. Nuestras páginas de [cambio de aceite](svc:oil-changes), [reparación de frenos](svc:brake-repair) y [servicio de llantas](svc:tires-and-flat-repair) explican trabajos relacionados. Pregunte si hay materiales correctos para su modelo en lugar de suponer que una alternativa genérica es adecuada."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Diagnosis, warning lights and electrical faults",
+        "es": "Diagnóstico, advertencias y fallas eléctricas"
+      },
+      "diagnostics"
+    ],
+    [
+      "p",
+      {
+        "en": "Imported cars can develop check engine, starting, charging and electrical problems just like other vehicles. The model's diagnostic system, sensor layout and service information determine the approach. Some functions require manufacturer-specific tools or access to information not available at every independent shop. We do not claim factory-level programming, advanced module coding, special licensing or guaranteed support for every model. The shop should confirm the exact request before booking specialist work.",
+        "es": "Los autos importados pueden tener luces de check engine y problemas de arranque, carga o electricidad como otros vehículos. El sistema de diagnóstico, distribución de sensores e información técnica del modelo determinan cómo revisar. Algunas funciones requieren herramientas específicas del fabricante o información que no todos los talleres independientes tienen. No anunciamos programación de fábrica, codificación avanzada, licencias especiales ni atención garantizada para todo modelo. El taller debe confirmar el trabajo antes de aceptar servicios especializados."
+      }
+    ],
+    [
+      "p",
+      {
+        "en": "If the car hesitates, loses power, shifts unusually or shows a warning, report the conditions and recent service history. That helps distinguish a basic maintenance issue from one that needs special parts or advanced diagnosis. Related services include [check engine diagnostics](svc:check-engine-light), [electrical repair](svc:electrical-repair) and [transmission repair](svc:transmission-repair). None of those links should be interpreted as a promise that a rare imported variant can receive every specialty procedure at this shop.",
+        "es": "Si el auto titubea, pierde fuerza, cambia de manera extraña o muestra una advertencia, indique las condiciones y el mantenimiento reciente. Eso ayuda a distinguir un problema básico de uno que requiere piezas especiales o diagnóstico avanzado. Entre los servicios relacionados están [diagnóstico de check engine](svc:check-engine-light), [reparación eléctrica](svc:electrical-repair) y [transmisiones](svc:transmission-repair). Esos enlaces no prometen que cualquier versión importada pueda recibir todo procedimiento especializado en este taller."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Parts and information for overseas-market vehicles",
+        "es": "Piezas e información para autos de otros mercados"
+      },
+      "parts"
+    ],
+    [
+      "p",
+      {
+        "en": "A model originally sold outside the United States may have part numbers, engine specifications, lamps, instruments or other equipment that differ from a visually similar U.S.-market vehicle. Parts availability and lead times can vary, and sometimes the correct information has to be located before an estimate is meaningful. Ask the shop what identification it needs and whether the proposed part matches the exact vehicle. We do not promise immediate availability of foreign-market parts or universal compatibility.",
+        "es": "Un modelo vendido originalmente fuera de Estados Unidos puede tener números de pieza, motor, lámparas, instrumentos u otros equipos distintos de un auto estadounidense de apariencia parecida. La disponibilidad y plazos de entrega varían, y a veces primero hay que localizar información correcta para hacer un presupuesto. Pregunte qué identificación necesita el taller y si la pieza corresponde exactamente al vehículo. No prometemos disponibilidad inmediata de piezas especiales ni compatibilidad universal."
+      }
+    ],
+    [
+      "p",
+      {
+        "en": "For vehicles originally manufactured for foreign markets, U.S. safety and emissions import requirements can also affect what equipment is installed. [NHTSA's importation FAQ](url:https://www.nhtsa.gov/importing-vehicle/importation-and-certification-faqs) and the [EPA import guidance](url:https://www.epa.gov/importing-vehicles-and-engines) explain the separate federal processes. Scally's import car repair listing is about automotive maintenance and repairs, not importing vehicles, certification or handling federal paperwork.",
+        "es": "Para vehículos fabricados para otros mercados, las normas federales de seguridad y emisiones también pueden influir en el equipo instalado. La [guía de importación de NHTSA](url:https://www.nhtsa.gov/importing-vehicle/importation-and-certification-faqs) y la [guía de EPA](url:https://www.epa.gov/importing-vehicles-and-engines) explican los trámites federales por separado. El servicio de Scally's se refiere a mantenimiento y reparaciones, no a importar vehículos, certificarlos o gestionar trámites federales."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Pennsylvania inspections for an imported vehicle",
+        "es": "Inspecciones de Pensilvania para autos importados"
+      },
+      "pa-inspection"
+    ],
+    [
+      "p",
+      {
+        "en": "Pennsylvania safety and emissions requirements depend on the vehicle and applicable rules. Being an import does not by itself tell you which inspection process applies. A car manufactured for another market may have differences in equipment or documentation. If you need an inspection, give the shop the registration information and ask which procedures can be performed for your exact vehicle; do not assume an overseas-market vehicle is automatically eligible or automatically exempt.",
+        "es": "Los requisitos de seguridad y emisiones de Pensilvania dependen del vehículo y las reglas aplicables. Ser importado no determina por sí solo qué inspección corresponde. Un vehículo de otro mercado puede tener diferencias de equipo o documentación. Si necesita una inspección, proporcione los datos de registro y consulte qué procedimientos se pueden realizar en su modelo; no suponga que queda automáticamente admitido o exento."
+      }
+    ],
+    [
+      "p",
+      {
+        "en": "A maintenance visit is also not the same as customs clearance, registration or vehicle certification. Federal and state authorities govern those matters. We do not advertise that Scally's obtains import approvals, changes legal compliance status or performs every emissions-system conversion. Our [PA inspections](svc:pa-safety-inspections) and [emissions repair](svc:emissions-control) pages cover the shop's existing vehicle service categories without making promises about import paperwork.",
+        "es": "Una visita de mantenimiento no equivale a despacho de aduana, registro o certificación del vehículo. Esos asuntos corresponden a autoridades federales y estatales. No anunciamos que Scally's consiga autorizaciones de importación, cambie el estado legal del vehículo o realice toda conversión de emisiones. Nuestras páginas de [inspecciones de PA](svc:pa-safety-inspections) y [reparación de emisiones](svc:emissions-control) describen servicios existentes sin prometer trámites de importación."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "How to discuss your imported car repair",
+        "es": "Cómo consultar la reparación de su auto importado"
+      },
+      "how-to-call"
+    ],
+    [
+      "p",
+      {
+        "en": "When you call, start with your vehicle's year, make and model. If it is a privately imported overseas-market version, mention that before asking about a repair. Explain any unusual parts, right-hand-drive arrangement or model-specific equipment. Ask which maintenance, diagnostic or repair operations the shop can accept and what identification is needed for an estimate. There is no published list of brands, specialist certifications or fixed labor prices to rely on.",
+        "es": "Cuando llame, comience con año, marca y modelo. Si fue importado directamente de otro mercado, menciónelo antes de pedir una reparación. Explique si tiene piezas poco comunes, volante a la derecha o equipo particular. Pregunte qué mantenimiento, diagnóstico o reparación puede aceptar el taller y qué identificación necesita para un presupuesto. No hay una lista publicada de marcas, certificaciones especiales ni precios fijos en la que basarse."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Import car repair near Primos and Secane",
+        "es": "Reparación de autos importados cerca de Primos y Secane"
+      },
+      "local"
+    ],
+    [
+      "p",
+      {
+        "en": "{name} is at {street}, {city}, near Secane and Clifton Heights. Call {phone} with the vehicle details and your specific concern. We can discuss the shop's current service scope, parts considerations and next step before you commit to a repair. If you're unsure whether a particular foreign-market model can be serviced, ask first instead of traveling with an unsafe car.",
+        "es": "{name} está en {street}, {city}, cerca de Secane y Clifton Heights. Llame al {phone} con los datos del vehículo y su problema específico. Podemos hablar del alcance actual del taller, de las piezas y del siguiente paso antes de decidir una reparación. Si no sabe si se atiende una versión de otro mercado, consulte primero en lugar de viajar con un auto inseguro."
+      }
+    ]
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Scally's repair imported cars?",
+        "es": "¿Scally's repara autos importados?"
+      },
+      "a": {
+        "en": "Yes. Repair and maintenance for imported vehicles appear in the shop's catalog. Call with the exact model and service request.",
+        "es": "Sí. La reparación y el mantenimiento de vehículos importados figuran en la lista del taller. Llame con el modelo y el servicio solicitado."
+      }
+    },
+    {
+      "q": {
+        "en": "Do you work on every foreign brand and model?",
+        "es": "¿Atienden todas las marcas y modelos extranjeros?"
+      },
+      "a": {
+        "en": "No brand-by-brand capability list has been confirmed. The shop should check your exact model and required work before accepting it.",
+        "es": "No se ha confirmado una lista de marcas atendidas. El taller debe revisar el modelo y trabajo solicitado antes de aceptarlo."
+      }
+    },
+    {
+      "q": {
+        "en": "What if my car was imported privately from another country?",
+        "es": "¿Qué pasa si mi auto llegó directamente de otro país?"
+      },
+      "a": {
+        "en": "Tell the shop before booking. Overseas-market models can use different parts or diagnostic information, so service availability needs confirmation.",
+        "es": "Avise al taller antes de programar. Las versiones de otros mercados pueden tener piezas o información de diagnóstico diferentes; hay que confirmar disponibilidad."
+      }
+    },
+    {
+      "q": {
+        "en": "Can an imported car use ordinary maintenance parts?",
+        "es": "¿Un auto importado puede usar piezas habituales de mantenimiento?"
+      },
+      "a": {
+        "en": "Sometimes, but specifications vary by model and market version. Confirm the correct fluids and compatible parts.",
+        "es": "A veces sí, pero las especificaciones varían según modelo y mercado. Confirme los líquidos y piezas compatibles."
+      }
+    },
+    {
+      "q": {
+        "en": "Do you handle federal import or registration paperwork?",
+        "es": "¿Gestionan documentos federales de importación o registro?"
+      },
+      "a": {
+        "en": "No such service is advertised. NHTSA, EPA, customs and state registration are separate from mechanical repair.",
+        "es": "No anunciamos ese servicio. NHTSA, EPA, aduana y registro estatal son asuntos distintos de la reparación mecánica."
+      }
+    },
+    {
+      "q": {
+        "en": "Can you diagnose a check engine light on an import?",
+        "es": "¿Pueden diagnosticar la luz de check engine de un importado?"
+      },
+      "a": {
+        "en": "The shop lists automotive diagnostics, but model-specific tool and information access must be confirmed for the exact vehicle.",
+        "es": "El taller ofrece diagnóstico automotriz, pero se debe confirmar acceso a herramientas e información para ese vehículo."
+      }
+    },
+    {
+      "q": {
+        "en": "How should I prepare for an import car service call?",
+        "es": "¿Qué datos necesito para consultar un servicio de importados?"
+      },
+      "a": {
+        "en": "Provide year, make, model, vehicle identification when available, symptoms and the market for which the car was built.",
+        "es": "Indique año, marca, modelo, identificación disponible, síntomas y mercado para el cual se fabricó el auto."
+      }
+    }
+  ],
+  "related": [
+    "oil-changes",
+    "brake-repair",
+    "check-engine-light",
+    "electrical-repair",
+    "transmission-repair",
+    "pa-safety-inspections"
+  ],
+  "sources": [
+    [
+      "NHTSA: Preguntas sobre importación y certificación",
+      "https://www.nhtsa.gov/importing-vehicle/importation-and-certification-faqs"
+    ],
+    [
+      "EPA: Normas de importación de vehículos y motores",
+      "https://www.epa.gov/importing-vehicles-and-engines"
+    ]
+  ],
+  "verify": [
+    "Ask Jerry which foreign-brand makes/models and overseas-market vehicles Scally's currently accepts; do not publish a brand list without approval.",
+    "Confirm access to imported-market maintenance data, diagnostics and any specialist programming or emissions system repairs; not claimed here.",
+    "Confirm parts ordering policy and customer-supplied parts policy, especially rare imported-model components.",
+    "Do not advertise importing, registration, import certification or federal filing services; Scally's catalog only confirms mechanical maintenance and repair."
+  ]
+}

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Browser QA for Batches 1–4 bilingual Scally's service pages.
+"""Browser QA for Batches 1–5 bilingual Scally's service pages.
 Run after src/build.py and check_site.py.
 Requires: pip install playwright && python -m playwright install chromium
 """
@@ -35,6 +35,8 @@ SLUGS = (
     "rust-repair",
     "auto-body-repair",
     "auto-glass",
+    "window-tinting",
+    "import-car-repair",
 )
 WIDTHS = (320, 390, 768, 1100, 1280, 1600)
 BASE = "http://127.0.0.1:8765"
@@ -128,11 +130,11 @@ finally:
     except subprocess.TimeoutExpired:
         server.kill()
 
-(OUT / "batches-1-4-browser-report.json").write_text(
+(OUT / "batches-1-5-browser-report.json").write_text(
     json.dumps({"checks": len(REPORT), "failures": FAILURES, "measurements": REPORT}, indent=2) + "\n",
     encoding="utf-8",
 )
-print(f"\nBatches 1–4 browser checks: {len(REPORT)} checks, {len(FAILURES)} failures")
+print(f"\nBatches 1–5 browser checks: {len(REPORT)} checks, {len(FAILURES)} failures")
 for item in FAILURES:
     print(" -", item)
 if len(REPORT) != len(SLUGS) * 2 * len(WIDTHS) or FAILURES:
