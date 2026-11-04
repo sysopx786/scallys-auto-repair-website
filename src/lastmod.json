@@ -4,7 +4,7 @@
   "date": "2026-11-03"
  },
  "/services": {
-  "hash": "a49feac9179a",
+  "hash": "28de5a7fe085",
   "date": "2026-11-04"
  },
  "/about": {
@@ -20,7 +20,7 @@
   "date": "2026-11-03"
  },
  "/sitemap": {
-  "hash": "896f487c0e0e",
+  "hash": "25e5d0d942ab",
   "date": "2026-11-04"
  },
  "/inspections-emissions": {
@@ -48,15 +48,23 @@
   "date": "2026-11-04"
  },
  "/tires-wheels": {
-  "hash": "ed26bd8fa443",
-  "date": "2026-11-03"
+  "hash": "6a7c0c752386",
+  "date": "2026-11-04"
  },
  "/body-pickup": {
-  "hash": "d542f1931a3d",
-  "date": "2026-11-03"
+  "hash": "2439155d684f",
+  "date": "2026-11-04"
  },
  "/ac-heating": {
   "hash": "e24da1a31a00",
+  "date": "2026-11-04"
+ },
+ "/auto-body-repair": {
+  "hash": "0f8354e6899c",
+  "date": "2026-11-04"
+ },
+ "/auto-glass": {
+  "hash": "a80281874bf8",
   "date": "2026-11-04"
  },
  "/auto-light-repair": {
@@ -108,7 +116,7 @@
   "date": "2026-11-04"
  },
  "/exhaust-muffler-repair": {
-  "hash": "0d6694e86fdb",
+  "hash": "364826745c23",
   "date": "2026-11-04"
  },
  "/fuel-system-repair": {
@@ -120,7 +128,7 @@
   "date": "2026-11-04"
  },
  "/oil-change": {
-  "hash": "14277efc0699",
+  "hash": "e480bf5eb61f",
   "date": "2026-11-04"
  },
  "/oil-leak-repair": {
@@ -139,6 +147,10 @@
   "hash": "f05644f069c5",
   "date": "2026-11-04"
  },
+ "/rust-repair": {
+  "hash": "04c88def01b9",
+  "date": "2026-11-04"
+ },
  "/steering-repair": {
   "hash": "369b5fb905ce",
   "date": "2026-11-04"
@@ -152,7 +164,7 @@
   "date": "2026-11-04"
  },
  "/tires": {
-  "hash": "d593fd4cbe34",
+  "hash": "54f75cd9c0c0",
   "date": "2026-11-04"
  },
  "/transmission-repair": {
@@ -167,8 +179,12 @@
   "hash": "e0659c286ac2",
   "date": "2026-11-04"
  },
+ "/wheel-repair": {
+  "hash": "0346b6225c90",
+  "date": "2026-11-04"
+ },
  "/es/services": {
-  "hash": "fc931dede338",
+  "hash": "f3df1bc72a3e",
   "date": "2026-11-04"
  },
  "/es/inspections-emissions": {
@@ -196,15 +212,23 @@
   "date": "2026-11-04"
  },
  "/es/tires-wheels": {
-  "hash": "3f855b812ce3",
-  "date": "2026-11-03"
+  "hash": "a1473f3c167e",
+  "date": "2026-11-04"
  },
  "/es/body-pickup": {
-  "hash": "dfc18a244aa5",
-  "date": "2026-11-03"
+  "hash": "acdd7a8b5b13",
+  "date": "2026-11-04"
  },
  "/es/ac-heating": {
   "hash": "abc74e9d7834",
+  "date": "2026-11-04"
+ },
+ "/es/auto-body-repair": {
+  "hash": "02fd92ba45e6",
+  "date": "2026-11-04"
+ },
+ "/es/auto-glass": {
+  "hash": "20c8a5627488",
   "date": "2026-11-04"
  },
  "/es/auto-light-repair": {
@@ -256,7 +280,7 @@
   "date": "2026-11-04"
  },
  "/es/exhaust-muffler-repair": {
-  "hash": "d272c94c81da",
+  "hash": "97d5e52862c7",
   "date": "2026-11-04"
  },
  "/es/fuel-system-repair": {
@@ -268,7 +292,7 @@
   "date": "2026-11-04"
  },
  "/es/oil-change": {
-  "hash": "6709b3d22878",
+  "hash": "4903365e78f4",
   "date": "2026-11-04"
  },
  "/es/oil-leak-repair": {
@@ -287,6 +311,10 @@
   "hash": "85515595bb4a",
   "date": "2026-11-04"
  },
+ "/es/rust-repair": {
+  "hash": "f5b16ca561aa",
+  "date": "2026-11-04"
+ },
  "/es/steering-repair": {
   "hash": "3ac8abc11097",
   "date": "2026-11-04"
@@ -300,7 +328,7 @@
   "date": "2026-11-04"
  },
  "/es/tires": {
-  "hash": "544d723a3932",
+  "hash": "a44a1aba3f9c",
   "date": "2026-11-04"
  },
  "/es/transmission-repair": {
@@ -313,6 +341,10 @@
  },
  "/es/wheel-bearings-hubs": {
   "hash": "3db694c45527",
+  "date": "2026-11-04"
+ },
+ "/es/wheel-repair": {
+  "hash": "e0ade528afef",
   "date": "2026-11-04"
  }
 }

@@ -1,0 +1,313 @@
+{
+  "id": "rust-repair",
+  "slug": "rust-repair",
+  "category": "body-glass-imports",
+  "covers": [
+    "rust-repair-and-corrosion-control"
+  ],
+  "adaptedFrom": "Scally's catalog includes rust repair/corrosion control; PennDOT inspection bulletin BI23-03 distinguishes surface rust from floor/frame/unibody damage. No unverified structural repair, welding or permanent-rust-removal claims.",
+  "primary_kw": {
+    "en": "car rust repair Primos PA",
+    "es": "reparación de óxido de autos en Primos PA"
+  },
+  "secondary_kws": [
+    "car rust treatment",
+    "auto corrosion repair",
+    "rust repair near Secane",
+    "undercarriage corrosion",
+    "vehicle rust inspection",
+    "surface rust vs structural rust",
+    "rusted floor pan",
+    "car body rust Primos",
+    "rust prevention service",
+    "car rust near Clifton Heights",
+    "PA vehicle inspection rust",
+    "vehicle frame corrosion"
+  ],
+  "title": {
+    "en": "Car Rust Repair in Primos, PA | Scally's",
+    "es": "Reparación de óxido en Primos, PA | Scally's"
+  },
+  "desc": {
+    "en": "Worried about rust on your car? Scally's in Primos assesses corrosion and discusses repair or control based on its location and severity. Call the shop.",
+    "es": "¿Le preocupa el óxido en su auto? Scally's en Primos evalúa la corrosión y habla de reparación o tratamiento según su ubicación y gravedad."
+  },
+  "h1": {
+    "en": "Rust Repair and Corrosion Control in Primos, PA",
+    "es": "Reparación de óxido y control de corrosión en Primos, PA"
+  },
+  "crumb": {
+    "en": "Rust & Corrosion Control",
+    "es": "Óxido y corrosión"
+  },
+  "service_type": {
+    "en": "Vehicle corrosion inspection, rust repair and corrosion control",
+    "es": "Inspección de corrosión, reparación de óxido y control de corrosión"
+  },
+  "lead": {
+    "en": "Rust can start as a patch of discolored paint or appear underneath a vehicle where you cannot easily see it. What matters is where the metal is affected and how far the corrosion has developed. {name}, at {street} in {city}, lists rust repair and corrosion control among its services. We discuss the visible condition and the likely scope of work without claiming that every rusted panel, floor or structural component can be restored safely.",
+    "es": "El óxido puede comenzar como una mancha sobre la pintura o aparecer debajo del auto, donde no siempre se ve. Lo importante es dónde está afectado el metal y cuánto ha avanzado la corrosión. {name}, en {street}, {city}, ofrece reparación de óxido y control de corrosión. Hablamos del estado y del posible trabajo sin afirmar que cualquier panel, piso o pieza estructural pueda restaurarse de forma segura."
+  },
+  "blocks": [
+    [
+      "h2",
+      {
+        "en": "How vehicle corrosion develops",
+        "es": "Cómo aparece la corrosión del vehículo"
+      },
+      "how-it-works"
+    ],
+    [
+      "p",
+      {
+        "en": "Vehicle body and chassis components are made from metals protected by coatings, paint and sealants. When a protective surface is damaged, moisture and road contaminants can reach the metal. Corrosion may remain superficial in one area while becoming deeper elsewhere. Winter road conditions and repeated water exposure can contribute, especially around seams, wheel openings and the underbody. The appearance of rust alone does not tell us its depth.",
+        "es": "Las piezas de carrocería y chasis están hechas de metales protegidos por pintura, recubrimientos y selladores. Cuando se daña esa protección, la humedad y los contaminantes de la carretera llegan al metal. La corrosión puede ser superficial en un lugar y profunda en otro. Las condiciones invernales y el contacto repetido con agua pueden contribuir, especialmente en uniones, pasos de rueda y debajo del vehículo. El aspecto por sí solo no revela la profundidad."
+      }
+    ],
+    [
+      "p",
+      {
+        "en": "Surface discoloration, bubbling paint, perforated sheet metal and a weakened structural member are different conditions. Covering an area with fresh coating can make it look better without correcting hidden damage. Proper planning starts by identifying the location and extent of corrosion before deciding what treatment or repair is suitable. A safety concern may require more extensive work or a specialist assessment.",
+        "es": "Las manchas superficiales, la pintura con burbujas, la lámina perforada y una pieza estructural debilitada son condiciones distintas. Cubrir un área con recubrimiento nuevo puede mejorar su apariencia sin corregir daños ocultos. La planificación empieza por identificar ubicación y alcance de la corrosión antes de elegir tratamiento o reparación. Un problema de seguridad puede requerir trabajo adicional o revisión especializada."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Where drivers notice rust",
+        "es": "Dónde suele aparecer el óxido"
+      },
+      "signs"
+    ],
+    [
+      "ul",
+      [
+        {
+          "en": "Bubbling paint near door edges, wheel openings or lower panels.",
+          "es": "Pintura con burbujas cerca de puertas, pasos de rueda o paneles inferiores."
+        },
+        {
+          "en": "Rust-colored flakes or loose surface scale underneath the car.",
+          "es": "Escamas color óxido o material suelto debajo del vehículo."
+        },
+        {
+          "en": "A hole or soft spot in a floor or body panel.",
+          "es": "Un agujero o zona debilitada en el piso o un panel."
+        },
+        {
+          "en": "Corrosion around brackets, seams, mounting points or fasteners.",
+          "es": "Corrosión alrededor de soportes, uniones, puntos de montaje o tornillos."
+        },
+        {
+          "en": "Metal that looks cracked, separated or visibly weakened.",
+          "es": "Metal que parece agrietado, separado o debilitado."
+        },
+        {
+          "en": "Damage that becomes visible after seasonal road salt exposure.",
+          "es": "Daño que se vuelve visible después de usar carreteras con sal."
+        }
+      ]
+    ],
+    [
+      "p",
+      {
+        "en": "These signs deserve attention, particularly when they involve load-bearing areas. It can be hard to distinguish surface staining from deeper deterioration without inspection. Do not pull off pieces of a heavily weakened component, and do not assume a coating will restore its strength. If a component appears unstable, have the vehicle assessed before driving further.",
+        "es": "Estas señales merecen atención, sobre todo si afectan zonas que soportan cargas. Sin revisión puede ser difícil distinguir una mancha superficial de deterioro profundo. No desprenda piezas de un componente muy debilitado y no suponga que un recubrimiento recupera su resistencia. Si una pieza parece inestable, solicite revisión antes de seguir conduciendo."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Rust and corrosion services",
+        "es": "Servicios de óxido y corrosión"
+      },
+      "work"
+    ],
+    [
+      "ul",
+      [
+        {
+          "en": "Discuss visible corrosion and the parts affected.",
+          "es": "Revisar la corrosión visible y las piezas afectadas."
+        },
+        {
+          "en": "Distinguish surface treatment concerns from possible structural deterioration.",
+          "es": "Distinguir problemas superficiales de posibles daños estructurales."
+        },
+        {
+          "en": "Evaluate rust repair options according to damage and access.",
+          "es": "Evaluar opciones de reparación según el daño y el acceso."
+        },
+        {
+          "en": "Discuss corrosion-control measures that fit the vehicle condition.",
+          "es": "Hablar de medidas de control de corrosión que correspondan al estado del auto."
+        },
+        {
+          "en": "Identify when a more specialized repair assessment may be required.",
+          "es": "Identificar cuándo hace falta una revisión de reparación más especializada."
+        }
+      ]
+    ],
+    [
+      "h2",
+      {
+        "en": "Surface rust and protective treatment",
+        "es": "Óxido superficial y tratamiento protector"
+      },
+      "surface-rust"
+    ],
+    [
+      "p",
+      {
+        "en": "Light surface corrosion may allow a different approach from metal that has lost strength. Any protective treatment should be selected for the actual condition, preparation needs and location. Rust can remain hidden in seams and enclosed areas. We do not promise a permanent, one-visit cure or advertise a specific rustproofing product without confirmation from the shop. The goal is to discuss realistic options rather than cover over a potential safety problem.",
+        "es": "La corrosión superficial leve puede requerir un enfoque distinto del metal que perdió resistencia. Todo tratamiento protector debe elegirse según el estado real, la preparación y el lugar. El óxido puede quedar oculto en uniones y espacios cerrados. No prometemos una cura permanente en una visita ni anunciamos un producto específico de protección sin confirmación del taller. El objetivo es hablar de opciones realistas, no tapar un posible riesgo."
+      }
+    ],
+    [
+      "p",
+      {
+        "en": "Keep drains and body seams free of trapped debris where recommended by the vehicle manufacturer. After winter conditions, washing road residue from accessible areas can help reduce exposure to contaminants. Regular inspections are useful when a vehicle has known corrosion. Follow the owner's manual for approved cleaning and maintenance; avoid aggressive methods that could damage nearby components.",
+        "es": "Mantenga los drenajes y las uniones de carrocería sin suciedad acumulada cuando lo recomiende el fabricante. Después del invierno, retirar residuos de la carretera en áreas accesibles puede reducir el contacto con contaminantes. Las revisiones regulares ayudan cuando el vehículo ya tiene corrosión. Siga el manual para limpieza y mantenimiento; evite métodos agresivos que puedan dañar otras piezas."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Rust in body panels and under the car",
+        "es": "Óxido en paneles y debajo del auto"
+      },
+      "underbody"
+    ],
+    [
+      "p",
+      {
+        "en": "Rust on a fender or door may look alarming but can be a different concern from corrosion around the floor, frame, body mounts or suspension attachment points. On a unibody vehicle, certain body structures help carry loads; on a body-on-frame vehicle the frame has a different role. Repair choices depend on the design and damage. If metal has perforated or support points are compromised, treating the visible surface alone is not enough.",
+        "es": "El óxido en una salpicadera o puerta puede parecer grave, pero es distinto de la corrosión en piso, bastidor, soportes o puntos de fijación de suspensión. En un auto de carrocería autoportante, ciertas piezas forman parte de la estructura; en uno con bastidor separado, el chasis tiene otra función. Las reparaciones dependen del diseño y daño. Si el metal está perforado o los soportes están comprometidos, tratar solo la superficie no basta."
+      }
+    ],
+    [
+      "p",
+      {
+        "en": "Scally's lists rust repair, but that does not establish capability for every structural or welded repair. Ask whether a specific panel or underbody area falls within the shop's scope. Our [auto body repair](svc:auto-body-repair), [suspension service](svc:steering-and-suspension) and [PA inspection](svc:pa-safety-inspections) pages cover related concerns.",
+        "es": "Scally's ofrece reparación de óxido, pero eso no confirma capacidad para cualquier reparación estructural o soldadura. Consulte si la zona del panel o de los bajos entra en los trabajos del taller. Nuestras páginas de [carrocería](svc:auto-body-repair), [suspensión](svc:steering-and-suspension) e [inspección de PA](svc:pa-safety-inspections) explican asuntos relacionados."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Does rust fail a Pennsylvania inspection?",
+        "es": "¿El óxido hace reprobar una inspección de PA?"
+      },
+      "pa-inspection"
+    ],
+    [
+      "p",
+      {
+        "en": "Not every patch of rust automatically fails a Pennsylvania safety inspection. In its [BI23-03 safety bulletin](url:https://www.pa.gov/content/dam/copapwp-pagov/en/dmv/documents/vehicle-services/bmv-safety-inspection-bulletins/bi23-03.pdf), PennDOT distinguishes ordinary exterior surface rust from floor-pan perforation that creates a hazard or allows exhaust into the cabin, dangerous protruding metal and deteriorated frame or unibody structural components. The official inspector applies the relevant rule to the vehicle's actual condition.",
+        "es": "No toda mancha de óxido provoca automáticamente el rechazo en una inspección de seguridad de Pensilvania. En su [boletín BI23-03](url:https://www.pa.gov/content/dam/copapwp-pagov/en/dmv/documents/vehicle-services/bmv-safety-inspection-bulletins/bi23-03.pdf), PennDOT distingue el óxido exterior común de perforaciones peligrosas en el piso, posibles entradas de gases de escape, metal que sobresale y daños en piezas estructurales del bastidor o carrocería. El inspector aplica la norma correspondiente al estado real del vehículo."
+      }
+    ],
+    [
+      "p",
+      {
+        "en": "A cosmetic patch is not a substitute for correcting structural deterioration. If an inspection identifies a defect, ask which component and rule are involved, and get a suitable repair assessment. A rust-treatment service cannot guarantee an inspection sticker. The correct conclusion depends on the vehicle and the condition found, not on a universal rule that all rust is acceptable or all rust fails.",
+        "es": "Un arreglo estético no sustituye la reparación de deterioro estructural. Si una inspección detecta una falla, pregunte qué pieza y norma están involucradas y solicite una evaluación adecuada. El tratamiento del óxido no garantiza la aprobación. La conclusión depende del vehículo y del estado encontrado; no existe una regla universal de que todo óxido se permite o todo óxido se rechaza."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Rust repair near Primos, Secane and Clifton Heights",
+        "es": "Reparación de óxido cerca de Primos y Secane"
+      },
+      "local"
+    ],
+    [
+      "p",
+      {
+        "en": "Visit {name} at {street} in {city}, or call {phone} to describe where the rust appears. If possible, note whether the concern is on a visible body panel, near a wheel, beneath the floor or around a mounting point. We can discuss whether the location and degree of damage fit the shop's service and what needs review first.",
+        "es": "Visite {name} en {street}, {city}, o llame al {phone} para explicar dónde aparece el óxido. Indique si afecta un panel visible, una rueda, los bajos o un punto de montaje. Podemos comentar si el lugar y el grado de daño corresponden al servicio del taller y qué conviene revisar primero."
+      }
+    ]
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does any visible rust fail PA inspection?",
+        "es": "¿Cualquier óxido visible hace reprobar la inspección de PA?"
+      },
+      "a": {
+        "en": "No. PennDOT distinguishes harmless-looking exterior rust from specific structural, floor and protruding-metal hazards. An inspector evaluates the actual condition.",
+        "es": "No. PennDOT distingue el óxido exterior de problemas específicos del piso, la estructura y el metal que sobresale. El inspector revisa el estado real."
+      }
+    },
+    {
+      "q": {
+        "en": "Can surface rust be treated?",
+        "es": "¿Se puede tratar el óxido superficial?"
+      },
+      "a": {
+        "en": "Depending on the condition, corrosion control may be possible. A treatment cannot restore metal already weakened by deeper damage.",
+        "es": "Según el estado, puede ser posible controlar la corrosión. El tratamiento no recupera la resistencia del metal debilitado por daño profundo."
+      }
+    },
+    {
+      "q": {
+        "en": "Is undercarriage rust more serious than a rusty fender?",
+        "es": "¿El óxido debajo del auto es más grave que en una salpicadera?"
+      },
+      "a": {
+        "en": "Sometimes. Corrosion near the frame, suspension points or floor can affect safety. The location and severity matter.",
+        "es": "A veces. La corrosión cerca del chasis, suspensión o piso puede afectar la seguridad. Importan ubicación y gravedad."
+      }
+    },
+    {
+      "q": {
+        "en": "Do you guarantee rust will never return?",
+        "es": "¿Garantizan que el óxido no regrese?"
+      },
+      "a": {
+        "en": "No such guarantee is advertised. Rust control depends on preparation, existing damage, exposure and maintenance.",
+        "es": "No anunciamos esa garantía. El control depende de preparación, daños existentes, exposición y mantenimiento."
+      }
+    },
+    {
+      "q": {
+        "en": "Can a coat of paint fix serious rust?",
+        "es": "¿Una capa de pintura puede corregir óxido grave?"
+      },
+      "a": {
+        "en": "No. A coating may hide damage without restoring strength. Structural concerns need a proper assessment.",
+        "es": "No. Un recubrimiento puede ocultar daños sin recuperar la resistencia. Los problemas estructurales requieren una revisión adecuada."
+      }
+    },
+    {
+      "q": {
+        "en": "Does Scally's repair corrosion?",
+        "es": "¿Scally's repara corrosión?"
+      },
+      "a": {
+        "en": "Yes. Rust repair and corrosion control are listed services. Call to discuss the specific area and extent of damage.",
+        "es": "Sí. La reparación de óxido y el control de corrosión figuran entre los servicios. Llame para hablar de la zona y del daño."
+      }
+    }
+  ],
+  "related": [
+    "auto-body-repair",
+    "pa-safety-inspections",
+    "steering-and-suspension",
+    "brake-repair",
+    "wheels"
+  ],
+  "sources": [
+    [
+      "PennDOT: Safety Bulletin BI23-03",
+      "https://www.pa.gov/content/dam/copapwp-pagov/en/dmv/documents/vehicle-services/bmv-safety-inspection-bulletins/bi23-03.pdf"
+    ]
+  ],
+  "verify": [
+    "Confirm what rust treatments, coatings, panel repair or fabrication Scally's actually offers.",
+    "Confirm limits for frame, unibody, welded or floor-pan repairs; do not promise them without direct shop approval.",
+    "Do not promise inspection passage, lifetime protection or fixed prices."
+  ]
+}

@@ -1,0 +1,325 @@
+{
+  "id": "auto-body-repair",
+  "slug": "auto-body-repair",
+  "category": "body-glass-imports",
+  "covers": [
+    "auto-body-repair"
+  ],
+  "adaptedFrom": "Scally's service catalog confirms general auto body repair only. Expanded as guidance on assessment without inventing specific paint, frame, welding, collision insurance or restoration capabilities. PennDOT body/chassis inspection guidance.",
+  "primary_kw": {
+    "en": "auto body repair Primos PA",
+    "es": "reparación de carrocería en Primos PA"
+  },
+  "secondary_kws": [
+    "car body damage repair",
+    "auto body inspection",
+    "minor body damage",
+    "damaged car panel",
+    "body panel alignment",
+    "bumper damage check",
+    "door body damage",
+    "car body repair Secane",
+    "car body shop Clifton Heights",
+    "PA body inspection requirements",
+    "vehicle body corrosion",
+    "car exterior damage"
+  ],
+  "title": {
+    "en": "Auto Body Repair in Primos, PA | Scally's",
+    "es": "Reparación de carrocería en Primos, PA | Scally's"
+  },
+  "desc": {
+    "en": "Car body damage or a misaligned panel? Discuss auto body repair at Scally's in Primos. Call to review the damage and available repair options.",
+    "es": "¿Daños en la carrocería o panel desalineado? Consulte la reparación de carrocería en Scally's, Primos. Llame para hablar del daño."
+  },
+  "h1": {
+    "en": "Auto Body Repair in Primos, PA",
+    "es": "Reparación de carrocería en Primos, PA"
+  },
+  "crumb": {
+    "en": "Auto Body Repair",
+    "es": "Reparación de carrocería"
+  },
+  "service_type": {
+    "en": "Auto body damage assessment and repair",
+    "es": "Evaluación y reparación de daños de carrocería"
+  },
+  "lead": {
+    "en": "A dent, damaged panel or door that no longer lines up can be more than a cosmetic annoyance. Damage can involve outer sheet metal, mounting points, lighting or other nearby parts. {name}, at {street} in {city}, lists auto body repair as a service. Call to describe the damage so the shop can discuss what evaluation is appropriate and which repair options are within its current scope. We do not assume every type of structural or cosmetic work is available.",
+    "es": "Una abolladura, un panel dañado o una puerta desalineada puede ser más que un problema estético. El daño puede afectar lámina exterior, puntos de montaje, luces u otras piezas cercanas. {name}, en {street}, {city}, incluye reparación de carrocería entre sus servicios. Llame para describir el daño y conocer qué revisión y opciones de reparación corresponden al alcance del taller. No suponemos que todo tipo de trabajo estructural o estético esté disponible."
+  },
+  "blocks": [
+    [
+      "h2",
+      {
+        "en": "What an auto body inspection looks at",
+        "es": "Qué se revisa en la carrocería"
+      },
+      "overview"
+    ],
+    [
+      "p",
+      {
+        "en": "Vehicle bodies include exterior panels, doors, hoods, fenders, bumpers and the structural components underneath. Different cars use different construction. A visible scrape may be confined to a surface, while an impact that changes the fit of a panel can point to damage behind it. A proper discussion separates appearance from safety and function before deciding what repair to pursue.",
+        "es": "La carrocería incluye paneles exteriores, puertas, cofres, salpicaderas, defensas y componentes estructurales debajo de ellos. La construcción varía entre vehículos. Un raspón visible puede afectar solo la superficie, mientras que un golpe que cambia el ajuste de un panel puede indicar daños detrás. Una buena evaluación distingue la apariencia de la seguridad y el funcionamiento antes de decidir qué reparación corresponde."
+      }
+    ],
+    [
+      "p",
+      {
+        "en": "Doors, hoods and liftgates need to close securely. Lamps and mirrors need to remain usable, and damaged edges should not create hazards. The condition and location of the damage matter more than the appearance alone. Photos can help describe a concern, but a picture may not show hidden mounting damage or the condition of components beneath a panel.",
+        "es": "Las puertas, cofres y compuertas deben cerrar de forma segura. Las luces y espejos deben seguir funcionando, y los bordes dañados no deben representar riesgos. Importan más el estado y la ubicación del daño que la apariencia. Las fotos pueden ayudar a explicar el problema, pero no siempre muestran puntos de montaje ocultos ni las piezas detrás de un panel."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Common body concerns to discuss",
+        "es": "Daños comunes que conviene comentar"
+      },
+      "signs"
+    ],
+    [
+      "ul",
+      [
+        {
+          "en": "A visible dent, crease or deformed exterior panel.",
+          "es": "Una abolladura, pliegue o panel exterior deformado."
+        },
+        {
+          "en": "A door, hood or trunk that no longer lines up or latches correctly.",
+          "es": "Una puerta, cofre o cajuela que ya no alinea o cierra correctamente."
+        },
+        {
+          "en": "A damaged bumper cover or mounting area.",
+          "es": "Una defensa o zona de montaje dañada."
+        },
+        {
+          "en": "Cracked or loose exterior trim after an impact.",
+          "es": "Molduras exteriores agrietadas o flojas después de un golpe."
+        },
+        {
+          "en": "Unexpected gaps between panels or rubbing when a door opens.",
+          "es": "Separaciones anormales entre paneles o roce al abrir una puerta."
+        },
+        {
+          "en": "Visible corrosion around a damaged panel or seam.",
+          "es": "Corrosión visible cerca de un panel o una unión dañada."
+        },
+        {
+          "en": "Broken lighting, glass or other nearby components.",
+          "es": "Luces, cristales u otros componentes cercanos dañados."
+        }
+      ]
+    ],
+    [
+      "p",
+      {
+        "en": "These symptoms do not all require the same work. A loose exterior trim piece differs from a door that cannot latch; the second can affect vehicle safety. If the hood or door cannot stay secured, sharp metal protrudes, or damage affects handling, avoid driving until the condition is assessed. Do not force a bent panel back into place without knowing which components may be affected.",
+        "es": "No todos estos síntomas requieren el mismo trabajo. Una moldura suelta es distinta de una puerta que no cierra; esta última puede afectar la seguridad. Si el cofre o la puerta no quedan sujetos, sobresale metal cortante o el daño afecta el manejo, evite conducir hasta que se revise. No fuerce un panel doblado sin conocer qué componentes podrían estar dañados."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "What Scally's can evaluate",
+        "es": "Qué puede evaluar Scally's"
+      },
+      "work"
+    ],
+    [
+      "ul",
+      [
+        {
+          "en": "Discuss the location, cause and extent of visible body damage.",
+          "es": "Revisar la ubicación, causa y alcance de daños visibles."
+        },
+        {
+          "en": "Assess how the damage affects fit, access or everyday use.",
+          "es": "Evaluar si el daño afecta el ajuste, el acceso o el uso del vehículo."
+        },
+        {
+          "en": "Identify when related glass, lights or corrosion work should be considered.",
+          "es": "Identificar cuándo conviene revisar cristales, luces u óxido."
+        },
+        {
+          "en": "Discuss possible body repair within the shop's confirmed services.",
+          "es": "Hablar de posibles reparaciones dentro del servicio confirmado del taller."
+        },
+        {
+          "en": "Explain when specialized structural work needs a separate assessment.",
+          "es": "Explicar cuándo el trabajo estructural especializado requiere otra evaluación."
+        }
+      ]
+    ],
+    [
+      "h2",
+      {
+        "en": "Panel dents, alignment and fit",
+        "es": "Abolladuras y alineación de paneles"
+      },
+      "panel-fit"
+    ],
+    [
+      "p",
+      {
+        "en": "A dent can be shallow or extend into a crease, edge or reinforced section. The location and depth of the damage affect the available repair approach. A panel that sits unevenly may reflect bent brackets or other hidden damage rather than a simple cosmetic issue. Scally's lists auto body repair, but a diagnosis and discussion are required before promising a particular panel repair method.",
+        "es": "Una abolladura puede ser superficial o extenderse a una línea, borde o zona reforzada. Su lugar y profundidad influyen en las posibles reparaciones. Un panel desalineado puede reflejar soportes doblados u otros daños ocultos y no solo una cuestión estética. Scally's anuncia reparación de carrocería, pero hace falta una revisión antes de prometer una técnica específica."
+      }
+    ],
+    [
+      "p",
+      {
+        "en": "The appearance of a repaired panel may also depend on paint, finish and surrounding conditions. We do not advertise color-matching, paint booths, paintless dent removal or a fixed cosmetic outcome without approval from the shop. Ask what is included in the proposed work, how the panel will function afterward and if an outside specialist is needed.",
+        "es": "La apariencia final también depende de pintura, acabado y condiciones cercanas. No anunciamos igualación de color, cabina de pintura, reparación de abolladuras sin pintura ni un resultado estético fijo sin aprobación del taller. Pregunte qué incluye el trabajo, cómo funcionará el panel después y si se requiere otro especialista."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "After a small impact",
+        "es": "Después de un golpe leve"
+      },
+      "impact"
+    ],
+    [
+      "p",
+      {
+        "en": "An impact may affect a bumper cover, lighting, wheel alignment or the areas behind a panel. Even when the damage seems minor, note if the steering has changed, a light is loose or a door becomes difficult to close. Our [auto light repair](svc:auto-light-repair), [wheel repair](svc:wheel-repair), [alignment](svc:front-end-alignment) and [glass repair](svc:auto-glass-installation-and-repair) pages cover related concerns.",
+        "es": "Un golpe puede afectar defensa, luces, alineación o piezas detrás de un panel. Aunque el daño parezca leve, observe si cambia la dirección, una luz queda floja o una puerta cuesta cerrarla. Nuestras páginas de [luces](svc:auto-light-repair), [rines](svc:wheel-repair), [alineación](svc:front-end-alignment) y [cristales](svc:auto-glass-installation-and-repair) explican temas relacionados."
+      }
+    ],
+    [
+      "p",
+      {
+        "en": "The shop should not promise comprehensive crash repair or a specific frame procedure merely because auto body repair appears on the service list. Larger damage may call for a separate structural, mechanical or safety assessment. Explain what happened and ask for an evaluation of the affected systems. No fixed repair timeline, insurance handling or warranty is stated on this page.",
+        "es": "El hecho de anunciar reparación de carrocería no significa que el taller realice toda reparación posterior a un choque o cualquier trabajo de bastidor. Los daños grandes pueden requerir otra evaluación estructural, mecánica o de seguridad. Explique qué ocurrió y solicite una revisión de los sistemas afectados. Esta página no anuncia plazos, trámites de seguros ni garantías."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Body corrosion and prevention",
+        "es": "Corrosión de carrocería y prevención"
+      },
+      "corrosion"
+    ],
+    [
+      "p",
+      {
+        "en": "Scratches and damaged protective coatings can allow moisture to reach metal. Rust is different from a dent, and deeper corrosion can affect the strength of body parts. If damage shows bubbling paint, holes or an area that seems weak, point it out when discussing body work. Our [rust repair and corrosion control](svc:rust-repair-and-corrosion-control) page explains why surface treatment does not correct structural deterioration.",
+        "es": "Los raspones y recubrimientos dañados pueden permitir que la humedad llegue al metal. El óxido es distinto de una abolladura, y la corrosión profunda puede afectar la resistencia. Si hay burbujas en la pintura, agujeros o zonas debilitadas, menciónelo cuando consulte la reparación. Nuestra página de [óxido y corrosión](svc:rust-repair-and-corrosion-control) explica por qué un tratamiento superficial no corrige un daño estructural."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Auto body condition and PA inspections",
+        "es": "Carrocería e inspecciones de PA"
+      },
+      "pa-inspection"
+    ],
+    [
+      "p",
+      {
+        "en": "PennDOT includes the vehicle body and chassis among the items checked during Pennsylvania safety inspections. Hazardous protruding metal, certain structural problems and other rejection criteria are evaluated under the state rules. Cosmetic marks alone are not a general guarantee of either passing or failing. See [PennDOT consumer guidance](url:https://www.pa.gov/agencies/dmv/faqs/motor-vehicle-faqs/safety-inspection-consumers-faqs) and our [PA inspection page](svc:pa-safety-inspections).",
+        "es": "PennDOT incluye carrocería y chasis entre los elementos revisados durante las inspecciones de seguridad de Pensilvania. El metal que sobresale y crea peligro, ciertos daños estructurales y otros criterios se evalúan según las reglas estatales. Las marcas estéticas no garantizan aprobación ni rechazo. Consulte [la guía de PennDOT](url:https://www.pa.gov/agencies/dmv/faqs/motor-vehicle-faqs/safety-inspection-consumers-faqs) y nuestra [página de inspección de PA](svc:pa-safety-inspections)."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Discuss body repair in Primos, PA",
+        "es": "Consulte reparación de carrocería en Primos, PA"
+      },
+      "local"
+    ],
+    [
+      "p",
+      {
+        "en": "{name} is at {street}, {city}, close to Secane and Clifton Heights. Call {phone} and describe the vehicle year, make, model and damaged area. Mention whether a door or hood still closes, whether lights or glass are affected and if the car drives differently. The shop can discuss what work is available and the appropriate next step.",
+        "es": "{name} está en {street}, {city}, cerca de Secane y Clifton Heights. Llame al {phone} e indique año, marca, modelo y zona dañada. Mencione si puertas o cofre cierran bien, si hay luces o cristales afectados y si el auto se maneja distinto. El taller puede explicar qué trabajo ofrece y cuál es el siguiente paso."
+      }
+    ]
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Scally's offer auto body repair?",
+        "es": "¿Scally's ofrece reparación de carrocería?"
+      },
+      "a": {
+        "en": "Yes, auto body repair appears in the service catalog. Call to discuss the specific damage and available work.",
+        "es": "Sí, aparece en la lista de servicios. Llame para hablar del daño específico y el trabajo disponible."
+      }
+    },
+    {
+      "q": {
+        "en": "Can a small dent hide larger problems?",
+        "es": "¿Una abolladura pequeña puede ocultar problemas mayores?"
+      },
+      "a": {
+        "en": "Sometimes. An impact can affect brackets, lighting, latches or parts behind a panel. An inspection is useful.",
+        "es": "A veces. Un golpe puede afectar soportes, luces, pestillos o piezas detrás de un panel. Conviene revisar."
+      }
+    },
+    {
+      "q": {
+        "en": "Do you paint and color-match panels?",
+        "es": "¿Pintan y igualan el color de paneles?"
+      },
+      "a": {
+        "en": "This has not been confirmed as part of the listed service. Call to ask which body and finish work is available.",
+        "es": "Eso no está confirmado en la lista de servicios. Llame para consultar qué trabajo de carrocería y acabado ofrecen."
+      }
+    },
+    {
+      "q": {
+        "en": "Should I drive if my door won't latch?",
+        "es": "¿Debo conducir si una puerta no cierra con el pestillo?"
+      },
+      "a": {
+        "en": "No. A door that cannot stay latched is a safety concern. Have it evaluated before driving.",
+        "es": "No. Una puerta que no queda cerrada representa un riesgo. Solicite revisión antes de conducir."
+      }
+    },
+    {
+      "q": {
+        "en": "Can body damage affect a PA inspection?",
+        "es": "¿Los daños de carrocería afectan la inspección de PA?"
+      },
+      "a": {
+        "en": "Yes, depending on the defect. The state inspects body and chassis conditions and applies specific rejection rules.",
+        "es": "Sí, depende del daño. El estado revisa carrocería y chasis y aplica criterios específicos."
+      }
+    },
+    {
+      "q": {
+        "en": "Do you handle every type of crash damage?",
+        "es": "¿Atienden cualquier daño causado por choques?"
+      },
+      "a": {
+        "en": "No comprehensive accident-repair scope is advertised here. Discuss the vehicle's condition and the shop's capability first.",
+        "es": "Aquí no se anuncia un servicio integral de reparación de choques. Consulte primero el estado del auto y el alcance del taller."
+      }
+    }
+  ],
+  "related": [
+    "rust-repair-and-corrosion-control",
+    "auto-light-repair",
+    "auto-glass-installation-and-repair",
+    "wheel-repair",
+    "pa-safety-inspections"
+  ],
+  "sources": [
+    [
+      "PennDOT: Safety Inspection FAQ",
+      "https://www.pa.gov/agencies/dmv/faqs/motor-vehicle-faqs/safety-inspection-consumers-faqs"
+    ]
+  ],
+  "verify": [
+    "Confirm whether Scally's offers body panel replacement, dent repair, bumper work and panel alignment; do not claim each unverified service as guaranteed.",
+    "Ask whether body painting, color matching, frame measurements, structural work or insurance claim handling are supported. No such claims are made.",
+    "Confirm if damaged vehicles needing specialty assessment are referred to another shop."
+  ]
+}

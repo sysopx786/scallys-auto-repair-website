@@ -1,0 +1,289 @@
+{
+  "id": "wheel-repair",
+  "slug": "wheel-repair",
+  "category": "tires-wheels",
+  "covers": [
+    "wheels",
+    "wheel-repair"
+  ],
+  "adaptedFrom": "Scally's confirmed service catalog: wheels installation/replacement and bent/damaged wheel repair. PennDOT safety inspection guidance. No claim of wheel straightening or welding equipment.",
+  "primary_kw": {
+    "en": "wheel repair Primos PA",
+    "es": "reparación de rines en Primos PA"
+  },
+  "secondary_kws": [
+    "bent wheel repair Primos",
+    "damaged rim repair",
+    "wheel installation",
+    "wheel replacement",
+    "rim damage inspection",
+    "bent alloy rim",
+    "wheel vibration at speed",
+    "wheel damage pothole",
+    "wheel repair Secane",
+    "wheel replacement Clifton Heights",
+    "PA wheel safety inspection",
+    "wobbly wheel"
+  ],
+  "title": {
+    "en": "Wheel & Rim Repair in Primos, PA | Scally's",
+    "es": "Reparación de rines en Primos, PA | Scally's"
+  },
+  "desc": {
+    "en": "Bent or damaged rim? Scally's Auto Repair in Primos checks wheel damage and discusses repair, installation or replacement. Call 610-626-4700.",
+    "es": "¿Rin doblado o dañado? Scally's en Primos revisa el estado de sus rines y ofrece reparación, instalación o cambio según la evaluación."
+  },
+  "h1": {
+    "en": "Wheel and Rim Repair in Primos, PA",
+    "es": "Reparación y cambio de rines en Primos, PA"
+  },
+  "crumb": {
+    "en": "Wheel & Rim Repair",
+    "es": "Reparación de rines"
+  },
+  "service_type": {
+    "en": "Wheel installation, inspection, repair and replacement",
+    "es": "Inspección, reparación, instalación y cambio de rines"
+  },
+  "lead": {
+    "en": "A pothole impact or curb strike can bend or damage a wheel rim. It might cause vibration, a slow tire air leak or visible damage, but similar symptoms can come from tires, alignment or suspension. {name}, at {street} in {city}, lists wheel installation, replacement and repair of bent or damaged wheels. The first step is to check the wheel and tire before deciding if repair is appropriate or replacement is the safer choice.",
+    "es": "Un bache o un golpe contra la acera puede doblar o dañar un rin. Puede causar vibración, pérdida lenta de aire o daños visibles, pero síntomas parecidos también aparecen por llantas, alineación o suspensión. {name}, en {street}, {city}, ofrece instalación, cambio y reparación de rines doblados o dañados. Lo primero es revisar el rin y la llanta para determinar si conviene repararlo o si es más seguro reemplazarlo."
+  },
+  "blocks": [
+    [
+      "h2",
+      {
+        "en": "What a wheel rim does",
+        "es": "Para qué sirve el rin"
+      },
+      "how-it-works"
+    ],
+    [
+      "p",
+      {
+        "en": "A wheel carries the tire and attaches to the vehicle hub. Its shape and mounting surfaces are important for correct fit, balance and secure tire seating. Steel and aluminum-alloy wheels can behave differently after an impact; damage can affect the inner barrel, outer edge, spokes or mounting area. A wheel that appears normal from one side may have damage on the back, so a quick glance is not always enough.",
+        "es": "El rin sostiene la llanta y se fija a la maza del vehículo. Su forma y superficies de montaje son importantes para que la llanta asiente bien, mantenga equilibrio y quede bien sujeta. Los rines de acero y aleación de aluminio pueden reaccionar de forma distinta después de un golpe. El daño puede afectar el borde interior, exterior, los radios o la zona de montaje. Un rin que parece normal de frente puede estar dañado por detrás."
+      }
+    ],
+    [
+      "p",
+      {
+        "en": "A vibration after hitting a pothole does not prove that the rim is bent. Tire belt damage, unbalanced wheels, a damaged hub or suspension parts can produce a similar feeling. The correct diagnosis considers the tire, the wheel, the mounting hardware and other symptoms. If you recently struck an obstacle, mention it when calling and describe where the impact happened.",
+        "es": "La vibración después de caer en un bache no demuestra que el rin esté doblado. Una llanta dañada internamente, falta de balanceo, una maza dañada o piezas de suspensión pueden causar sensaciones parecidas. El diagnóstico considera llanta, rin, fijaciones y otros síntomas. Si golpeó un obstáculo, menciónelo al llamar y explique dónde ocurrió el impacto."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Signs of possible wheel damage",
+        "es": "Señales de un posible rin dañado"
+      },
+      "signs"
+    ],
+    [
+      "ul",
+      [
+        {
+          "en": "New steering-wheel or seat vibration after a pothole.",
+          "es": "Vibración nueva en el volante o asiento después de un bache."
+        },
+        {
+          "en": "Visible dents, bends or cracks in a rim.",
+          "es": "Abolladuras, dobleces o grietas visibles en un rin."
+        },
+        {
+          "en": "A tire repeatedly loses pressure without an obvious puncture.",
+          "es": "Una llanta pierde presión repetidamente sin una perforación evidente."
+        },
+        {
+          "en": "A wheel appears to wobble as it turns.",
+          "es": "Un rin parece oscilar mientras gira."
+        },
+        {
+          "en": "Changes in ride smoothness or handling after a curb impact.",
+          "es": "Cambios en la suavidad de marcha o dirección después de golpear una acera."
+        },
+        {
+          "en": "Damaged wheel edges or mounting areas.",
+          "es": "Bordes o zonas de montaje del rin dañados."
+        }
+      ]
+    ],
+    [
+      "p",
+      {
+        "en": "These are reasons for inspection, not proof that a particular repair is safe. An impact can damage both wheel and tire. A crack or significant deformation may make the wheel unsuitable for repair. If a wheel looks loose, the tire has rapid pressure loss or the car becomes difficult to control, stop in a safe place and have the vehicle assessed rather than driving on.",
+        "es": "Son motivos para una revisión, no pruebas de que una reparación específica sea segura. Un golpe puede dañar tanto el rin como la llanta. Una grieta o deformación importante puede impedir una reparación segura. Si una rueda parece floja, la llanta pierde aire rápidamente o el auto es difícil de controlar, deténgase en un lugar seguro y solicite una revisión antes de seguir conduciendo."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Wheel installation and replacement",
+        "es": "Instalación y cambio de rines"
+      },
+      "wheels"
+    ],
+    [
+      "p",
+      {
+        "en": "Scally's lists wheel installation and replacement. Replacement decisions depend on the vehicle's specified wheel size, fit, load requirements and the condition of the existing rim. A wheel should match the correct mounting arrangement rather than be selected only by appearance. If you have a replacement wheel in mind, ask the shop to review compatibility before ordering or installing it.",
+        "es": "Scally's ofrece instalación y cambio de rines. La decisión depende del tamaño, ajuste, capacidad de carga y estado del rin anterior. La pieza debe tener el montaje correcto para el vehículo; no basta elegirla por su apariencia. Si piensa comprar un rin de reemplazo, consulte su compatibilidad con el taller antes de pedirlo o instalarlo."
+      }
+    ],
+    [
+      "p",
+      {
+        "en": "A damaged tire can remain unsafe even when a new rim is fitted. Wheel and tire condition should be considered together, especially after a heavy impact. Our [tire service](svc:tires-and-flat-repair), [wheel balancing](svc:wheel-balancing) and [wheel hubs](svc:wheel-hubs) pages explain related work. We do not advertise a fixed wheel price or assume every wheel can be restored.",
+        "es": "Una llanta dañada puede seguir siendo insegura aunque se instale un rin nuevo. Conviene evaluar ambos después de un golpe fuerte. Nuestras páginas de [servicio de llantas](svc:tires-and-flat-repair), [balanceo](svc:wheel-balancing) y [mazas](svc:wheel-hubs) explican trabajos relacionados. No anunciamos un precio fijo ni suponemos que todos los rines pueden restaurarse."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Repairing a bent or damaged rim",
+        "es": "Reparación de un rin doblado o dañado"
+      },
+      "wheel-repair"
+    ],
+    [
+      "p",
+      {
+        "en": "Wheel repair is listed as a service, but whether a rim is repairable depends on the type, location and severity of the damage. A minor cosmetic mark is different from a crack near the mounting area or severe structural deformation. We evaluate the condition and discuss repair versus replacement. We do not claim that every cracked wheel can be welded, that a bent rim always can be straightened, or that an unsafe wheel should be reused.",
+        "es": "Scally's ofrece reparación de rines, pero la posibilidad de reparar depende del tipo, lugar y gravedad del daño. Una marca estética pequeña no es lo mismo que una grieta cerca del montaje o una deformación estructural grave. Evaluamos el estado y hablamos de reparación o cambio. No afirmamos que todos los rines agrietados puedan soldarse, que todo rin doblado pueda enderezarse ni que deba reutilizarse uno inseguro."
+      }
+    ],
+    [
+      "p",
+      {
+        "en": "If the wheel makes a wobbling motion, the cause may include the rim, tire or hub. Repair planning should start with identifying the affected component. Any attempt to fix structural damage needs to respect the wheel manufacturer's limits and applicable safety requirements. If the wheel is not suitable for repair, replacement is the appropriate discussion.",
+        "es": "Si una rueda oscila, la causa puede estar en el rin, la llanta o la maza. Primero hay que identificar el componente afectado. Cualquier reparación estructural debe respetar los límites del fabricante y los requisitos de seguridad. Si el rin no es apto para reparación, corresponde hablar de reemplazo."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Potholes, wheel balance and alignment",
+        "es": "Baches, balanceo y alineación"
+      },
+      "maintenance"
+    ],
+    [
+      "p",
+      {
+        "en": "After hitting a pothole, note whether vibration happens at a certain speed, when braking or when turning. A bent rim is one explanation, but tire imbalance, a damaged tire or a suspension issue could be involved. Proper wheel balance and alignment are separate concerns. A replacement wheel may still need balancing with its tire, and a severe impact can justify checking alignment and suspension.",
+        "es": "Después de caer en un bache, observe si la vibración aparece a cierta velocidad, al frenar o al girar. Un rin doblado es una posible causa, pero también puede tratarse de desbalanceo, una llanta dañada o la suspensión. Balanceo y alineación son asuntos distintos. Un rin nuevo puede requerir balanceo con su llanta y un golpe fuerte puede justificar revisar la alineación y suspensión."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Pennsylvania inspection and wheel safety",
+        "es": "Inspección de Pensilvania y seguridad de los rines"
+      },
+      "inspection"
+    ],
+    [
+      "p",
+      {
+        "en": "PennDOT includes tires and wheels in Pennsylvania safety inspections. A visible wheel issue does not determine the inspection result without applying the relevant criteria. Cracked, damaged or improperly fitted wheels can pose safety concerns. The official [PennDOT inspection guidance](url:https://www.pa.gov/agencies/dmv/faqs/motor-vehicle-faqs/safety-inspection-consumers-faqs) explains which vehicle systems are checked. You can also see our [PA inspection service](svc:pa-safety-inspections).",
+        "es": "PennDOT incluye llantas y rines en las inspecciones de seguridad de Pensilvania. Una falla visible no determina el resultado sin aplicar los criterios correspondientes. Los rines agrietados, dañados o mal instalados pueden representar riesgos. La [guía oficial de PennDOT](url:https://www.pa.gov/agencies/dmv/faqs/motor-vehicle-faqs/safety-inspection-consumers-faqs) explica qué sistemas se revisan. Consulte también nuestro [servicio de inspección de PA](svc:pa-safety-inspections)."
+      }
+    ],
+    [
+      "h2",
+      {
+        "en": "Wheel repair near Secane and Clifton Heights",
+        "es": "Reparación de rines cerca de Secane y Clifton Heights"
+      },
+      "local"
+    ],
+    [
+      "p",
+      {
+        "en": "Our shop is at {street} in {city}, near Secane and Clifton Heights. Call {phone} with the year, make and model, the wheel position and what happened before the problem started. We can discuss an inspection and explain which repair or replacement options fit the wheel's condition.",
+        "es": "Nuestro taller está en {street}, {city}, cerca de Secane y Clifton Heights. Llame al {phone} con el año, marca y modelo, la rueda afectada y qué pasó antes de que empezara el problema. Podemos hablar de una revisión y explicar qué opciones de reparación o cambio corresponden al estado del rin."
+      }
+    ]
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can a bent wheel be repaired?",
+        "es": "¿Se puede reparar un rin doblado?"
+      },
+      "a": {
+        "en": "It depends on the wheel design and damage. A badly deformed or cracked wheel may need replacement. Inspect it before deciding.",
+        "es": "Depende del diseño y del daño. Un rin muy deformado o agrietado podría necesitar reemplazo. Hay que revisarlo primero."
+      }
+    },
+    {
+      "q": {
+        "en": "Why does my car vibrate after a pothole?",
+        "es": "¿Por qué vibra el auto después de un bache?"
+      },
+      "a": {
+        "en": "A rim, tire, wheel balance, hub or suspension part may be affected. The vibration alone does not identify which one.",
+        "es": "Puede estar afectado el rin, la llanta, el balanceo, la maza o la suspensión. La vibración por sí sola no identifica cuál."
+      }
+    },
+    {
+      "q": {
+        "en": "Do you install replacement wheels?",
+        "es": "¿Instalan rines de reemplazo?"
+      },
+      "a": {
+        "en": "Yes. Wheel installation and replacement are listed Scally's services. Correct fit and vehicle requirements must be checked.",
+        "es": "Sí. La instalación y el cambio de rines figuran entre los servicios de Scally's. Se debe revisar el ajuste y las especificaciones del auto."
+      }
+    },
+    {
+      "q": {
+        "en": "Is a cracked rim safe to drive on?",
+        "es": "¿Es seguro conducir con un rin agrietado?"
+      },
+      "a": {
+        "en": "Do not assume it is safe. Avoid driving if damage affects the wheel's strength, tire pressure or handling; request professional evaluation.",
+        "es": "No suponga que es seguro. Evite conducir si el daño afecta la resistencia del rin, presión de la llanta o manejo; solicite una revisión."
+      }
+    },
+    {
+      "q": {
+        "en": "Will fixing my rim stop every vibration?",
+        "es": "¿Reparar un rin elimina toda vibración?"
+      },
+      "a": {
+        "en": "Not necessarily. Tire balance, tire construction and other mechanical parts can create similar symptoms.",
+        "es": "No necesariamente. El balanceo, la estructura de la llanta y otras piezas mecánicas pueden causar síntomas parecidos."
+      }
+    },
+    {
+      "q": {
+        "en": "Can damaged wheels affect PA inspection?",
+        "es": "¿Un rin dañado puede afectar la inspección de PA?"
+      },
+      "a": {
+        "en": "Wheels and tires are checked during safety inspection. An inspector applies the rules to the actual condition.",
+        "es": "Los rines y llantas se revisan durante la inspección de seguridad. El inspector aplica las reglas al estado real."
+      }
+    }
+  ],
+  "related": [
+    "tires-and-flat-repair",
+    "wheel-balancing",
+    "wheel-hubs",
+    "front-end-alignment",
+    "pa-safety-inspections"
+  ],
+  "sources": [
+    [
+      "PennDOT: Safety Inspection FAQ",
+      "https://www.pa.gov/agencies/dmv/faqs/motor-vehicle-faqs/safety-inspection-consumers-faqs"
+    ]
+  ],
+  "verify": [
+    "Confirm what types of rims Scally's repairs, and whether work is in-house or referred out.",
+    "Do not assume cracked wheel welding, structural straightening or finish restoration is available.",
+    "Confirm accepted replacement wheel types, specifications, and any customer-supplied wheel policy."
+  ]
+}
