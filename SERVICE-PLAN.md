@@ -1,7 +1,7 @@
 # Scally's Auto Repair: service expansion plan and status
 
-Development branch: `service-expansion`. Batches 1–3 are merged and deployed from `main`.
-Last updated: November 4, 2026 UTC (Batch 4 bilingual source prepared; QA pending).
+Development branch: `service-expansion`. Batches 1–4 are merged and deployed from `main`.
+Last updated: November 4, 2026 UTC (Batch 4 merged, published and tested).
 
 ## Status
 
@@ -12,12 +12,12 @@ Last updated: November 4, 2026 UTC (Batch 4 bilingual source prepared; QA pendin
 | Spanish versions: services hub, 8 category pages, detailed pages | Done for what is built |
 | Language switch, hreflang, self-canonicals, sitemap `lastmod` | Done |
 | Structured data: one `AutoRepair` entity (`/#business`), WebPage, Service, BreadcrumbList, FAQPage | Done |
-| Detailed service pages | 28 of 34 detailed EN/ES pages published; four Batch 4 sources ready for QA (32 after successful build), two detailed pages remain for Batch 5 |
-| Automated checks (`tests/check_site.py`) | ALL CHECKS PASSED on 28-page build: run 41773440273 |
+| Detailed service pages | 32 of 34 detailed EN/ES pages published on `main`; 2 detailed pages remain for Batch 5 |
+| Automated checks (`tests/check_site.py`) | ALL CHECKS PASSED on 32-page build: [run 41783192862](https://github.com/sysopx786/scallys-auto-repair-website/actions/runs/41783192862) |
 | Batch 1 full build and responsive QA | ALL BROWSER CHECKS PASSED: 60 checks, 0 failures |
 | Batch 2 build and responsive QA | ALL CHECKS PASSED; ALL BROWSER CHECKS PASSED (120 checks, 0 failures) — [run 41771079049](https://github.com/sysopx786/scallys-auto-repair-website/actions/runs/41771079049) |
 | Batch 3 build and responsive QA | ALL CHECKS PASSED; 180 browser checks, 0 failures; Pages deploy 41773732752 succeeded |
-| Batch 4 build and responsive QA | Pending: build and site validation, 228 Chromium viewport checks |
+| Batch 4 build and responsive QA | ALL CHECKS PASSED; 228 Chromium checks with 0 failures; Pages deployment [41783628655](https://github.com/sysopx786/scallys-auto-repair-website/actions/runs/41783628655) succeeded |
 
 ## Batch 1 (November 4, 2026 UTC) — merged and published
 
@@ -67,20 +67,20 @@ For hybrid maintenance, **only oil changes, routine mechanical brakes, tires and
 
 The CI run 41773440273 passed the complete build and site suite plus 180 responsive checks (0 failures), and committed generated HTML. PR #3 merged as `9985883077ed3eda334bdbffb991792b4550e859`. GitHub Pages run 41773732752 deployed successfully. The QA archive contains 60 screenshots and a JSON report.
 
-## Batch 4 (November 4, 2026 UTC) — source ready, build/QA pending
+## Batch 4 (November 4, 2026 UTC) — merged and published
 
-Four bilingual source pages cover six additional confirmed services. Every page is specific to Scally's Auto Repair in Primos, PA; references to other shops and unconfirmed tools, paint, welding or structural repairs are not introduced. The source files include 12 secondary keywords, six FAQs in both languages, related internal service links, structured headings and `verify` notes. Source structure, catalog mapping and translations were statically checked before the GitHub Actions build.
+Four bilingual pages covering six additional confirmed services were built, tested, merged and published through [PR #4](https://github.com/sysopx786/scallys-auto-repair-website/pull/4). Every page is specific to Scally's Auto Repair in Primos, PA; references to unrelated shops and unconfirmed equipment, paint, welding or structural repair capabilities were not introduced. The sources include 12 secondary keywords, six FAQs in both languages, related internal links, structured headings and owner-verification notes.
 
-| Page | Catalog services covered | EN / ES content words including FAQs | Status |
+| Page | Catalog services covered | EN / ES rendered page words | Status |
 |---|---|---:|---|
-| `wheel-repair` | Wheels; Wheel Repair | 873 / 869 | Source ready |
-| `rust-repair` | Rust Repair & Corrosion Control | 918 / 937 | Source ready |
-| `auto-body-repair` | Auto Body Repair | 922 / 888 | Source ready |
-| `auto-glass` | Auto Glass Installation & Repair; Windshield Wiper Replacement | 950 / 969 | Source ready |
+| `wheel-repair` | Wheels; Wheel Repair | 1,049 / 1,065 | Published (EN+ES) |
+| `rust-repair` | Rust Repair & Corrosion Control | 1,103 / 1,139 | Published (EN+ES) |
+| `auto-body-repair` | Auto Body Repair | 1,114 / 1,087 | Published (EN+ES) |
+| `auto-glass` | Auto Glass Installation & Repair; Windshield Wiper Replacement | 1,145 / 1,175 | Published (EN+ES) |
 
-The wheel page does not claim all bent or cracked rims are repairable. The rust page follows PennDOT's [inspection bulletin BI23-03](https://www.pa.gov/content/dam/copapwp-pagov/en/dmv/documents/vehicle-services/bmv-safety-inspection-bulletins/bi23-03.pdf) on the differences between surface corrosion, floor-pan hazards and structural damage. The body page does not advertise unconfirmed paint, collision-frame or insurer work. The glass page raises model-specific camera calibration requirements, but does not claim Scally's can perform that specialist work; see [NHTSA-hosted guidance](https://static.nhtsa.gov/odi/tsbs/2022/MC-10225997-9999.pdf). The four source pages are **not yet live** until generated HTML is committed following passing tests and deployment.
+The wheel page does not claim all bent or cracked rims are repairable. The rust page follows PennDOT's [inspection bulletin BI23-03](https://www.pa.gov/content/dam/copapwp-pagov/en/dmv/documents/vehicle-services/bmv-safety-inspection-bulletins/bi23-03.pdf) on the differences between surface corrosion, floor-pan hazards and structural damage. The body page does not advertise unconfirmed paint, collision-frame or insurer work. The glass page raises model-specific camera calibration requirements, but does not claim Scally's can perform that specialist work; see [NHTSA-hosted guidance](https://static.nhtsa.gov/odi/tsbs/2022/MC-10225997-9999.pdf). All four bilingual pages have been committed and published.
 
-**QA release gate:** `python3 src/build.py`, `python3 tests/check_site.py` printing `ALL CHECKS PASSED`, then 19 slugs × 2 languages × 6 widths = **228 browser checks** (HTTP 200, one H1, lang, main content, JS errors and horizontal overflow) with `ALL BROWSER CHECKS PASSED`. The CI workflow commits generated HTML to `service-expansion` only after passing. Upon success merge to `main` and confirm Pages deployment, as authorized in the next-batch instruction.
+**QA passed:** `python3 src/build.py` generated **87 indexable pages** (32 detailed service pages in each language). `python3 tests/check_site.py` printed `ALL CHECKS PASSED`. Headless Chromium completed 19 slugs × 2 languages × 6 widths = **228 checks** with zero HTTP, browser error or horizontal-overflow failures. The generated HTML was committed as `fae8c1610996f37bde2be7b37d6f9053cf7b0f7c`, PR #4 merged as `98f4b881fa66fdba19d438726ad3f56d0f691f01`, and [GitHub Pages deployment 41783628655](https://github.com/sysopx786/scallys-auto-repair-website/actions/runs/41783628655) succeeded. The QA artifact contains 76 full-page screenshots and a JSON report.
 
 ## Open decisions and future launch items
 
@@ -122,10 +122,10 @@ The wheel page does not claim all bent or cracked rims are repairable. The rust 
 | `/ac-heating/` | Air Conditioning & Heating | built (EN+ES) |
 | `/hybrid-service/` | Basic Hybrid Service | published (EN+ES); QA passed |
 | `/tires/` | Tires & Flat Repair, Tire Rotation, Wheel Balancing | built (EN+ES) |
-| `/wheel-repair/` | Wheels, Wheel Repair | Batch 4 source ready (EN+ES); build/QA pending |
-| `/auto-body-repair/` | Auto Body Repair | Batch 4 source ready (EN+ES); build/QA pending |
-| `/rust-repair/` | Rust Repair & Corrosion Control | Batch 4 source ready (EN+ES); build/QA pending |
-| `/auto-glass/` | Auto Glass Installation & Repair, Windshield Wiper Replacement | Batch 4 source ready (EN+ES); build/QA pending |
+| `/wheel-repair/` | Wheels, Wheel Repair | Published (EN+ES); QA passed |
+| `/auto-body-repair/` | Auto Body Repair | Published (EN+ES); QA passed |
+| `/rust-repair/` | Rust Repair & Corrosion Control | Published (EN+ES); QA passed |
+| `/auto-glass/` | Auto Glass Installation & Repair, Windshield Wiper Replacement | Published (EN+ES); QA passed |
 | `/window-tinting/` | Window Tinting | queued |
 | `/import-car-repair/` | Imports | queued |
 
@@ -199,13 +199,13 @@ Old anchors for moved services (`/engine-exhaust-transmission/#transmission-repa
 | 56 | Tires & Flat Repair | Tires & Wheels | existing | `/tires-wheels/#tires-and-flat-repair` | `/tires/` | ✅ | svc_tires |
 | 57 | Tire Rotation | Tires & Wheels | existing | `/tires-wheels/#tire-rotation` | `/tires/` | ✅ | svc_tires |
 | 58 | Wheel Balancing | Tires & Wheels | NEW | `—` | `/tires/` | ✅ | svc_tires |
-| 59 | Wheels | Tires & Wheels | existing | `/tires-wheels/#wheels` | `/wheel-repair/` | Batch 4 source ready | svc_tires (wheels) |
-| 60 | Wheel Repair | Tires & Wheels | existing | `/tires-wheels/#wheel-repair` | `/wheel-repair/` | Batch 4 source ready | svc_tires (wheels) |
-| 61 | Auto Body Repair | Body, Glass & Imports | existing | `/body-pickup/#auto-body-repair` | `/auto-body-repair/` | Batch 4 source ready | none |
-| 62 | Rust Repair & Corrosion Control | Body, Glass & Imports | existing | `/body-pickup/#rust-repair-and-corrosion-control` | `/rust-repair/` | Batch 4 source ready | svc_rust |
-| 63 | Auto Glass Installation & Repair | Body, Glass & Imports | existing | `/body-pickup/#auto-glass-installation-and-repair` | `/auto-glass/` | Batch 4 source ready | none |
+| 59 | Wheels | Tires & Wheels | existing | `/tires-wheels/#wheels` | `/wheel-repair/` | ✅ published | svc_tires (wheels) |
+| 60 | Wheel Repair | Tires & Wheels | existing | `/tires-wheels/#wheel-repair` | `/wheel-repair/` | ✅ published | svc_tires (wheels) |
+| 61 | Auto Body Repair | Body, Glass & Imports | existing | `/body-pickup/#auto-body-repair` | `/auto-body-repair/` | ✅ published | none |
+| 62 | Rust Repair & Corrosion Control | Body, Glass & Imports | existing | `/body-pickup/#rust-repair-and-corrosion-control` | `/rust-repair/` | ✅ published | svc_rust |
+| 63 | Auto Glass Installation & Repair | Body, Glass & Imports | existing | `/body-pickup/#auto-glass-installation-and-repair` | `/auto-glass/` | ✅ published | none |
 | 64 | Window Tinting | Body, Glass & Imports | existing | `/body-pickup/#window-tinting` | `/window-tinting/` | queued | none |
-| 65 | Windshield Wiper Replacement | Body, Glass & Imports | existing | `/body-pickup/#windshield-wiper-replacement` | `/auto-glass/` | Batch 4 source ready | none |
+| 65 | Windshield Wiper Replacement | Body, Glass & Imports | existing | `/body-pickup/#windshield-wiper-replacement` | `/auto-glass/` | ✅ published | none |
 | 66 | Imports | Body, Glass & Imports | existing | `/body-pickup/#imports` | `/import-car-repair/` | queued | none |
 | 67 | Pick-up, Drop-off & After-Hours Arrangements | Body, Glass & Imports | renamed | `/body-pickup/#pick-up-and-delivery` | `/contact/#pickup` | n/a | n/a |
 
