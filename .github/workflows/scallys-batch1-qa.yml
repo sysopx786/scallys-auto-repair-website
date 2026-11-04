@@ -1,0 +1,93 @@
+name: Scallys Batch 1 - build, test, commit generated site
+
+on:
+  push:
+    branches: [service-expansion]
+    paths:
+      - 'src/pages/**'
+      - 'src/build.py'
+      - 'tests/check_site.py'
+      - 'tests/check_batch1_browser.py'
+      - '.github/workflows/scallys-batch1-qa.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scallys-service-expansion-qa
+  cancel-in-progress: false
+
+jobs:
+  build-test-commit:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    steps:
+      - name: Check out service-expansion
+        uses: actions/checkout@v4
+        with:
+          ref: service-expansion
+          fetch-depth: 0
+          persist-credentials: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Build site
+        run: python3 src/build.py
+
+      - name: Test full generated site
+        run: |
+          set -o pipefail
+          python3 tests/check_site.py | tee /tmp/scallys-site-check.log
+          grep -q '^ALL CHECKS PASSED$' /tmp/scallys-site-check.log
+
+      - name: Install Chromium and Playwright
+        run: |
+          python3 -m pip install --disable-pip-version-check playwright==1.56.0
+          python3 -m playwright install --with-deps chromium
+
+      - name: Test all 10 new pages at 6 widths
+        run: |
+          set -o pipefail
+          python3 tests/check_batch1_browser.py | tee /tmp/scallys-browser-check.log
+          grep -q '^ALL BROWSER CHECKS PASSED$' /tmp/scallys-browser-check.log
+
+      - name: Upload browser QA screenshots and report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: scallys-batch1-browser-qa
+          path: /tmp/scallys-qa/
+          if-no-files-found: ignore
+          retention-days: 30
+
+      - name: Verify only generated files changed
+        run: |
+          python3 - <<'PY'
+          import re, subprocess, sys
+          rows=subprocess.check_output(['git','status','--porcelain','--untracked-files=all'],text=True).splitlines()
+          changed=[row[3:] for row in rows]
+          def allowed(path):
+              return path in {'src/lastmod.json','sitemap.xml','robots.txt','.nojekyll','404.html'} or bool(re.fullmatch(r'(?:es/)?(?:[a-z0-9-]+/)*index\.html',path))
+          unexpected=[path for path in changed if not allowed(path)]
+          if unexpected:
+              sys.exit('Unexpected changed files; refusing to commit: '+repr(unexpected))
+          if not any(path.endswith('index.html') for path in changed):
+              sys.exit('No generated HTML changed')
+          print('Generated files:', *changed, sep='\n  ')
+          PY
+
+      - name: Commit generated files only to service-expansion
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git fetch origin service-expansion
+          test "$(git rev-parse HEAD)" = "$(git rev-parse origin/service-expansion)" || { echo 'Branch moved during testing; refusing push'; exit 1; }
+          git add -A
+          git commit -m 'Generate and QA Batch 1 bilingual pages [skip ci]'
+          git push origin HEAD:service-expansion
+          echo '### Batch 1 passed' >> "$GITHUB_STEP_SUMMARY"
+          echo 'Full site test passed, 60 browser checks passed, generated output committed only to service-expansion.' >> "$GITHUB_STEP_SUMMARY"
