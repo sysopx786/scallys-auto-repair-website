@@ -521,28 +521,47 @@ def page_service(p,lang='en'):
 
 def page_about():
     d=1; url='/about'
-    t=f'About {NAME} | Neighborhood Shop in Primos Since {C["since"]}'
-    desc=f'{NAME} has served Clifton Heights, Primos and Delaware County since {C["since"]}. Honest diagnostics, fair prices, pick-up and delivery.'
+    t=f'Our Story Since {C["since"]} | {NAME} in Primos, PA'
+    desc=f'Our story since {C["since"]}: Jerry Scally, Frank and Tom bring 112 years of combined auto repair experience to Primos, PA.'
     h=head('about',d,t,desc,url,[bc_ld([('Home','/'),('About','/about')])])+header(d,'about')
-    lab='<small>Photo coming</small>' if C['showPhotoComingLabel'] else ''
-    slots=''.join(f'<div class="photo-slot" data-slot="{n}" role="img" aria-label="Placeholder for photo: {n}">{ic("camera")}{lab}</div>' for n in ['shop exterior','the owner','the team','the bays'])
     featured_reviews = [next(r for r in YR['reviews'] if r['name'] == name) for name in ('Clare F.', 'Susan L.')]
     featured_cards = ''.join(rv_card(r,'yelp') for r in featured_reviews)
-    h+=f'''<main id="main"><div class="phero"><div class="wrap">{crumbs([('Home',link('/',d)),('About',None)])}<span class="eyebrow">About</span><h1>A neighborhood shop since {C['since']}.</h1></div></div>
-<section><div class="wrap split"><div class="prose rv"><p>Scally's Auto Repair has fixed cars for Clifton Heights and the surrounding neighborhoods since {C['since']}. We've since moved a few minutes away to a bigger, upgraded shop at {ADDR}.</p>
-<p>The move didn't change how we work. We find the problem, explain it in plain terms, and fix what needs fixing. We don't sell you repairs you don't need.</p>
-<p>Owner Jerry brings 52 years of automotive experience. Frank, our head technician, brings 40 years and has owned two repair shops. Tom adds another 20 years. Together, that is 112 years of combined hands-on experience.</p>
-<p>But what matters to us most is the trust customers put in our team. Some have stayed with Scally's through moves and changing times. Some families have been coming here for decades. We value those relationships and work to earn that trust with every repair.</p>
-<p>Those aren't just our words. In a 2016 Yelp review, Clare F. said her family had used Scally's for decades. Susan L.'s 2013 review recalls coming to the shop at an earlier location and continuing to rely on us after we moved. You can read both reviews in full below.</p>
-<p>We still offer the pick-up and delivery service our customers count on.</p>
-<p><a class="btn btn-call" href="tel:{TEL}">{ic('phone')} Call {PH}</a></p></div>
-<div class="grid3" style="grid-template-columns:1fr">
-<div class="card rv"><span class="ico">{ic('info')}</span><h2 style="font-size:1.25rem">Straight answers</h2><p>We explain what's wrong and what it takes to fix it.</p></div>
-<div class="card rv"><span class="ico">{ic('check')}</span><h2 style="font-size:1.25rem">Fair pricing</h2><p>Customers say it's a big reason they keep coming back.</p></div>
-<div class="card rv"><span class="ico">{ic('truck')}</span><h2 style="font-size:1.25rem">Pick-up and delivery</h2><p>We can collect your car and return it when the work is done.</p></div>
-<div class="card rv"><span class="ico">{ic('drop')}</span><h2 style="font-size:1.25rem">Authorized AMSOIL installer</h2><p>Oil changes with AMSOIL products.</p></div></div></div></section>
-<section><div class="wrap"><span class="eyebrow">Customer loyalty</span><h2>Decades of trust, in our customers' own words</h2><p>These two Yelp reviews are reproduced in full. The 2013 review mentions former locations; our current address is 711 Secane Ave, Primos, PA 19018.</p><div class="rv-grid" style="grid-template-columns:1fr;max-width:900px">{featured_cards}</div></div></section>
-<section style="padding-top:0"><div class="wrap"><div class="slots rv">{slots}</div></div></section>
+    h+=f'''<main id="main"><div class="phero"><div class="wrap">{crumbs([('Home',link('/',d)),('About',None)])}<span class="eyebrow">Our story · Since {C['since']}</span><h1>Nearly 40 years of doing right by our neighbors.</h1><p class="lede">From an Exxon station in Philadelphia to a neighborhood repair shop in Primos, this is the story behind Scally's Autorepair.</p></div></div>
+<section><div class="wrap"><div class="grid3" aria-label="Scally's experience and history">
+<div class="card rv"><span class="eyebrow">Serving drivers since</span><p style="font-size:2.8rem;font-weight:800;line-height:1.15;margin:.55rem 0;color:var(--navy)">1987</p><p>Nearly four decades as an independent local repair shop.</p></div>
+<div class="card rv"><span class="eyebrow">Our team brings</span><p style="font-size:2.8rem;font-weight:800;line-height:1.15;margin:.55rem 0;color:var(--navy)">112 years</p><p>Combined, hands-on automotive experience.</p></div>
+<div class="card rv"><span class="eyebrow">What matters most</span><p style="font-size:1.5rem;font-weight:800;line-height:1.3;margin:.75rem 0;color:var(--navy)">Your trust</p><p>Relationships built one customer and one repair at a time.</p></div>
+</div></div></section>
+<section style="padding-top:0"><div class="wrap split"><div class="prose rv">
+<span class="eyebrow">Where it began</span><h2>It all started with a love for cars.</h2>
+<p>My name is Jerry Scally, and cars have been a big part of my life for more than 52 years.</p>
+<p>Before Scally's Autorepair, I ran an Exxon gas station in Philadelphia. I've always enjoyed working on cars, especially bodywork. There's a certain satisfaction in taking something that needs fixing and making it right again.</p>
+<p>But somewhere along the way, I wanted something of my own: a repair shop where I could take pride in the work and build relationships with the people who walked through the door.</p>
+<p>In <strong>{C['since']}</strong>, when I was about 38, that idea became Scally's Autorepair. I knew cars. I still had plenty to learn about running a business. But I knew one thing: <strong>I wanted to build a shop people could trust.</strong></p>
+</div><aside class="card rv" style="align-self:start"><span class="eyebrow">The first five years</span><h3>Building something that would last.</h3>
+<p>The early years were about establishing ourselves, one repair and one customer at a time.</p><p>Running your own shop means taking responsibility. People rely on you to get their vehicles safely back on the road.</p><p>My approach was straightforward: do the job properly, explain what needs fixing, and treat people fairly. That still matters today.</p>
+</aside></div></section>
+<section style="background:var(--bg-2)"><div class="wrap"><div class="prose rv">
+<span class="eyebrow">The heart of Scally's</span><h2>It's the people who keep coming back.</h2>
+<p>If you ask me what I'm most proud of after nearly 40 years, it isn't simply the number of cars we've repaired. <strong>It's the relationships we've built along the way.</strong></p>
+<p>Some customers have known Scally's since the 1980s and 1990s. Over the years, you get to know more than the cars they drive. You see people change vehicles, raise families, and come back when they need a hand. Sometimes that trust gets passed along to the next generation.</p>
+<p>A customer who returns after 20 or 30 years is telling you something important. They're telling you they trust you. <strong>We never take that for granted.</strong> We have to earn it every time someone brings us a car.</p>
+</div></div></section>
+<section><div class="wrap"><span class="eyebrow">The people behind the repairs</span><h2>112 years of combined automotive experience</h2><p style="max-width:68ch">Cars have changed since 1987. Today's systems are more computerized, and diagnosing a problem often takes sophisticated equipment. But hands-on knowledge, patience, and a good explanation still make a difference.</p>
+<div class="grid3" style="margin-top:1.5rem">
+<div class="card rv"><span class="eyebrow">Owner</span><h3>Jerry Scally</h3><p style="font-size:2rem;font-weight:800;color:var(--navy);margin:.45rem 0">52 years</p><p>Automotive experience, with a particular love of bodywork and a commitment to doing right by customers.</p></div>
+<div class="card rv"><span class="eyebrow">Head technician</span><h3>Frank</h3><p style="font-size:2rem;font-weight:800;color:var(--navy);margin:.45rem 0">40 years</p><p>Automotive experience, including owning two repair shops of his own. Frank also brings 25 years as a head technician.</p></div>
+<div class="card rv"><span class="eyebrow">Team member</span><h3>Tom</h3><p style="font-size:2rem;font-weight:800;color:var(--navy);margin:.45rem 0">20 years</p><p>Automotive experience and practical know-how developed over years of working on vehicles.</p></div>
+</div>
+<p style="margin-top:1.25rem">We use repair resources such as Identifix and Mitchell to support our diagnostic work and labor guidance. The tools may change, but the responsibility stays the same: find the problem, explain it clearly, and do the work properly.</p>
+</div></section>
+<section style="background:var(--bg-2)"><div class="wrap"><span class="eyebrow">What our customers say</span><h2>Decades of trust, in their own words</h2><p style="max-width:65ch">You don't have to take our word for it. These are original customer reviews from Yelp. One family describes using Scally's for decades; another remembers staying with the shop through a move.</p>
+<div class="rv-grid" style="grid-template-columns:1fr;max-width:900px">{featured_cards}</div><p class="note" style="margin-top:1rem">Customer reviews are reproduced as written. <a href="{link('/reviews',d)}">Read more customer reviews</a>.</p></div></section>
+<section><div class="wrap"><div class="prose rv"><span class="eyebrow">Looking back, moving forward</span><h2>Nearly 40 years later, here's what matters most.</h2>
+<p>After 52 years in the automotive business and nearly four decades at Scally's, I'm proud of the work we've done, the team we've built, and especially the people who have trusted us over the years.</p>
+<p>If I could go back and give my younger self one piece of advice, it would be simple: <strong>“Do good work, treat people right, and never forget who helped you get where you are.”</strong></p>
+<p>To our longtime customers, thank you for sticking with us. And if you're visiting for the first time, we'd be glad for the chance to earn your trust.</p><p><strong>— Jerry Scally, Owner</strong></p>
+</div></div></section>
 <section style="padding-top:0"><div class="wrap">{cta(d,'Stop by or call.',f'{C["street"]}, {C["city"]} · {C["hoursShort"]}')}</div></section></main>'''+footer(d)
     write(url,h)
 
