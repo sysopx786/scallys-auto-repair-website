@@ -526,16 +526,22 @@ def page_about():
     h=head('about',d,t,desc,url,[bc_ld([('Home','/'),('About','/about')])])+header(d,'about')
     lab='<small>Photo coming</small>' if C['showPhotoComingLabel'] else ''
     slots=''.join(f'<div class="photo-slot" data-slot="{n}" role="img" aria-label="Placeholder for photo: {n}">{ic("camera")}{lab}</div>' for n in ['shop exterior','the owner','the team','the bays'])
+    featured_reviews = [next(r for r in YR['reviews'] if r['name'] == name) for name in ('Clare F.', 'Susan L.')]
+    featured_cards = ''.join(rv_card(r,'yelp') for r in featured_reviews)
     h+=f'''<main id="main"><div class="phero"><div class="wrap">{crumbs([('Home',link('/',d)),('About',None)])}<span class="eyebrow">About</span><h1>A neighborhood shop since {C['since']}.</h1></div></div>
 <section><div class="wrap split"><div class="prose rv"><p>Scally's Auto Repair has fixed cars for Clifton Heights and the surrounding neighborhoods since {C['since']}. We've since moved a few minutes away to a bigger, upgraded shop at {ADDR}.</p>
 <p>The move didn't change how we work. We find the problem, explain it in plain terms, and fix what needs fixing. We don't sell you repairs you don't need.</p>
-<p>Many customers have trusted us with their cars for years, and some families for decades. We still offer the pick-up and delivery service our customers count on.</p>
+<p>Owner Jerry brings 52 years of automotive experience. Frank, our head technician, brings 40 years and has owned two repair shops. Tom adds another 20 years. Together, that is 112 years of combined hands-on experience.</p>
+<p>But what matters to us most is the trust customers put in our team. Some have stayed with Scally's through moves and changing times. Some families have been coming here for decades. We value those relationships and work to earn that trust with every repair.</p>
+<p>Those aren't just our words. In a 2016 Yelp review, Clare F. said her family had used Scally's for decades. Susan L.'s 2013 review recalls coming to the shop at an earlier location and continuing to rely on us after we moved. You can read both reviews in full below.</p>
+<p>We still offer the pick-up and delivery service our customers count on.</p>
 <p><a class="btn btn-call" href="tel:{TEL}">{ic('phone')} Call {PH}</a></p></div>
 <div class="grid3" style="grid-template-columns:1fr">
 <div class="card rv"><span class="ico">{ic('info')}</span><h2 style="font-size:1.25rem">Straight answers</h2><p>We explain what's wrong and what it takes to fix it.</p></div>
 <div class="card rv"><span class="ico">{ic('check')}</span><h2 style="font-size:1.25rem">Fair pricing</h2><p>Customers say it's a big reason they keep coming back.</p></div>
 <div class="card rv"><span class="ico">{ic('truck')}</span><h2 style="font-size:1.25rem">Pick-up and delivery</h2><p>We can collect your car and return it when the work is done.</p></div>
 <div class="card rv"><span class="ico">{ic('drop')}</span><h2 style="font-size:1.25rem">Authorized AMSOIL installer</h2><p>Oil changes with AMSOIL products.</p></div></div></div></section>
+<section><div class="wrap"><span class="eyebrow">Customer loyalty</span><h2>Decades of trust, in our customers' own words</h2><p>These two Yelp reviews are reproduced in full. The 2013 review mentions former locations; our current address is 711 Secane Ave, Primos, PA 19018.</p><div class="rv-grid" style="grid-template-columns:1fr;max-width:900px">{featured_cards}</div></div></section>
 <section style="padding-top:0"><div class="wrap"><div class="slots rv">{slots}</div></div></section>
 <section style="padding-top:0"><div class="wrap">{cta(d,'Stop by or call.',f'{C["street"]}, {C["city"]} · {C["hoursShort"]}')}</div></section></main>'''+footer(d)
     write(url,h)
