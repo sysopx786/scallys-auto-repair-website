@@ -332,7 +332,7 @@ def page_home():
         smp=''.join(f'<li>{esc(L(s["name"]))}</li>' for s in c['services'][:3])
         cards+=f'''<a class="card rv" href="{link(c['url'],d)}"><span class="ico">{ic(ICON[c['url']])}</span><span class="meta">{len(c['services'])} services</span><h3>{esc(L(c['short']))}</h3><p>{esc(L(c['intro']))}</p><ul class="samples">{smp}</ul><span class="more">Explore {ic('arrow')}</span></a>'''
     mq=''.join(f'<span>{esc(L(s["name"]))}</span>' for c in CATS for s in c['services'])
-    q=pick('Paul Taylor'); q2=pick('James Wagner')
+    q=pick('Clare F.'); q2=pick('James Wagner')
     h+=f'''<main id="main">
 <section class="hero"><div class="wrap hero-grid">
 <div><span class="eyebrow">Primos · Delaware County, PA</span>
@@ -341,7 +341,7 @@ def page_home():
 <div class="cta-row"><a class="btn btn-call" href="tel:{TEL}">{ic('phone')} Call {PH}</a><a class="btn btn-ghost btn-onDark" href="{DIR_URL}" rel="noopener">{ic('pin')} Get directions</a></div>
 </div>
 <div class="hero-card"><span class="eyebrow" style="color:var(--teal)">What customers say</span>
-<p class="hc-quote">“{esc(q['text'])}”</p><p class="byline" style="margin-top:.4rem">{esc(q['name'])} · Google review</p>
+<p class="hc-quote">“{esc(q['text'].splitlines()[0])}”</p><p class="byline" style="margin-top:.4rem">{esc(q['name'])} · Yelp review · {esc(q['date'])}</p>
 {rating_card()}
 <a class="more" href="{link('/reviews',d)}">Read reviews {ic('arrow')}</a>
 <span class="chip c2">{ic('shield')} Official PA inspection station · OIS #{C['ois']}</span>
