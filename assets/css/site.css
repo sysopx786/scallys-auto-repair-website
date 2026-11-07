@@ -423,3 +423,17 @@ dialog.pal::backdrop{background:rgba(8,14,28,.6);backdrop-filter:blur(4px)}
 @media (max-width:420px){.lang-sw span{display:none}.lang-sw{padding:0 .55rem}.hdr .wrap{gap:.6rem}}
 @media (min-width:1061px){html[lang=es] .hdr-actions .btn-call .cl,html[lang=es] .kbd-btn .lbl,html[lang=es] .kbd-btn kbd{display:none}}
 @media (max-width:360px){.hdr-actions{gap:.3rem}.hdr .wrap{gap:.4rem}}
+
+/* About page: Yelp-inspired review cards and clear source branding. */
+.yelp-featured{border:1px solid #e5e5e5;border-radius:12px;box-shadow:0 2px 10px rgba(0,0,0,.06);background:#fff;color:#2d2e2f;padding:1.5rem;font-family:Arial,Helvetica,sans-serif}
+.yelp-featured header{position:relative;padding-right:6.5rem;margin-bottom:.9rem}
+.yelp-featured header::after{content:"";position:absolute;right:0;top:0;width:94px;height:32px;background:url("https://cdn.simpleicons.org/yelp/D32323") right center / 28px 28px no-repeat}
+.yelp-featured header::before{content:"Yelp";position:absolute;right:34px;top:3px;color:#d32323;font-size:1.15rem;font-weight:800;letter-spacing:-.04em}
+.yelp-featured .rv-av{background:#d32323!important;color:#fff}
+.yelp-featured header b{font-size:1.08rem;color:#2d2e2f}
+.yelp-featured header small{color:#6e7072;font-size:.82rem}
+.yelp-featured .stars{display:inline-flex;gap:3px;margin:.2rem 0 .65rem}
+.yelp-featured .stars .st{box-sizing:content-box;background:#d32323;border-radius:3px;padding:4px;fill:#fff;color:#fff;width:16px;height:16px}
+.yelp-featured .rv-text{font-size:1rem;line-height:1.6;color:#2d2e2f;font-style:normal}
+.yelp-featured .rv-text p{line-height:1.65;margin-bottom:.9rem}
+@media(max-width:420px){.yelp-featured{padding:1rem}.yelp-featured header{padding-right:5.5rem}.yelp-featured header::after{width:80px;background-size:23px 23px}.yelp-featured header::before{right:28px;font-size:1rem}}

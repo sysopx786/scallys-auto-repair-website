@@ -525,7 +525,7 @@ def page_about():
     desc=f'Our story since {C["since"]}: Jerry Scally, Frank and Tom bring 112 years of combined auto repair experience to Primos, PA.'
     h=head('about',d,t,desc,url,[bc_ld([('Home','/'),('About','/about')])])+header(d,'about')
     featured_reviews = [next(r for r in YR['reviews'] if r['name'] == name) for name in ('Clare F.', 'Susan L.')]
-    featured_cards = ''.join(rv_card(r,'yelp') for r in featured_reviews)
+    featured_cards = ''.join(rv_card(r,'yelp').replace('class="rv-card', 'class="rv-card yelp-featured') for r in featured_reviews)
     h+=f'''<main id="main"><div class="phero"><div class="wrap">{crumbs([('Home',link('/',d)),('About',None)])}<span class="eyebrow">Our story · Since {C['since']}</span><h1>Nearly 40 years of doing right by our neighbors.</h1><p class="lede">From an Exxon station in Philadelphia to a neighborhood repair shop in Primos, this is the story behind Scally's Autorepair.</p></div></div>
 <section><div class="wrap"><div class="grid3" aria-label="Scally's experience and history">
 <div class="card rv"><span class="eyebrow">Serving drivers since</span><p style="font-size:2.8rem;font-weight:800;line-height:1.15;margin:.55rem 0;color:var(--navy)">1987</p><p>Nearly four decades as an independent local repair shop.</p></div>
