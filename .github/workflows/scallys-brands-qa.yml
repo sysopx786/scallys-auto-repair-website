@@ -1,0 +1,68 @@
+name: Scally's brand pages - build, test and commit
+
+on:
+  push:
+    branches: [brands-migration-35-bilingual]
+    paths:
+      - 'src/brand_sources/**'
+      - 'src/brands.py'
+      - 'src/build.py'
+      - 'tests/check_site.py'
+      - '.github/workflows/scallys-brands-qa.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scallys-brands-migration
+  cancel-in-progress: false
+
+jobs:
+  build-test-commit:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - name: Checkout brand migration branch
+        uses: actions/checkout@v4
+        with:
+          ref: brands-migration-35-bilingual
+          fetch-depth: 0
+      - name: Build full bilingual site
+        run: python3 src/build.py
+      - name: Validate all URLs and internal links
+        run: python3 tests/check_site.py
+      - name: Validate brand inventory and localized pages
+        run: |
+          python3 - <<'PY'
+          import sys, json, re
+          from pathlib import Path
+          sys.path.insert(0, "src")
+          from brands import BRAND_SLUGS
+          root=Path('.')
+          assert len(BRAND_SLUGS)==35
+          sitemap=(root/"sitemap.xml").read_text()
+          for pre in ("", "es/"):
+              hub=root/pre/"brands/index.html"
+              assert hub.exists(), hub
+              for slug in BRAND_SLUGS:
+                  p=root/pre/"brands"/slug/"index.html"
+                  assert p.exists(), p
+                  t=p.read_text()
+                  assert len(t)>4500, p
+                  assert "Scally's" in t and "Phoenixville" not in t and "Diverse" not in t, p
+                  assert f"/{pre}brands/{slug}/" in sitemap,p
+                  assert "<h1>" in t and "application/ld+json" in t, p
+          print("ALL 35 x 2 BRAND PAGES AND HUBS VERIFIED")
+          PY
+      - name: Commit generated website and sitemap to branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Generated output already current"
+          else
+            git commit -m "Build 35 bilingual vehicle pages and directories [skip ci]"
+            git push origin HEAD:brands-migration-35-bilingual
+          fi

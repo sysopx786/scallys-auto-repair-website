@@ -9,6 +9,7 @@ Sources (edit these, never the generated HTML):
   src/reviews.json       Google and Yelp reviews (English only)
 """
 import json, re, html, hashlib, datetime
+from brands import BRAND_SLUGS, generate_brand_pages
 from pathlib import Path
 from urllib.parse import quote_plus
 ROOT=Path(__file__).resolve().parent.parent
@@ -195,6 +196,7 @@ def header(depth,current,lang='en',alt=None):
 <div class="has-mega"><button type="button" aria-expanded="false" aria-controls="mega"{' aria-current="true"' if current=='services' else ''}>{u['services']} {ic('chev')}</button>
 <div class="mega" id="mega">{mega}<a class="all" href="{link(P(lang,'/services'),depth)}"><span><b>{u['see_all']}</b><small>{u['see_all_sub']}</small></span>{ic('arrow')}</a></div></div>
 {a(u['insp'],insp,'insp')}
+{a('Marcas' if lang=='es' else 'Car Brands',P(lang,'/brands'),'brands')}
 {a(u['about'],'/about','about',True)}
 {a(u['reviews'],'/reviews','reviews',True)}
 {a(u['contact'],'/contact','contact',True)}
@@ -224,7 +226,7 @@ def footer(depth,lang='en'):
 <p><a href="tel:{TEL}">{PH}</a><br>{u['hours_ftr']}</p></div>
 <div><h2>{u['ftr_services']}</h2><ul>{cl}</ul></div>
 <div><h2>{u['ftr_more']}</h2><ul>{cl2}</ul></div>
-<div><h2>{u['company']}</h2><ul><li><a href="{link('/about',depth)}">{u['about']}{eo}</a></li><li><a href="{link('/reviews',depth)}">{u['reviews']}{eo}</a></li><li><a href="{link('/contact',depth)}">{u['contact']}{eo}</a></li><li><a href="{link(P(lang,'/services'),depth)}">{u['all']}</a></li><li><a href="{link('/privacy',depth)}">{u['privacy']}{eo}</a></li><li><a href="{link('/sitemap',depth)}">{u['sitemap']}{eo}</a></li></ul></div>
+<div><h2>{u['company']}</h2><ul><li><a href="{link('/about',depth)}">{u['about']}{eo}</a></li><li><a href="{link('/reviews',depth)}">{u['reviews']}{eo}</a></li><li><a href="{link('/contact',depth)}">{u['contact']}{eo}</a></li><li><a href="{link(P(lang,'/services'),depth)}">{u['all']}</a></li><li><a href="{link('/privacy',depth)}">{u['privacy']}{eo}</a></li><li><a href="{link(P(lang,'/brands'),depth)}">{'Marcas' if lang=='es' else 'Car Brands'}</a></li><li><a href="{link('/sitemap',depth)}">{u['sitemap']}{eo}</a></li></ul></div>
 </div><div class="legal"><span>© <span id="yr">2026</span> {esc(NAME)}. {T(lang,'legal',ois=C['ois'])}</span><span>{C['street']}, {C['city']}, {C['region']}</span></div></div></footer>
 <a class="to-home" href="{link('/',depth)}" aria-label="{u['back_home']}" hidden>{ic('home')}<span>{u['home']}</span></a>
 <dialog class="pal" id="pal" aria-label="{u['find']}"><div class="pal-in">{ic('search')}<input type="text" placeholder="{T(lang,'search_ph',n=NSV)}" aria-label="{u['search_aria']}" autocomplete="off"><button class="kbd-btn" type="button" onclick="this.closest('dialog').close()" aria-label="{u['close_search']}">{ic('close')}</button></div><ul class="pal-list"></ul></dialog>
@@ -644,12 +646,13 @@ def page_contact():
 def page_sitemap():
     d=1; url='/sitemap'
     h=head('sitemap',d,f'Sitemap | {NAME}',f'Every page and service on the {NAME} website.',url,None)+header(d,'sitemap')
-    main_pages=[('Home','/'),('All services','/services'),('About','/about'),('Reviews','/reviews'),('Contact','/contact'),('Privacy','/privacy')]
+    main_pages=[('Home','/'),('All services','/services'),('Car Brands','/brands'),('About','/about'),('Reviews','/reviews'),('Contact','/contact'),('Privacy','/privacy')]
     mp=''.join(f'<li><a href="{link(u,d)}">{lbl}</a></li>' for lbl,u in main_pages)+f'<li><a href="{rel(d)}sitemap.xml">sitemap.xml (for search engines)</a></li>'
     def svc_li(sv):
         u,f=dest(sv['id'],'en'); return f'<li><a href="{link(u,d,f)}">{esc(L(sv["name"]))}</a></li>'
     cats=''.join(f'<div class="sm-col"><h2><a href="{link(c["url"],d)}">{esc(L(c["short"]))}</a></h2><ul>'+''.join(svc_li(sv) for sv in c['services'])+'</ul></div>' for c in CATS)
-    es=''.join(f'<li><a href="{link("/es"+c["url"],d)}" hreflang="es" lang="es">{esc(L(c["short"],"es"))}</a></li>' for c in CATS)+''.join(f'<li><a href="{link("/es"+page_url(p),d)}" hreflang="es" lang="es">{esc(L(p["h1"],"es"))}</a></li>' for p in PAGES)
+    es=''.join(f'<li><a href="{link("/es"+c["url"],d)}" hreflang="es" lang="es">{esc(L(c["short"],"es"))}</a></li>' for c in CATS)+''.join(f'<li><a href="{link("/es"+page_url(p),d)}" hreflang="es" lang="es">{esc(L(p["h1"],"es"))}</a></li>' for p in PAGES)+''.join(f'<li><a href="{link("/es/brands/"+s,d)}" hreflang="es" lang="es">{esc(s.replace("-"," ").title())}</a></li>' for s in BRAND_SLUGS)
+    mp+=''.join(f'<li><a href="{link("/brands/"+s,d)}">{esc(s.replace("-"," ").title())}</a></li>' for s in BRAND_SLUGS)
     h+=f'''<main id="main"><div class="phero"><div class="wrap">{crumbs([('Home',link('/',d)),('Sitemap',None)])}<h1>Sitemap</h1><p class="lede">Every page and service on this site.</p></div></div>
 <section><div class="wrap"><div class="sitemap"><div class="sm-col"><h2>Pages</h2><ul>{mp}</ul></div>{cats}
 <div class="sm-col" lang="es"><h2><a href="{link('/es/services',d)}" hreflang="es">Páginas en español</a></h2><ul>{es}</ul></div></div></div></section></main>'''+footer(d)
@@ -657,8 +660,8 @@ def page_sitemap():
 
 LASTMOD=ROOT/'src/lastmod.json'
 def indexable_urls():
-    en=['/','/services','/about','/reviews','/contact','/sitemap']+[c['url'] for c in CATS]+[page_url(p) for p in PAGES]
-    es=['/es/services']+['/es'+c['url'] for c in CATS]+['/es'+page_url(p) for p in PAGES]
+    en=['/','/services','/brands','/about','/reviews','/contact','/sitemap']+[c['url'] for c in CATS]+[page_url(p) for p in PAGES]+['/brands/'+s for s in BRAND_SLUGS]
+    es=['/es/services','/es/brands']+['/es'+c['url'] for c in CATS]+['/es'+page_url(p) for p in PAGES]+['/es/brands/'+s for s in BRAND_SLUGS]
     return en+es
 def misc():
     """sitemap.xml with lastmod that only moves when a page's <main> changes; robots.txt; .nojekyll."""
@@ -684,6 +687,7 @@ if __name__=='__main__':
         page_services(lang)
         for c in CATS: page_category(c,lang)
         for p in PAGES: page_service(p,lang)
+    generate_brand_pages(globals())
     page_about(); page_reviews(); page_contact(); page_privacy(); page_sitemap(); page_404()
     n=misc()
     print(f'built {n} indexable pages ({len(PAGES)} detailed service pages x 2 languages) + privacy + 404')

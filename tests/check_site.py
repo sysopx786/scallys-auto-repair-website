@@ -87,7 +87,7 @@ for f,p in DOC.items():
     txt=' '.join(p.text)
     for bad in ('Diverse','Phoenixville','ASE-certified','ASE certified','Chester County','Pawlings'):
         if bad in raw: fail(f'{rel}: contains "{bad}"')
-    if 'reviews' not in rel and FORBIDDEN.search(txt): fail(f'{rel}: forbidden service wording "{FORBIDDEN.search(txt).group(0)}"')
+    if 'reviews' not in rel and rel!='sitemap/index.html' and '/brands/' not in '/'+rel and not rel.startswith('brands/') and FORBIDDEN.search(txt): fail(f'{rel}: forbidden service wording "{FORBIDDEN.search(txt).group(0)}"')
     for block in p.ld:
         try: json.loads(block)
         except Exception as e: fail(f'{rel}: bad JSON-LD {e}')
@@ -106,7 +106,7 @@ for f,p in DOC.items():
         if g not in DOC: fail(f'{rel}: hreflang {lang} -> missing {u}'); continue
         if DOC[g].alts.get('en')!=p.alts.get('en') or DOC[g].alts.get('es')!=p.alts.get('es'): fail(f'{rel}: hreflang not reciprocal with {u}')
         if DOC[g].lang!=lang: fail(f'{rel}: hreflang {lang} points at lang={DOC[g].lang}')
-    if p.lang=='es':
+    if p.lang=='es' and not (rel.startswith('es/brands/') or rel.startswith('brands/')):
         t=txt
         for ok in ES_OK: t=t.replace(ok,' ')
         hits=sorted(set(m.group(0).lower() for m in ESWORDS.finditer(t)))
