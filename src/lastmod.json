@@ -1,15 +1,19 @@
 {
  "/": {
-  "hash": "3d1064013a27",
-  "date": "2026-11-03"
+  "hash": "27e1219f3629",
+  "date": "2026-11-08"
  },
  "/services": {
   "hash": "d46122d0951a",
   "date": "2026-11-04"
  },
+ "/brands": {
+  "hash": "48af71df40a6",
+  "date": "2026-11-08"
+ },
  "/about": {
-  "hash": "b601dab9a82e",
-  "date": "2026-11-03"
+  "hash": "98243cb26da4",
+  "date": "2026-11-08"
  },
  "/reviews": {
   "hash": "100de2f9b8f3",
@@ -20,8 +24,8 @@
   "date": "2026-11-03"
  },
  "/sitemap": {
-  "hash": "5bab116af89e",
-  "date": "2026-11-04"
+  "hash": "0f961a2abbb1",
+  "date": "2026-11-08"
  },
  "/inspections-emissions": {
   "hash": "72db504924e1",
@@ -191,9 +195,153 @@
   "hash": "31ea845fdd08",
   "date": "2026-11-04"
  },
+ "/brands/ford": {
+  "hash": "606b966461b6",
+  "date": "2026-11-08"
+ },
+ "/brands/lincoln": {
+  "hash": "a432e27cc4ca",
+  "date": "2026-11-08"
+ },
+ "/brands/chevrolet": {
+  "hash": "004fca34d697",
+  "date": "2026-11-08"
+ },
+ "/brands/gmc": {
+  "hash": "96b44b039a4e",
+  "date": "2026-11-08"
+ },
+ "/brands/buick": {
+  "hash": "49baba74bedd",
+  "date": "2026-11-08"
+ },
+ "/brands/cadillac": {
+  "hash": "889f906f2924",
+  "date": "2026-11-08"
+ },
+ "/brands/tesla": {
+  "hash": "de17f05465c0",
+  "date": "2026-11-08"
+ },
+ "/brands/chrysler": {
+  "hash": "4dbeb77a1a69",
+  "date": "2026-11-08"
+ },
+ "/brands/dodge": {
+  "hash": "ce799807880d",
+  "date": "2026-11-08"
+ },
+ "/brands/jeep": {
+  "hash": "8b105ae7aa7a",
+  "date": "2026-11-08"
+ },
+ "/brands/ram": {
+  "hash": "75f5427a7b58",
+  "date": "2026-11-08"
+ },
+ "/brands/toyota": {
+  "hash": "b4fb5f7501a8",
+  "date": "2026-11-08"
+ },
+ "/brands/honda": {
+  "hash": "955249415341",
+  "date": "2026-11-08"
+ },
+ "/brands/nissan": {
+  "hash": "1fe8f58ab1c4",
+  "date": "2026-11-08"
+ },
+ "/brands/mazda": {
+  "hash": "c5a2af1368e0",
+  "date": "2026-11-08"
+ },
+ "/brands/subaru": {
+  "hash": "701747968241",
+  "date": "2026-11-08"
+ },
+ "/brands/mitsubishi": {
+  "hash": "a305d4f4ab67",
+  "date": "2026-11-08"
+ },
+ "/brands/hyundai": {
+  "hash": "f7398536f627",
+  "date": "2026-11-08"
+ },
+ "/brands/kia": {
+  "hash": "9564a502ce49",
+  "date": "2026-11-08"
+ },
+ "/brands/volkswagen": {
+  "hash": "1abcd83f4fcf",
+  "date": "2026-11-08"
+ },
+ "/brands/mercedes-benz": {
+  "hash": "9823ce29d99c",
+  "date": "2026-11-08"
+ },
+ "/brands/bmw": {
+  "hash": "c0720a3ece50",
+  "date": "2026-11-08"
+ },
+ "/brands/audi": {
+  "hash": "b0e8f173888e",
+  "date": "2026-11-08"
+ },
+ "/brands/volvo": {
+  "hash": "9f7fd61b2cc9",
+  "date": "2026-11-08"
+ },
+ "/brands/lexus": {
+  "hash": "a8dcb61c924f",
+  "date": "2026-11-08"
+ },
+ "/brands/acura": {
+  "hash": "5d0449389d3f",
+  "date": "2026-11-08"
+ },
+ "/brands/infiniti": {
+  "hash": "02fe2c1d67ab",
+  "date": "2026-11-08"
+ },
+ "/brands/genesis": {
+  "hash": "51f0cbb239f6",
+  "date": "2026-11-08"
+ },
+ "/brands/porsche": {
+  "hash": "05472f44bffc",
+  "date": "2026-11-08"
+ },
+ "/brands/mini": {
+  "hash": "39e61e777e78",
+  "date": "2026-11-08"
+ },
+ "/brands/jaguar": {
+  "hash": "31ac9ab80488",
+  "date": "2026-11-08"
+ },
+ "/brands/land-rover": {
+  "hash": "d5151611cc8f",
+  "date": "2026-11-08"
+ },
+ "/brands/fiat": {
+  "hash": "1ccf1ae8c185",
+  "date": "2026-11-08"
+ },
+ "/brands/alfa-romeo": {
+  "hash": "5e22d893307a",
+  "date": "2026-11-08"
+ },
+ "/brands/maserati": {
+  "hash": "f35288e3d4d3",
+  "date": "2026-11-08"
+ },
  "/es/services": {
   "hash": "be78c09d2a23",
   "date": "2026-11-04"
+ },
+ "/es/brands": {
+  "hash": "5228551bcdf8",
+  "date": "2026-11-08"
  },
  "/es/inspections-emissions": {
   "hash": "0becb13311ac",
@@ -362,5 +510,145 @@
  "/es/window-tinting": {
   "hash": "0a6d03dee7cb",
   "date": "2026-11-04"
+ },
+ "/es/brands/ford": {
+  "hash": "acd3d3a22871",
+  "date": "2026-11-08"
+ },
+ "/es/brands/lincoln": {
+  "hash": "cbfb34b26332",
+  "date": "2026-11-08"
+ },
+ "/es/brands/chevrolet": {
+  "hash": "259de98f276d",
+  "date": "2026-11-08"
+ },
+ "/es/brands/gmc": {
+  "hash": "da8e8c324f85",
+  "date": "2026-11-08"
+ },
+ "/es/brands/buick": {
+  "hash": "7e067e9f06ec",
+  "date": "2026-11-08"
+ },
+ "/es/brands/cadillac": {
+  "hash": "d3587e6b9f9e",
+  "date": "2026-11-08"
+ },
+ "/es/brands/tesla": {
+  "hash": "3c290884a63c",
+  "date": "2026-11-08"
+ },
+ "/es/brands/chrysler": {
+  "hash": "7569d3c9ff06",
+  "date": "2026-11-08"
+ },
+ "/es/brands/dodge": {
+  "hash": "06d65ed3ab99",
+  "date": "2026-11-08"
+ },
+ "/es/brands/jeep": {
+  "hash": "21946327ebb4",
+  "date": "2026-11-08"
+ },
+ "/es/brands/ram": {
+  "hash": "63c9a1466c86",
+  "date": "2026-11-08"
+ },
+ "/es/brands/toyota": {
+  "hash": "fa8c0b10b555",
+  "date": "2026-11-08"
+ },
+ "/es/brands/honda": {
+  "hash": "583f4264b61b",
+  "date": "2026-11-08"
+ },
+ "/es/brands/nissan": {
+  "hash": "3301032d1cf2",
+  "date": "2026-11-08"
+ },
+ "/es/brands/mazda": {
+  "hash": "ed4a3d2a6aa4",
+  "date": "2026-11-08"
+ },
+ "/es/brands/subaru": {
+  "hash": "09fe02fe3dbe",
+  "date": "2026-11-08"
+ },
+ "/es/brands/mitsubishi": {
+  "hash": "20c4730b94cf",
+  "date": "2026-11-08"
+ },
+ "/es/brands/hyundai": {
+  "hash": "52dc5d8d3ae3",
+  "date": "2026-11-08"
+ },
+ "/es/brands/kia": {
+  "hash": "cb8af79939d6",
+  "date": "2026-11-08"
+ },
+ "/es/brands/volkswagen": {
+  "hash": "63cf655cc482",
+  "date": "2026-11-08"
+ },
+ "/es/brands/mercedes-benz": {
+  "hash": "5b839f064ea6",
+  "date": "2026-11-08"
+ },
+ "/es/brands/bmw": {
+  "hash": "1efd18eb5802",
+  "date": "2026-11-08"
+ },
+ "/es/brands/audi": {
+  "hash": "ce946df857e4",
+  "date": "2026-11-08"
+ },
+ "/es/brands/volvo": {
+  "hash": "de0af95d2dfe",
+  "date": "2026-11-08"
+ },
+ "/es/brands/lexus": {
+  "hash": "2b6ffe36951f",
+  "date": "2026-11-08"
+ },
+ "/es/brands/acura": {
+  "hash": "336684bbd306",
+  "date": "2026-11-08"
+ },
+ "/es/brands/infiniti": {
+  "hash": "8c886908853f",
+  "date": "2026-11-08"
+ },
+ "/es/brands/genesis": {
+  "hash": "921b4cdc4581",
+  "date": "2026-11-08"
+ },
+ "/es/brands/porsche": {
+  "hash": "605bbc383822",
+  "date": "2026-11-08"
+ },
+ "/es/brands/mini": {
+  "hash": "aedb1708709d",
+  "date": "2026-11-08"
+ },
+ "/es/brands/jaguar": {
+  "hash": "c8a0a4907d84",
+  "date": "2026-11-08"
+ },
+ "/es/brands/land-rover": {
+  "hash": "21896c96a07a",
+  "date": "2026-11-08"
+ },
+ "/es/brands/fiat": {
+  "hash": "ac72ec957814",
+  "date": "2026-11-08"
+ },
+ "/es/brands/alfa-romeo": {
+  "hash": "c088dd06f76d",
+  "date": "2026-11-08"
+ },
+ "/es/brands/maserati": {
+  "hash": "6e0d58b15b19",
+  "date": "2026-11-08"
  }
 }
