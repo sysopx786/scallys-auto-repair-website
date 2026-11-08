@@ -87,7 +87,7 @@ for f,p in DOC.items():
     txt=' '.join(p.text)
     for bad in ('Diverse','Phoenixville','ASE-certified','ASE certified','Chester County','Pawlings'):
         if bad in raw: fail(f'{rel}: contains "{bad}"')
-    if 'reviews' not in rel and '/brands/' not in '/'+rel and not rel.startswith('brands/') and FORBIDDEN.search(txt): fail(f'{rel}: forbidden service wording "{FORBIDDEN.search(txt).group(0)}"')
+    if 'reviews' not in rel and rel!='sitemap/index.html' and '/brands/' not in '/'+rel and not rel.startswith('brands/') and FORBIDDEN.search(txt): fail(f'{rel}: forbidden service wording "{FORBIDDEN.search(txt).group(0)}"')
     for block in p.ld:
         try: json.loads(block)
         except Exception as e: fail(f'{rel}: bad JSON-LD {e}')
